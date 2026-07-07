@@ -13,4 +13,3 @@ export function readData<T>(filePath: string): T[] {
     }) as T[];
 
 }
-

@@ -1,7 +1,7 @@
 import { expect, Locator, Page } from "@playwright/test";
-import { Basepage } from "./basepage";
+import { BasePage } from "../pages/basepage";
 
-export class SearchPage extends Basepage {
+export class SearchPage extends BasePage {
   private txtSearch: Locator;
   private courseNames: Locator;
   private courseManagement: Locator;
