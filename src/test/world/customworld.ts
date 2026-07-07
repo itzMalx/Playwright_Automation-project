@@ -1,8 +1,8 @@
-import { Browser, BrowserContext, Locator, Logger, Page } from '@playwright/test';
+import { Browser, BrowserContext, Page } from '@playwright/test';
 import { setWorldConstructor, World } from '@cucumber/cucumber';
 
 
-export class muhiworld extends World{
+export class testWorld extends World{
 
     browser!: Browser
     context!: BrowserContext
@@ -10,4 +10,4 @@ export class muhiworld extends World{
 
 }
 
-setWorldConstructor(muhiworld)
+setWorldConstructor(testWorld)
