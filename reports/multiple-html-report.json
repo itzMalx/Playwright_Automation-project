@@ -1,0 +1,115 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-user-can-navigate-to-the-next-page-using-the-next-button",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify user can navigate to the next page using the Next button",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the Course Structure page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the first page of the Course Structure table",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user clicks the \"Next\" button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should be navigated to the next page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-user-can-navigate-to-a-specific-page-using-the-page-number",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify user can navigate to a specific page using the page number",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the Course Structure page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user is on the Course Structure table",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user clicks page number \"2\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user should be navigated to page \"2\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "vetrivelb_07-07-2026_course_structure_pagination",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "VetrivelB_07-07-2026_Course_Structure_Pagination",
+    "tags": [],
+    "uri": "src\\test\\feature\\pagination.feature"
+  }
+]
