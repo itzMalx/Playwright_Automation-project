@@ -13,11 +13,19 @@ export class CourseManagementPage {
 
     }
 
-    async addCourseStructure() {
-        return this.courseNameList
-    }
+    async selectActionList(courseName: string) {
 
-    async actionLists() {
-        return this.actionList
+        await this.page.locator(".animate-pulse").first().waitFor({ state: "hidden" });
+        const count = await this.courseNameList.count();
+        for (let i = 0; i < count; i++) {
+            const course = await this.courseNameList.nth(i).innerText();
+            console.log(course)
+            if (course.includes(courseName)) {
+                await this.actionList.nth(i).click();
+                return;
+            }
+        }
+
+        throw new Error(`Course '${courseName}' not found`);
     }
 }
