@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 src\test\feature\pagination.feature:6:11
+=======
+src\test\feature\addCourseStructure.feature:7
+src\test\feature\login.feature:7:15
+>>>>>>> ca4fdf1d1a5fd6ffd6ed99895794556ef681618b
