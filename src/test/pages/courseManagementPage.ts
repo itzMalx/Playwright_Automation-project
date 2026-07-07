@@ -1,29 +1,29 @@
-import {Locator,Page} from 'playwright';
+import { Locator, Page } from 'playwright';
 import { BasePage } from './basepage';
 
-export class CourseManagement extends BasePage{
+export class CourseManagementPage extends BasePage{
 
-    readonly courseName_list: Locator
-    readonly action_list: Locator
+    readonly courseNameList: Locator
+    readonly actionList: Locator
     readonly previous:Locator
     readonly next:Locator
 
-   constructor(page : Page){
-      super(page)
-      this.courseName_list = this.page.locator("//tr//td[3]")
-      this.action_list =page.locator("//div[@class='flex gap-1 justify-center']")
-      this.previous=page.locator("//button[normalize-space()='Previous']")
-      this.next=page.locator("//button[normalize-space()='Next']")
-      
-   }
+    constructor(page: Page) {
+        super(page)
+        this.courseNameList=page.locator("//tr//td[3]")
+        this.actionList=page.locator("//div[@class='flex gap-1 justify-center']")
+        this.previous=page.locator("//button[normalize-space()='Previous']")
+        this.next=page.locator("//button[normalize-space()='Next']")
+    }
 
-   async clickPage(pageNumber: number) {
-      await this.page.locator(".pagination")
-        .getByRole("button", { name: pageNumber.toString() })
-        .click();
-   }
+    async addCourseStructure() {
+        return this.courseNameList
+    }
 
-   async clickNext() {
+    async actionLists() {
+        return this.actionList
+    }
+    async clickNext() {
       await this.click(this.next)
    }
 

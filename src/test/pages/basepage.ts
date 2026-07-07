@@ -7,7 +7,7 @@ export class BasePage {
    constructor(page : Page){
       this.page=page
    }
-   
+
    async click(locator:Locator){
       await (locator).click();
    }
@@ -50,9 +50,13 @@ export class BasePage {
     async isEnabled(locator:Locator){
      return await locator.isEnabled();
     }
-    async isDisplayed(locator:Locator){
+    async isDisableyed(locator:Locator){
       return await locator.isDisabled();
     }
+    async isVisible(locator:Locator){
+      return await locator.isVisible();
+    }
+
     async scrollIntoView(locator:Locator){
       await locator.scrollIntoViewIfNeeded();
     }

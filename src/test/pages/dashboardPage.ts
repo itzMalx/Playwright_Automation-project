@@ -10,6 +10,6 @@ export class DashboardPage extends BasePage{
       super(page)
       this.course_management_btn = this.page.locator("div[title='Course Management']")
    }
-   
+
 }
       
