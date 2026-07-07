@@ -6,7 +6,6 @@ import { expect } from "@playwright/test";
 import { messages } from "../../../constants/messages";
 
 Given('the user is on the login page of the LMS smartcliff website', async function (this: glitchworld) {
-    // Write code here that turns the phrase above into concrete actions
     this.login.navigate();
 });
 
@@ -54,7 +53,19 @@ Then('the user should see an invalid password error message', async function (th
 });
 
 Then('the user should see an invalid credentials error message popup', async function (this: glitchworld) {
-    // Write code here that turns the phrase above into concrete actions
     const actual = await this.login.chckinvemail();
     expect(actual).toBe(messages.invalid_email);
+});
+
+When('the user logs in with valid LMS credentials', async function (this: glitchworld) {
+    const data = readExcelData<LoginData>("src/test-data/logindata.xlsx", "Sheet1");
+    const loginData = data.find((row: LoginData) => row.type === "valid");
+
+    if (!loginData) {
+        throw new Error("Valid login data not found in Excel");
+    }
+
+    await this.login.enteremail(loginData.email);
+    await this.login.enterpassword(String(loginData.password));
+    await this.login.clcksignin();
 });

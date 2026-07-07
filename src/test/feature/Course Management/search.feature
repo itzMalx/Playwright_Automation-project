@@ -1,35 +1,30 @@
 @Malavicka
-Feature: Malavicka_07-07-2026_Search functionality in LMS SmartCliff Course Management
+Feature: Malavicka_07-07-2026_Search functionality in LMS SmartCliff website
 
-Feature Description:
-        As an user,
-        I want to search for client and course details
-        so that I can quickly find the required course records.
+  Background:
+    Given the user is on the login page of the LMS smartcliff website
+    When the user logs in with valid LMS credentials
+    Then the user should be logged in successfully
+    And user navigate to course management page
 
-    Background:
-        Given user on the Dashboard Page after Login
-        And user navigate to Course Management Page
+  Scenario: Search with valid client
+    When User searches client with the following data
+      | keyword    | result     |
+      | mern       | Mern       |
 
-    @ValidClientSearch
-    Scenario: Search with valid client 
-        When user enters a valid client in the search field
-        And user clicks the search button
-        Then the matching client details should be displayed in the course list
+  Scenario: Search with valid course name
+    When User searches course with the following data
+      | keyword    | result     |
+      | frontend   | Frontend   |
 
-    @ValidCourseSearch
-    Scenario: Search with valid course name
-        When user enters a valid course name in the search field
-        And user clicks the search button
-        Then the matching course details should be displayed in the course list
+  Scenario: Search with non existing client
+    When User searches client with the following data
+      | keyword       | result |
+      | xyzclientnone | none   |
+    Then no matching results should be displayed
 
-    @InvalidClientSearch
-    Scenario: Search with non-existing client 
-        When user enters a non-existing client in the search field
-        And user clicks the search button
-        Then no matching client records should be displayed
-
-    @InvalidCourseSearch
-    Scenario: Search with non-existing course name
-        When user enters a non-existing course name in the search field
-        And user clicks the search button
-        Then no matching course records should be displayed
+  Scenario: Search with non existing course
+    When User searches course with the following data
+      | keyword           | result |
+      | nonexistentcourse | none   |
+    Then no matching results should be displayed
