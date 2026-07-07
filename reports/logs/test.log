@@ -1,0 +1,6 @@
+[2026-07-07T13:52:25.135Z] INFO-Browser Launched
+[2026-07-07T13:52:34.568Z] INFO-Scenario Passed:Login with valid credentials
+[2026-07-07T13:52:48.052Z] INFO-Scenario Passed:Login with an incorrect password
+[2026-07-07T13:52:54.019Z] INFO-Scenario Passed:Login with an invalid email and an invalid password
+[2026-07-07T13:52:59.427Z] INFO-Scenario Passed:Login with an unregistered email
+[2026-07-07T13:52:59.464Z] INFO-Browser Closed

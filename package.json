@@ -4,13 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "pretest": "if exist reports rmdir /s /q reports",
     "test": "cucumber-js",
-    "smoke": "cucumber-js src/test/feature --tags=@smoke",
-    "regression": "cucumber-js src/test/feature --tags=@regression",
-    "parallel": "cucumber-js src/test/feature --parallel 4",
-    "failcase": "cucumber-js -p rerun",
-    "ci": "cucumber-js src/test/feature --tags @smoke --format json:reports/report.json",
-    "posttest": "tsx src/test/utils/report.ts"
+    "posttest": "tsx src/utilities/report.ts"
   },
   "keywords": [],
   "author": "",
@@ -26,11 +22,12 @@
     "allure-playwright": "^3.10.2",
     "cross-env": "^10.1.0",
     "csv-parse": "^7.0.1",
-    "cucumber-html-reporter": "^7.2.0",
     "dotenv": "^17.4.2",
-    "multiple-cucumber-html-reporter": "^4.1.0",
     "ts-node": "^10.9.2",
     "winston": "^3.19.0",
     "xlsx": "^0.18.5"
+  },
+  "dependencies": {
+    "multiple-cucumber-html-reporter": "^3.8.0"
   }
 }
