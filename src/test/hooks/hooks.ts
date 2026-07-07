@@ -1,27 +1,26 @@
-import {Before,After,BeforeAll,AfterAll,Status} from '@cucumber/cucumber';
+import {Before,After,BeforeAll,AfterAll,Status, setDefaultTimeout} from '@cucumber/cucumber';
 import {Browser, chromium} from "@playwright/test";
-import { testWorld } from '../world/customworld';
+import { glitchworld } from '../world/customworld';
 import {logger} from '../../utilities/logger';
-
-
+import { LoginPage } from '../pages/loginpage';
 
 
 let browser:Browser;
+setDefaultTimeout(60*1000)
 BeforeAll(async()=>{
     
-   browser = await chromium.launch({
-    headless: true
-  });
+   browser = await chromium.launch({headless: false});
     logger.info("Browser Launched");
 });
-Before(async function (this:testWorld,scenario) {
+Before(async function (this:glitchworld,scenario) {
+    this.tag = scenario.pickle.tags.find(tag => tag.name !== "@Muhindhar")!.name;
     this.browser=browser;
     this.context=await browser.newContext();
     this.page=await this.context.newPage();
+    this.login = new LoginPage(this.page);
     
-   
 });
-After(async function (this:testWorld,scenario) {
+After(async function (this:glitchworld,scenario) {
     if(scenario.result?.status== Status.FAILED){
         const path=`reports/screenshots/${scenario.pickle.name}${Date.now()}.png`;
         await this.page.screenshot({path});

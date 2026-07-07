@@ -1,5 +1,13 @@
 [
   {
+    "description": "Feature Description:\n              As a registered user,I want to log in to the LMS-smartcliff website.",
+    "elements": [
+      {
+        "description": "",
+        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Login with valid credentials",
     "description": "",
     "elements": [
       {
@@ -13,6 +21,8 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
+              "status": "passed",
+              "duration": 136163500
               "status": "skipped",
               "duration": 0
             }
@@ -20,6 +30,14 @@
           {
             "arguments": [],
             "keyword": "Given ",
+            "line": 8,
+            "name": "the user is on the login page of the LMS smartcliff website",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1390999
             "line": 4,
             "name": "Admin on the Dashboard Page after Login",
             "result": {
@@ -245,6 +263,14 @@
           {
             "arguments": [],
             "keyword": "And ",
+            "line": 25,
+            "name": "the user clicks the signin button",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86813900
             "line": 17,
             "name": "user clicks on the loginlink",
             "result": {
@@ -254,6 +280,51 @@
           },
           {
             "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the user should see an invalid password error message",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4400694599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18310900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Muhindhar",
+            "line": 1
+          },
+          {
+            "name": "@Invalidcredentials",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website;login-with-an-unregistered-email",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Login with an unregistered email",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 117013900
             "keyword": "And ",
             "line": 18,
             "name": "user enters the valid email as \"muhindhar271@gmail.com\"",
@@ -264,6 +335,15 @@
           },
           {
             "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is on the login page of the LMS smartcliff website",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1547800
             "keyword": "And ",
             "line": 19,
             "name": "user enters password as \"1234567\"",
@@ -275,6 +355,27 @@
           {
             "arguments": [],
             "keyword": "When ",
+            "line": 30,
+            "name": "the user enters the login credentials",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1231144799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "the user clicks the signin button",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133323799
             "line": 20,
             "name": "user clicks on the login button",
             "result": {
@@ -285,6 +386,14 @@
           {
             "arguments": [],
             "keyword": "Then ",
+            "line": 32,
+            "name": "the user should see an invalid credentials error message popup",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3901405799
             "line": 21,
             "name": "user should not be loggedin successfully",
             "result": {
@@ -296,6 +405,35 @@
             "keyword": "After",
             "hidden": true,
             "result": {
+              "status": "passed",
+              "duration": 34024700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Muhindhar",
+            "line": 1
+          },
+          {
+            "name": "@Unregisteredemail",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Muhindhar_07-07-2026_Login to the LMS SmartCliff website",
+    "tags": [
+      {
+        "name": "@Muhindhar",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\login\\login.feature"
               "status": "skipped",
               "duration": 0
             }

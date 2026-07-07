@@ -1,9 +1,17 @@
 import dotenv from "dotenv";
 import path from "path";
 
-dotenv.config({
-    path: path.resolve(__dirname, "../../../env/url.env")
+const envPath = path.resolve(__dirname, "../../env/url.env");
+
+const result = dotenv.config({
+    path: envPath,
+    override: true
 });
+
+console.log("ENV Path:", envPath);
+console.log("Dotenv Result:", result);
+console.log("BASE_URL:", process.env.BASE_URL);
+console.log("BROWSER:", process.env.BROWSER);
 
 export class EnvReader {
     static getBaseUrl(): string {
