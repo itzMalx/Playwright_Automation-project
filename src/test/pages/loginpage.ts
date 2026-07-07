@@ -1,5 +1,7 @@
 import { BasePage } from "./basepage";
 import { EnvReader } from "../../utilities/envreader";
+import { readExcelData } from "../../utilities/excelreader";
+import { LoginData } from "../type/LoginData";
 
 export class LoginPage extends BasePage {
     private email = this.page.locator("//input[@id='email']");
@@ -16,6 +18,7 @@ export class LoginPage extends BasePage {
     }
 
     async enteremail(email: string) {
+        console.log("Email:", email);
         await this.fill(this.email, email)
     }
     async enterpassword(pass: string) {
@@ -38,6 +41,14 @@ export class LoginPage extends BasePage {
     }
     async checkbothinv() {
         return this.getText(this.bothinvalid);
+    }
+
+    async loginSite() {
+        const data = readExcelData<LoginData>("src/test-data/logindata.xlsx", "Sheet1");
+        const validUser = data.find(row => row.type === "valid")!;
+        await this.fill(this.email, validUser.email);
+        await this.fill(this.password, String(validUser.password));
+        await this.click(this.signinbtn);
     }
 
 }

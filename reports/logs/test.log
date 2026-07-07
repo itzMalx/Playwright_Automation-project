@@ -1,3 +1,226 @@
+[2026-07-07T15:58:35.225Z] INFO-Browser Launched
+[2026-07-07T15:58:35.794Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-07T15:58:35.794Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783439915549.png
+[2026-07-07T15:58:36.043Z] INFO-Scenario Passed:Search with valid client
+[2026-07-07T15:58:36.293Z] INFO-Scenario Passed:Search with valid course name
+[2026-07-07T15:58:36.533Z] INFO-Scenario Passed:Search with non-existing client
+[2026-07-07T15:58:36.772Z] INFO-Scenario Passed:Search with non-existing course name
+[2026-07-07T15:58:49.505Z] INFO-Scenario Passed:Login with valid credentials
+[2026-07-07T15:59:04.894Z] INFO-Scenario Passed:Login with an incorrect password
+[2026-07-07T15:59:11.223Z] INFO-Scenario Passed:Login with an invalid email and an invalid password
+[2026-07-07T15:59:16.437Z] INFO-Scenario Passed:Login with an unregistered email
+[2026-07-07T15:59:16.487Z] INFO-Browser Closed
+[2026-07-07T16:05:19.494Z] INFO-Browser Launched
+[2026-07-07T16:05:50.022Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-07T16:05:50.023Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783440349955.png
+[2026-07-07T16:05:50.197Z] INFO-Scenario Passed:Search with valid client
+[2026-07-07T16:05:50.374Z] INFO-Scenario Passed:Search with valid course name
+[2026-07-07T16:05:50.555Z] INFO-Scenario Passed:Search with non-existing client
+[2026-07-07T16:05:50.733Z] INFO-Scenario Passed:Search with non-existing course name
+[2026-07-07T16:06:21.978Z] ERROR-Scenario Failed: Login with valid credentials
+[2026-07-07T16:06:21.978Z] ERROR-Screenshot Saved:reports/screenshots/Login with valid credentials1783440380945.png
+[2026-07-07T16:06:59.369Z] INFO-Scenario Passed:Login with an incorrect password
+[2026-07-07T16:07:04.631Z] INFO-Scenario Passed:Login with an invalid email and an invalid password
+[2026-07-07T16:07:09.343Z] INFO-Scenario Passed:Login with an unregistered email
+[2026-07-07T16:07:09.419Z] INFO-Browser Closed
+[2026-07-07T16:13:15.693Z] INFO-Browser Launched
+[2026-07-07T16:13:15.947Z] INFO-Scenario Passed:Add a new module to the course structure
+[2026-07-07T16:13:15.995Z] INFO-Browser Closed
+[2026-07-07T16:21:28.774Z] INFO-Browser Launched
+[2026-07-07T16:21:59.334Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T16:21:59.334Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783441319019.png
+[2026-07-07T16:21:59.444Z] INFO-Browser Closed
+[2026-07-07T16:27:26.023Z] INFO-Browser Launched
+[2026-07-07T16:27:59.970Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T16:27:59.970Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783441676266.png
+[2026-07-07T16:28:00.044Z] INFO-Browser Closed
+[2026-07-07T16:29:04.605Z] INFO-Browser Launched
+[2026-07-07T16:29:35.185Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T16:29:35.185Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783441774865.png
+[2026-07-07T16:29:35.270Z] INFO-Browser Closed
+[2026-07-07T16:32:08.824Z] INFO-Browser Launched
+[2026-07-07T16:32:36.122Z] INFO-Scenario Passed:Login with valid credentials
+[2026-07-07T16:33:00.229Z] INFO-Scenario Passed:Login with an incorrect password
+[2026-07-07T16:33:07.818Z] INFO-Scenario Passed:Login with an invalid email and an invalid password
+[2026-07-07T16:33:16.499Z] INFO-Scenario Passed:Login with an unregistered email
+[2026-07-07T16:33:16.581Z] INFO-Browser Closed
+[2026-07-07T16:33:35.282Z] INFO-Browser Launched
+[2026-07-07T16:34:07.606Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T16:34:07.607Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783442045522.png
+[2026-07-07T16:34:07.706Z] INFO-Browser Closed
+[2026-07-07T16:34:18.343Z] INFO-Browser Launched
+[2026-07-07T16:34:48.913Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T16:34:48.914Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783442088596.png
+[2026-07-07T16:34:48.982Z] INFO-Browser Closed
+[2026-07-07T16:34:55.640Z] INFO-Browser Launched
+[2026-07-07T16:35:24.479Z] INFO-Navigate to Course Management page
+[2026-07-07T16:35:24.612Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T16:35:24.612Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783442124510.png
+[2026-07-07T16:35:24.717Z] INFO-Browser Closed
+[2026-07-07T16:42:03.591Z] INFO-Browser Launched
+[2026-07-07T16:42:34.139Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T16:42:34.139Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783442553854.png
+[2026-07-07T16:42:34.449Z] INFO-Scenario Passed:
+[2026-07-07T16:42:34.508Z] INFO-Browser Closed
+[2026-07-07T16:43:59.411Z] INFO-Browser Launched
+[2026-07-07T16:44:29.964Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T16:44:29.964Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783442669662.png
+[2026-07-07T16:44:30.267Z] INFO-Scenario Passed:
+[2026-07-07T16:44:30.325Z] INFO-Browser Closed
+[2026-07-07T16:45:21.274Z] INFO-Browser Launched
+[2026-07-07T16:45:26.662Z] INFO-Scenario Passed:
+[2026-07-07T16:45:26.726Z] INFO-Browser Closed
+[2026-07-07T16:47:50.675Z] INFO-Browser Launched
+[2026-07-07T16:48:21.192Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T16:48:21.192Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783442900930.png
+[2026-07-07T16:48:21.496Z] INFO-Scenario Passed:
+[2026-07-07T16:48:21.560Z] INFO-Browser Closed
+[2026-07-07T16:57:18.595Z] INFO-Browser Launched
+[2026-07-07T16:57:49.466Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T16:57:49.466Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783443468886.png
+[2026-07-07T16:57:49.809Z] INFO-Scenario Passed:
+[2026-07-07T16:57:49.896Z] INFO-Browser Closed
+[2026-07-07T17:00:46.901Z] INFO-Browser Launched
+[2026-07-07T17:01:17.459Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T17:01:17.459Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783443677169.png
+[2026-07-07T17:01:17.770Z] INFO-Scenario Passed:
+[2026-07-07T17:01:17.856Z] INFO-Browser Closed
+[2026-07-07T17:08:51.180Z] INFO-Browser Launched
+[2026-07-07T17:08:54.145Z] INFO-Login successfull!
+[2026-07-07T17:09:02.995Z] INFO-Navigate to Course Management page
+[2026-07-07T17:09:03.179Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T17:09:03.180Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783444143022.png
+[2026-07-07T17:09:03.513Z] INFO-Scenario Passed:
+[2026-07-07T17:09:03.566Z] INFO-Browser Closed
+[2026-07-07T17:12:15.340Z] INFO-Browser Launched
+[2026-07-07T17:12:18.530Z] INFO-Login successfull!
+[2026-07-07T17:12:30.418Z] INFO-Navigate to Course Management page
+[2026-07-07T17:12:33.680Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T17:12:33.680Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783444353513.png
+[2026-07-07T17:12:33.997Z] INFO-Scenario Passed:
+[2026-07-07T17:12:34.054Z] INFO-Browser Closed
+[2026-07-07T17:15:04.409Z] INFO-Browser Launched
+[2026-07-07T17:15:09.175Z] INFO-Login successfull!
+[2026-07-07T17:15:18.680Z] INFO-Navigate to Course Management page
+[2026-07-07T17:15:21.867Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T17:15:21.867Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783444521745.png
+[2026-07-07T17:15:22.069Z] INFO-Scenario Passed:
+[2026-07-07T17:15:22.117Z] INFO-Browser Closed
+[2026-07-07T17:18:18.211Z] INFO-Browser Launched
+[2026-07-07T17:18:20.279Z] INFO-Login successfull!
+[2026-07-07T17:18:49.269Z] INFO-Navigate to Course Management page
+[2026-07-07T17:18:52.433Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T17:18:52.433Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783444732317.png
+[2026-07-07T17:18:52.481Z] INFO-Browser Closed
+[2026-07-07T17:19:44.028Z] INFO-Browser Launched
+[2026-07-07T17:19:47.446Z] INFO-Login successfull!
+[2026-07-07T17:20:15.616Z] INFO-Navigate to Course Management page
+[2026-07-07T17:20:18.700Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T17:20:18.700Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783444818638.png
+[2026-07-07T17:20:18.742Z] INFO-Browser Closed
+[2026-07-07T17:24:18.094Z] INFO-Browser Launched
+[2026-07-07T17:24:22.026Z] INFO-Login successfull!
+[2026-07-07T17:24:47.719Z] INFO-Navigate to Course Management page
+[2026-07-07T17:24:50.930Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T17:24:50.930Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783445090780.png
+[2026-07-07T17:24:50.977Z] INFO-Browser Closed
+[2026-07-07T17:26:29.908Z] INFO-Browser Launched
+[2026-07-07T17:26:31.821Z] INFO-Login successfull!
+[2026-07-07T17:26:51.228Z] INFO-Navigate to Course Management page
+[2026-07-07T17:27:00.745Z] INFO-Scenario Passed:Add a new module to the course structure
+[2026-07-07T17:27:00.801Z] INFO-Browser Closed
+[2026-07-07T17:27:29.488Z] INFO-Browser Launched
+[2026-07-07T17:27:31.602Z] INFO-Login successfull!
+[2026-07-07T17:27:40.687Z] INFO-Navigate to Course Management page
+[2026-07-07T17:27:43.811Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T17:27:43.811Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783445263714.png
+[2026-07-07T17:27:43.837Z] INFO-Browser Closed
+[2026-07-07T17:31:41.905Z] INFO-Browser Launched
+[2026-07-07T17:31:44.111Z] INFO-Login successfull!
+[2026-07-07T17:31:59.299Z] INFO-Navigate to Course Management page
+[2026-07-07T17:32:02.464Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T17:32:02.464Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783445522346.png
+[2026-07-07T17:32:02.505Z] INFO-Browser Closed
+[2026-07-07T17:33:06.325Z] INFO-Browser Launched
+[2026-07-07T17:33:08.214Z] INFO-Login successfull!
+[2026-07-07T17:33:17.270Z] INFO-Navigate to Course Management page
+[2026-07-07T17:33:20.429Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T17:33:20.429Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783445600303.png
+[2026-07-07T17:33:20.477Z] INFO-Browser Closed
+[2026-07-07T17:35:16.324Z] INFO-Browser Launched
+[2026-07-07T17:35:18.392Z] INFO-Login successfull!
+[2026-07-07T17:35:26.895Z] INFO-Navigate to Course Management page
+[2026-07-07T17:35:30.048Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T17:35:30.049Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783445729944.png
+[2026-07-07T17:35:30.089Z] INFO-Browser Closed
+[2026-07-07T17:36:34.244Z] INFO-Browser Launched
+[2026-07-07T17:36:36.815Z] INFO-Login successfull!
+[2026-07-07T17:36:46.907Z] INFO-Navigate to Course Management page
+[2026-07-07T17:36:51.287Z] INFO-Scenario Passed:Add a new module to the course structure
+[2026-07-07T17:36:51.326Z] INFO-Browser Closed
+[2026-07-07T17:47:45.136Z] INFO-Browser Launched
+[2026-07-07T17:47:47.194Z] INFO-Login successfull!
+[2026-07-07T17:47:55.220Z] INFO-Navigate to Course Management page
+[2026-07-07T17:47:58.373Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T17:47:58.373Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783446478269.png
+[2026-07-07T17:47:58.410Z] INFO-Browser Closed
+[2026-07-07T17:48:09.799Z] INFO-Browser Launched
+[2026-07-07T17:48:12.944Z] INFO-Login successfull!
+[2026-07-07T17:48:21.573Z] INFO-Navigate to Course Management page
+[2026-07-07T17:48:24.717Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T17:48:24.718Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783446504619.png
+[2026-07-07T17:48:24.755Z] INFO-Browser Closed
+[2026-07-07T17:48:59.421Z] INFO-Browser Launched
+[2026-07-07T17:49:01.660Z] INFO-Login successfull!
+[2026-07-07T17:49:15.871Z] INFO-Navigate to Course Management page
+[2026-07-07T17:49:19.031Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T17:49:19.031Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783446558911.png
+[2026-07-07T17:49:19.073Z] INFO-Browser Closed
+[2026-07-07T17:51:01.232Z] INFO-Browser Launched
+[2026-07-07T17:51:03.036Z] INFO-Login successfull!
+[2026-07-07T17:51:11.583Z] INFO-Navigate to Course Management page
+[2026-07-07T17:51:17.262Z] INFO-Scenario Passed:Add a new module to the course structure
+[2026-07-07T17:51:17.301Z] INFO-Browser Closed
+[2026-07-07T17:56:41.617Z] INFO-Browser Launched
+[2026-07-07T17:56:43.633Z] INFO-Login successfull!
+[2026-07-07T17:56:53.192Z] INFO-Navigate to Course Management page
+[2026-07-07T17:56:57.736Z] INFO-Scenario Passed:Add a new module to the course structure
+[2026-07-07T17:56:57.772Z] INFO-Browser Closed
+[2026-07-07T17:58:09.551Z] INFO-Browser Launched
+[2026-07-07T17:58:11.700Z] INFO-Login successfull!
+[2026-07-07T17:58:21.754Z] INFO-Navigate to Course Management page
+[2026-07-07T17:58:28.085Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T17:58:28.086Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783447107928.png
+[2026-07-07T17:58:28.130Z] INFO-Browser Closed
+[2026-07-07T17:59:23.246Z] INFO-Browser Launched
+[2026-07-07T17:59:26.284Z] INFO-Login successfull!
+[2026-07-07T17:59:35.900Z] INFO-Navigate to Course Management page
+[2026-07-07T17:59:45.253Z] INFO-Scenario Passed:Add a new module to the course structure
+[2026-07-07T17:59:45.325Z] INFO-Browser Closed
+[2026-07-07T18:02:00.100Z] INFO-Browser Launched
+[2026-07-07T18:02:03.098Z] INFO-Login successfull!
+[2026-07-07T18:02:11.189Z] INFO-Navigate to Course Management page
+[2026-07-07T18:02:17.069Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T18:02:17.069Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783447336897.png
+[2026-07-07T18:02:17.096Z] INFO-Browser Closed
+[2026-07-07T18:03:52.861Z] INFO-Browser Launched
+[2026-07-07T18:03:54.807Z] INFO-Login successfull!
+[2026-07-07T18:04:07.557Z] INFO-Navigate to Course Management page
+[2026-07-07T18:04:12.424Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T18:04:12.424Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783447452262.png
+[2026-07-07T18:04:12.468Z] INFO-Browser Closed
+[2026-07-07T18:06:24.555Z] INFO-Browser Launched
+[2026-07-07T18:06:26.751Z] INFO-Login successfull!
+[2026-07-07T18:06:40.063Z] INFO-Navigate to Course Management page
+[2026-07-07T18:06:46.460Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T18:06:46.461Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783447606296.png
+[2026-07-07T18:06:46.475Z] INFO-Browser Closed
+[2026-07-07T19:01:39.119Z] INFO-Browser Launched
+[2026-07-07T19:01:41.098Z] INFO-Login successfull!
+[2026-07-07T19:01:48.702Z] INFO-Navigate to Course Management page
+[2026-07-07T19:02:23.707Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-07T19:02:23.707Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783450943606.png
+[2026-07-07T19:02:23.777Z] INFO-Browser Closed
 [2026-07-07T17:41:34.010Z] INFO-Browser Launched
 [2026-07-07T17:42:04.011Z] ERROR-Scenario Failed: Search valid courses, codes and clients
 [2026-07-07T17:42:04.012Z] ERROR-Screenshot Saved:reports/screenshots/Search valid courses, codes and clients1783446122481.png

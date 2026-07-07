@@ -3,26 +3,31 @@ import { Browser, chromium } from "@playwright/test";
 import { glitchworld } from '../world/customworld';
 import { logger } from '../../utilities/logger';
 import { LoginPage } from '../pages/loginpage';
-import { SearchPage } from '../pages/searchPage';  
+import { DashboardPage } from '../pages/dashboardPage';
+import { CourseManagementPage } from '../pages/courseManagementPage';
+import { PedagogyPage } from '../pages/pedagogyPage';
 
 let browser: Browser;
 setDefaultTimeout(60 * 1000);
 
+let browser: Browser;
+setDefaultTimeout(60 * 1000)
 BeforeAll(async () => {
-    browser = await chromium.launch({ headless: false});
+
+    browser = await chromium.launch({ headless: false });
     logger.info("Browser Launched");
 });
-
 Before(async function (this: glitchworld, scenario) {
-    const tags = scenario.pickle.tags.map(tag => tag.name);
+    this.tag = scenario.pickle.tags.find(tag => tag.name !== "@Muhindhar")!.name;
     this.browser = browser;
     this.context = await browser.newContext();
     this.page = await this.context.newPage();
-
     this.login = new LoginPage(this.page);
-    this.searchPage = new SearchPage(this.page);   
-});
+    this.dashboardPage = new DashboardPage(this.page)
+    this.courseManagementPage = new CourseManagementPage(this.page)
+    this.pedagogyPage = new PedagogyPage(this.page)
 
+});
 After(async function (this: glitchworld, scenario) {
     if (scenario.result?.status == Status.FAILED) {
         const path = `reports/screenshots/${scenario.pickle.name}${Date.now()}.png`;

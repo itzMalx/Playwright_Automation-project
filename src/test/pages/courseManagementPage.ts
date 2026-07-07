@@ -16,12 +16,20 @@ export class CourseManagementPage extends BasePage{
         this.next=page.locator("//button[normalize-space()='Next']")
     }
 
-    async addCourseStructure() {
-        return this.courseNameList
-    }
+    async selectActionList(courseName: string) {
 
-    async actionLists() {
-        return this.actionList
+        await this.page.locator(".animate-pulse").first().waitFor({ state: "hidden" });
+        const count = await this.courseNameList.count();
+        for (let i = 0; i < count; i++) {
+            const course = await this.courseNameList.nth(i).innerText();
+            console.log(course)
+            if (course.includes(courseName)) {
+                await this.actionList.nth(i).click();
+                return;
+            }
+        }
+
+        throw new Error(`Course '${courseName}' not found`);
     }
     async clickNext() {
       await this.click(this.next)
