@@ -74,10 +74,8 @@ export class BasePage {
     async ElementScreenshot(locator:Locator,photopath:string){
       return await locator.screenshot({path:photopath});
     }
-
     async isClickable(locator : Locator){
       return await locator.isEnabled()
     }
-
 
 }

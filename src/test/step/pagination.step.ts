@@ -1,7 +1,6 @@
 import { Given, When, Then } from "@cucumber/cucumber";
 
 Given('the user is on the Course Structure page', async function () {
-    
 });
 
 Given('the user is on the first page of the Course Structure table', async function () {

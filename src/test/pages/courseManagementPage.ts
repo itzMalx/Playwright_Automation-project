@@ -14,8 +14,7 @@ export class CourseManagement extends BasePage{
       this.action_list =page.locator("//div[@class='flex gap-1 justify-center']")
       this.previous=page.locator("//button[normalize-space()='Previous']")
       this.next=page.locator("//button[normalize-space()='Next']")
-
-
+      
    }
 
    async clickPage(pageNumber: number) {
