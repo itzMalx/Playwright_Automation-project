@@ -1,14 +1,14 @@
 import {Locator,Page} from 'playwright';
+import { BasePage } from './basepage';
 
-export class DashboardPage{
+export class DashboardPage extends BasePage{
 
-    readonly page : Page
-    readonly courseManagement_Btn: Locator
+   readonly course_management_btn: Locator
 
 
    constructor(page : Page){
-      this.page=page
-      this.courseManagement_Btn = this.page.locator("div[title='Course Management']")
+      super(page)
+      this.course_management_btn = this.page.locator("div[title='Course Management']")
    }
 
 }
