@@ -29,28 +29,19 @@
   "courseHierarchy": {
     "resources": [0, 2],
 
-    "pedagogy": [
-      {
-        "section": "I Do",
-        "values": [
-          "Lecture",
-          "Theory"
-        ]
+    "pedagogy": {
+      "iDo": {
+        "index": 1,
+        "value": "Lecture"
       },
-      {
-        "section": "We Do",
-        "values": [
-          "Practical",
-          "Assignments"
-        ]
+      "weDo": {
+        "index": 2,
+        "value": "Practical"
       },
-      {
-        "section": "You Do",
-        "values": [
-          "Assessments",
-          "Projects"
-        ]
+      "youDo": {
+        "index": 3,
+        "value": "Assessments"
       }
-    ]
+    }
   }
 }

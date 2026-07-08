@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [2026-07-07T13:52:25.135Z] INFO-Browser Launched
 [2026-07-07T13:52:34.568Z] INFO-Scenario Passed:Login with valid credentials
 [2026-07-07T13:52:48.052Z] INFO-Scenario Passed:Login with an incorrect password
@@ -217,3 +218,384 @@
 [2026-07-08T03:37:59.442Z] ERROR-Scenario Failed: Add course with valid details
 [2026-07-08T03:37:59.443Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783481879331.png
 [2026-07-08T03:37:59.570Z] INFO-Browser Closed
+=======
+[2026-07-08T01:49:12.430Z] INFO-Browser Launched
+[2026-07-08T01:49:14.719Z] INFO-Login successfull!
+[2026-07-08T01:49:26.920Z] INFO-Navigate to Course Management page
+[2026-07-08T01:49:30.481Z] INFO-Scenario Passed:Verify user can navigate to the next page using the Next button
+[2026-07-08T01:49:30.581Z] INFO-Browser Closed
+>>>>>>> 68a3759d022dd72ce1e0fef363011219de395303
+[2026-07-08T04:40:50.567Z] INFO-Browser Launched
+[2026-07-08T04:40:51.230Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T04:40:53.267Z] INFO-Logging in with valid credentials
+[2026-07-08T04:40:54.043Z] INFO-Login completed successfully
+[2026-07-08T04:40:54.043Z] INFO-Login successfull!
+[2026-07-08T04:41:04.962Z] INFO-Navigate to Course Management page
+[2026-07-08T04:41:13.996Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T04:41:13.997Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783485673874.png
+[2026-07-08T04:41:14.120Z] INFO-Browser Closed
+[2026-07-08T04:42:05.639Z] INFO-Browser Launched
+[2026-07-08T04:42:06.148Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T04:42:08.090Z] INFO-Logging in with valid credentials
+[2026-07-08T04:42:08.935Z] INFO-Login completed successfully
+[2026-07-08T04:42:08.936Z] INFO-Login successfull!
+[2026-07-08T04:42:17.214Z] INFO-Navigate to Course Management page
+[2026-07-08T04:42:25.907Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T04:42:25.908Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783485745759.png
+[2026-07-08T04:42:25.984Z] INFO-Browser Closed
+[2026-07-08T04:42:40.718Z] INFO-Browser Launched
+[2026-07-08T04:42:41.267Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T04:42:43.019Z] INFO-Logging in with valid credentials
+[2026-07-08T04:42:43.882Z] INFO-Login completed successfully
+[2026-07-08T04:42:43.883Z] INFO-Login successfull!
+[2026-07-08T04:42:53.788Z] INFO-Navigate to Course Management page
+[2026-07-08T04:43:02.717Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T04:43:02.717Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783485782581.png
+[2026-07-08T04:43:02.846Z] INFO-Browser Closed
+[2026-07-08T04:57:46.880Z] INFO-Browser Launched
+[2026-07-08T04:57:47.387Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T04:57:49.015Z] INFO-Logging in with valid credentials
+[2026-07-08T04:57:49.892Z] INFO-Login completed successfully
+[2026-07-08T04:57:49.893Z] INFO-Login successfull!
+[2026-07-08T04:57:58.302Z] INFO-Navigate to Course Management page
+[2026-07-08T04:58:35.365Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T04:58:35.366Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783486715225.png
+[2026-07-08T04:58:35.474Z] INFO-Browser Closed
+[2026-07-08T05:05:14.711Z] INFO-Browser Launched
+[2026-07-08T05:05:15.204Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T05:05:16.888Z] INFO-Logging in with valid credentials
+[2026-07-08T05:05:17.719Z] INFO-Login completed successfully
+[2026-07-08T05:05:17.719Z] INFO-Login successfull!
+[2026-07-08T05:05:27.753Z] INFO-Navigate to Course Management page
+[2026-07-08T05:06:14.809Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T05:06:14.809Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783487174708.png
+[2026-07-08T05:06:14.950Z] INFO-Browser Closed
+[2026-07-08T05:08:56.940Z] INFO-Browser Launched
+[2026-07-08T05:08:57.351Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T05:08:59.047Z] INFO-Logging in with valid credentials
+[2026-07-08T05:08:59.859Z] INFO-Login completed successfully
+[2026-07-08T05:08:59.859Z] INFO-Login successfull!
+[2026-07-08T05:09:08.199Z] INFO-Navigate to Course Management page
+[2026-07-08T05:09:17.918Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T05:09:17.918Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783487357802.png
+[2026-07-08T05:09:18.055Z] INFO-Browser Closed
+[2026-07-08T05:12:24.780Z] INFO-Browser Launched
+[2026-07-08T05:12:25.350Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T05:12:28.233Z] INFO-Logging in with valid credentials
+[2026-07-08T05:12:29.041Z] INFO-Login completed successfully
+[2026-07-08T05:12:29.042Z] INFO-Login successfull!
+[2026-07-08T05:12:48.766Z] INFO-Navigate to Course Management page
+[2026-07-08T05:13:03.023Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T05:13:03.023Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783487582925.png
+[2026-07-08T05:13:03.159Z] INFO-Browser Closed
+[2026-07-08T05:16:35.262Z] INFO-Browser Launched
+[2026-07-08T05:16:35.709Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T05:16:37.480Z] INFO-Logging in with valid credentials
+[2026-07-08T05:16:38.282Z] INFO-Login completed successfully
+[2026-07-08T05:16:38.282Z] INFO-Login successfull!
+[2026-07-08T05:16:51.335Z] INFO-Navigate to Course Management page
+[2026-07-08T05:17:07.514Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T05:17:07.514Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783487827409.png
+[2026-07-08T05:17:07.640Z] INFO-Browser Closed
+[2026-07-08T05:28:52.712Z] INFO-Browser Launched
+[2026-07-08T05:28:53.228Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T05:28:54.808Z] INFO-Logging in with valid credentials
+[2026-07-08T05:28:55.564Z] INFO-Login completed successfully
+[2026-07-08T05:28:55.564Z] INFO-Login successfull!
+[2026-07-08T05:29:25.588Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('div[title=\'Course Management\']')[22m
+
+[2026-07-08T05:29:25.859Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T05:29:25.859Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783488565613.png
+[2026-07-08T05:29:25.977Z] INFO-Browser Closed
+[2026-07-08T05:29:45.601Z] INFO-Browser Launched
+[2026-07-08T05:29:46.119Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T05:29:47.826Z] INFO-Logging in with valid credentials
+[2026-07-08T05:29:48.757Z] INFO-Login completed successfully
+[2026-07-08T05:29:48.758Z] INFO-Login successfull!
+[2026-07-08T05:30:17.607Z] INFO-Navigate to Course Management page
+[2026-07-08T05:31:05.526Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T05:31:05.526Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783488665411.png
+[2026-07-08T05:31:05.633Z] INFO-Browser Closed
+[2026-07-08T05:34:07.892Z] INFO-Browser Launched
+[2026-07-08T05:34:08.397Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T05:34:10.373Z] INFO-Logging in with valid credentials
+[2026-07-08T05:34:11.159Z] INFO-Login completed successfully
+[2026-07-08T05:34:11.160Z] INFO-Login successfull!
+[2026-07-08T05:34:32.252Z] INFO-Navigate to Course Management page
+[2026-07-08T05:35:14.830Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T05:35:14.830Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783488914368.png
+[2026-07-08T05:35:14.953Z] INFO-Browser Closed
+[2026-07-08T05:36:55.882Z] INFO-Browser Launched
+[2026-07-08T05:36:56.371Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T05:36:58.243Z] INFO-Logging in with valid credentials
+[2026-07-08T05:36:58.998Z] INFO-Login completed successfully
+[2026-07-08T05:36:58.998Z] INFO-Login successfull!
+[2026-07-08T05:37:09.908Z] INFO-Navigate to Course Management page
+[2026-07-08T05:37:38.669Z] INFO-Browser Closed
+[2026-07-08T05:37:51.403Z] INFO-Browser Launched
+[2026-07-08T05:37:51.913Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T05:37:53.843Z] INFO-Logging in with valid credentials
+[2026-07-08T05:37:54.806Z] INFO-Login completed successfully
+[2026-07-08T05:37:54.806Z] INFO-Login successfull!
+[2026-07-08T05:38:06.869Z] INFO-Navigate to Course Management page
+[2026-07-08T05:38:44.926Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T05:38:44.927Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783489124790.png
+[2026-07-08T05:38:45.048Z] INFO-Browser Closed
+[2026-07-08T05:42:19.197Z] INFO-Browser Launched
+[2026-07-08T05:42:19.715Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T05:42:21.551Z] INFO-Logging in with valid credentials
+[2026-07-08T05:42:22.337Z] INFO-Login completed successfully
+[2026-07-08T05:42:22.338Z] INFO-Login successfull!
+[2026-07-08T05:42:29.456Z] INFO-Navigate to Course Management page
+[2026-07-08T05:43:07.494Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T05:43:07.495Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783489387321.png
+[2026-07-08T05:43:07.650Z] INFO-Browser Closed
+[2026-07-08T05:49:37.309Z] INFO-Browser Launched
+[2026-07-08T05:49:38.050Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T05:49:39.656Z] INFO-Logging in with valid credentials
+[2026-07-08T05:49:40.432Z] INFO-Login completed successfully
+[2026-07-08T05:49:40.433Z] INFO-Login successfull!
+[2026-07-08T05:49:47.422Z] INFO-Navigate to Course Management page
+[2026-07-08T05:50:27.725Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T05:50:27.725Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783489825424.png
+[2026-07-08T05:50:27.868Z] INFO-Browser Closed
+[2026-07-08T06:09:08.605Z] INFO-Browser Launched
+[2026-07-08T06:09:09.122Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:09:10.817Z] INFO-Logging in with valid credentials
+[2026-07-08T06:09:11.724Z] INFO-Login completed successfully
+[2026-07-08T06:09:11.724Z] INFO-Login successfull!
+[2026-07-08T06:09:37.213Z] INFO-Navigate to Course Management page
+[2026-07-08T06:10:05.075Z] INFO-Browser Closed
+[2026-07-08T06:10:24.636Z] INFO-Browser Launched
+[2026-07-08T06:10:25.138Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:10:26.828Z] INFO-Logging in with valid credentials
+[2026-07-08T06:10:27.716Z] INFO-Login completed successfully
+[2026-07-08T06:10:27.717Z] INFO-Login successfull!
+[2026-07-08T06:10:39.895Z] INFO-Navigate to Course Management page
+[2026-07-08T06:11:01.719Z] INFO-Browser Closed
+[2026-07-08T06:11:40.190Z] INFO-Browser Launched
+[2026-07-08T06:11:40.946Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:11:42.748Z] INFO-Logging in with valid credentials
+[2026-07-08T06:11:43.548Z] INFO-Login completed successfully
+[2026-07-08T06:11:43.548Z] INFO-Login successfull!
+[2026-07-08T06:12:12.492Z] INFO-Navigate to Course Management page
+[2026-07-08T06:12:57.076Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T06:12:57.077Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783491174210.png
+[2026-07-08T06:12:57.168Z] INFO-Browser Closed
+[2026-07-08T06:18:30.396Z] INFO-Browser Launched
+[2026-07-08T06:18:30.891Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:18:32.544Z] INFO-Logging in with valid credentials
+[2026-07-08T06:18:33.315Z] INFO-Login completed successfully
+[2026-07-08T06:18:33.316Z] INFO-Login successfull!
+[2026-07-08T06:19:03.344Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('div[title=\'Course Management\']')[22m
+
+[2026-07-08T06:19:03.664Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T06:19:03.665Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783491543366.png
+[2026-07-08T06:19:03.785Z] INFO-Browser Closed
+[2026-07-08T06:19:23.074Z] INFO-Browser Launched
+[2026-07-08T06:19:23.527Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:19:25.132Z] INFO-Logging in with valid credentials
+[2026-07-08T06:19:25.902Z] INFO-Login completed successfully
+[2026-07-08T06:19:25.902Z] INFO-Login successfull!
+[2026-07-08T06:19:55.922Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('div[title=\'Course Management\']')[22m
+
+[2026-07-08T06:19:56.261Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T06:19:56.262Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783491595944.png
+[2026-07-08T06:19:56.387Z] INFO-Browser Closed
+[2026-07-08T06:21:19.042Z] INFO-Browser Launched
+[2026-07-08T06:21:19.579Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:21:21.173Z] INFO-Logging in with valid credentials
+[2026-07-08T06:21:22.046Z] INFO-Login completed successfully
+[2026-07-08T06:21:22.046Z] INFO-Login successfull!
+[2026-07-08T06:21:52.070Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('div[title=\'Course Management\']')[22m
+
+[2026-07-08T06:21:52.381Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T06:21:52.381Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783491712095.png
+[2026-07-08T06:21:52.888Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:21:54.512Z] INFO-Logging in with valid credentials
+[2026-07-08T06:21:55.741Z] INFO-Login completed successfully
+[2026-07-08T06:21:55.741Z] INFO-Login successfull!
+[2026-07-08T06:22:25.755Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('div[title=\'Course Management\']')[22m
+
+[2026-07-08T06:22:25.853Z] ERROR-Scenario Failed: Add course with invalid details without selecting client
+[2026-07-08T06:22:25.853Z] ERROR-Screenshot Saved:reports/screenshots/Add course with invalid details without selecting client1783491745766.png
+[2026-07-08T06:22:25.913Z] INFO-Browser Closed
+[2026-07-08T06:30:23.445Z] INFO-Browser Launched
+[2026-07-08T06:30:23.992Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:30:25.681Z] INFO-Logging in with valid credentials
+[2026-07-08T06:30:26.549Z] INFO-Login completed successfully
+[2026-07-08T06:30:26.550Z] INFO-Login successfull!
+[2026-07-08T06:30:41.702Z] INFO-Navigate to Course Management page
+[2026-07-08T06:31:05.497Z] ERROR-Failed to click checkbox
+[2026-07-08T06:31:05.503Z] ERROR-Failed to click checkbox
+[2026-07-08T06:31:05.998Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:31:08.311Z] INFO-Logging in with valid credentials
+[2026-07-08T06:31:09.639Z] INFO-Login completed successfully
+[2026-07-08T06:31:09.639Z] INFO-Login successfull!
+[2026-07-08T06:31:23.908Z] ERROR-Failed to click element: Error: locator.click: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('div[title=\'Course Management\']')[22m
+
+[2026-07-08T06:31:23.968Z] INFO-Browser Closed
+[2026-07-08T06:32:02.719Z] INFO-Browser Launched
+[2026-07-08T06:32:03.155Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:32:04.804Z] INFO-Logging in with valid credentials
+[2026-07-08T06:32:05.631Z] INFO-Login completed successfully
+[2026-07-08T06:32:05.631Z] INFO-Login successfull!
+[2026-07-08T06:32:16.147Z] INFO-Navigate to Course Management page
+[2026-07-08T06:32:29.401Z] ERROR-Failed to click checkbox
+[2026-07-08T06:32:29.410Z] ERROR-Failed to click checkbox
+[2026-07-08T06:32:29.493Z] INFO-Browser Closed
+[2026-07-08T06:36:30.650Z] INFO-Browser Launched
+[2026-07-08T06:36:31.348Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:36:33.375Z] INFO-Logging in with valid credentials
+[2026-07-08T06:36:34.272Z] INFO-Login completed successfully
+[2026-07-08T06:36:34.273Z] INFO-Login successfull!
+[2026-07-08T06:37:04.299Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('div[title=\'Course Management\']')[22m
+
+[2026-07-08T06:37:04.683Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T06:37:04.684Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783492624319.png
+[2026-07-08T06:37:05.109Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:37:06.750Z] INFO-Logging in with valid credentials
+[2026-07-08T06:37:08.063Z] INFO-Login completed successfully
+[2026-07-08T06:37:08.063Z] INFO-Login successfull!
+[2026-07-08T06:37:34.608Z] INFO-Navigate to Course Management page
+[2026-07-08T06:37:56.142Z] INFO-Browser Closed
+[2026-07-08T06:40:14.086Z] INFO-Browser Launched
+[2026-07-08T06:40:14.686Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:40:16.670Z] INFO-Logging in with valid credentials
+[2026-07-08T06:40:17.370Z] INFO-Login completed successfully
+[2026-07-08T06:40:17.370Z] INFO-Login successfull!
+[2026-07-08T06:40:44.105Z] INFO-Navigate to Course Management page
+[2026-07-08T06:41:02.072Z] ERROR-Failed to click checkbox
+[2026-07-08T06:41:02.080Z] ERROR-Failed to click checkbox
+[2026-07-08T06:41:02.466Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:41:04.247Z] INFO-Logging in with valid credentials
+[2026-07-08T06:41:05.754Z] INFO-Login completed successfully
+[2026-07-08T06:41:05.754Z] INFO-Login successfull!
+[2026-07-08T06:41:07.175Z] ERROR-Failed to click element: Error: locator.click: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('div[title=\'Course Management\']')[22m
+
+[2026-07-08T06:41:08.077Z] INFO-Browser Closed
+[2026-07-08T06:50:51.799Z] INFO-Browser Launched
+[2026-07-08T06:50:52.236Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:50:53.882Z] INFO-Logging in with valid credentials
+[2026-07-08T06:50:54.706Z] INFO-Login completed successfully
+[2026-07-08T06:50:54.706Z] INFO-Login successfull!
+[2026-07-08T06:51:14.234Z] INFO-Navigate to Course Management page
+[2026-07-08T06:51:56.243Z] ERROR-Failed to click checkbox
+[2026-07-08T06:52:24.283Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T06:52:24.283Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783493544210.png
+[2026-07-08T06:52:24.297Z] ERROR-Failed to click checkbox
+[2026-07-08T06:52:24.553Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:52:26.060Z] INFO-Logging in with valid credentials
+[2026-07-08T06:52:27.122Z] INFO-Login completed successfully
+[2026-07-08T06:52:27.122Z] INFO-Login successfull!
+[2026-07-08T06:52:57.142Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('div[title=\'Course Management\']')[22m
+
+[2026-07-08T06:52:57.211Z] ERROR-Scenario Failed: Add course with invalid details without selecting client
+[2026-07-08T06:52:57.211Z] ERROR-Screenshot Saved:reports/screenshots/Add course with invalid details without selecting client1783493577154.png
+[2026-07-08T06:52:57.243Z] INFO-Browser Closed
+[2026-07-08T06:56:26.526Z] INFO-Browser Launched
+[2026-07-08T06:56:26.817Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:56:28.308Z] INFO-Logging in with valid credentials
+[2026-07-08T06:56:29.026Z] INFO-Login completed successfully
+[2026-07-08T06:56:29.027Z] INFO-Login successfull!
+[2026-07-08T06:56:41.365Z] INFO-Navigate to Course Management page
+[2026-07-08T06:56:49.807Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T06:56:49.807Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783493809693.png
+[2026-07-08T06:56:50.217Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:56:53.950Z] INFO-Logging in with valid credentials
+[2026-07-08T06:56:55.003Z] INFO-Login completed successfully
+[2026-07-08T06:56:55.003Z] INFO-Login successfull!
+[2026-07-08T06:57:25.024Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('div[title=\'Course Management\']')[22m
+
+[2026-07-08T06:57:25.089Z] ERROR-Scenario Failed: Add course with invalid details without selecting client
+[2026-07-08T06:57:25.089Z] ERROR-Screenshot Saved:reports/screenshots/Add course with invalid details without selecting client1783493845032.png
+[2026-07-08T06:57:25.118Z] INFO-Browser Closed
+[2026-07-08T06:58:47.248Z] INFO-Browser Launched
+[2026-07-08T06:58:47.555Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:58:49.167Z] INFO-Logging in with valid credentials
+[2026-07-08T06:58:50.299Z] INFO-Login completed successfully
+[2026-07-08T06:58:50.299Z] INFO-Login successfull!
+[2026-07-08T06:59:13.993Z] INFO-Navigate to Course Management page
+[2026-07-08T06:59:40.183Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T06:59:41.979Z] INFO-Logging in with valid credentials
+[2026-07-08T06:59:43.049Z] INFO-Login completed successfully
+[2026-07-08T06:59:43.049Z] INFO-Login successfull!
+[2026-07-08T07:00:13.071Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('div[title=\'Course Management\']')[22m
+
+[2026-07-08T07:00:13.137Z] ERROR-Scenario Failed: Add course with invalid details without selecting client
+[2026-07-08T07:00:13.137Z] ERROR-Screenshot Saved:reports/screenshots/Add course with invalid details without selecting client1783494013076.png
+[2026-07-08T07:00:13.195Z] INFO-Browser Closed
+[2026-07-08T07:01:03.623Z] INFO-Browser Launched
+[2026-07-08T07:01:03.910Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T07:01:05.495Z] INFO-Logging in with valid credentials
+[2026-07-08T07:01:06.200Z] INFO-Login completed successfully
+[2026-07-08T07:01:06.200Z] INFO-Login successfull!
+[2026-07-08T07:01:17.568Z] INFO-Navigate to Course Management page
+[2026-07-08T07:01:25.735Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T07:01:25.735Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783494085593.png
+[2026-07-08T07:01:26.163Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T07:01:27.798Z] INFO-Logging in with valid credentials
+[2026-07-08T07:01:28.934Z] INFO-Login completed successfully
+[2026-07-08T07:01:28.934Z] INFO-Login successfull!
+[2026-07-08T07:01:41.219Z] INFO-Navigate to Course Management page
+[2026-07-08T07:01:45.279Z] ERROR-Scenario Failed: Add course with invalid details without selecting client
+[2026-07-08T07:01:45.279Z] ERROR-Screenshot Saved:reports/screenshots/Add course with invalid details without selecting client1783494105194.png
+[2026-07-08T07:01:45.359Z] INFO-Browser Closed
+[2026-07-08T07:03:22.800Z] INFO-Browser Launched
+[2026-07-08T07:03:23.092Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T07:03:24.624Z] INFO-Logging in with valid credentials
+[2026-07-08T07:03:25.830Z] INFO-Login completed successfully
+[2026-07-08T07:03:25.830Z] INFO-Login successfull!
+[2026-07-08T07:03:38.644Z] INFO-Navigate to Course Management page
+[2026-07-08T07:03:48.324Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T07:03:48.324Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783494228211.png
+[2026-07-08T07:03:48.681Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T07:03:58.571Z] INFO-Logging in with valid credentials
+[2026-07-08T07:03:59.643Z] INFO-Login completed successfully
+[2026-07-08T07:03:59.643Z] INFO-Login successfull!
+[2026-07-08T07:04:29.653Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('div[title=\'Course Management\']')[22m
+
+[2026-07-08T07:04:29.807Z] ERROR-Scenario Failed: Add course with invalid details without selecting client
+[2026-07-08T07:04:29.807Z] ERROR-Screenshot Saved:reports/screenshots/Add course with invalid details without selecting client1783494269661.png
+[2026-07-08T07:04:29.867Z] INFO-Browser Closed
+[2026-07-08T07:05:49.430Z] INFO-Browser Launched
+[2026-07-08T07:05:49.695Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T07:05:51.294Z] INFO-Logging in with valid credentials
+[2026-07-08T07:05:52.472Z] INFO-Login completed successfully
+[2026-07-08T07:05:52.472Z] INFO-Login successfull!
+[2026-07-08T07:06:19.923Z] INFO-Navigate to Course Management page
+[2026-07-08T07:06:27.091Z] ERROR-Scenario Failed: Add course with invalid details without selecting client
+[2026-07-08T07:06:27.091Z] ERROR-Screenshot Saved:reports/screenshots/Add course with invalid details without selecting client1783494387000.png
+[2026-07-08T07:06:27.170Z] INFO-Browser Closed
+[2026-07-08T07:10:58.761Z] INFO-Browser Launched
+[2026-07-08T07:10:59.050Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T07:11:00.921Z] INFO-Logging in with valid credentials
+[2026-07-08T07:11:02.101Z] INFO-Login completed successfully
+[2026-07-08T07:11:02.101Z] INFO-Login successfull!
+[2026-07-08T07:11:20.614Z] INFO-Navigate to Course Management page
+[2026-07-08T07:11:35.166Z] INFO-Scenario Passed:Add course with invalid details without selecting client
+[2026-07-08T07:11:35.244Z] INFO-Browser Closed

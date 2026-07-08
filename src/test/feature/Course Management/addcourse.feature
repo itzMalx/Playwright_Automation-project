@@ -12,3 +12,9 @@ Feature: Shobana_07-07-2026_Add course functionality
         And User clicks Preview and Create
         And User saves the course layout
         Then The course should be created successfully
+
+   @InvalidAdd
+   Scenario: Add course with invalid details without selecting client
+        When User selects valid course configuration details without selecting client
+        And User clicks the Next button
+        Then User should get error message

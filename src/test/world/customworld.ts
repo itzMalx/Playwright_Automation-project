@@ -5,20 +5,21 @@ import { DashboardPage } from '../pages/dashboardPage';
 import { CourseManagementPage } from '../pages/courseManagementPage';
 import { PedagogyPage } from '../pages/pedagogyPage';
 import { AddCoursePage } from '../pages/addCoursePage';
+import { SearchPage } from '../pages/searchPage';
 
-
-export class glitchworld extends World{
+export class glitchworld extends World {
 
     browser!: Browser
     context!: BrowserContext
     page!: Page
-    login!:LoginPage
+    login!: LoginPage
     tag!: string;
 
     dashboardPage!: DashboardPage
     courseManagementPage!: CourseManagementPage
     pedagogyPage!: PedagogyPage 
     addCoursePage! : AddCoursePage
+    searchPage!: SearchPage 
 
 }
 

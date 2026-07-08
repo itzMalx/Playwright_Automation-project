@@ -1,5 +1,5 @@
 import { expect, Locator, Page } from '@playwright/test';
-import { Basepage } from './basepage';
+import { Basepage } from '../pages/basepage';
 
 export class AddCoursePage extends Basepage {
 
@@ -16,6 +16,7 @@ export class AddCoursePage extends Basepage {
     readonly preview:Locator;
     readonly savebtn:Locator;
     readonly laterbtn:Locator;
+    readonly clienterrmsg:Locator;
     constructor(page: Page) {
         super(page);
 
@@ -32,12 +33,15 @@ export class AddCoursePage extends Basepage {
         this.preview=this.page.locator('//button[text()="Preview & Create"]');
         this.savebtn=this.page.locator('//button[text()=" Save Course Layout"]');
         this.laterbtn=this.page.locator('//button[text()="Later"]')
+        this.clienterrmsg=this.page.locator('//span[text()="Please select a client"]')
 
     }
      async clickAddCourse() {
         await this.addCourseBtn.click();
     }
-
+    async getClienterrmsg() {
+    return await this.getText(this.clienterrmsg);
+}
     async selectDropdown(index: number, value: string) {
 
         const dropdown = this.page.locator("button[role='combobox']").nth(index);
@@ -52,22 +56,29 @@ export class AddCoursePage extends Basepage {
 
         await expect(dropdown).toContainText(value);
     }
-   async selectMultiDropdown(section: string, values: string[]) {
+     async selectMultiDropdown(index: number, value: string) {
 
-    const container = this.page.locator("div").filter({
-        has: this.page.getByText(section, { exact: true })
-    }).first();
-
-    const dropdown = container.locator("button[role='combobox']");
+    const dropdown = this.page
+        .locator('button[role="combobox"]')
+        .nth(index);
 
     await dropdown.click();
 
-    for (const value of values) {
-        await this.page.getByText(value, { exact: true }).click();
-    }
+    const listBox = this.page.locator('[role="listbox"]').last();
 
-    await this.page.keyboard.press("Escape");
+    await listBox
+        .locator('label')
+        .filter({ hasText: value })
+        .click();
+
+    // Close dropdown by clicking outside
+    await this.page.mouse.click(10, 10);
+
+    await expect(
+        this.page.locator('span.font-medium')
+    ).toContainText(value);
 }
+
 
 
     async clickNext() {
@@ -75,16 +86,16 @@ export class AddCoursePage extends Basepage {
     }
 
     async selectHierarchy() {
-        await this.module.check();
-        await this.submodule.check();
-        await this.topic.check();
-        await this.subtopic.check();
-    }
+    await this.clickCheckbox(this.module);
+    await this.clickCheckbox(this.submodule);
+    await this.clickCheckbox(this.topic);
+    await this.clickCheckbox(this.subtopic);
+}
 
-    async selectSkills() {
-        await this.javaskill.check();
-        await this.pythonskill.check();
-    }
+async selectSkills() {
+    await this.clickCheckbox(this.javaskill);
+    await this.clickCheckbox(this.pythonskill);
+}
 
     async enableResource(index: number) {
 
@@ -114,5 +125,6 @@ export class AddCoursePage extends Basepage {
     async clickLater() {
         await this.laterbtn.click();
     }
+
 
     }

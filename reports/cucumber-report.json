@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-valid-details",
+        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-invalid-details-without-selecting-client",
         "keyword": "Scenario",
-        "line": 8,
-        "name": "Add course with valid details",
+        "line": 17,
+        "name": "Add course with invalid details without selecting client",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 552240400
+              "duration": 223667999
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1727636899
+              "duration": 3050911900
             }
           },
           {
@@ -40,86 +40,46 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8910487800
+              "duration": 18511606599
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 9,
-            "name": "User selects valid course configuration details",
+            "line": 18,
+            "name": "User selects valid course configuration details without selecting client",
             "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:5"
+              "location": "src\\test\\step\\addCourseSteps.ts:79"
             },
             "result": {
               "status": "passed",
-              "duration": 7848821700
+              "duration": 14465633700
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 10,
+            "line": 19,
             "name": "User clicks the Next button",
             "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:16"
+              "location": "src\\test\\step\\addCourseSteps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 270986799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "User selects the details in course hirearchy and layout",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:21"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 1325087100,
-              "error_message": "locator.click: Error: strict mode violation: locator('div').filter({ has: getByText('I Do', { exact: true }) }).first().locator('button[role=\\'combobox\\']') resolved to 4 elements:\n    1) <button dir=\"ltr\" type=\"button\" role=\"combobox\" data-state=\"closed\" data-size=\"default\" aria-expanded=\"false\" aria-autocomplete=\"none\" data-slot=\"select-trigger\" aria-controls=\"radix-«r4o»\" class=\"group flex items-center justify-between gap-2 cursor-pointer text-gray-500 border bg-transparent py-2 sm:text-xs select-none outline-none transition-colors focus-visible:ring-2 focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 w-full h-9 px-3 text-sm font-medium rounded-lg border-sla…>…</button> aka getByRole('combobox').filter({ hasText: 'Beginner' })\n    2) <button dir=\"ltr\" type=\"button\" role=\"combobox\" data-state=\"closed\" data-placeholder=\"\" data-size=\"default\" aria-expanded=\"false\" aria-autocomplete=\"none\" data-slot=\"select-trigger\" aria-controls=\"radix-«r4q»\" class=\"group flex items-center justify-between gap-2 cursor-pointer text-gray-500 border border-input py-2 sm:text-xs select-none outline-none transition-colors focus-visible:ring-2 focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 w-full h-8 px-2 text-xs font-medium bg-…>…</button> aka getByRole('combobox').nth(3)\n    3) <button dir=\"ltr\" type=\"button\" role=\"combobox\" data-state=\"closed\" data-placeholder=\"\" data-size=\"default\" aria-expanded=\"false\" aria-autocomplete=\"none\" data-slot=\"select-trigger\" aria-controls=\"radix-«r4s»\" class=\"group flex items-center justify-between gap-2 cursor-pointer text-gray-500 border border-input py-2 sm:text-xs select-none outline-none transition-colors focus-visible:ring-2 focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 w-full h-8 px-2 text-xs font-medium bg-…>…</button> aka getByRole('combobox').nth(4)\n    4) <button dir=\"ltr\" type=\"button\" role=\"combobox\" data-state=\"closed\" data-placeholder=\"\" data-size=\"default\" aria-expanded=\"false\" aria-autocomplete=\"none\" data-slot=\"select-trigger\" aria-controls=\"radix-«r4u»\" class=\"group flex items-center justify-between gap-2 cursor-pointer text-gray-500 border border-input py-2 sm:text-xs select-none outline-none transition-colors focus-visible:ring-2 focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 w-full h-8 px-2 text-xs font-medium bg-…>…</button> aka getByRole('combobox').nth(5)\n\nCall log:\n\u001b[2m  - waiting for locator('div').filter({ has: getByText('I Do', { exact: true }) }).first().locator('button[role=\\'combobox\\']')\u001b[22m\n\n    at AddCoursePage.selectMultiDropdown (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\pages\\addCoursePage.ts:63:20)\n    at World.<anonymous> (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\step\\addCourseSteps.ts:35:30)"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "User clicks Preview and Create",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:48"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
-            "name": "User saves the course layout",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:53"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
+              "duration": 77216800
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 14,
-            "name": "The course should be created successfully",
+            "line": 20,
+            "name": "User should get error message",
             "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:58"
+              "location": "src\\test\\step\\addCourseSteps.ts:89"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5525300
             }
           },
           {
@@ -127,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 217582000
+              "duration": 68396100
             }
           }
         ],
@@ -135,6 +95,10 @@
           {
             "name": "@Shobana",
             "line": 1
+          },
+          {
+            "name": "@InvalidAdd",
+            "line": 16
           }
         ],
         "type": "scenario"
