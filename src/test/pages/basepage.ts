@@ -249,15 +249,4 @@ export class BasePage {
             logger.error("Failed to Check clickable")
         }
     }
-     async clickCheckbox(locator:Locator){
-        try{
-           await locator.check();
-
-        }
-        catch(error){
-            logger.error('Failed to click checkbox')
-        }
-   }
 }
-  
- 

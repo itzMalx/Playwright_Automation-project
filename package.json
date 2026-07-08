@@ -6,12 +6,15 @@
   "scripts": {
     "pretest": "if exist reports rmdir /s /q reports",
     "test": "cucumber-js",
-    "posttest": "npx ts-node src/utilities/report.ts",
-    "muhindhar": "cucumber-js --tags @Muhindhar && tsx src/utilities/report.ts",
-    "malavicka": "cucumber-js --tags @Malavicka",
-    "vetri": "cucumber-js --tags @Vetri && tsx src/utilities/report.ts",
-    "mylambigai": "cucumber-js --tags @Mylambigai && tsx src/utilities/report.ts",
-    "shobana": "cucumber-js --tags @Shobana && tsx src/utilities/report.ts"
+    "posttest": "tsx src/utilities/report.ts",
+
+    "muhindhar": "cucumber-js --tags @Muhindhar",
+    "malavicka":"cucumber-js --tags @Malavicka",
+    "vetri":"cucumber-js --tags @Vetri && tsx src/utilities/report.ts",
+    "mylambigai":"cucumber-js --tags @Mylambigai && tsx src/utilities/report.ts",
+    "shobana":"cucumber-js --tags @Shobana && tsx src/utilities/report.ts",
+    "report": "tsx src/utilities/report.ts"
+
   },
   "keywords": [],
   "author": "",
