@@ -1,83 +1,211 @@
-import {Locator,Page} from 'playwright';
+import { Locator, Page } from "playwright";
+import { logger } from "../../utilities/logger";
 
 export class Basepage {
 
-   readonly page : Page
+  readonly page: Page;
 
-   constructor(page : Page){
-      this.page=page
-   }
+  constructor(page: Page) {
+    this.page = page;
+  }
 
-   async click(locator:Locator){
-      await (locator).click();
-   }
-   async fill(locator:Locator,value:string){
+  async click(locator: Locator) {
+    try {
+      await locator.click();
+    } catch (error) {
+      logger.error(`Failed to click element: ${error}`);
+      throw error;
+    }
+  }
+
+  async fill(locator: Locator, value: string) {
+    try {
       await locator.fill(value);
-   }
-   async clear(locator:Locator){
+    } catch (error) {
+      logger.error(`Failed to fill element: ${error}`);
+      throw error;
+    }
+  }
+
+  async clear(locator: Locator) {
+    try {
       await locator.clear();
-   }
-   async getText(locator:Locator){
+    } catch (error) {
+      logger.error(`Failed to clear element: ${error}`);
+      throw error;
+    }
+  }
+
+  async getText(locator: Locator) {
+    try {
       return await locator.textContent();
-   }
-   async jsclick(locator: Locator) {
-        await locator.evaluate((element) => {
-            (element as HTMLElement).click();
-        });
+    } catch (error) {
+      logger.error(`Failed to get text: ${error}`);
+      throw error;
     }
+  }
 
-    async hover(locator:Locator){
+  async jsclick(locator: Locator) {
+    try {
+      await locator.evaluate((element) => {
+        (element as HTMLElement).click();
+      });
+    } catch (error) {
+      logger.error(`Failed to perform JavaScript click: ${error}`);
+      throw error;
+    }
+  }
+
+  async hover(locator: Locator) {
+    try {
       await locator.hover();
+    } catch (error) {
+      logger.error(`Failed to hover element: ${error}`);
+      throw error;
     }
-    async dblclick(locator:Locator){
+  }
+
+  async dblclick(locator: Locator) {
+    try {
       await locator.dblclick();
+    } catch (error) {
+      logger.error(`Failed to double click element: ${error}`);
+      throw error;
     }
-    async rightclick(locator:Locator){
-      await locator.click({button:'right'})
+  }
+
+  async rightclick(locator: Locator) {
+    try {
+      await locator.click({ button: "right" });
+    } catch (error) {
+      logger.error(`Failed to right click element: ${error}`);
+      throw error;
     }
-    async leftClick(locator:Locator){
-      await locator.click({button:'left'})
+  }
+
+  async leftClick(locator: Locator) {
+    try {
+      await locator.click({ button: "left" });
+    } catch (error) {
+      logger.error(`Failed to left click element: ${error}`);
+      throw error;
     }
-    async pressKey(locator:Locator,key:string){
-      await locator.press(key)
+  }
+
+  async pressKey(locator: Locator, key: string) {
+    try {
+      await locator.press(key);
+    } catch (error) {
+      logger.error(`Failed to press key '${key}': ${error}`);
+      throw error;
     }
-    async getInnerText(locator:Locator){
+  }
+
+  async getInnerText(locator: Locator) {
+    try {
       return await locator.innerText();
+    } catch (error) {
+      logger.error(`Failed to get inner text: ${error}`);
+      throw error;
     }
-    async getInputValue(locator:Locator){
+  }
+
+  async getInputValue(locator: Locator) {
+    try {
       return await locator.inputValue();
+    } catch (error) {
+      logger.error(`Failed to get input value: ${error}`);
+      throw error;
     }
-    async isEnabled(locator:Locator){
-     return await locator.isEnabled();
+  }
+
+  async isEnabled(locator: Locator) {
+    try {
+      return await locator.isEnabled();
+    } catch (error) {
+      logger.error(`Failed to check if element is enabled: ${error}`);
+      throw error;
     }
-    async isDisableyed(locator:Locator){
+  }
+
+  async isDisableyed(locator: Locator) {
+    try {
       return await locator.isDisabled();
+    } catch (error) {
+      logger.error(`Failed to check if element is disabled: ${error}`);
+      throw error;
     }
-    async isVisible(locator:Locator){
+  }
+
+  async isVisible(locator: Locator) {
+    try {
       return await locator.isVisible();
+    } catch (error) {
+      logger.error(`Failed to check if element is visible: ${error}`);
+      throw error;
     }
+  }
 
-    async scrollIntoView(locator:Locator){
+  async scrollIntoView(locator: Locator) {
+    try {
       await locator.scrollIntoViewIfNeeded();
+    } catch (error) {
+      logger.error(`Failed to scroll element into view: ${error}`);
+      throw error;
     }
-    async waitForElement(locator:Locator){
-      await locator.waitFor({state:'visible'})
+  }
+
+  async waitForElement(locator: Locator) {
+    try {
+      await locator.waitFor({ state: "visible" });
+    } catch (error) {
+      logger.error(`Failed to wait for element: ${error}`);
+      throw error;
     }
-    async uploadFile(locator:Locator,filePath:string){
+  }
+
+  async uploadFile(locator: Locator, filePath: string) {
+    try {
       await locator.setInputFiles(filePath);
+    } catch (error) {
+      logger.error(`Failed to upload file: ${error}`);
+      throw error;
     }
-    async getAttribute(locator:Locator,attribute:string){
-      await locator.getAttribute(attribute);
+  }
+
+  async getAttribute(locator: Locator, attribute: string) {
+    try {
+      return await locator.getAttribute(attribute);
+    } catch (error) {
+      logger.error(`Failed to get attribute '${attribute}': ${error}`);
+      throw error;
     }
-    async allTextContents(locator:Locator){
+  }
+
+  async allTextContents(locator: Locator) {
+    try {
       return await locator.allTextContents();
+    } catch (error) {
+      logger.error(`Failed to get all text contents: ${error}`);
+      throw error;
     }
-    async selectOption(locator:Locator,value:string){
+  }
+
+  async selectOption(locator: Locator, value: string) {
+    try {
       return await locator.selectOption(value);
+    } catch (error) {
+      logger.error(`Failed to select option '${value}': ${error}`);
+      throw error;
     }
-    async ElementScreenshot(locator:Locator,photopath:string){
-      return await locator.screenshot({path:photopath});
+  }
+
+  async ElementScreenshot(locator: Locator, photopath: string) {
+    try {
+      return await locator.screenshot({ path: photopath });
+    } catch (error) {
+      logger.error(`Failed to capture element screenshot: ${error}`);
+      throw error;
     }
-
-
+  }
 }
