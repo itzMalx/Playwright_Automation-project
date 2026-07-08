@@ -1,0 +1,110 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-user-can-navigate-to-the-next-page-using-the-next-button",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verify user can navigate to the next page using the Next button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 543421000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1691464100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12197778099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "the user is on the first page of the Course Structure table",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3481854999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user clicks the \"Next\" button",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67584600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user should be navigated to the next page",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7576600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 86026100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NextPage",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "vetrivelb_07-07-2026_course_structure_pagination",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "VetrivelB_07-07-2026_Course_Structure_Pagination",
+    "tags": [],
+    "uri": "src\\test\\feature\\Course Management\\pagination.feature"
+  }
+]

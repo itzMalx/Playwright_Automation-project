@@ -1,15 +1,17 @@
-import {Locator,Page} from 'playwright';
+import { Locator, Page } from 'playwright';
 import { BasePage } from './basepage';
 
-export class DashboardPage extends BasePage{
+export class DashboardPage extends BasePage {
 
-   readonly course_management_btn: Locator
+    readonly courseManagementBtn: Locator
 
-
-   constructor(page : Page){
+   constructor(page: Page) {
       super(page)
-      this.course_management_btn = this.page.locator("div[title='Course Management']")
+      this.courseManagementBtn = this.page.locator("div[title='Course Management']")
+   }
+
+   async naviagateToCourse() {
+      await this.click(this.courseManagementBtn)
    }
 
 }
-      

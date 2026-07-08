@@ -1,11 +1,8 @@
 Feature: VetrivelB_07-07-2026_Course_Structure_Pagination
 
-  Background:
-    Given the user is on the login page of the LMS smartcliff website
-    When the user enters the login credentials
-    And the user clicks the signin button
-    Then the user should be logged in successfully
-    And the user is on the Course Structure page
+    Background:
+        Given Admin on the Dashboard Page after Login
+        And Admin navigate to Course Management Page
 
   @NextPage
   Scenario: Verify user can navigate to the next page using the Next button
