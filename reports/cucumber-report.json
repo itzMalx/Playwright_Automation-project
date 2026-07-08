@@ -1,0 +1,255 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-valid-details",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Add course with valid details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 544295799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1702423099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9654242400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User selects valid course configuration details",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6295879300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User clicks the Next button",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 319946200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User selects the details in course hirearchy and layout",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3250751099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User clicks Preview and Create",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5277543899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User saves the course layout",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5121810700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "The course should be created successfully",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5217150999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 130859299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Shobana",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-invalid-details-without-selecting-client",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Add course with invalid details without selecting client",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 510502199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1944477200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10515897599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User selects valid course configuration details without selecting client",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4740220000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User clicks the Next button",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115677199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "User should get error message",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16360500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59698400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Shobana",
+            "line": 1
+          },
+          {
+            "name": "@InvalidAdd",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "shobana_07-07-2026_add-course-functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Shobana_07-07-2026_Add course functionality",
+    "tags": [
+      {
+        "name": "@Shobana",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Course Management\\addcourse.feature"
+  }
+]

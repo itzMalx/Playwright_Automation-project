@@ -1,0 +1,43 @@
+{
+  "courseConfiguration": {
+    "client": {
+      "index": 0,
+      "value": "jamocha"
+    },
+    "serviceType": {
+      "index": 1,
+      "value": "Business to institution"
+    },
+    "serviceModel": {
+      "index": 2,
+      "value": "HTD"
+    },
+    "courseCategory": {
+      "index": 3,
+      "value": "Software Development"
+    },
+    "courseName": {
+      "index": 4,
+      "value": "Frontend"
+    },
+    "courseLevel": {
+      "index": 0,
+      "value": "Beginner"
+    }
+  },
+
+  "courseHierarchy": {
+    "resources": [0, 3],
+
+    "pedagogy": {
+      "iDo": {
+        "index": 1,
+        "value": "Live Classes"
+      },
+      "weDo": {
+        "index": 2,
+        "value": "Practical"
+      }
+    }
+  }
+}
