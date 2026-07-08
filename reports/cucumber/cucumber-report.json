@@ -14,7 +14,11 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD:reports/cucumber-report.json
               "duration": 2062571700
+=======
+              "duration": 181824000
+>>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
             }
           },
           {
@@ -26,9 +30,14 @@
               "location": "src\\test\\step\\searchStep.ts:5"
             },
             "result": {
+<<<<<<< HEAD:reports/cucumber-report.json
               "status": "failed",
               "duration": 32859673100,
               "error_message": "page.waitForURL: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/lms/pages/admindashboard\" until \"load\"\n============================================================\n    at World.<anonymous> (D:\\Playwright_Automation-project\\src\\test\\step\\searchStep.ts:8:19)"
+=======
+              "status": "passed",
+              "duration": 2566022599
+>>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
             }
           },
           {
@@ -40,6 +49,7 @@
               "location": "src\\test\\step\\searchStep.ts:12"
             },
             "result": {
+<<<<<<< HEAD:reports/cucumber-report.json
               "status": "skipped",
               "duration": 0
             }
@@ -63,15 +73,79 @@
                 ]
               }
             ],
+=======
+              "status": "passed",
+              "duration": 16084465700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Admin click add Course Structure for the \"Playwright\"",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8139015599
+            }
+          },
+          {
+            "arguments": [],
+>>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
             "keyword": "When ",
             "line": 9,
             "name": "User searches client with the following data",
             "match": {
+<<<<<<< HEAD:reports/cucumber-report.json
               "location": "src\\test\\step\\searchStep.ts:17"
+=======
+              "location": "src\\test\\step\\addCourseStructure.ts:24"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 925194899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Admin enters the required module details",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30775499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Admin clicks the Add Module button",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10948989299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the newly added module should be displayed in the Module table",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:37"
+>>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38852899
             }
           },
           {
@@ -79,7 +153,11 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD:reports/cucumber-report.json
               "duration": 1093236200
+=======
+              "duration": 50155199
+>>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
             }
           }
         ],

@@ -6,4 +6,15 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 # Reports
+<<<<<<< HEAD
 /reports/
+=======
+reports/html-report/
+reports/logs/
+reports/screenshots/
+reports/cucumber-report.json
+reports/cucumber-report.html
+report/allure-results/
+report/cucumber/
+@rerun.txt/
+>>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a
