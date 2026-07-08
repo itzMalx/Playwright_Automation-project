@@ -10,22 +10,22 @@ Given('the user is on the Course Structure page', async function (this: glitchwo
 });
 
 Given('the user is on the first page of the Course Structure table', async function (this: glitchworld) {
-    const activePage = await this.courseManagementPage.getActivePageNumber();
+    const activePage=await this.courseManagementPage.getActivePageNumber();
     expect(activePage).toBe("1");
     currentPage=Number(activePage);
 
 });
 
 Given('the user is on the Course Structure table', async function (this: glitchworld) {
-    const activePage = await this.courseManagementPage.getActivePageNumber();
+    const activePage=await this.courseManagementPage.getActivePageNumber();
     expect(activePage).not.toBe("");
 });
 
 When('the user clicks the {string} button', async function (this: glitchworld, buttonName: string) {
-    if (buttonName==="Next") {
+    if(buttonName==="Next"){
         await this.courseManagementPage.clickNext();
     }
-    else if (buttonName==="Previous") {
+    else if(buttonName==="Previous"){
         await this.courseManagementPage.clickPrevious();
     }
 });

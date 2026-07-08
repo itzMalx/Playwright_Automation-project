@@ -25,7 +25,6 @@ export class BasePage {
             (element as HTMLElement).click();
         });
     }
-
     async hover(locator:Locator){
       await locator.hover();
     }
