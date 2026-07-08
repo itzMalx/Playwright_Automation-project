@@ -10,8 +10,6 @@ import { PedagogyPage } from '../pages/pedagogyPage';
 let browser: Browser;
 setDefaultTimeout(60 * 1000);
 
-let browser: Browser;
-setDefaultTimeout(60 * 1000)
 BeforeAll(async () => {
 
     browser = await chromium.launch({ headless: false });
