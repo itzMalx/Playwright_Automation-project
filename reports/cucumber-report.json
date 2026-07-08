@@ -1,0 +1,142 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;add-a-new-module-to-the-course-structure",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Add a new module to the course structure",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 184620600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5531559099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17139110399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Admin click add Course Structure for the \"Playwright\"",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:19"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5081660199,
+              "error_message": "Error: Course 'Playwright' not found\n    at CourseManagementPage.selectActionList (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\pages\\courseManagementPage.ts:34:15)\n    at async World.<anonymous> (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:23:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Admin clicks the Add Module icon",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Admin enters the required module details",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Admin clicks the Add Module button",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:36"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the newly added module should be displayed in the Module table",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:40"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 400012899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Mylambigai",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "mylambigai_7/7/2026-in-course-management-add-course-structure",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Mylambigai_7/7/2026 In Course Management Add Course Structure",
+    "tags": [
+      {
+        "name": "@Mylambigai",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Course Management\\addCourseStructure.feature"
+  }
+]

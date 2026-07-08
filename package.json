@@ -8,9 +8,13 @@
     "test": "cucumber-js",
     "posttest": "tsx src/utilities/report.ts",
     "malavicka": "cucumber-js --tags @Malavicka",
-    "report": "tsx src/utilities/report.ts"
-  },
-  "keywords": [],
+    "report": "tsx src/utilities/report.ts",
+    "muhindhar": "cucumber-js --tags @Muhindhar && tsx src/utilities/report.ts",
+    "vetri":"cucumber-js --tags @Vetri && tsx src/utilities/report.ts",
+    "mylambigai":"cucumber-js --tags @Mylambigai && tsx src/utilities/report.ts",
+    "shobana":"cucumber-js --tags @Shobana && tsx src/utilities/report.ts"
+},
+  "keywords": [], 
   "author": "",
   "license": "ISC",
   "type": "commonjs",

@@ -1,9 +1,9 @@
 import { Locator, Page } from 'playwright';
-import { BasePage } from './basepage';
+import { BasePage } from '../pages/basepage';
 
 export class DashboardPage extends BasePage {
 
-    readonly courseManagementBtn: Locator
+   readonly courseManagementBtn: Locator
 
    constructor(page: Page) {
       super(page)
@@ -15,3 +15,4 @@ export class DashboardPage extends BasePage {
    }
 
 }
+
