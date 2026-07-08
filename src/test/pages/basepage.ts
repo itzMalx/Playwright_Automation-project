@@ -242,7 +242,6 @@ export class BasePage {
       throw error;
     }
   }
-
   async isClickable(locator : Locator){
         try{
             return await locator.isEnabled()
@@ -252,3 +251,4 @@ export class BasePage {
         }
     }
 }
+  

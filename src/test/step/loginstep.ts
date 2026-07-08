@@ -7,7 +7,7 @@ import { messages } from "../../../constants/messages";
 
 Given('the user is on the login page of the LMS smartcliff website', async function (this: glitchworld) {
     this.login.navigate();
-});
+}); 
 
 When('the user enters the login credentials', async function (this: glitchworld) {
 
