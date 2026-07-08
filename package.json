@@ -6,7 +6,7 @@
   "scripts": {
     "pretest": "if exist reports rmdir /s /q reports",
     "test": "cucumber-js",
-    "posttest": "tsx src/utilities/report.ts",
+    "posttest": "npx ts-node src/utilities/report.ts",
     "malavicka":"cucumber-js --tags @Malavicka"
   },
   "keywords": [],
