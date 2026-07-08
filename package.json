@@ -8,7 +8,7 @@
     "test": "cucumber-js",
     "posttest": "tsx src/utilities/report.ts",
 
-    "muhindhar": "cucumber-js --tags @Muhindhar && tsx src/utilities/report.ts",
+    "muhindhar": "cucumber-js --tags @Muhindhar",
     "malavicka":"cucumber-js --tags @Malavicka",
     "vetri":"cucumber-js --tags @Vetri && tsx src/utilities/report.ts",
     "mylambigai":"cucumber-js --tags @Mylambigai && tsx src/utilities/report.ts",
