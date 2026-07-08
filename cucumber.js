@@ -2,7 +2,6 @@ module.exports = {
   default: {
     formatOptions: {
       snippetInterface: "async-await",
-      resultsDir: "allure-results",
     },
 
     requireModule: ["ts-node/register"],
@@ -25,8 +24,7 @@ module.exports = {
       "json:reports/cucumber-report.json",
       "html:reports/cucumber-report.html",
       "rerun:@rerun.txt",
-      "progress-bar",
-      "allure-cucumberjs/reporter",
+      "progress-bar"
     ],
   },
 
@@ -35,8 +33,9 @@ module.exports = {
 
     require: [
       "src/test/step/**/*.ts",
-      "src/test/hook/**/*.ts",
+      "src/test/hooks/**/*.ts",
     ],
+
     paths: ["@rerun.txt"],
   },
 };
