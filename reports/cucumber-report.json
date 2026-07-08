@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 175618500
+              "duration": 174897599
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1776933800
+              "duration": 1746226500
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7603575100
+              "duration": 8113000799
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3956893899
+              "duration": 5102072099
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 905741599
+              "duration": 926118099
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28852499
+              "duration": 26205600
             }
           },
           {
@@ -91,9 +91,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:32"
             },
             "result": {
-              "status": "failed",
-              "duration": 30008121700,
-              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//button[text()=\\'Add Module\\']')\u001b[22m\n\n    at PedagogyPage.click (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\pages\\basepage.ts:12:23)\n    at PedagogyPage.clickAddModule (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\pages\\pedagogyPage.ts:28:18)\n    at World.<anonymous> (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:33:29)"
+              "status": "passed",
+              "duration": 2230376899
             }
           },
           {
@@ -105,8 +104,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:36"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 37921399
             }
           },
           {
@@ -114,7 +113,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 165509500
+              "duration": 49447800
             }
           }
         ],

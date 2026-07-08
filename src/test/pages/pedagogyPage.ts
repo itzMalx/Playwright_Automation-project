@@ -12,7 +12,7 @@ export class PedagogyPage extends Basepage {
       super(page)
       this.addModuleIcon = this.page.locator("//button[@title='Add module']//*[name()='svg']")
       this.title = this.page.locator("textarea[id='title']")
-      this.addModuleBtn = this.page.locator("//button[text()='Add Module']")
+      this.addModuleBtn = this.page.locator("button[type='submit']")
       this.moduleList = this.page.locator("//tr//td[1]//div")
    }
 
@@ -26,14 +26,16 @@ export class PedagogyPage extends Basepage {
 
    async clickAddModule() {
       await this.click(this.addModuleBtn)
+      await this.addModuleBtn.waitFor({ state: "hidden" })
    }
 
    async verifyModuleAdded(title: string) {
-      this.page.waitForTimeout(10000)
-      //await this.page.locator(".animate-pulse").first().waitFor({ state: "hidden" });
-      const titleList = await this.moduleList.allInnerTexts();
+      const titleList = await this.moduleList.allInnerTexts()
+      for (var tit of titleList) {
+         if (tit == title)
+            return 1
+      }
 
-      return titleList.some(t => t.trim() === title);
    }
 
 }

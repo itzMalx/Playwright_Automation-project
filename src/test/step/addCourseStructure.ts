@@ -1,7 +1,7 @@
 import { expect } from '@playwright/test';
 import { Given, When, Then } from '@cucumber/cucumber'
 import { glitchworld } from '../world/customworld';
-import {logger} from '../../utilities/logger';
+import { logger } from '../../utilities/logger';
 
 Given('Admin on the Dashboard Page after Login', async function (this: glitchworld) {
     await this.login.navigate()
@@ -11,7 +11,7 @@ Given('Admin on the Dashboard Page after Login', async function (this: glitchwor
 });
 
 Given('Admin navigate to Course Management Page', async function (this: glitchworld) {
-    await this.dashboardPage.naviagateToCourse()  
+    await this.dashboardPage.naviagateToCourse()
     logger.info("Navigate to Course Management page")
 
 });
@@ -30,10 +30,10 @@ When('Admin enters the required module details', async function (this: glitchwor
 });
 
 When('Admin clicks the Add Module button', async function (this: glitchworld) {
-    await this.pedagogyPage.clickAddModule() 
+    await this.pedagogyPage.clickAddModule()
 });
 
 Then('the newly added module should be displayed in the Module table', async function (this: glitchworld) {
     const isModulePresent = await this.pedagogyPage.verifyModuleAdded("Testing");
-    await expect(isModulePresent).toBeTruthy();
+    expect(isModulePresent).toBeTruthy();
 });
