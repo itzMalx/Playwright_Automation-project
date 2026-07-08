@@ -6,22 +6,22 @@ import { expect } from "@playwright/test";
 import { messages } from "../../../constants/messages";
 
 Given('the user is on the login page of the LMS smartcliff website', async function (this: glitchworld) {
-    this.login.navigate();
+    await this.login.navigate();
 });
 
 When('the user enters the login credentials', async function (this: glitchworld) {
+    const data = readExcelData<LoginData>("src/test-data/logindata.xlsx", "Sheet1");
 
-    const data = readExcelData<LoginData>("src/test-data/logindata.xlsx","Sheet1");
-
-    const typeMap: Record<string, string> = {
-        "@Validlogin": "valid",
-        "@Invalidpassword": "psinvalid",
+    const typeMap: Record<string, string> = {"@Validlogin": "valid","@Invalidpassword": "psinvalid",
         "@Invalidcredentials": "bothinvalid",
         "@Unregisteredemail": "emailinvalid"
     };
-    const loginData = data.find((row: LoginData) => row.type === typeMap[this.tag])!;
+    const loginType = typeMap[this.tag] ?? "valid";
+    const loginData = data.find(
+        (row: LoginData) => row.type === loginType
+    );
     if (!loginData) {
-        throw new Error(`No test data found for tag: ${this.tag}`);
+        throw new Error(`No test data found for login type: ${loginType}`);
     }
     await this.login.enteremail(loginData.email);
     await this.login.enterpassword(String(loginData.password));

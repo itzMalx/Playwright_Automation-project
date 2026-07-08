@@ -2,7 +2,7 @@ module.exports = {
   default: {
     formatOptions: {
       snippetInterface: "async-await",
-      resultsDir: "allure-results",
+      resultsDir: "reports/allure-results"
     },
 
     requireModule: ["ts-node/register"],
@@ -26,7 +26,7 @@ module.exports = {
       "html:reports/cucumber-report.html",
       "rerun:@rerun.txt",
       "progress-bar",
-      "allure-cucumberjs/reporter",
+      //"allure-cucumberjs/reporter",
     ],
   },
 

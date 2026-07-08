@@ -1,6 +1,5 @@
 import { Locator, Page } from "playwright";
 import { logger } from "../../utilities/logger";
-import { emitWarning } from "node:process";
 
 export class BasePage {
 
@@ -242,4 +241,17 @@ export class BasePage {
       throw error;
     }
   }
+//   async getServiceNameValidationMessage(): Promise<string> {
+//     return await this.serviceName.evaluate(
+//         (element: HTMLInputElement) => element.validationMessage
+//     );
+// }
+async isClickable(locator : Locator){
+        try{
+            return await locator.isEnabled()
+        }
+        catch(error){
+            logger.error("Failed to Check clickable")
+        }
+    }
 }

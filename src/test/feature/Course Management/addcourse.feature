@@ -4,6 +4,8 @@ Feature: Shobana_07-07-2026_Add course functionality
 
             Given Admin on the Dashboard Page after Login
               And Admin navigate to Course Management Page
+
+              
         Scenario: Add course with valid details
              When the user selects valid course configuration details
               And User clicks the Next button
