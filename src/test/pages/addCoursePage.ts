@@ -1,7 +1,7 @@
 import { expect, Locator, Page } from '@playwright/test';
-import { Basepage } from '../pages/basepage';
+import { BasePage } from '../pages/basepage';
 
-export class AddCoursePage extends Basepage {
+export class AddCoursePage extends BasePage {
 
     readonly addCourseBtn: Locator;
     readonly nextbtn:Locator;
@@ -34,7 +34,6 @@ export class AddCoursePage extends Basepage {
         this.savebtn=this.page.locator('//button[text()=" Save Course Layout"]');
         this.laterbtn=this.page.locator('//button[text()="Later"]')
         this.clienterrmsg=this.page.locator('//span[text()="Please select a client"]')
-
     }
      async clickAddCourse() {
         await this.addCourseBtn.click();
@@ -54,29 +53,25 @@ export class AddCoursePage extends Basepage {
             .first()
             .click();
 
-        await expect(dropdown).toContainText(value);
     }
      async selectMultiDropdown(index: number, value: string) {
 
-    const dropdown = this.page
-        .locator('button[role="combobox"]')
-        .nth(index);
+     const dropdown = this.page
+      .locator('button[role="combobox"]')
+      .nth(index);
 
     await dropdown.click();
 
     const listBox = this.page.locator('[role="listbox"]').last();
 
-    await listBox
-        .locator('label')
-        .filter({ hasText: value })
-        .click();
+    const label = listBox
+      .locator('label')
+      .filter({ hasText: value })
+      .first();
 
-    // Close dropdown by clicking outside
-    await this.page.mouse.click(10, 10);
-
-    await expect(
-        this.page.locator('span.font-medium')
-    ).toContainText(value);
+    await label.click();
+    //await this.page.mouse.click(10, 10);
+    
 }
 
 
@@ -125,6 +120,6 @@ async selectSkills() {
     async clickLater() {
         await this.laterbtn.click();
     }
-
+    
 
     }

@@ -27,20 +27,16 @@
   },
 
   "courseHierarchy": {
-    "resources": [0, 2],
+    "resources": [0, 3],
 
     "pedagogy": {
       "iDo": {
         "index": 1,
-        "value": "Lecture"
+        "value": "Live Classes"
       },
       "weDo": {
         "index": 2,
         "value": "Practical"
-      },
-      "youDo": {
-        "index": 3,
-        "value": "Assessments"
       }
     }
   }

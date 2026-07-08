@@ -15,7 +15,6 @@ When('User selects valid course configuration details', async function (this:gli
 });
 
 When('User clicks the Next button', async function (this:glitchworld) {
-
     await this.addCoursePage.clickNext();
 });
 
@@ -42,10 +41,6 @@ When('User clicks the Next button', async function (this:glitchworld) {
         pedagogy.weDo.value
     );
 
-    await this.addCoursePage.selectMultiDropdown(
-        pedagogy.youDo.index,
-        pedagogy.youDo.value
-    );
     await this.addCoursePage.selectSkills();
 
     for (const index of addcourse.courseHierarchy.resources) {

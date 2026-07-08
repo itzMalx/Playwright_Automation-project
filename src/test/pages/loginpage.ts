@@ -1,25 +1,31 @@
-import { Basepage } from "./basepage";
+import { BasePage } from "./basepage";
 import { EnvReader } from "../../utilities/envreader";
 import { readExcelData } from "../../utilities/excelreader";
 import { LoginData } from "../type/LoginData";
 import { logger } from "../../utilities/logger";
+import {Page } from '@playwright/test'
 
-export class LoginPage extends Basepage {
+export class LoginPage extends BasePage {
+
+    constructor(page:Page){
+        super(page);
+    }
 
     private email = this.page.locator("//input[@id='email']");
     private password = this.page.locator("//input[@id='password']");
     private signinbtn = this.page.locator("//button[@type='submit']");
-    private profilebtn = this.page.locator("//img[@alt='Testing course']");
     private checklogin = this.page.locator("//div[@class='flex items-center gap-1 mt-1']");
     private bothinvalid = this.page.locator("//div[@class='go3958317564']");
     private psinvalid = this.page.locator("//div[@class='go3958317564']");
     private unregemail = this.page.locator("//div[@class='go3958317564']");
 
-    async navigate() {
-        try {
+
+    async navigate(){
+        try{
             logger.info("Navigating to LMS SmartCliff Login Page");
             await this.page.goto(EnvReader.getBaseUrl());
-        } catch (error) {
+        } 
+        catch(error){
             logger.error(`Failed to navigate to login page: ${error}`);
             throw error;
         }

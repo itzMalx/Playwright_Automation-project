@@ -1,67 +1,67 @@
-# 🚀 Pull Request
+# Pull Request
 
-## 👥 Team: **Glitch_Guardians**
+## Team: **Glitch_Guardians**
 
 ---
 
-## 📋 PR Details
+## PR Details
 
 | Field | Details |
 |-------|---------|
-| 👤 Author | |
-| 📅 Date | |
-| 📦 Module | |
-| 🌿 Branch | |
+| Author | |
+| Date | |
+| Module | |
+| Branch | |
 
 ---
 
-## 📖 Description
+## Description
 
 Provide a brief summary of the changes made in this pull request.
 
 ---
 
-## 🎯 Feature Coverage
+## Feature Coverage
 
 -
 
 ---
 
-## 🧪 Scenario Coverage
+## Scenario Coverage
 
 -
 
 ---
 
-## 🛠️ Framework Changes
+## Framework Changes
 
 -
 
 ---
 
-## ✨ Features Added
+## Features Added
 
 -
 
 ---
 
-## 📂 Files Changed
+## Files Changed
 
 -
 
 ---
 
-## ⚙️ Execution Details
+## Execution Details
 
 | Parameter | Value |
 |-----------|-------|
-| 🌐 Browser | |
-| 🧰 Framework | |
-| 📊 Execution Status | |
+| Browser | |
+| Framework | |
+| Execution Status | |
 
 ---
 
-## ✅ Checklist
+## Checklist
 
 - [ ] Code Executed Successfully
 - [ ] Test Cases Passed
@@ -75,22 +75,16 @@ Provide a brief summary of the changes made in this pull request.
 
 ---
 
-## 📝 Notes
+## Notes
 
 -
 
 ---
 
-### 🔍 Reviewer Comments
-
-> _(To be filled by the reviewer)_
-
----
-
 <div align="center">
 
-### 🚀 Team **Glitch_Guardians**
+### Team **Glitch_Guardians**
 
-*"Building Quality Through Automation."* 🤖
+*Building Quality Through Automation.*
 
 </div>
