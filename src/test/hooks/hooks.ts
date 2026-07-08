@@ -8,9 +8,6 @@ import { CourseManagementPage } from '../pages/courseManagementPage';
 import { PedagogyPage } from '../pages/pedagogyPage';
 
 let browser: Browser;
-setDefaultTimeout(60 * 1000);
-
-let browser: Browser;
 setDefaultTimeout(60 * 1000)
 BeforeAll(async () => {
 
