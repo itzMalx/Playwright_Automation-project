@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 184620600
+              "duration": 181824000
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5531559099
+              "duration": 2566022599
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17139110399
+              "duration": 16084465700
             }
           },
           {
@@ -52,9 +52,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:19"
             },
             "result": {
-              "status": "failed",
-              "duration": 5081660199,
-              "error_message": "Error: Course 'Playwright' not found\n    at CourseManagementPage.selectActionList (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\pages\\courseManagementPage.ts:34:15)\n    at async World.<anonymous> (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:23:5)"
+              "status": "passed",
+              "duration": 8139015599
             }
           },
           {
@@ -63,11 +62,11 @@
             "line": 10,
             "name": "Admin clicks the Add Module icon",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:27"
+              "location": "src\\test\\step\\addCourseStructure.ts:24"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 925194899
             }
           },
           {
@@ -76,11 +75,11 @@
             "line": 11,
             "name": "Admin enters the required module details",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:31"
+              "location": "src\\test\\step\\addCourseStructure.ts:28"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 30775499
             }
           },
           {
@@ -89,11 +88,11 @@
             "line": 12,
             "name": "Admin clicks the Add Module button",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:36"
+              "location": "src\\test\\step\\addCourseStructure.ts:33"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 10948989299
             }
           },
           {
@@ -102,11 +101,11 @@
             "line": 13,
             "name": "the newly added module should be displayed in the Module table",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:40"
+              "location": "src\\test\\step\\addCourseStructure.ts:37"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 38852899
             }
           },
           {
@@ -114,7 +113,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 400012899
+              "duration": 50155199
             }
           }
         ],

@@ -18,10 +18,7 @@ Given('Admin navigate to Course Management Page', async function (this: glitchwo
 
 Given('Admin click add Course Structure for the {string}', async function (this: glitchworld, course: string) {
     logger.info("Course:", course);
-        await this.page.waitForTimeout(5000)
-
     await this.courseManagementPage.selectActionList(course)
-    await this.page.waitForTimeout(5000)
 });
 
 When('Admin clicks the Add Module icon', async function (this: glitchworld) {
