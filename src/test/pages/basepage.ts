@@ -19,6 +19,14 @@ export class BasePage {
     }
   }
 
+
+  async clickCheckbox(locator: Locator) {
+    await locator.waitFor({ state: "visible" });
+    if (!(await locator.isChecked())) {
+        await locator.check();
+    }
+}
+
   async fill(locator: Locator, value: string) {
     try {
       await locator.fill(value);
