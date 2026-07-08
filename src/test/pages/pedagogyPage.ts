@@ -1,7 +1,7 @@
 import { Locator, Page } from 'playwright';
-import { Basepage } from './basepage';
+import { BasePage } from './basepage';
 
-export class PedagogyPage extends Basepage {
+export class PedagogyPage extends BasePage {
 
    readonly addModuleIcon: Locator
    readonly title: Locator
@@ -29,8 +29,7 @@ export class PedagogyPage extends Basepage {
    }
 
    async verifyModuleAdded(title: string) {
-      this.page.waitForTimeout(10000)
-      //await this.page.locator(".animate-pulse").first().waitFor({ state: "hidden" });
+      await this.page.waitForTimeout(10000)
       const titleList = await this.moduleList.allInnerTexts();
 
       return titleList.some(t => t.trim() === title);

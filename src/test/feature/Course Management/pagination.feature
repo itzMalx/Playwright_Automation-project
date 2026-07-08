@@ -1,8 +1,10 @@
 Feature: VetrivelB_07-07-2026_Course_Structure_Pagination
 
-  Background:
-    Given the user is on the Course Structure page
+    Background:
+        Given Admin on the Dashboard Page after Login
+        And Admin navigate to Course Management Page
 
+  @NextPage
   Scenario: Verify user can navigate to the next page using the Next button
     Given the user is on the first page of the Course Structure table
     When the user clicks the "Next" button
