@@ -1,72 +1,112 @@
 [
   {
-    "description": "Feature Description:\n              As a registered user,I want to log in to the LMS-smartcliff website.",
+    "description": "",
     "elements": [
       {
         "description": "",
-        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website;login-with-valid-credentials",
-        "keyword": "Scenario",
-        "line": 11,
-        "name": "Login with valid credentials",
+        "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;add-a-new-module-to-the-course-structure",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Add a new module to the course structure",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 165633400
+              "duration": 184620600
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 5,
             "name": "Admin on the Dashboard Page after Login",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:6"
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 2462799
+              "duration": 5531559099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17139110399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Admin click add Course Structure for the \"Playwright\"",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:19"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5081660199,
+              "error_message": "Error: Course 'Playwright' not found\n    at CourseManagementPage.selectActionList (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\pages\\courseManagementPage.ts:34:15)\n    at async World.<anonymous> (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:23:5)"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
+            "line": 10,
+            "name": "Admin clicks the Add Module icon",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Admin enters the required module details",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
             "line": 12,
-            "name": "the user enters the login credentials",
+            "name": "Admin clicks the Add Module button",
             "match": {
-              "location": "src\\test\\step\\loginstep.ts:13"
+              "location": "src\\test\\step\\addCourseStructure.ts:36"
             },
             "result": {
-              "status": "passed",
-              "duration": 1211400499
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 13,
-            "name": "the user clicks the signin button",
+            "name": "the newly added module should be displayed in the Module table",
             "match": {
-              "location": "src\\test\\step\\loginstep.ts:31"
+              "location": "src\\test\\step\\addCourseStructure.ts:40"
             },
             "result": {
-              "status": "passed",
-              "duration": 184541499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 14,
-            "name": "the user should be logged in successfully",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:36"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7917064800
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -74,297 +114,29 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 34127599
+              "duration": 400012899
             }
           }
         ],
         "tags": [
           {
-            "name": "@Muhindhar",
+            "name": "@Mylambigai",
             "line": 1
-          },
-          {
-            "name": "@Validlogin",
-            "line": 10
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website;login-with-an-incorrect-password",
-        "keyword": "Scenario",
-        "line": 17,
-        "name": "Login with an incorrect password",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 208130900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 8,
-            "name": "the user is on the login page of the LMS smartcliff website",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1486299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 18,
-            "name": "the user enters the login credentials",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 610555699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 19,
-            "name": "the user clicks the signin button",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:31"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 947900800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 20,
-            "name": "the user should see an invalid credentials error message",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:42"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10061738600
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 50536299
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Muhindhar",
-            "line": 1
-          },
-          {
-            "name": "@Invalidpassword",
-            "line": 16
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website;login-with-an-invalid-email-and-an-invalid-password",
-        "keyword": "Scenario",
-        "line": 23,
-        "name": "Login with an invalid email and an invalid password",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 242330799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 8,
-            "name": "the user is on the login page of the LMS smartcliff website",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1823799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 24,
-            "name": "the user enters the login credentials",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 691124400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 25,
-            "name": "the user clicks the signin button",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:31"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 944063300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 26,
-            "name": "the user should see an invalid password error message",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:48"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3399988999
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 59769099
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Muhindhar",
-            "line": 1
-          },
-          {
-            "name": "@Invalidcredentials",
-            "line": 22
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website;login-with-an-unregistered-email",
-        "keyword": "Scenario",
-        "line": 29,
-        "name": "Login with an unregistered email",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 132737699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 8,
-            "name": "the user is on the login page of the LMS smartcliff website",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 936399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 30,
-            "name": "the user enters the login credentials",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 719382799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 31,
-            "name": "the user clicks the signin button",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:31"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 988856800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 32,
-            "name": "the user should see an invalid credentials error message popup",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:54"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4431742700
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 47110300
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Muhindhar",
-            "line": 1
-          },
-          {
-            "name": "@Unregisteredemail",
-            "line": 28
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website",
+    "id": "mylambigai_7/7/2026-in-course-management-add-course-structure",
     "line": 2,
     "keyword": "Feature",
-    "name": "Muhindhar_07-07-2026_Login to the LMS SmartCliff website",
+    "name": "Mylambigai_7/7/2026 In Course Management Add Course Structure",
     "tags": [
       {
-        "name": "@Muhindhar",
+        "name": "@Mylambigai",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\login\\login.feature"
+    "uri": "src\\test\\feature\\Course Management\\addCourseStructure.feature"
   }
 ]

@@ -1,3 +1,10 @@
+[2026-07-08T04:41:35.807Z] INFO-Browser Launched
+[2026-07-08T04:41:41.553Z] INFO-Login successfull!
+[2026-07-08T04:41:58.694Z] INFO-Navigate to Course Management page
+[2026-07-08T04:41:58.696Z] INFO-Course:
+[2026-07-08T04:42:04.129Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-08T04:42:04.130Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783485723794.png
+[2026-07-08T04:42:04.201Z] INFO-Browser Closed
 [2026-07-07T14:55:28.810Z] INFO-Browser Launched
 [2026-07-07T14:55:39.264Z] INFO-Scenario Passed:Login with valid credentials
 [2026-07-07T14:55:56.835Z] INFO-Scenario Passed:Login with an incorrect password

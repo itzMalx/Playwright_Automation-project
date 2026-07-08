@@ -6,7 +6,7 @@
   "scripts": {
     "pretest": "if exist reports rmdir /s /q reports",
     "test": "cucumber-js",
-    "posttest": "tsx src/utilities/report.ts",
+    "posttest": "npx ts-node src/utilities/report.ts",
 
     "muhindhar": "cucumber-js --tags @Muhindhar && tsx src/utilities/report.ts",
     "malavicka":"cucumber-js --tags @Malavicka",
@@ -15,7 +15,7 @@
     "shobana":"cucumber-js --tags @Shobana && tsx src/utilities/report.ts"
 
   },
-  "keywords": [],
+  "keywords": [], 
   "author": "",
   "license": "ISC",
   "type": "commonjs",
