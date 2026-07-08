@@ -4,6 +4,291 @@
     "elements": [
       {
         "description": "",
+        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;filter-with-valid-category-and-level",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Filter with valid category and level",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1415380500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Admin logs in and reaches the Dashboard for Filter",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Admin opens the Course Management module for Filter",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin clicks on the Filter button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Admin filters courses by category and level",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "only courses matching the selected category and level should be displayed",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 286561099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;filter-with-invalid-status-and-category",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Filter with invalid status and category",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1169125000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Admin logs in and reaches the Dashboard for Filter",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Admin opens the Course Management module for Filter",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin clicks on the Filter button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Admin filters courses by status and category",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "no matching results should be displayed",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:58"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 367619299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;clear-all-filters",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Clear All filters",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 869089899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Admin logs in and reaches the Dashboard for Filter",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Admin opens the Course Management module for Filter",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin clicks on the Filter button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Admin has applied a category, level, and sort filter",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "Admin clicks on the Clear All button",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Status, Category, and Level should reset to All",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "all 61 courses should be displayed",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 243707399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Malavicka_08-07-2026_Filter functionality in LMS SmartCliff website",
+    "tags": [
+      {
+        "name": "@Malavicka",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Course Management\\filter.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website;search-with-valid-client",
         "keyword": "Scenario",
         "line": 8,
@@ -14,11 +299,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< HEAD:reports/cucumber-report.json
-              "duration": 2062571700
-=======
-              "duration": 181824000
->>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
+              "duration": 945938900
             }
           },
           {
@@ -30,14 +311,8 @@
               "location": "src\\test\\step\\searchStep.ts:5"
             },
             "result": {
-<<<<<<< HEAD:reports/cucumber-report.json
-              "status": "failed",
-              "duration": 32859673100,
-              "error_message": "page.waitForURL: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/lms/pages/admindashboard\" until \"load\"\n============================================================\n    at World.<anonymous> (D:\\Playwright_Automation-project\\src\\test\\step\\searchStep.ts:8:19)"
-=======
               "status": "passed",
-              "duration": 2566022599
->>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
+              "duration": 17533378600
             }
           },
           {
@@ -49,9 +324,8 @@
               "location": "src\\test\\step\\searchStep.ts:12"
             },
             "result": {
-<<<<<<< HEAD:reports/cucumber-report.json
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 317357100
             }
           },
           {
@@ -73,79 +347,15 @@
                 ]
               }
             ],
-=======
-              "status": "passed",
-              "duration": 16084465700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "Admin click add Course Structure for the \"Playwright\"",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8139015599
-            }
-          },
-          {
-            "arguments": [],
->>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
             "keyword": "When ",
             "line": 9,
             "name": "User searches client with the following data",
             "match": {
-<<<<<<< HEAD:reports/cucumber-report.json
               "location": "src\\test\\step\\searchStep.ts:17"
-=======
-              "location": "src\\test\\step\\addCourseStructure.ts:24"
             },
             "result": {
               "status": "passed",
-              "duration": 925194899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "Admin enters the required module details",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 30775499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "Admin clicks the Add Module button",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:33"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10948989299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 13,
-            "name": "the newly added module should be displayed in the Module table",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:37"
->>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
-            },
-            "result": {
-              "status": "passed",
-              "duration": 38852899
+              "duration": 11214526599
             }
           },
           {
@@ -153,11 +363,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< HEAD:reports/cucumber-report.json
-              "duration": 1093236200
-=======
-              "duration": 50155199
->>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
+              "duration": 220655599
             }
           }
         ],
@@ -181,7 +387,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1022334000
+              "duration": 985249600
             }
           },
           {
@@ -194,7 +400,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27133211199
+              "duration": 16423839300
             }
           },
           {
@@ -207,7 +413,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6108243499
+              "duration": 394253500
             }
           },
           {
@@ -237,7 +443,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9533080300
+              "duration": 9438108300
             }
           },
           {
@@ -245,7 +451,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 133576799
+              "duration": 195986000
             }
           }
         ],
@@ -269,7 +475,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1817981199
+              "duration": 1414417100
             }
           },
           {
@@ -282,7 +488,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15471792799
+              "duration": 17048764500
             }
           },
           {
@@ -295,7 +501,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1852527100
+              "duration": 355807300
             }
           },
           {
@@ -325,7 +531,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9688842799
+              "duration": 13017076100
             }
           },
           {
@@ -338,7 +544,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13130100
+              "duration": 12542000
             }
           },
           {
@@ -346,7 +552,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 108893100
+              "duration": 557117699
             }
           }
         ],
@@ -370,7 +576,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 850952600
+              "duration": 917701499
             }
           },
           {
@@ -383,7 +589,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17997177400
+              "duration": 13256975300
             }
           },
           {
@@ -396,7 +602,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2981888799
+              "duration": 240132799
             }
           },
           {
@@ -426,7 +632,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12671985400
+              "duration": 2918960900
             }
           },
           {
@@ -439,7 +645,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28602399
+              "duration": 38723600
             }
           },
           {
@@ -447,7 +653,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 195275599
+              "duration": 362477099
             }
           }
         ],
