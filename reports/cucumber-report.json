@@ -20,10 +20,10 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 8,
-            "name": "the user is on the login page of the LMS smartcliff website",
+            "line": 4,
+            "name": "Admin on the Dashboard Page after Login",
             "match": {
-              "location": "src\\test\\step\\loginstep.ts:8"
+              "location": "src\\test\\step\\addCourseStructure.ts:6"
             },
             "result": {
               "status": "passed",
