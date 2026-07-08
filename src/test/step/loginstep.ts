@@ -19,9 +19,7 @@ When('the user enters the login credentials', async function (this: glitchworld)
         "@Invalidcredentials": "bothinvalid",
         "@Unregisteredemail": "emailinvalid"
     };
-
     const loginData = data.find((row: LoginData) => row.type === typeMap[this.tag])!;
-
     if (!loginData) {
         throw new Error(`No test data found for tag: ${this.tag}`);
     }

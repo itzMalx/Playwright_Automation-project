@@ -36,4 +36,5 @@ When('Admin clicks the Add Module button', async function (this: glitchworld) {
 Then('the newly added module should be displayed in the Module table', async function (this: glitchworld) {
     const isModulePresent = await this.pedagogyPage.verifyModuleAdded("Testing");
     await expect(isModulePresent).toBeTruthy();
+
 });
