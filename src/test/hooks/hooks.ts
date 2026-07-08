@@ -3,6 +3,8 @@ import {Browser, chromium} from "@playwright/test";
 import { glitchworld } from '../world/customworld';
 import {logger} from '../../utilities/logger';
 import { LoginPage } from '../pages/loginpage';
+import { AddCoursePage } from '../pages/addCoursePage';
+import { DashboardPage } from '../pages/dashboardPage';
 
 
 let browser:Browser;
@@ -18,6 +20,8 @@ Before(async function (this:glitchworld,scenario) {
     this.context=await browser.newContext();
     this.page=await this.context.newPage();
     this.login = new LoginPage(this.page);
+    this.addCoursePage=new AddCoursePage(this.page);
+    this.dashboardPage =new DashboardPage(this.page)
     
 });
 After(async function (this:glitchworld,scenario) {

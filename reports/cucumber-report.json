@@ -1,143 +1,96 @@
 [
   {
-    "description": "Feature Description:\n              As a registered user,I want to log in to the LMS-smartcliff website.",
-    "elements": [
-      {
-        "description": "",
-        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website;login-with-valid-credentials",
-        "keyword": "Scenario",
-        "line": 11,
-        "name": "Login with valid credentials",
     "description": "",
     "elements": [
       {
         "description": "",
-        "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;add-a-new-module-to-the-course-structure",
+        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-valid-details",
         "keyword": "Scenario",
-        "line": 7,
-        "name": "Add a new module to the course structure",
+        "line": 8,
+        "name": "Add course with valid details",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 136163500
-              "status": "skipped",
-              "duration": 0
+              "duration": 552240400
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 8,
-            "name": "the user is on the login page of the LMS smartcliff website",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1390999
-            "line": 4,
+            "line": 5,
             "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:6"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 1727636899
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 5,
+            "line": 6,
             "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "Admin click add Course Structure for the \"<course>\"",
-            "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 8910487800
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 9,
-            "name": "Admin clicks the Add Module icon",
+            "name": "User selects valid course configuration details",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:5"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 7848821700
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 10,
-            "name": "Admin enters the required module details",
+            "name": "User clicks the Next button",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:16"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 270986799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User selects the details in course hirearchy and layout",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:21"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1325087100,
+              "error_message": "locator.click: Error: strict mode violation: locator('div').filter({ has: getByText('I Do', { exact: true }) }).first().locator('button[role=\\'combobox\\']') resolved to 4 elements:\n    1) <button dir=\"ltr\" type=\"button\" role=\"combobox\" data-state=\"closed\" data-size=\"default\" aria-expanded=\"false\" aria-autocomplete=\"none\" data-slot=\"select-trigger\" aria-controls=\"radix-«r4o»\" class=\"group flex items-center justify-between gap-2 cursor-pointer text-gray-500 border bg-transparent py-2 sm:text-xs select-none outline-none transition-colors focus-visible:ring-2 focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 w-full h-9 px-3 text-sm font-medium rounded-lg border-sla…>…</button> aka getByRole('combobox').filter({ hasText: 'Beginner' })\n    2) <button dir=\"ltr\" type=\"button\" role=\"combobox\" data-state=\"closed\" data-placeholder=\"\" data-size=\"default\" aria-expanded=\"false\" aria-autocomplete=\"none\" data-slot=\"select-trigger\" aria-controls=\"radix-«r4q»\" class=\"group flex items-center justify-between gap-2 cursor-pointer text-gray-500 border border-input py-2 sm:text-xs select-none outline-none transition-colors focus-visible:ring-2 focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 w-full h-8 px-2 text-xs font-medium bg-…>…</button> aka getByRole('combobox').nth(3)\n    3) <button dir=\"ltr\" type=\"button\" role=\"combobox\" data-state=\"closed\" data-placeholder=\"\" data-size=\"default\" aria-expanded=\"false\" aria-autocomplete=\"none\" data-slot=\"select-trigger\" aria-controls=\"radix-«r4s»\" class=\"group flex items-center justify-between gap-2 cursor-pointer text-gray-500 border border-input py-2 sm:text-xs select-none outline-none transition-colors focus-visible:ring-2 focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 w-full h-8 px-2 text-xs font-medium bg-…>…</button> aka getByRole('combobox').nth(4)\n    4) <button dir=\"ltr\" type=\"button\" role=\"combobox\" data-state=\"closed\" data-placeholder=\"\" data-size=\"default\" aria-expanded=\"false\" aria-autocomplete=\"none\" data-slot=\"select-trigger\" aria-controls=\"radix-«r4u»\" class=\"group flex items-center justify-between gap-2 cursor-pointer text-gray-500 border border-input py-2 sm:text-xs select-none outline-none transition-colors focus-visible:ring-2 focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 w-full h-8 px-2 text-xs font-medium bg-…>…</button> aka getByRole('combobox').nth(5)\n\nCall log:\n\u001b[2m  - waiting for locator('div').filter({ has: getByText('I Do', { exact: true }) }).first().locator('button[role=\\'combobox\\']')\u001b[22m\n\n    at AddCoursePage.selectMultiDropdown (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\pages\\addCoursePage.ts:63:20)\n    at World.<anonymous> (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\step\\addCourseSteps.ts:35:30)"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 11,
-            "name": "Admin clicks the Add Module button",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
             "line": 12,
-            "name": "the newly added module should be displayed in the Module table",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      }
-    ],
-    "id": "mylambigai_7/7/2026-in-course-management-add-course-structure",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "Mylambigai_7/7/2026 In Course Management Add Course Structure",
-    "tags": [],
-    "uri": "src\\test\\feature\\addCourseStructure.feature"
-  },
-  {
-    "description": "              Description: logging to the site",
-    "elements": [
-      {
-        "description": "",
-        "id": "logging-in-to-the-site;valid-login",
-        "keyword": "Scenario",
-        "line": 7,
-        "name": "valid login",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
+            "name": "User clicks Preview and Create",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:48"
+            },
             "result": {
               "status": "skipped",
               "duration": 0
@@ -145,96 +98,12 @@
           },
           {
             "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "the user is on the url",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
             "keyword": "And ",
-            "line": 8,
-            "name": "user clicks on the myacc link",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "user clicks on the loginlink",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "user enters the valid email as \"muhindhar271@gmail.com\"",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "user enters password as \"12345678\"",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 12,
-            "name": "user clicks on the login button",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
             "line": 13,
-            "name": "user should be loggedin successfully",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "logging-in-to-the-site;invalid-login",
-        "keyword": "Scenario",
-        "line": 15,
-        "name": "Invalid login",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
+            "name": "User saves the course layout",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:53"
+            },
             "result": {
               "status": "skipped",
               "duration": 0
@@ -242,162 +111,14 @@
           },
           {
             "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "the user is on the url",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 16,
-            "name": "user clicks on the myacc link",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 25,
-            "name": "the user clicks the signin button",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:33"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 86813900
-            "line": 17,
-            "name": "user clicks on the loginlink",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
             "keyword": "Then ",
-            "line": 26,
-            "name": "the user should see an invalid password error message",
+            "line": 14,
+            "name": "The course should be created successfully",
             "match": {
-              "location": "src\\test\\step\\loginstep.ts:50"
+              "location": "src\\test\\step\\addCourseSteps.ts:58"
             },
             "result": {
-              "status": "passed",
-              "duration": 4400694599
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 18310900
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Muhindhar",
-            "line": 1
-          },
-          {
-            "name": "@Invalidcredentials",
-            "line": 22
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website;login-with-an-unregistered-email",
-        "keyword": "Scenario",
-        "line": 29,
-        "name": "Login with an unregistered email",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 117013900
-            "keyword": "And ",
-            "line": 18,
-            "name": "user enters the valid email as \"muhindhar271@gmail.com\"",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 8,
-            "name": "the user is on the login page of the LMS smartcliff website",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1547800
-            "keyword": "And ",
-            "line": 19,
-            "name": "user enters password as \"1234567\"",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 30,
-            "name": "the user enters the login credentials",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1231144799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 31,
-            "name": "the user clicks the signin button",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:33"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 133323799
-            "line": 20,
-            "name": "user clicks on the login button",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 32,
-            "name": "the user should see an invalid credentials error message popup",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:56"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3901405799
-            "line": 21,
-            "name": "user should not be loggedin successfully",
-            "result": {
-              "status": "undefined",
+              "status": "skipped",
               "duration": 0
             }
           },
@@ -406,48 +127,29 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 34024700
+              "duration": 217582000
             }
           }
         ],
         "tags": [
           {
-            "name": "@Muhindhar",
+            "name": "@Shobana",
             "line": 1
-          },
-          {
-            "name": "@Unregisteredemail",
-            "line": 28
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website",
+    "id": "shobana_07-07-2026_add-course-functionality",
     "line": 2,
     "keyword": "Feature",
-    "name": "Muhindhar_07-07-2026_Login to the LMS SmartCliff website",
+    "name": "Shobana_07-07-2026_Add course functionality",
     "tags": [
       {
-        "name": "@Muhindhar",
+        "name": "@Shobana",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\login\\login.feature"
-              "status": "skipped",
-              "duration": 0
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      }
-    ],
-    "id": "logging-in-to-the-site",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "logging in to the site",
-    "tags": [],
-    "uri": "src\\test\\feature\\login.feature"
+    "uri": "src\\test\\feature\\Course Management\\addcourse.feature"
   }
 ]

@@ -4,6 +4,7 @@ import { LoginPage } from '../pages/loginpage';
 import { DashboardPage } from '../pages/dashboardPage';
 import { CourseManagementPage } from '../pages/courseManagementPage';
 import { PedagogyPage } from '../pages/pedagogyPage';
+import { AddCoursePage } from '../pages/addCoursePage';
 
 
 export class glitchworld extends World{
@@ -17,6 +18,7 @@ export class glitchworld extends World{
     dashboardPage!: DashboardPage
     courseManagementPage!: CourseManagementPage
     pedagogyPage!: PedagogyPage 
+    addCoursePage! : AddCoursePage
 
 }
 

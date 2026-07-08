@@ -4,3 +4,216 @@
 [2026-07-07T13:52:54.019Z] INFO-Scenario Passed:Login with an invalid email and an invalid password
 [2026-07-07T13:52:59.427Z] INFO-Scenario Passed:Login with an unregistered email
 [2026-07-07T13:52:59.464Z] INFO-Browser Closed
+[2026-07-07T19:35:29.386Z] INFO-Browser Launched
+[2026-07-07T19:35:30.066Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-07T19:35:30.816Z] INFO-Logging in with valid credentials
+[2026-07-07T19:35:31.739Z] INFO-Login completed successfully
+[2026-07-07T19:35:31.740Z] INFO-Login successfull!
+[2026-07-07T19:35:32.092Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-07T19:35:32.092Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783452931754.png
+[2026-07-07T19:35:32.718Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-07T19:35:33.459Z] INFO-Logging in with valid credentials
+[2026-07-07T19:35:34.723Z] INFO-Login completed successfully
+[2026-07-07T19:35:34.723Z] INFO-Login successfull!
+[2026-07-07T19:35:35.045Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-07T19:35:35.045Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783452934733.png
+[2026-07-07T19:35:35.152Z] INFO-Browser Closed
+[2026-07-07T19:39:29.283Z] INFO-Browser Launched
+[2026-07-07T19:39:29.879Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-07T19:39:30.780Z] INFO-Logging in with valid credentials
+[2026-07-07T19:39:31.655Z] INFO-Login completed successfully
+[2026-07-07T19:39:31.656Z] INFO-Login successfull!
+[2026-07-07T19:39:32.018Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-07T19:39:32.019Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783453171701.png
+[2026-07-07T19:39:32.162Z] INFO-Browser Closed
+[2026-07-07T19:40:29.287Z] INFO-Browser Launched
+[2026-07-07T19:40:29.841Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-07T19:40:30.626Z] INFO-Logging in with valid credentials
+[2026-07-07T19:40:31.540Z] INFO-Login completed successfully
+[2026-07-07T19:40:31.541Z] INFO-Login successfull!
+[2026-07-07T19:40:31.923Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-07T19:40:31.924Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783453231570.png
+[2026-07-07T19:40:32.048Z] INFO-Browser Closed
+[2026-07-07T19:41:29.162Z] INFO-Browser Launched
+[2026-07-07T19:41:29.689Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-07T19:41:30.425Z] INFO-Logging in with valid credentials
+[2026-07-07T19:41:31.369Z] INFO-Login completed successfully
+[2026-07-07T19:41:31.370Z] INFO-Login successfull!
+[2026-07-07T19:41:31.737Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-07T19:41:31.737Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783453291388.png
+[2026-07-07T19:41:31.870Z] INFO-Browser Closed
+[2026-07-07T19:42:48.746Z] INFO-Browser Launched
+[2026-07-07T19:42:49.225Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-07T19:42:50.082Z] INFO-Logging in with valid credentials
+[2026-07-07T19:42:51.016Z] INFO-Login completed successfully
+[2026-07-07T19:42:51.017Z] INFO-Login successfull!
+[2026-07-07T19:42:51.386Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-07T19:42:51.387Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783453371045.png
+[2026-07-07T19:42:51.509Z] INFO-Browser Closed
+[2026-07-07T19:44:18.120Z] INFO-Browser Launched
+[2026-07-07T19:44:18.670Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-07T19:44:19.396Z] INFO-Logging in with valid credentials
+[2026-07-07T19:44:20.170Z] INFO-Login completed successfully
+[2026-07-07T19:44:20.170Z] INFO-Login successfull!
+[2026-07-07T19:44:20.604Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-07T19:44:20.604Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783453460187.png
+[2026-07-07T19:44:20.744Z] INFO-Browser Closed
+[2026-07-08T01:32:24.488Z] INFO-Browser Launched
+[2026-07-08T01:32:25.389Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T01:32:26.400Z] INFO-Logging in with valid credentials
+[2026-07-08T01:32:27.306Z] INFO-Login completed successfully
+[2026-07-08T01:32:27.306Z] INFO-Login successfull!
+[2026-07-08T01:32:27.780Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T01:32:27.781Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783474347322.png
+[2026-07-08T01:32:27.929Z] INFO-Browser Closed
+[2026-07-08T01:49:38.234Z] INFO-Browser Launched
+[2026-07-08T01:49:38.791Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T01:49:39.597Z] INFO-Logging in with valid credentials
+[2026-07-08T01:49:40.331Z] INFO-Login completed successfully
+[2026-07-08T01:49:40.331Z] INFO-Login successfull!
+[2026-07-08T01:49:52.409Z] INFO-Navigate to Course Management page
+[2026-07-08T01:50:22.533Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T01:50:22.533Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783475422438.png
+[2026-07-08T01:50:22.685Z] INFO-Browser Closed
+[2026-07-08T01:54:34.074Z] INFO-Browser Launched
+[2026-07-08T01:54:34.570Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T01:54:38.384Z] INFO-Logging in with valid credentials
+[2026-07-08T01:54:39.171Z] INFO-Login completed successfully
+[2026-07-08T01:54:39.172Z] INFO-Login successfull!
+[2026-07-08T01:55:01.482Z] INFO-Navigate to Course Management page
+[2026-07-08T01:55:59.590Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T01:55:59.591Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783475759492.png
+[2026-07-08T01:55:59.706Z] INFO-Browser Closed
+[2026-07-08T01:56:54.929Z] INFO-Browser Launched
+[2026-07-08T01:56:55.439Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T01:57:06.043Z] INFO-Logging in with valid credentials
+[2026-07-08T01:57:06.840Z] INFO-Login completed successfully
+[2026-07-08T01:57:06.841Z] INFO-Login successfull!
+[2026-07-08T01:57:14.600Z] INFO-Navigate to Course Management page
+[2026-07-08T01:57:44.736Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T01:57:44.737Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783475864637.png
+[2026-07-08T01:57:44.856Z] INFO-Browser Closed
+[2026-07-08T02:22:52.580Z] INFO-Browser Launched
+[2026-07-08T02:22:53.219Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T02:22:54.363Z] INFO-Logging in with valid credentials
+[2026-07-08T02:22:55.163Z] INFO-Login completed successfully
+[2026-07-08T02:22:55.163Z] INFO-Login successfull!
+[2026-07-08T02:23:05.398Z] INFO-Navigate to Course Management page
+[2026-07-08T02:23:34.472Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T02:23:34.473Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783477414351.png
+[2026-07-08T02:23:34.607Z] INFO-Browser Closed
+[2026-07-08T02:25:41.597Z] INFO-Browser Launched
+[2026-07-08T02:25:42.185Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T02:25:43.005Z] INFO-Logging in with valid credentials
+[2026-07-08T02:25:43.844Z] INFO-Login completed successfully
+[2026-07-08T02:25:43.845Z] INFO-Login successfull!
+[2026-07-08T02:25:51.711Z] INFO-Navigate to Course Management page
+[2026-07-08T02:26:04.022Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T02:26:04.022Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783477563887.png
+[2026-07-08T02:26:04.159Z] INFO-Browser Closed
+[2026-07-08T02:28:56.161Z] INFO-Browser Launched
+[2026-07-08T02:28:56.635Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T02:28:57.549Z] INFO-Logging in with valid credentials
+[2026-07-08T02:28:58.456Z] INFO-Login completed successfully
+[2026-07-08T02:28:58.457Z] INFO-Login successfull!
+[2026-07-08T02:29:08.559Z] INFO-Navigate to Course Management page
+[2026-07-08T02:29:38.971Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T02:29:38.971Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783477778604.png
+[2026-07-08T02:29:39.283Z] INFO-Browser Closed
+[2026-07-08T02:30:55.866Z] INFO-Browser Launched
+[2026-07-08T02:30:56.306Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T02:31:16.571Z] INFO-Logging in with valid credentials
+[2026-07-08T02:31:17.458Z] INFO-Login completed successfully
+[2026-07-08T02:31:17.459Z] INFO-Login successfull!
+[2026-07-08T02:31:24.528Z] INFO-Navigate to Course Management page
+[2026-07-08T02:32:04.430Z] INFO-Scenario Passed:Add course with valid details
+[2026-07-08T02:32:04.559Z] INFO-Browser Closed
+[2026-07-08T02:33:40.128Z] INFO-Browser Launched
+[2026-07-08T02:33:40.698Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T02:33:41.850Z] INFO-Logging in with valid credentials
+[2026-07-08T02:33:42.781Z] INFO-Login completed successfully
+[2026-07-08T02:33:42.782Z] INFO-Login successfull!
+[2026-07-08T02:33:50.490Z] INFO-Navigate to Course Management page
+[2026-07-08T02:34:20.742Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T02:34:20.742Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783478060552.png
+[2026-07-08T02:34:20.866Z] INFO-Browser Closed
+[2026-07-08T02:47:15.578Z] INFO-Browser Launched
+[2026-07-08T02:47:15.887Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T02:47:17.100Z] INFO-Logging in with valid credentials
+[2026-07-08T02:47:18.204Z] INFO-Login completed successfully
+[2026-07-08T02:47:18.204Z] INFO-Login successfull!
+[2026-07-08T02:47:25.839Z] INFO-Navigate to Course Management page
+[2026-07-08T02:48:13.748Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T02:48:13.748Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783478893673.png
+[2026-07-08T02:48:13.799Z] INFO-Browser Closed
+[2026-07-08T02:49:18.649Z] INFO-Browser Launched
+[2026-07-08T02:49:19.018Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T02:49:19.825Z] INFO-Logging in with valid credentials
+[2026-07-08T02:49:20.966Z] INFO-Login completed successfully
+[2026-07-08T02:49:20.966Z] INFO-Login successfull!
+[2026-07-08T02:49:28.114Z] INFO-Navigate to Course Management page
+[2026-07-08T02:49:53.178Z] INFO-Browser Closed
+[2026-07-08T02:50:44.115Z] INFO-Browser Launched
+[2026-07-08T02:50:44.407Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T02:50:45.232Z] INFO-Logging in with valid credentials
+[2026-07-08T02:50:46.379Z] INFO-Login completed successfully
+[2026-07-08T02:50:46.379Z] INFO-Login successfull!
+[2026-07-08T02:50:54.091Z] INFO-Navigate to Course Management page
+[2026-07-08T02:51:08.569Z] INFO-Browser Closed
+[2026-07-08T02:52:10.302Z] INFO-Browser Launched
+[2026-07-08T02:52:10.579Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T02:52:11.562Z] INFO-Logging in with valid credentials
+[2026-07-08T02:52:12.680Z] INFO-Login completed successfully
+[2026-07-08T02:52:12.680Z] INFO-Login successfull!
+[2026-07-08T02:52:20.379Z] INFO-Navigate to Course Management page
+[2026-07-08T02:52:45.410Z] INFO-Browser Closed
+[2026-07-08T02:54:43.500Z] INFO-Browser Launched
+[2026-07-08T02:54:43.791Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T02:54:44.648Z] INFO-Logging in with valid credentials
+[2026-07-08T02:54:45.794Z] INFO-Login completed successfully
+[2026-07-08T02:54:45.794Z] INFO-Login successfull!
+[2026-07-08T02:54:54.048Z] INFO-Navigate to Course Management page
+[2026-07-08T02:55:32.350Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T02:55:32.351Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783479332272.png
+[2026-07-08T02:55:32.406Z] INFO-Browser Closed
+[2026-07-08T02:56:06.795Z] INFO-Browser Launched
+[2026-07-08T02:56:07.095Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T02:56:07.994Z] INFO-Logging in with valid credentials
+[2026-07-08T02:56:09.167Z] INFO-Login completed successfully
+[2026-07-08T02:56:09.167Z] INFO-Login successfull!
+[2026-07-08T02:56:16.823Z] INFO-Navigate to Course Management page
+[2026-07-08T02:56:39.745Z] INFO-Browser Closed
+[2026-07-08T02:58:31.659Z] INFO-Browser Launched
+[2026-07-08T02:58:31.973Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T02:58:32.936Z] INFO-Logging in with valid credentials
+[2026-07-08T02:58:34.088Z] INFO-Login completed successfully
+[2026-07-08T02:58:34.089Z] INFO-Login successfull!
+[2026-07-08T02:58:43.232Z] INFO-Navigate to Course Management page
+[2026-07-08T02:58:56.454Z] INFO-Browser Closed
+[2026-07-08T03:07:50.773Z] INFO-Browser Launched
+[2026-07-08T03:07:51.099Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T03:07:52.195Z] INFO-Logging in with valid credentials
+[2026-07-08T03:07:53.284Z] INFO-Login completed successfully
+[2026-07-08T03:07:53.284Z] INFO-Login successfull!
+[2026-07-08T03:08:00.446Z] INFO-Navigate to Course Management page
+[2026-07-08T03:08:08.279Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T03:08:08.280Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783480088194.png
+[2026-07-08T03:08:08.396Z] INFO-Browser Closed
+[2026-07-08T03:08:33.975Z] INFO-Browser Launched
+[2026-07-08T03:08:34.278Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T03:08:35.216Z] INFO-Logging in with valid credentials
+[2026-07-08T03:08:36.352Z] INFO-Login completed successfully
+[2026-07-08T03:08:36.352Z] INFO-Login successfull!
+[2026-07-08T03:08:43.516Z] INFO-Navigate to Course Management page
+[2026-07-08T03:08:51.046Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T03:08:51.046Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783480130969.png
+[2026-07-08T03:08:51.127Z] INFO-Browser Closed
+[2026-07-08T03:37:38.611Z] INFO-Browser Launched
+[2026-07-08T03:37:39.223Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T03:37:40.078Z] INFO-Logging in with valid credentials
+[2026-07-08T03:37:40.949Z] INFO-Login completed successfully
+[2026-07-08T03:37:40.949Z] INFO-Login successfull!
+[2026-07-08T03:37:49.861Z] INFO-Navigate to Course Management page
+[2026-07-08T03:37:59.442Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-08T03:37:59.443Z] ERROR-Screenshot Saved:reports/screenshots/Add course with valid details1783481879331.png
+[2026-07-08T03:37:59.570Z] INFO-Browser Closed
