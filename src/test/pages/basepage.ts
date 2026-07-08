@@ -251,5 +251,4 @@ export class BasePage {
             logger.error("Failed to Check clickable")
         }
     }
-    
 }
