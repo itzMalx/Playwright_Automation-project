@@ -6,6 +6,7 @@ import { expect } from "@playwright/test";
 import { messages } from "../../../constants/messages";
 
 Given('the user is on the login page of the LMS smartcliff website', async function (this: glitchworld) {
+
     await this.login.navigate();
 });
 
@@ -28,14 +29,13 @@ When('the user enters the login credentials', async function (this: glitchworld)
 });
 
 When('the user clicks the signin button', async function (this: glitchworld) {
-    // Write code here that turns the phrase above into concrete actions
     await this.login.clcksignin();
+    console.log("Current URL after Sign In:", this.page.url());
 });
 
 Then('the user should be logged in successfully', async function (this: glitchworld) {
-    // Write code here that turns the phrase above into concrete actions
-    await this.page.waitForURL("**/lms/pages/admindashboard");
-    expect(await this.login.getCurrentUrl()).toContain("/lms/pages/admindashboard");
+    await expect(this.page).toHaveURL(/admindashboard/, {timeout: 30000});
+    console.log("Logged in URL:", this.page.url());
 });
 
 Then('the user should see an invalid credentials error message', async function (this: glitchworld) {

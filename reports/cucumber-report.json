@@ -1,6 +1,7 @@
 [
   {
     "description": "",
+<<<<<<< HEAD
     "elements": [
       {
         "description": "",
@@ -839,25 +840,32 @@
   },
   {
     "description": "Feature Description:\n              As a registered user,I want to log in to the LMS-smartcliff website.",
+=======
+>>>>>>> d67789676d4db2418c222d528ecdea3a7b4c99e8
     "elements": [
       {
         "description": "",
-        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website;login-with-valid-credentials",
+        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-valid-details",
         "keyword": "Scenario",
-        "line": 11,
-        "name": "Login with valid credentials",
+        "line": 8,
+        "name": "Add course with valid details",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 139179499
+=======
+              "duration": 544295799
+>>>>>>> d67789676d4db2418c222d528ecdea3a7b4c99e8
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
+<<<<<<< HEAD
             "line": 8,
             "name": "the user is on the login page of the LMS smartcliff website",
             "match": {
@@ -866,45 +874,131 @@
             "result": {
               "status": "passed",
               "duration": 2378910700
+=======
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1702423099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9654242400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User selects valid course configuration details",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6295879300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User clicks the Next button",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 319946200
+>>>>>>> d67789676d4db2418c222d528ecdea3a7b4c99e8
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 12,
-            "name": "the user enters the login credentials",
+            "name": "User selects the details in course hirearchy and layout",
             "match": {
+<<<<<<< HEAD
               "location": "src\\test\\step\\loginstep.ts:12"
             },
             "result": {
               "status": "passed",
               "duration": 111960299
+=======
+              "location": "src\\test\\step\\addCourseSteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3250751099
+>>>>>>> d67789676d4db2418c222d528ecdea3a7b4c99e8
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
-            "name": "the user clicks the signin button",
+            "name": "User clicks Preview and Create",
             "match": {
+<<<<<<< HEAD
               "location": "src\\test\\step\\loginstep.ts:30"
             },
             "result": {
               "status": "passed",
               "duration": 960294799
+=======
+              "location": "src\\test\\step\\addCourseSteps.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5277543899
+>>>>>>> d67789676d4db2418c222d528ecdea3a7b4c99e8
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "And ",
             "line": 14,
-            "name": "the user should be logged in successfully",
+            "name": "User saves the course layout",
             "match": {
+<<<<<<< HEAD
               "location": "src\\test\\step\\loginstep.ts:35"
             },
             "result": {
               "status": "passed",
               "duration": 9597581000
+=======
+              "location": "src\\test\\step\\addCourseSteps.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5121810700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "The course should be created successfully",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5217150999
+>>>>>>> d67789676d4db2418c222d528ecdea3a7b4c99e8
             }
           },
           {
@@ -912,47 +1006,52 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 28516200
+=======
+              "duration": 130859299
+>>>>>>> d67789676d4db2418c222d528ecdea3a7b4c99e8
             }
           }
         ],
         "tags": [
           {
-            "name": "@Muhindhar",
+            "name": "@Shobana",
             "line": 1
-          },
-          {
-            "name": "@Validlogin",
-            "line": 10
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website;login-with-an-incorrect-password",
+        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-invalid-details-without-selecting-client",
         "keyword": "Scenario",
-        "line": 17,
-        "name": "Login with an incorrect password",
+        "line": 18,
+        "name": "Add course with invalid details without selecting client",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 147061100
+=======
+              "duration": 510502199
+>>>>>>> d67789676d4db2418c222d528ecdea3a7b4c99e8
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 8,
-            "name": "the user is on the login page of the LMS smartcliff website",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
             "match": {
-              "location": "src\\test\\step\\loginstep.ts:8"
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
             },
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 1099425900
             }
           },
@@ -967,27 +1066,52 @@
             "result": {
               "status": "passed",
               "duration": 93750700
+=======
+              "duration": 1944477200
+>>>>>>> d67789676d4db2418c222d528ecdea3a7b4c99e8
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 19,
-            "name": "the user clicks the signin button",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
             "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10515897599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User selects valid course configuration details without selecting client",
+            "match": {
+<<<<<<< HEAD
               "location": "src\\test\\step\\loginstep.ts:30"
             },
             "result": {
               "status": "passed",
               "duration": 955459499
+=======
+              "location": "src\\test\\step\\addCourseSteps.ts:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4740220000
+>>>>>>> d67789676d4db2418c222d528ecdea3a7b4c99e8
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "And ",
             "line": 20,
-            "name": "the user should see an invalid credentials error message",
+            "name": "User clicks the Next button",
             "match": {
+<<<<<<< HEAD
               "location": "src\\test\\step\\loginstep.ts:41"
             },
             "result": {
@@ -1068,19 +1192,34 @@
             "result": {
               "status": "passed",
               "duration": 988446499
+=======
+              "location": "src\\test\\step\\addCourseSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115677199
+>>>>>>> d67789676d4db2418c222d528ecdea3a7b4c99e8
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 26,
-            "name": "the user should see an invalid password error message",
+            "line": 21,
+            "name": "User should get error message",
             "match": {
+<<<<<<< HEAD
               "location": "src\\test\\step\\loginstep.ts:47"
             },
             "result": {
               "status": "passed",
               "duration": 8017454100
+=======
+              "location": "src\\test\\step\\addCourseSteps.ts:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16360500
+>>>>>>> d67789676d4db2418c222d528ecdea3a7b4c99e8
             }
           },
           {
@@ -1088,16 +1227,21 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 43986800
+=======
+              "duration": 59698400
+>>>>>>> d67789676d4db2418c222d528ecdea3a7b4c99e8
             }
           }
         ],
         "tags": [
           {
-            "name": "@Muhindhar",
+            "name": "@Shobana",
             "line": 1
           },
           {
+<<<<<<< HEAD
             "name": "@Invalidcredentials",
             "line": 22
           }
@@ -1188,21 +1332,25 @@
           {
             "name": "@Unregisteredemail",
             "line": 28
+=======
+            "name": "@InvalidAdd",
+            "line": 17
+>>>>>>> d67789676d4db2418c222d528ecdea3a7b4c99e8
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website",
+    "id": "shobana_07-07-2026_add-course-functionality",
     "line": 2,
     "keyword": "Feature",
-    "name": "Muhindhar_07-07-2026_Login to the LMS SmartCliff website",
+    "name": "Shobana_07-07-2026_Add course functionality",
     "tags": [
       {
-        "name": "@Muhindhar",
+        "name": "@Shobana",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\login\\login.feature"
+    "uri": "src\\test\\feature\\Course Management\\addcourse.feature"
   }
 ]

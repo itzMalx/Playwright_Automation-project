@@ -5,11 +5,17 @@ import { logger } from '../../utilities/logger';
 import { LoginPage } from '../pages/loginpage';
 import { DashboardPage } from '../pages/dashboardPage';
 import { CourseManagementPage } from '../pages/courseManagementPage';
+import { SearchPage } from '../pages/searchPage';
 import { PedagogyPage } from '../pages/pedagogyPage';
 import { SeriveModelPage } from '../pages/serviceModelPage';
 
-let browser: Browser;
+
 setDefaultTimeout(90 * 1000)
+import { AddCoursePage } from '../pages/addCoursePage';
+
+let browser: Browser;
+
+
 BeforeAll(async () => {
 
     browser = await chromium.launch({ headless: false });
@@ -25,10 +31,9 @@ Before(async function (this: glitchworld, scenario) {
     this.dashboardPage = new DashboardPage(this.page)
     this.courseManagementPage = new CourseManagementPage(this.page)
     this.pedagogyPage = new PedagogyPage(this.page)
+    this.searchPage = new SearchPage(this.page)
+    this.addCoursePage=new AddCoursePage(this.page)
     this.servicePage = new SeriveModelPage(this.page)
-
-    console.log("Page closed:", this.page.isClosed());
-    console.log("Current URL:", this.page.url());
 
 });
 After(async function (this: glitchworld, scenario) {

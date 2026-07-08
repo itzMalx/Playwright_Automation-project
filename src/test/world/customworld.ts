@@ -6,6 +6,8 @@ import { CourseManagementPage } from '../pages/courseManagementPage';
 import { PedagogyPage } from '../pages/pedagogyPage';
 import { SearchPage } from '../pages/searchPage';  
 import {SeriveModelPage} from '../pages/serviceModelPage'
+import { AddCoursePage } from '../pages/addCoursePage';
+
 
 export class glitchworld extends World {
 
@@ -21,6 +23,9 @@ export class glitchworld extends World {
     pedagogyPage!: PedagogyPage
     searchPage!: SearchPage
     servicePage!:SeriveModelPage
+    addCoursePage! : AddCoursePage
+
+
 }
 
 setWorldConstructor(glitchworld)

@@ -241,12 +241,7 @@ export class BasePage {
       throw error;
     }
   }
-//   async getServiceNameValidationMessage(): Promise<string> {
-//     return await this.serviceName.evaluate(
-//         (element: HTMLInputElement) => element.validationMessage
-//     );
-// }
-async isClickable(locator : Locator){
+  async isClickable(locator : Locator){
         try{
             return await locator.isEnabled()
         }
@@ -254,4 +249,15 @@ async isClickable(locator : Locator){
             logger.error("Failed to Check clickable")
         }
     }
+     async clickCheckbox(locator:Locator){
+        try{
+           await locator.check();
+
+        }
+        catch(error){
+            logger.error('Failed to click checkbox')
+        }
+   }
 }
+  
+ 
