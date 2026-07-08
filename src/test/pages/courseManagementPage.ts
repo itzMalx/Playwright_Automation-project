@@ -7,6 +7,7 @@ export class CourseManagementPage extends BasePage{
     readonly actionList: Locator
     readonly previous:Locator
     readonly next:Locator
+    readonly activePageNumber:Locator
 
     constructor(page: Page) {
         super(page)
@@ -14,6 +15,7 @@ export class CourseManagementPage extends BasePage{
         this.actionList=page.locator("//div[@class='flex gap-1 justify-center']")
         this.previous=page.locator("//button[normalize-space()='Previous']")
         this.next=page.locator("//button[normalize-space()='Next']")
+        this.activePageNumber=page.locator("//button[@aria-current='page']")
     }
 
     async addCourseStructure() {
@@ -38,4 +40,20 @@ export class CourseManagementPage extends BasePage{
    async isNextClickable(){
       await this.isClickable(this.next)
    }
+
+   async navigateToCourseStructurePage() {
+        await this.page.goto("https://lms-smartcliff.vercel.app/lms/pages/coursestructure")
+    }
+
+    async getActivePageNumber() {
+        return await this.getText(this.activePageNumber)
+    }
+
+    async clickPageNumber(pageNo: string) {
+        await this.click(this.pageNumberLocator(pageNo))
+    }
+
+    pageNumberLocator(pageNo: string): Locator {
+        return this.page.locator(`//button[normalize-space()='${pageNo}']`)
+    }
 }
