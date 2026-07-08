@@ -52,6 +52,7 @@ export class CourseManagementPage extends BasePage{
    async navigateToCourseStructurePage() {
         await this.page.goto("https://lms-smartcliff.vercel.app/lms/pages/coursestructure")
     }
+    
 
     async getActivePageNumber() {
         return await this.getText(this.activePageNumber)
