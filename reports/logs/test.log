@@ -221,6 +221,7 @@
 [2026-07-07T19:02:23.707Z] ERROR-Scenario Failed: Add a new module to the course structure
 [2026-07-07T19:02:23.707Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783450943606.png
 [2026-07-07T19:02:23.777Z] INFO-Browser Closed
+<<<<<<< HEAD
 [2026-07-07T19:12:21.341Z] INFO-Browser Launched
 [2026-07-07T19:12:23.310Z] INFO-Login successfull!
 [2026-07-07T19:12:30.496Z] INFO-Navigate to Course Management page
@@ -364,3 +365,26 @@
 [2026-07-08T01:57:51.912Z] INFO-Navigate to Course Management page
 [2026-07-08T01:58:00.241Z] INFO-Scenario Passed:Add a new module to the course structure
 [2026-07-08T01:58:00.298Z] INFO-Browser Closed
+=======
+[2026-07-07T17:41:34.010Z] INFO-Browser Launched
+[2026-07-07T17:42:04.011Z] ERROR-Scenario Failed: Search valid courses, codes and clients
+[2026-07-07T17:42:04.012Z] ERROR-Screenshot Saved:reports/screenshots/Search valid courses, codes and clients1783446122481.png
+[2026-07-07T17:42:26.872Z] INFO-Scenario Passed:Search using course code
+[2026-07-07T17:42:27.064Z] INFO-Browser Closed
+[2026-07-07T17:46:31.007Z] INFO-Browser Launched
+[2026-07-07T17:46:56.262Z] INFO-Scenario Passed:Search valid courses, codes and clients
+[2026-07-07T17:47:14.292Z] INFO-Scenario Passed:Search using course code
+[2026-07-07T17:47:15.068Z] INFO-Browser Closed
+[2026-07-07T18:00:45.975Z] INFO-Browser Launched
+[2026-07-07T18:01:01.414Z] INFO-Scenario Passed:Search with valid client
+[2026-07-07T18:01:17.666Z] INFO-Scenario Passed:Search with valid course name
+[2026-07-07T18:01:31.375Z] INFO-Scenario Passed:Search with non existing client
+[2026-07-07T18:01:48.749Z] INFO-Scenario Passed:Search with non existing course
+[2026-07-07T18:01:48.989Z] INFO-Browser Closed
+[2026-07-07T18:05:13.194Z] INFO-Browser Launched
+[2026-07-07T18:05:40.209Z] INFO-Scenario Passed:Search with valid client
+[2026-07-07T18:05:58.083Z] INFO-Scenario Passed:Search with valid course name
+[2026-07-07T18:06:18.019Z] INFO-Scenario Passed:Search with non existing client
+[2026-07-07T18:06:45.514Z] INFO-Scenario Passed:Search with non existing course
+[2026-07-07T18:06:46.108Z] INFO-Browser Closed
+>>>>>>> 27cc4574480e7402724b6aaa43ece51e02d52b51

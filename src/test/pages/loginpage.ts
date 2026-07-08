@@ -1,9 +1,9 @@
-import { Basepage } from "./basepage";
+import { BasePage } from "./basepage";
 import { EnvReader } from "../../utilities/envreader";
 import { readExcelData } from "../../utilities/excelreader";
 import { LoginData } from "../type/LoginData";
 
-export class LoginPage extends Basepage {
+export class LoginPage extends BasePage {
     private email = this.page.locator("//input[@id='email']");
     private password = this.page.locator("//input[@id='password']")
     private signinbtn = this.page.locator("//button[@type='submit']");

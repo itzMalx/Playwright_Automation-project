@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "description": "",
@@ -139,3 +140,5 @@
     "uri": "src\\test\\feature\\Course Management\\addCourseStructure.feature"
   }
 ]
+=======
+>>>>>>> 27cc4574480e7402724b6aaa43ece51e02d52b51

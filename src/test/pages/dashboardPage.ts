@@ -1,7 +1,7 @@
 import { Locator, Page } from 'playwright';
-import { Basepage } from './basepage';
+import { BasePage } from '../pages/basepage';
 
-export class DashboardPage extends Basepage {
+export class DashboardPage extends BasePage {
 
    readonly courseManagementBtn: Locator
 

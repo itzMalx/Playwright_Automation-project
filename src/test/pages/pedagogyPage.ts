@@ -1,7 +1,7 @@
 import { Locator, Page } from 'playwright';
-import { Basepage } from './basepage';
+import { BasePage } from '../pages/basepage';
 
-export class PedagogyPage extends Basepage {
+export class PedagogyPage extends BasePage {
 
    readonly addModuleIcon: Locator
    readonly title: Locator
