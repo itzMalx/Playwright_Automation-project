@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;add-a-new-module-to-the-course-structure",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-user-can-navigate-using-pagination-buttons",
         "keyword": "Scenario Outline",
-        "line": 17,
-        "name": "Add a new module to the course structure",
+        "line": 16,
+        "name": "Verify user can navigate using pagination buttons",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 184620600
+              "duration": 322345899
             }
           },
           {
@@ -27,7 +27,109 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5531559099
+              "duration": 2933077800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30007443500,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div[title=\\'Course Management\\']')\u001b[22m\n\n    at DashboardPage.click (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\basepage.ts:15:21)\n    at DashboardPage.naviagateToCourse (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\dashboardPage.ts:14:18)\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:14:30)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "the user is on the \"1\" page of the Course Structure table",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user clicks the \"Next\" button",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user should be navigated to the \"2\" page",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:70"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1855499499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vetri",
+            "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-user-can-navigate-using-pagination-buttons",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Verify user can navigate using pagination buttons",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 288525900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3660054899
             }
           },
           {
@@ -40,73 +142,46 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17139110399
+              "duration": 15785044499
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "Admin click add Course Structure for the \"Playwright\"",
+            "keyword": "Given ",
+            "line": 10,
+            "name": "the user is on the \"2\" page of the Course Structure table",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:19"
+              "location": "src\\test\\step\\pagination.step.ts:14"
             },
             "result": {
-              "status": "failed",
-              "duration": 5081660199,
-              "error_message": "Error: Course 'Playwright' not found\n    at CourseManagementPage.selectActionList (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\pages\\courseManagementPage.ts:34:15)\n    at async World.<anonymous> (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:23:5)"
+              "status": "passed",
+              "duration": 10657904699
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 10,
-            "name": "Admin clicks the Add Module icon",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:27"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
             "line": 11,
-            "name": "Admin enters the required module details",
+            "name": "the user clicks the \"Previous\" button",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:31"
+              "location": "src\\test\\step\\pagination.step.ts:46"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "Admin clicks the Add Module button",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:36"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 97841199
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 13,
-            "name": "the newly added module should be displayed in the Module table",
+            "line": 12,
+            "name": "the user should be navigated to the \"1\" page",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:40"
+              "location": "src\\test\\step\\pagination.step.ts:70"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 29286300
             }
           },
           {
@@ -114,29 +189,235 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 400012899
+              "duration": 125460999
             }
           }
         ],
         "tags": [
           {
-            "name": "@Mylambigai",
+            "name": "@Vetri",
             "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-user-can-navigate-to-a-specific-page-using-the-page-number",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Verify user can navigate to a specific page using the page number",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 273539400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2632386400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15823308400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "the user is on the Course Structure table",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11601075700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "the user clicks page number \"2\"",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71260699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the user should be navigated to the \"2\" page",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23544899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 69260300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vetri",
+            "line": 1
+          },
+          {
+            "name": "@PageNumberNavigation",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-user-can-navigate-to-a-specific-page-using-the-page-number",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Verify user can navigate to a specific page using the page number",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 255165699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3116360700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21542693899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "the user is on the Course Structure table",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9006477400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "the user clicks page number \"9\"",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61106900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the user should be navigated to the \"9\" page",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40352400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 83111900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vetri",
+            "line": 1
+          },
+          {
+            "name": "@PageNumberNavigation",
+            "line": 19
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "mylambigai_7/7/2026-in-course-management-add-course-structure",
+    "id": "vetrivelb_07-07-2026_course_structure_pagination",
     "line": 2,
     "keyword": "Feature",
-    "name": "Mylambigai_7/7/2026 In Course Management Add Course Structure",
+    "name": "VetrivelB_07-07-2026_Course_Structure_Pagination",
     "tags": [
       {
-        "name": "@Mylambigai",
+        "name": "@Vetri",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\Course Management\\addCourseStructure.feature"
+    "uri": "src\\test\\feature\\Course Management\\pagination.feature"
   }
 ]
