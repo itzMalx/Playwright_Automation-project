@@ -493,3 +493,58 @@ Call log:
 [2026-07-08T07:39:49.785Z] INFO-Navigated to Course Management page
 [2026-07-08T07:40:02.798Z] INFO-Scenario Passed:Search with non existing course
 [2026-07-08T07:40:03.225Z] INFO-Browser Closed
+[2026-07-08T14:16:08.858Z] INFO-Browser Launched
+[2026-07-08T14:16:12.006Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:16:15.423Z] INFO-Logging in with valid credentials
+[2026-07-08T14:16:16.088Z] INFO-Login completed successfully
+[2026-07-08T14:16:27.300Z] INFO-Login successful!
+[2026-07-08T14:16:27.966Z] INFO-Navigated to Course Management page
+[2026-07-08T14:16:42.353Z] INFO-Scenario Passed:Search with valid client
+[2026-07-08T14:16:48.610Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:16:50.920Z] INFO-Logging in with valid credentials
+[2026-07-08T14:16:53.818Z] INFO-Login completed successfully
+[2026-07-08T14:17:10.647Z] INFO-Login successful!
+[2026-07-08T14:17:12.099Z] INFO-Navigated to Course Management page
+[2026-07-08T14:17:22.166Z] INFO-Scenario Passed:Search with valid course name
+[2026-07-08T14:17:26.902Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:17:28.292Z] INFO-Logging in with valid credentials
+[2026-07-08T14:17:29.346Z] INFO-Login completed successfully
+[2026-07-08T14:17:44.179Z] INFO-Login successful!
+[2026-07-08T14:17:47.338Z] INFO-Navigated to Course Management page
+[2026-07-08T14:17:56.669Z] INFO-Scenario Passed:Search with non existing client
+[2026-07-08T14:17:59.508Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:18:01.049Z] INFO-Logging in with valid credentials
+[2026-07-08T14:18:02.034Z] INFO-Login completed successfully
+[2026-07-08T14:18:12.793Z] INFO-Login successful!
+[2026-07-08T14:18:13.290Z] INFO-Navigated to Course Management page
+[2026-07-08T14:18:24.721Z] INFO-Scenario Passed:Search with non existing course
+[2026-07-08T14:18:25.106Z] INFO-Browser Closed
+[2026-07-08T15:17:07.097Z] INFO-Browser Launched
+[2026-07-08T15:17:10.930Z] INFO-Scenario Passed:Filter with valid category and level
+[2026-07-08T15:17:12.895Z] INFO-Scenario Passed:Filter with invalid status and category
+[2026-07-08T15:17:15.152Z] INFO-Scenario Passed:Clear All filters
+[2026-07-08T15:17:16.465Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:17:20.476Z] INFO-Logging in with valid credentials
+[2026-07-08T15:17:21.355Z] INFO-Login completed successfully
+[2026-07-08T15:17:33.997Z] INFO-Login successful!
+[2026-07-08T15:17:34.362Z] INFO-Navigated to Course Management page
+[2026-07-08T15:17:45.632Z] INFO-Scenario Passed:Search with valid client
+[2026-07-08T15:17:47.092Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:17:49.527Z] INFO-Logging in with valid credentials
+[2026-07-08T15:17:51.327Z] INFO-Login completed successfully
+[2026-07-08T15:18:03.515Z] INFO-Login successful!
+[2026-07-08T15:18:04.746Z] INFO-Navigated to Course Management page
+[2026-07-08T15:18:14.727Z] INFO-Scenario Passed:Search with valid course name
+[2026-07-08T15:18:17.311Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:18:20.757Z] INFO-Logging in with valid credentials
+[2026-07-08T15:18:21.684Z] INFO-Login completed successfully
+[2026-07-08T15:18:34.359Z] INFO-Login successful!
+[2026-07-08T15:18:34.716Z] INFO-Navigated to Course Management page
+[2026-07-08T15:18:48.143Z] INFO-Scenario Passed:Search with non existing client
+[2026-07-08T15:18:50.586Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:18:53.246Z] INFO-Logging in with valid credentials
+[2026-07-08T15:18:54.251Z] INFO-Login completed successfully
+[2026-07-08T15:19:03.844Z] INFO-Login successful!
+[2026-07-08T15:19:04.218Z] INFO-Navigated to Course Management page
+[2026-07-08T15:19:07.930Z] INFO-Scenario Passed:Search with non existing course
+[2026-07-08T15:19:08.294Z] INFO-Browser Closed
