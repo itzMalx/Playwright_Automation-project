@@ -26,10 +26,8 @@ module.exports = {
       "html:reports/cucumber-report.html",
       "rerun:@rerun.txt",
       "progress-bar"
-<<<<<<< HEAD
       // "allure-cucumberjs/reporter",
-=======
->>>>>>> 23dba893418ef96c5834114fb22c956f22be5b1f
+
     ],
   },
 
