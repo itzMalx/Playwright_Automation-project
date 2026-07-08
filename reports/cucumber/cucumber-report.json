@@ -1,0 +1,475 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website;search-with-valid-client",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Search with valid client",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+<<<<<<< HEAD:reports/cucumber-report.json
+              "duration": 2062571700
+=======
+              "duration": 181824000
+>>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin logs in and reaches the Dashboard for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:5"
+            },
+            "result": {
+<<<<<<< HEAD:reports/cucumber-report.json
+              "status": "failed",
+              "duration": 32859673100,
+              "error_message": "page.waitForURL: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/lms/pages/admindashboard\" until \"load\"\n============================================================\n    at World.<anonymous> (D:\\Playwright_Automation-project\\src\\test\\step\\searchStep.ts:8:19)"
+=======
+              "status": "passed",
+              "duration": 2566022599
+>>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin opens the Course Management module for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:12"
+            },
+            "result": {
+<<<<<<< HEAD:reports/cucumber-report.json
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "keyword",
+                      "result"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "mern",
+                      "Mern"
+                    ]
+                  }
+                ]
+              }
+            ],
+=======
+              "status": "passed",
+              "duration": 16084465700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Admin click add Course Structure for the \"Playwright\"",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8139015599
+            }
+          },
+          {
+            "arguments": [],
+>>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
+            "keyword": "When ",
+            "line": 9,
+            "name": "User searches client with the following data",
+            "match": {
+<<<<<<< HEAD:reports/cucumber-report.json
+              "location": "src\\test\\step\\searchStep.ts:17"
+=======
+              "location": "src\\test\\step\\addCourseStructure.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 925194899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Admin enters the required module details",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30775499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Admin clicks the Add Module button",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10948989299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the newly added module should be displayed in the Module table",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:37"
+>>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38852899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+<<<<<<< HEAD:reports/cucumber-report.json
+              "duration": 1093236200
+=======
+              "duration": 50155199
+>>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website;search-with-valid-course-name",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Search with valid course name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1022334000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin logs in and reaches the Dashboard for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27133211199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin opens the Course Management module for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6108243499
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "keyword",
+                      "result"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "frontend",
+                      "Frontend"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User searches course with the following data",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9533080300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 133576799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website;search-with-non-existing-client",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Search with non existing client",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1817981199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin logs in and reaches the Dashboard for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15471792799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin opens the Course Management module for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1852527100
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "keyword",
+                      "result"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "xyzclientnone",
+                      "none"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User searches client with the following data",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9688842799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "no matching results should be displayed",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13130100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 108893100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website;search-with-non-existing-course",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Search with non existing course",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 850952600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin logs in and reaches the Dashboard for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17997177400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin opens the Course Management module for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2981888799
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "keyword",
+                      "result"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "nonexistentcourse",
+                      "none"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 25,
+            "name": "User searches course with the following data",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12671985400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "no matching results should be displayed",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28602399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 195275599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Malavicka_07-07-2026_Search functionality in LMS SmartCliff website",
+    "tags": [
+      {
+        "name": "@Malavicka",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Course Management\\search.feature"
+  }
+]
