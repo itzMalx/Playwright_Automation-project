@@ -4,24 +4,15 @@ import { BasePage } from "../pages/basepage";
 export class SearchPage extends BasePage {
   private txtSearch: Locator;
   private courseNames: Locator;
-  private courseManagement: Locator;
   private courseCodes: Locator;
 
   constructor(page: Page) {
     super(page);
-
     this.txtSearch = page.locator(
       "//input[@placeholder='Search courses, codes, clients, or categories...']"
     );
-
     this.courseNames = page.locator("//table/tbody/tr/td[3]//button/span[1]");
     this.courseCodes = page.locator("//table/tbody/tr/td[3]//button/span[2]");
-    this.courseManagement = page.locator("//div[@title='Course Management']");
-  }
-
-  async clickCourse() {
-    await this.click(this.courseManagement);
-    await this.courseNames.first().waitFor({ state: "visible", timeout: 10000 });
   }
 
   async enterSearchKeyword(keyword: string) {
