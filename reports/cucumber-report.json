@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 322345899
+              "duration": 292721199
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2933077800
+              "duration": 2006722000
             }
           },
           {
@@ -39,9 +39,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:13"
             },
             "result": {
-              "status": "failed",
-              "duration": 30007443500,
-              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div[title=\\'Course Management\\']')\u001b[22m\n\n    at DashboardPage.click (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\basepage.ts:15:21)\n    at DashboardPage.naviagateToCourse (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\dashboardPage.ts:14:18)\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:14:30)"
+              "status": "passed",
+              "duration": 7585337499
             }
           },
           {
@@ -53,8 +52,8 @@
               "location": "src\\test\\step\\pagination.step.ts:14"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 7235927900
             }
           },
           {
@@ -66,8 +65,8 @@
               "location": "src\\test\\step\\pagination.step.ts:46"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 84932200
             }
           },
           {
@@ -79,8 +78,8 @@
               "location": "src\\test\\step\\pagination.step.ts:70"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 24996700
             }
           },
           {
@@ -88,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1855499499
+              "duration": 82627000
             }
           }
         ],
@@ -116,7 +115,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 288525900
+              "duration": 286723400
             }
           },
           {
@@ -129,7 +128,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3660054899
+              "duration": 1966734799
             }
           },
           {
@@ -142,7 +141,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15785044499
+              "duration": 10659706300
             }
           },
           {
@@ -155,7 +154,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10657904699
+              "duration": 5221546900
             }
           },
           {
@@ -168,7 +167,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 97841199
+              "duration": 94755199
             }
           },
           {
@@ -181,7 +180,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29286300
+              "duration": 15920700
             }
           },
           {
@@ -189,7 +188,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 125460999
+              "duration": 53122400
             }
           }
         ],
@@ -217,7 +216,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 273539400
+              "duration": 216759299
             }
           },
           {
@@ -230,7 +229,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2632386400
+              "duration": 2102578300
             }
           },
           {
@@ -243,7 +242,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15823308400
+              "duration": 7607598999
             }
           },
           {
@@ -256,7 +255,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11601075700
+              "duration": 7784280900
             }
           },
           {
@@ -269,7 +268,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 71260699
+              "duration": 79768600
             }
           },
           {
@@ -282,7 +281,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23544899
+              "duration": 19026400
             }
           },
           {
@@ -290,7 +289,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 69260300
+              "duration": 55239699
             }
           }
         ],
@@ -318,7 +317,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 255165699
+              "duration": 229023500
             }
           },
           {
@@ -331,7 +330,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3116360700
+              "duration": 2464940699
             }
           },
           {
@@ -344,7 +343,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21542693899
+              "duration": 10663775400
             }
           },
           {
@@ -357,7 +356,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9006477400
+              "duration": 5436730700
             }
           },
           {
@@ -369,8 +368,9 @@
               "location": "src\\test\\step\\pagination.step.ts:62"
             },
             "result": {
-              "status": "passed",
-              "duration": 61106900
+              "status": "failed",
+              "duration": 30011824500,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//button[normalize-space()=\\'9\\']')\u001b[22m\n\n    at CourseManagementPage.click (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\basepage.ts:15:21)\n    at CourseManagementPage.clickPageNumber (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\courseManagementPage.ts:75:20)\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\pagination.step.ts:66:37)"
             }
           },
           {
@@ -382,8 +382,8 @@
               "location": "src\\test\\step\\pagination.step.ts:70"
             },
             "result": {
-              "status": "passed",
-              "duration": 40352400
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -391,7 +391,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 83111900
+              "duration": 275411299
             }
           }
         ],
@@ -403,6 +403,94 @@
           {
             "name": "@PageNumberNavigation",
             "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-next-button-is-disabled-on-the-last-page",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Verify Next button is disabled on the last page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 228275599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1744194199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9127533299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "the user is on the last page of the Course Structure table",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7911541900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "the Next button should be disabled",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9338799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 53952499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vetri",
+            "line": 1
+          },
+          {
+            "name": "@NextButtonDisabled",
+            "line": 30
           }
         ],
         "type": "scenario"

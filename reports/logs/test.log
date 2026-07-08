@@ -1,30 +1,37 @@
-[2026-07-08T17:14:58.034Z] INFO-Browser Launched
-[2026-07-08T17:14:58.447Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-08T17:15:00.182Z] INFO-Logging in with valid credentials
-[2026-07-08T17:15:01.377Z] INFO-Login completed successfully
-[2026-07-08T17:15:01.378Z] INFO-Login successfull!
-[2026-07-08T17:15:31.388Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+[2026-07-08T18:11:12.849Z] INFO-Browser Launched
+[2026-07-08T18:11:13.208Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T18:11:14.077Z] INFO-Logging in with valid credentials
+[2026-07-08T18:11:15.210Z] INFO-Login completed successfully
+[2026-07-08T18:11:15.212Z] INFO-Login successfull!
+[2026-07-08T18:11:22.801Z] INFO-Navigate to Course Management page
+[2026-07-08T18:11:30.151Z] INFO-Scenario Passed:Verify user can navigate using pagination buttons
+[2026-07-08T18:11:30.525Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T18:11:31.357Z] INFO-Logging in with valid credentials
+[2026-07-08T18:11:32.490Z] INFO-Login completed successfully
+[2026-07-08T18:11:32.491Z] INFO-Login successfull!
+[2026-07-08T18:11:43.151Z] INFO-Navigate to Course Management page
+[2026-07-08T18:11:48.487Z] INFO-Scenario Passed:Verify user can navigate using pagination buttons
+[2026-07-08T18:11:48.759Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T18:11:49.803Z] INFO-Logging in with valid credentials
+[2026-07-08T18:11:50.861Z] INFO-Login completed successfully
+[2026-07-08T18:11:50.861Z] INFO-Login successfull!
+[2026-07-08T18:11:58.469Z] INFO-Navigate to Course Management page
+[2026-07-08T18:12:06.355Z] INFO-Scenario Passed:Verify user can navigate to a specific page using the page number
+[2026-07-08T18:12:06.646Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T18:12:07.985Z] INFO-Logging in with valid credentials
+[2026-07-08T18:12:09.112Z] INFO-Login completed successfully
+[2026-07-08T18:12:09.112Z] INFO-Login successfull!
+[2026-07-08T18:12:19.777Z] INFO-Navigate to Course Management page
+[2026-07-08T18:12:55.226Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
 Call log:
-[2m  - waiting for locator('div[title=\'Course Management\']')[22m
+[2m  - waiting for locator('//button[normalize-space()=\'9\']')[22m
 
-[2026-07-08T17:15:33.174Z] ERROR-Scenario Failed: Verify user can navigate using pagination buttons
-[2026-07-08T17:15:33.174Z] ERROR-Screenshot Saved:reports/screenshots/Verify user can navigate using pagination buttons1783530931392.png
-[2026-07-08T17:15:33.540Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-08T17:15:36.058Z] INFO-Logging in with valid credentials
-[2026-07-08T17:15:37.194Z] INFO-Login completed successfully
-[2026-07-08T17:15:37.195Z] INFO-Login successfull!
-[2026-07-08T17:15:52.986Z] INFO-Navigate to Course Management page
-[2026-07-08T17:16:03.780Z] INFO-Scenario Passed:Verify user can navigate using pagination buttons
-[2026-07-08T17:16:04.184Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-08T17:16:05.693Z] INFO-Logging in with valid credentials
-[2026-07-08T17:16:06.815Z] INFO-Login completed successfully
-[2026-07-08T17:16:06.816Z] INFO-Login successfull!
-[2026-07-08T17:16:22.640Z] INFO-Navigate to Course Management page
-[2026-07-08T17:16:34.339Z] INFO-Scenario Passed:Verify user can navigate to a specific page using the page number
-[2026-07-08T17:16:34.666Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-08T17:16:36.680Z] INFO-Logging in with valid credentials
-[2026-07-08T17:16:37.781Z] INFO-Login completed successfully
-[2026-07-08T17:16:37.782Z] INFO-Login successfull!
-[2026-07-08T17:16:59.325Z] INFO-Navigate to Course Management page
-[2026-07-08T17:17:08.442Z] INFO-Scenario Passed:Verify user can navigate to a specific page using the page number
-[2026-07-08T17:17:08.527Z] INFO-Browser Closed
+[2026-07-08T18:12:55.459Z] ERROR-Scenario Failed: Verify user can navigate to a specific page using the page number
+[2026-07-08T18:12:55.460Z] ERROR-Screenshot Saved:reports/screenshots/Verify user can navigate to a specific page using the page number1783534375229.png
+[2026-07-08T18:12:55.736Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T18:12:56.385Z] INFO-Logging in with valid credentials
+[2026-07-08T18:12:57.479Z] INFO-Login completed successfully
+[2026-07-08T18:12:57.480Z] INFO-Login successfull!
+[2026-07-08T18:13:06.608Z] INFO-Navigate to Course Management page
+[2026-07-08T18:13:14.532Z] INFO-Scenario Passed:Verify Next button is disabled on the last page
+[2026-07-08T18:13:14.588Z] INFO-Browser Closed

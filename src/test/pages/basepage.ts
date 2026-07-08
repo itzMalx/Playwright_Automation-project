@@ -13,7 +13,7 @@ export class BasePage {
   async click(locator: Locator) {
     try {
       await locator.click();
-    } 
+    }
     catch (error) {
       logger.error(`Failed to click element: ${error}`);
       throw error;
@@ -24,7 +24,7 @@ export class BasePage {
     try {
       await locator.fill(value);
     }
-     catch (error) {
+    catch (error) {
       logger.error(`Failed to fill element: ${error}`);
       throw error;
     }
@@ -43,7 +43,7 @@ export class BasePage {
   async getText(locator: Locator) {
     try {
       return await locator.textContent();
-    } 
+    }
     catch (error) {
       logger.error(`Failed to get text: ${error}`);
       throw error;
@@ -55,7 +55,7 @@ export class BasePage {
       await locator.evaluate((element) => {
         (element as HTMLElement).click();
       });
-    } 
+    }
     catch (error) {
       logger.error(`Failed to perform JavaScript click: ${error}`);
       throw error;
@@ -75,7 +75,7 @@ export class BasePage {
   async dblclick(locator: Locator) {
     try {
       await locator.dblclick();
-    } 
+    }
     catch (error) {
       logger.error(`Failed to double click element: ${error}`);
       throw error;
@@ -85,7 +85,7 @@ export class BasePage {
   async rightclick(locator: Locator) {
     try {
       await locator.click({ button: "right" });
-    } 
+    }
     catch (error) {
       logger.error(`Failed to right click element: ${error}`);
       throw error;
@@ -95,7 +95,7 @@ export class BasePage {
   async leftClick(locator: Locator) {
     try {
       await locator.click({ button: "left" });
-    } 
+    }
     catch (error) {
       logger.error(`Failed to left click element: ${error}`);
       throw error;
@@ -105,7 +105,7 @@ export class BasePage {
   async pressKey(locator: Locator, key: string) {
     try {
       await locator.press(key);
-    } 
+    }
     catch (error) {
       logger.error(`Failed to press key '${key}': ${error}`);
       throw error;
@@ -115,7 +115,7 @@ export class BasePage {
   async getInnerText(locator: Locator) {
     try {
       return await locator.innerText();
-    } 
+    }
     catch (error) {
       logger.error(`Failed to get inner text: ${error}`);
       throw error;
@@ -125,7 +125,7 @@ export class BasePage {
   async getInputValue(locator: Locator) {
     try {
       return await locator.inputValue();
-    } 
+    }
     catch (error) {
       logger.error(`Failed to get input value: ${error}`);
       throw error;
@@ -135,17 +135,17 @@ export class BasePage {
   async isEnabled(locator: Locator) {
     try {
       return await locator.isEnabled();
-    } 
+    }
     catch (error) {
       logger.error(`Failed to check if element is enabled: ${error}`);
       throw error;
     }
   }
 
-  async isDisableyed(locator: Locator) {
+  async isDisabled(locator: Locator) {
     try {
       return await locator.isDisabled();
-    } 
+    }
     catch (error) {
       logger.error(`Failed to check if element is disabled: ${error}`);
       throw error;
@@ -155,7 +155,7 @@ export class BasePage {
   async isVisible(locator: Locator) {
     try {
       return await locator.isVisible();
-    } 
+    }
     catch (error) {
       logger.error(`Failed to check if element is visible: ${error}`);
       throw error;
@@ -165,7 +165,7 @@ export class BasePage {
   async scrollIntoView(locator: Locator) {
     try {
       await locator.scrollIntoViewIfNeeded();
-    } 
+    }
     catch (error) {
       logger.error(`Failed to scroll element into view: ${error}`);
       throw error;
@@ -175,7 +175,7 @@ export class BasePage {
   async waitForElement(locator: Locator) {
     try {
       await locator.waitFor({ state: "visible" });
-    } 
+    }
     catch (error) {
       logger.error(`Failed to wait for element: ${error}`);
       throw error;
@@ -185,7 +185,7 @@ export class BasePage {
   async uploadFile(locator: Locator, filePath: string) {
     try {
       await locator.setInputFiles(filePath);
-    } 
+    }
     catch (error) {
       logger.error(`Failed to upload file: ${error}`);
       throw error;
@@ -195,7 +195,7 @@ export class BasePage {
   async getAttribute(locator: Locator, attribute: string) {
     try {
       return await locator.getAttribute(attribute);
-    } 
+    }
     catch (error) {
       logger.error(`Failed to get attribute '${attribute}': ${error}`);
       throw error;
@@ -205,7 +205,7 @@ export class BasePage {
   async allTextContents(locator: Locator) {
     try {
       return await locator.allTextContents();
-    } 
+    }
     catch (error) {
       logger.error(`Failed to get all text contents: ${error}`);
       throw error;
@@ -225,7 +225,7 @@ export class BasePage {
   async ElementScreenshot(locator: Locator, photopath: string) {
     try {
       return await locator.screenshot({ path: photopath });
-    } 
+    }
     catch (error) {
       logger.error(`Failed to capture element screenshot: ${error}`);
       throw error;
@@ -233,23 +233,36 @@ export class BasePage {
 
   }
 
-  async isChecked(locator:Locator){
-    try{
+  async isChecked(locator: Locator) {
+    try {
       return locator.isChecked();
     }
-    catch(error){
+    catch (error) {
       logger.error(`Not checked : ${error}`);
       throw error;
     }
   }
-
-  async isClickable(locator : Locator){
-        try{
-            return await locator.isEnabled()
-        }
-        catch(error){
-            logger.error("Failed to Check clickable")
-        }
+  async isClickable(locator: Locator) {
+    try {
+      return await locator.isEnabled()
     }
-    
+    catch (error) {
+      logger.error("Failed to Check clickable")
+    }
+  }
+  async clickCheckbox(locator: Locator) {
+    try {
+      await locator.check();
+
+    }
+    catch (error) {
+      logger.error('Failed to click checkbox')
+    }
+  }
+  async getElements(locator: Locator) {
+    return locator.innerHTML()
+  }
+
 }
+
+

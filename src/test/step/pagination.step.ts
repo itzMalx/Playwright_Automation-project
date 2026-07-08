@@ -83,3 +83,11 @@ Then(
     expect(activePage).toBe(expectedPage);
   }
 );
+
+Given('the user is on the last page of the Course Structure table', async function (this: glitchworld) {
+    await this.courseManagementPage.clickLastPage()
+});
+
+Then('the Next button should be disabled', async function (this: glitchworld) {
+    await expect(await this.courseManagementPage.isNextDisabled()).toBeTruthy()
+});
