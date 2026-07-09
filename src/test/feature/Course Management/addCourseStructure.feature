@@ -14,7 +14,7 @@ Feature: Mylambigai_7/7/2026 In Course Management Add Course Structure
 
         Examples:
             | course     |
-            | Playwright |
+            | J-AT-A-002 |
 
     Scenario: Export the course structure as an Excel file
         And Admin clicks the Add Course Structure button for the course
@@ -22,3 +22,16 @@ Feature: Mylambigai_7/7/2026 In Course Management Add Course Structure
         When Admin clicks the Print button
         And selects the Excel export option
         Then the Excel file should be downloaded
+
+    Scenario Outline: Add module without mandatory field
+        And Admin clicks Add Course Structure for the "<course>"
+        When Admin clicks the Add Module icon
+        And Admin clicks the Add Module button without filling the mandatory field
+        Then an error message should be displayed
+
+        Examples:
+            | course     |
+            | J-AT-A-002 |
+
+
+
