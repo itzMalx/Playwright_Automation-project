@@ -19,6 +19,14 @@ export class BasePage {
     }
   }
 
+
+  async clickCheckbox(locator: Locator) {
+    await locator.waitFor({ state: "visible" });
+    if (!(await locator.isChecked())) {
+        await locator.check();
+    }
+}
+
   async fill(locator: Locator, value: string) {
     try {
       await locator.fill(value);
@@ -260,5 +268,5 @@ export class BasePage {
     catch(error){
       logger.error("Count shuold be used for iterable objects")
     }
-   }
+}
 }

@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-appropriate-button-is-disabled-on-the-page",
+        "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;add-a-new-module-to-the-course-structure",
         "keyword": "Scenario Outline",
-        "line": 37,
-        "name": "Verify appropriate button is disabled on the page",
+        "line": 17,
+        "name": "Add a new module to the course structure",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 331185999
+              "duration": 177268000
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2120362000
+              "duration": 2536712000
             }
           },
           {
@@ -40,33 +40,72 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14243477800
+              "duration": 9668822700
             }
           },
           {
             "arguments": [],
-            "keyword": "Given ",
-            "line": 32,
-            "name": "the user is on the \"first\" page of the Course Structure table",
+            "keyword": "And ",
+            "line": 9,
+            "name": "Admin click add Course Structure for the \"J-AT-A-002\"",
             "match": {
-              "location": "src\\test\\step\\pagination.step.ts:58"
+              "location": "src\\test\\step\\addCourseStructure.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 24057546600
+              "duration": 20206957199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Admin clicks the Add Module icon",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 931036200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Admin enters the required module details",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35956500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Admin clicks the Add Module button",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17181915500
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 33,
-            "name": "the \"previous\" button should be disabled",
+            "line": 13,
+            "name": "the newly added module should be displayed in the Module table",
             "match": {
-              "location": "src\\test\\step\\pagination.step.ts:83"
+              "location": "src\\test\\step\\addCourseStructure.ts:39"
             },
             "result": {
               "status": "passed",
-              "duration": 14033199
+              "duration": 32807000
             }
           },
           {
@@ -74,35 +113,31 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 56616900
+              "duration": 27644899
             }
           }
         ],
         "tags": [
           {
-            "name": "@Vetri",
+            "name": "@Mylambigai",
             "line": 1
-          },
-          {
-            "name": "@ButtonDisablity",
-            "line": 30
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-appropriate-button-is-disabled-on-the-page",
-        "keyword": "Scenario Outline",
-        "line": 38,
-        "name": "Verify appropriate button is disabled on the page",
+        "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;export-the-course-structure-as-an-excel-file",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Export the course structure as an Excel file",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 180546900
+              "duration": 202284299
             }
           },
           {
@@ -115,7 +150,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2824226499
+              "duration": 2476125200
             }
           },
           {
@@ -128,33 +163,72 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13266796800
+              "duration": 22629575500
             }
           },
           {
             "arguments": [],
-            "keyword": "Given ",
-            "line": 32,
-            "name": "the user is on the \"last\" page of the Course Structure table",
+            "keyword": "And ",
+            "line": 20,
+            "name": "Admin clicks the Add Course Structure button for the course",
             "match": {
-              "location": "src\\test\\step\\pagination.step.ts:58"
+              "location": "src\\test\\step\\addCourseStructure.ts:44"
             },
             "result": {
               "status": "passed",
-              "duration": 12194721900
+              "duration": 830600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "verifies that a course structure is present in the table",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3407199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "Admin clicks the Print button",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1601299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "selects the Excel export option",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27684065399
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 33,
-            "name": "the \"next\" button should be disabled",
+            "line": 24,
+            "name": "the Excel file should be downloaded",
             "match": {
-              "location": "src\\test\\step\\pagination.step.ts:83"
+              "location": "src\\test\\step\\addCourseStructure.ts:63"
             },
             "result": {
               "status": "passed",
-              "duration": 7867400
+              "duration": 3457899
             }
           },
           {
@@ -162,33 +236,139 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 41928399
+              "duration": 91173999
             }
           }
         ],
         "tags": [
           {
-            "name": "@Vetri",
+            "name": "@Mylambigai",
             "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;add-module-without-mandatory-field",
+        "keyword": "Scenario Outline",
+        "line": 34,
+        "name": "Add module without mandatory field",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 179547500
+            }
           },
           {
-            "name": "@ButtonDisablity",
-            "line": 30
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2908360100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29705054900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Admin clicks Add Course Structure for the \"J-AT-A-002\"",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7769120300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "Admin clicks the Add Module icon",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 918712300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Admin clicks the Add Module button without filling the mandatory field",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 370262600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "an error message should be displayed",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5432400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 45899399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Mylambigai",
+            "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "vetrivelb_07-07-2026_course_structure_pagination",
+    "id": "mylambigai_7/7/2026-in-course-management-add-course-structure",
     "line": 2,
     "keyword": "Feature",
-    "name": "VetrivelB_07-07-2026_Course_Structure_Pagination",
+    "name": "Mylambigai_7/7/2026 In Course Management Add Course Structure",
     "tags": [
       {
-        "name": "@Vetri",
+        "name": "@Mylambigai",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\Course Management\\pagination.feature"
+    "uri": "src\\test\\feature\\Course Management\\addCourseStructure.feature"
   }
 ]
