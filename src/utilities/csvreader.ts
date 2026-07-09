@@ -1,5 +1,4 @@
 import fs from "fs";
-import path from "path";
 import { parse } from "csv-parse/sync";
 
 export function readData<T>(filePath: string): T[] {

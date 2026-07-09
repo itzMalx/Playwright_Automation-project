@@ -20,12 +20,12 @@ module.exports = {
     dryRun: false,
 
     format: [
-      "progress",
-      "json:reports/cucumber/cucumber-report.json",
+      "json:reports/cucumber-report.json",
       "html:reports/cucumber-report.html",
       "rerun:@rerun.txt",
-      "progress-bar"
-      // "allure-cucumberjs/reporter",
+      "progress-bar",
+      "allure-cucumberjs/reporter",
+      "progress"
     ],
   },
 
