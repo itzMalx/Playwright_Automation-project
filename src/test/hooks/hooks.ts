@@ -5,7 +5,9 @@ import { logger } from '../../utilities/logger';
 import { LoginPage } from '../pages/loginpage';
 import { DashboardPage } from '../pages/dashboardPage';
 import { CourseManagementPage } from '../pages/courseManagementPage';
+import { SearchPage } from '../pages/searchPage';
 import { PedagogyPage } from '../pages/pedagogyPage';
+import { AddCoursePage } from '../pages/addCoursePage';
 
 let browser: Browser;
 setDefaultTimeout(60 * 1000);
@@ -24,6 +26,8 @@ Before(async function (this: glitchworld, scenario) {
     this.dashboardPage = new DashboardPage(this.page)
     this.courseManagementPage = new CourseManagementPage(this.page)
     this.pedagogyPage = new PedagogyPage(this.page)
+    this.searchPage = new SearchPage(this.page)
+    this.addCoursePage=new AddCoursePage(this.page)
 
 });
 After(async function (this: glitchworld, scenario) {

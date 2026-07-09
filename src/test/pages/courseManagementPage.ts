@@ -43,7 +43,6 @@ export class CourseManagementPage extends BasePage {
                 await this.loading.first().waitFor({ state: "hidden" });
             }
         }
-
         throw new Error(`Course '${courseName}' not found`);
     }
     async clickNext() {
