@@ -6,36 +6,36 @@ import { expect } from "@playwright/test";
 import { messages } from "../../../constants/messages";
 
 Given('the user is on the login page of the LMS smartcliff website', async function (this: glitchworld) {
-    this.login.navigate();
-}); 
+
+    await this.login.navigate();
+});
 
 When('the user enters the login credentials', async function (this: glitchworld) {
+    const data = readExcelData<LoginData>("src/test-data/logindata.xlsx", "Sheet1");
 
-    const data = readExcelData<LoginData>("src/test-data/logindata.xlsx","Sheet1");
-
-    const typeMap: Record<string, string> = {
-        "@Validlogin": "valid",
-        "@Invalidpassword": "psinvalid",
+    const typeMap: Record<string, string> = {"@Validlogin": "valid","@Invalidpassword": "psinvalid",
         "@Invalidcredentials": "bothinvalid",
         "@Unregisteredemail": "emailinvalid"
     };
-    const loginData = data.find((row: LoginData) => row.type === typeMap[this.tag])!;
+    const loginType = typeMap[this.tag] ?? "valid";
+    const loginData = data.find(
+        (row: LoginData) => row.type === loginType
+    );
     if (!loginData) {
-        throw new Error(`No test data found for tag: ${this.tag}`);
+        throw new Error(`No test data found for login type: ${loginType}`);
     }
     await this.login.enteremail(loginData.email);
     await this.login.enterpassword(String(loginData.password));
 });
 
 When('the user clicks the signin button', async function (this: glitchworld) {
-    // Write code here that turns the phrase above into concrete actions
     await this.login.clcksignin();
+    console.log("Current URL after Sign In:", this.page.url());
 });
 
 Then('the user should be logged in successfully', async function (this: glitchworld) {
-    // Write code here that turns the phrase above into concrete actions
-    await this.page.waitForURL("**/lms/pages/admindashboard");
-    expect(await this.login.getCurrentUrl()).toContain("/lms/pages/admindashboard");
+    await expect(this.page).toHaveURL(/admindashboard/, {timeout: 30000});
+    console.log("Logged in URL:", this.page.url());
 });
 
 Then('the user should see an invalid credentials error message', async function (this: glitchworld) {

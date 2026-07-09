@@ -1,6 +1,5 @@
 import { Locator, Page } from "playwright";
 import { logger } from "../../utilities/logger";
-import { emitWarning } from "node:process";
 
 export class BasePage {
 
@@ -19,6 +18,14 @@ export class BasePage {
       throw error;
     }
   }
+
+
+  async clickCheckbox(locator: Locator) {
+    await locator.waitFor({ state: "visible" });
+    if (!(await locator.isChecked())) {
+        await locator.check();
+    }
+}
 
   async fill(locator: Locator, value: string) {
     try {
@@ -250,6 +257,7 @@ export class BasePage {
             logger.error("Failed to Check clickable")
         }
     }
+<<<<<<< HEAD
      async clickCheckbox(locator:Locator){
         try{
            await locator.check();
@@ -268,6 +276,6 @@ export class BasePage {
       logger.error("Count shuold be used for iterable objects")
     }
    }
+=======
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
 }
-  
- 

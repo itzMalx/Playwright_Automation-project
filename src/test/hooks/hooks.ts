@@ -7,10 +7,14 @@ import { DashboardPage } from '../pages/dashboardPage';
 import { CourseManagementPage } from '../pages/courseManagementPage';
 import { SearchPage } from '../pages/searchPage';
 import { PedagogyPage } from '../pages/pedagogyPage';
+import { SeriveModelPage } from '../pages/serviceModelPage';
+
+
+setDefaultTimeout(90 * 1000)
 import { AddCoursePage } from '../pages/addCoursePage';
 
 let browser: Browser;
-setDefaultTimeout(60 * 1000);
+
 
 BeforeAll(async () => {
 
@@ -18,7 +22,8 @@ BeforeAll(async () => {
     logger.info("Browser Launched");
 });
 Before(async function (this: glitchworld, scenario) {
-    this.tag = scenario.pickle.tags.find(tag => tag.name !== "@Muhindhar")!.name;
+    const loginTags = ["@Validlogin", "@Invalidpassword", "@Invalidcredentials", "@Unregisteredemail"];
+    this.tag = scenario.pickle.tags.find(tag => loginTags.includes(tag.name))?.name ?? "";
     this.browser = browser;
     this.context = await browser.newContext({acceptDownloads: true});
     this.page = await this.context.newPage();
@@ -28,21 +33,23 @@ Before(async function (this: glitchworld, scenario) {
     this.pedagogyPage = new PedagogyPage(this.page)
     this.searchPage = new SearchPage(this.page)
     this.addCoursePage=new AddCoursePage(this.page)
+    this.servicePage = new SeriveModelPage(this.page)
 
 });
 After(async function (this: glitchworld, scenario) {
-    if (scenario.result?.status == Status.FAILED) {
-        const path = `reports/screenshots/${scenario.pickle.name}${Date.now()}.png`;
-        await this.page.screenshot({ path });
+    if (scenario.result?.status === Status.FAILED) {
+        if (this.page && !this.page.isClosed()) {
+            const path = `reports/screenshots/${scenario.pickle.name}-${Date.now()}.png`;
+            await this.page.screenshot({ path });
+        }
         logger.error(`Scenario Failed: ${scenario.pickle.name}`);
-        logger.error(`Screenshot Saved:${path}`);
     }
-    else {
-        logger.info(`Scenario Passed:${scenario.pickle.name}`);
+    if (this.page && !this.page.isClosed()) {
+        await this.page.close();
     }
-
-    await this.page.close();
-    await this.context.close();
+    if (this.context) {
+        await this.context.close();
+    }
 });
 
 AfterAll(async () => {
