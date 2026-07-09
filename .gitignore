@@ -15,3 +15,5 @@ report/allure-results/
 report/cucumber/
 @rerun.txt/
 downloads/
+allure-report/
+allure-results/
