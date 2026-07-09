@@ -47,7 +47,7 @@
 // }
 // }
 
-import { expect } from "@playwright/test";
+import { expect, Locator } from "@playwright/test";
 import { BasePage } from "./basepage";
 
 export class SeriveModelPage extends BasePage {
@@ -119,4 +119,6 @@ export class SeriveModelPage extends BasePage {
             (element: HTMLTextAreaElement) => element.validationMessage
         );
     }
+
+
 }

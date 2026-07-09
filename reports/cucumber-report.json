@@ -6,7 +6,7 @@
         "description": "",
         "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;add-a-new-module-to-the-course-structure",
         "keyword": "Scenario Outline",
-        "line": 18,
+        "line": 17,
         "name": "Add a new module to the course structure",
         "steps": [
           {
@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 280127599
+              "duration": 186533400
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3384760099
+              "duration": 2590483999
             }
           },
           {
@@ -39,74 +39,73 @@
               "location": "src\\test\\step\\addCourseStructure.ts:15"
             },
             "result": {
-              "status": "failed",
-              "duration": 20012628900,
-              "error_message": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div[title=\\'Course Management\\']')\u001b[22m\n\n    at DashboardPage.naviagateToCourse (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\pages\\dashboardPage.ts:14:38)\n    at World.<anonymous> (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:16:30)"
+              "status": "passed",
+              "duration": 9713498099
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 10,
+            "line": 9,
             "name": "Admin click add Course Structure for the \"J-AT-A-002\"",
             "match": {
               "location": "src\\test\\step\\addCourseStructure.ts:21"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 7965870300
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 11,
+            "line": 10,
             "name": "Admin clicks the Add Module icon",
             "match": {
               "location": "src\\test\\step\\addCourseStructure.ts:26"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 483648499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Admin enters the required module details",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35629100
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "Admin enters the required module details",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:30"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
             "name": "Admin clicks the Add Module button",
             "match": {
               "location": "src\\test\\step\\addCourseStructure.ts:35"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3801988299
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 14,
+            "line": 13,
             "name": "the newly added module should be displayed in the Module table",
             "match": {
               "location": "src\\test\\step\\addCourseStructure.ts:39"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 40826600
             }
           },
           {
@@ -114,7 +113,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 367739700
+              "duration": 58557000
             }
           }
         ],
@@ -122,10 +121,239 @@
           {
             "name": "@Mylambigai",
             "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;export-the-course-structure-as-an-excel-file",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Export the course structure as an Excel file",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 222020799
+            }
           },
           {
-            "name": "@Myl_Scenario1",
-            "line": 8
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2636634899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7628122600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Admin clicks the Add Course Structure button for the course",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1129300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "verifies that a course structure is present in the table",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7478900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "Admin clicks the Print button",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1131999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "selects the Excel export option",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18545996200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the Excel file should be downloaded",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2730900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 113917000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Mylambigai",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;add-module-without-mandatory-field",
+        "keyword": "Scenario Outline",
+        "line": 34,
+        "name": "Add module without mandatory field",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 203051399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2713309699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7641036299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Admin clicks Add Course Structure for the \"J-AT-A-002\"",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7839997300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "Admin clicks the Add Module icon",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 502192699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Admin clicks the Add Module button without filling the mandatory field",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 395607799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "an error message should be displayed",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8313999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 45359499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Mylambigai",
+            "line": 1
           }
         ],
         "type": "scenario"
