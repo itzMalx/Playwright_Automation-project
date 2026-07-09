@@ -13,13 +13,99 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 176270400
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1985196199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7645557000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Admin click add Course Structure for the \"Playwright\"",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5596489700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Admin clicks the Add Module icon",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 973865799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Admin enters the required module details",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39619599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Admin clicks the Add Module button",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3323601600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the newly added module should be displayed in the Module table",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54231999
+=======
             "line": 4,
             "name": "the user is on the login page of the LMS smartcliff website",
             "match": {
@@ -904,7 +990,12 @@
             },
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 8010679900
+=======
+              "duration": 12153045299
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
@@ -912,13 +1003,25 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 33754399
+=======
+<<<<<<< HEAD
+              "duration": 35055899
+=======
+              "duration": 35342600
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@Mylambigai",
+=======
             "name": "@Muhindhar",
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
             "line": 1
           },
           {
@@ -930,22 +1033,47 @@
       },
       {
         "description": "",
+<<<<<<< HEAD
+        "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;export-the-course-structure-as-an-excel-file",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Export the course structure as an Excel file",
+=======
         "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website;login-with-an-incorrect-password",
         "keyword": "Scenario",
         "line": 17,
         "name": "Login with an incorrect password",
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 142698800
+=======
+<<<<<<< HEAD
+              "duration": 246835199
+=======
+              "duration": 142031400
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
+<<<<<<< HEAD
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1821266200
+=======
             "line": 8,
             "name": "the user is on the login page of the LMS smartcliff website",
             "match": {
@@ -953,11 +1081,27 @@
             },
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 597512000
+=======
+              "duration": 507581299
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
+<<<<<<< HEAD
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8632512699
+=======
             "keyword": "When ",
             "line": 18,
             "name": "the user enters the login credentials",
@@ -966,7 +1110,12 @@
             },
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 89480100
+=======
+              "duration": 98871299
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
@@ -986,6 +1135,15 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 20,
+<<<<<<< HEAD
+            "name": "Admin clicks the Add Course Structure button for the course",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 709999
+=======
             "name": "the user should see an invalid credentials error message",
             "match": {
               "location": "src\\test\\step\\loginstep.ts:41"
@@ -1028,11 +1186,27 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 138957800
+=======
+              "duration": 136764100
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
+<<<<<<< HEAD
+            "keyword": "And ",
+            "line": 21,
+            "name": "verifies that a course structure is present in the table",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11407299
+=======
             "keyword": "Given ",
             "line": 8,
             "name": "the user is on the login page of the LMS smartcliff website",
@@ -1041,12 +1215,27 @@
             },
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 1095000000
+=======
+              "duration": 838823899
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
+<<<<<<< HEAD
+            "line": 22,
+            "name": "Admin clicks the Print button",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1192200
+=======
             "line": 24,
             "name": "the user enters the login credentials",
             "match": {
@@ -1054,12 +1243,27 @@
             },
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 89934500
+=======
+              "duration": 93311499
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
+            "line": 23,
+            "name": "selects the Excel export option",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11367446899
+=======
             "line": 25,
             "name": "the user clicks the signin button",
             "match": {
@@ -1067,12 +1271,27 @@
             },
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 954372500
+=======
+              "duration": 941584700
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
+<<<<<<< HEAD
+            "line": 24,
+            "name": "the Excel file should be downloaded",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2906900
+=======
             "line": 26,
             "name": "the user should see an invalid password error message",
             "match": {
@@ -1080,7 +1299,12 @@
             },
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 6452785500
+=======
+              "duration": 7459590299
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
@@ -1088,13 +1312,25 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 42347999
+=======
+<<<<<<< HEAD
+              "duration": 103758900
+=======
+              "duration": 29835499
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@Mylambigai",
+=======
             "name": "@Muhindhar",
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
             "line": 1
           },
           {
@@ -1193,6 +1429,19 @@
         "type": "scenario"
       }
     ],
+<<<<<<< HEAD
+    "id": "mylambigai_7/7/2026-in-course-management-add-course-structure",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Mylambigai_7/7/2026 In Course Management Add Course Structure",
+    "tags": [
+      {
+        "name": "@Mylambigai",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Course Management\\addCourseStructure.feature"
+=======
     "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website",
     "line": 2,
     "keyword": "Feature",
@@ -1204,5 +1453,6 @@
       }
     ],
     "uri": "src\\test\\feature\\login\\login.feature"
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
   }
 ]

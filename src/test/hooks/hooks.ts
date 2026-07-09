@@ -25,7 +25,7 @@ Before(async function (this: glitchworld, scenario) {
     const loginTags = ["@Validlogin", "@Invalidpassword", "@Invalidcredentials", "@Unregisteredemail"];
     this.tag = scenario.pickle.tags.find(tag => loginTags.includes(tag.name))?.name ?? "";
     this.browser = browser;
-    this.context = await browser.newContext();
+    this.context = await browser.newContext({acceptDownloads: true});
     this.page = await this.context.newPage();
     this.login = new LoginPage(this.page);
     this.dashboardPage = new DashboardPage(this.page)
