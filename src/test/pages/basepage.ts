@@ -259,6 +259,15 @@ export class BasePage {
             logger.error('Failed to click checkbox')
         }
    }
+
+   async getCount(locator: Locator){
+    try{
+      return await locator.count()
+    }
+    catch(error){
+      logger.error("Count shuold be used for iterable objects")
+    }
+   }
 }
   
  

@@ -1,5 +1,7 @@
 import { Locator, Page } from 'playwright';
 import { BasePage } from '../pages/basepage';
+import path from "path";
+
 
 export class PedagogyPage extends BasePage {
 
@@ -7,8 +9,9 @@ export class PedagogyPage extends BasePage {
    readonly title: Locator
    readonly addModuleBtn: Locator
    readonly moduleList: Locator
-   readonly printBtn : Locator
-   readonly excelOption : Locator
+   readonly printBtn: Locator
+   readonly excelOption: Locator
+   readonly tableRow: Locator
 
    constructor(page: Page) {
       super(page)
@@ -17,7 +20,8 @@ export class PedagogyPage extends BasePage {
       this.addModuleBtn = this.page.locator("button[type='submit']")
       this.moduleList = this.page.locator("//tr//td[1]//div")
       this.printBtn = this.page.locator("//span[@class='hidden sm:inline'][text()='Print']")
-      this.excelOption = this.page.locator("//button[@data-slot='button']")
+      this.excelOption = this.page.getByText("Excel")
+      this.tableRow = this.page.locator("//tr[@data-slot='table-row']")
    }
 
    async module() {
@@ -42,12 +46,25 @@ export class PedagogyPage extends BasePage {
 
    }
 
-   async clickPrint(){
+   async clickPrint() {
       await this.click(this.printBtn)
    }
 
-   async clickExcel(){
-      await this.click(this.excelOption.last())
+   async clickExcel() {
+      await this.click(this.excelOption)
+   }
+
+   async tableRowCount() {
+      return await this.getCount(this.tableRow)
+   }
+
+   async downloadExcel(page: Page): Promise<string> {
+      const downloadPromise = page.waitForEvent("download");
+      await this.clickExcel();
+      const download = await downloadPromise;
+      const filePath = path.join("downloads", download.suggestedFilename());
+      await download.saveAs(filePath);
+      return filePath;
    }
 
 }

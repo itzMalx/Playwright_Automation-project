@@ -14,6 +14,8 @@ export class glitchworld extends World {
     page!: Page
     login!: LoginPage
     tag!: string;
+    downloadPath!: string;
+    downloadName!: string;
 
     dashboardPage!: DashboardPage
     courseManagementPage!: CourseManagementPage

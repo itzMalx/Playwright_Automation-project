@@ -1,0 +1,264 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;add-a-new-module-to-the-course-structure",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Add a new module to the course structure",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 237763299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1985196199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7645557000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Admin click add Course Structure for the \"Playwright\"",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5596489700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Admin clicks the Add Module icon",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 973865799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Admin enters the required module details",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39619599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Admin clicks the Add Module button",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3323601600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the newly added module should be displayed in the Module table",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54231999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 35055899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Mylambigai",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;export-the-course-structure-as-an-excel-file",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Export the course structure as an Excel file",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 246835199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1821266200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8632512699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Admin clicks the Add Course Structure button for the course",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 709999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "verifies that a course structure is present in the table",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11407299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "Admin clicks the Print button",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1192200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "selects the Excel export option",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11367446899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the Excel file should be downloaded",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2906900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 103758900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Mylambigai",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "mylambigai_7/7/2026-in-course-management-add-course-structure",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Mylambigai_7/7/2026 In Course Management Add Course Structure",
+    "tags": [
+      {
+        "name": "@Mylambigai",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Course Management\\addCourseStructure.feature"
+  }
+]

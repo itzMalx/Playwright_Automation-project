@@ -18,7 +18,7 @@ module.exports = {
     ],
 
     publishQuiet: true,
-    dryRun: true,
+    dryRun: false,
 
     format: [
       "progress",

@@ -20,7 +20,7 @@ BeforeAll(async () => {
 Before(async function (this: glitchworld, scenario) {
     this.tag = scenario.pickle.tags.find(tag => tag.name !== "@Muhindhar")!.name;
     this.browser = browser;
-    this.context = await browser.newContext();
+    this.context = await browser.newContext({acceptDownloads: true});
     this.page = await this.context.newPage();
     this.login = new LoginPage(this.page);
     this.dashboardPage = new DashboardPage(this.page)
