@@ -11,8 +11,8 @@ export class DashboardPage extends BasePage {
    }
 
    async naviagateToCourse() {
-      //await this.courseManagementBtn.waitFor({ state: "attached", timeout: 20000 });
-      //await this.courseManagementBtn.waitFor({ state: "visible", timeout: 20000 });
+      await this.courseManagementBtn.waitFor({ state: "attached", timeout: 20000 });
+      await this.courseManagementBtn.waitFor({ state: "visible", timeout: 20000 });
       await this.click(this.courseManagementBtn);
    }
 }

@@ -11,7 +11,7 @@
     "muhindhar": "cucumber-js --tags @Muhindhar",
     "malavicka":"cucumber-js --tags @Malavicka",
     "vetri":"cucumber-js --tags @Vetri && tsx src/utilities/report.ts",
-    "mylambigai":"cucumber-js --tags @Mylambigai && tsx src/utilities/report.ts",
+    "mylambigai":"cucumber-js --tags @Mylambigai & tsx src/utilities/report.ts",
     "shobana":"cucumber-js --tags @Shobana && tsx src/utilities/report.ts",
     "report": "tsx src/utilities/report.ts"
 
