@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 202766999
+              "duration": 361769699
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26541566699
+              "duration": 1618804299
             }
           },
           {
@@ -39,9 +39,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:15"
             },
             "result": {
-              "status": "failed",
-              "duration": 20011997800,
-              "error_message": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div[title=\\'Course Management\\']')\u001b[22m\n\n    at DashboardPage.naviagateToCourse (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\pages\\dashboardPage.ts:14:38)\n    at World.<anonymous> (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:16:30)"
+              "status": "passed",
+              "duration": 9547038099
             }
           },
           {
@@ -53,8 +52,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:21"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 21067926699
             }
           },
           {
@@ -66,8 +65,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:26"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5316352600
             }
           },
           {
@@ -79,8 +78,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:30"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 172446400
             }
           },
           {
@@ -92,8 +91,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:35"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 10830750500
             }
           },
           {
@@ -105,8 +104,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:39"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 91338400
             }
           },
           {
@@ -114,7 +113,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 7346594700
+              "duration": 95616199
             }
           }
         ],
@@ -138,7 +137,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 195645499
+              "duration": 260002699
             }
           },
           {
@@ -151,7 +150,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7397769900
+              "duration": 2005608800
             }
           },
           {
@@ -164,7 +163,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10806086999
+              "duration": 11143906799
             }
           },
           {
@@ -177,7 +176,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1314299
+              "duration": 3357199
             }
           },
           {
@@ -190,7 +189,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5912899
+              "duration": 24521500
             }
           },
           {
@@ -203,7 +202,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 902300
+              "duration": 4517800
             }
           },
           {
@@ -216,7 +215,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23717104500
+              "duration": 847499
             }
           },
           {
@@ -229,15 +228,16 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13939600
+              "duration": 599199
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 99165699
+              "status": "failed",
+              "duration": 60820100,
+              "error_message": "locator.waitFor: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('.animate-pulse').first() to be hidden\u001b[22m\n\u001b[2m    - locator resolved to visible <p class=\"text-gray-500 font-heading animate-pulse\">Synchronizing Dashboard...</p>\u001b[22m\n\n    at CourseManagementPage.selectActionList (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\pages\\courseManagementPage.ts:29:36)\n    at World.<anonymous> (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:45:31)"
             }
           }
         ],
@@ -260,8 +260,9 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 203642800
+              "status": "failed",
+              "duration": 14869899,
+              "error_message": "locator.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('//span[@class=\\'hidden sm:inline\\'][text()=\\'Print\\']')\u001b[22m\n\n    at PedagogyPage.click (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\pages\\basepage.ts:14:21)\n    at PedagogyPage.clickPrint (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\pages\\pedagogyPage.ts:59:18)\n    at World.<anonymous> (C:\\Users\\Mylambigai\\VS code\\Playwright_Project_LMS\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:56:23)"
             }
           },
           {
@@ -273,8 +274,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:9"
             },
             "result": {
-              "status": "passed",
-              "duration": 2439879300
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -286,8 +287,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 9770681500
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -299,8 +300,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:67"
             },
             "result": {
-              "status": "passed",
-              "duration": 8880464800
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -312,8 +313,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:26"
             },
             "result": {
-              "status": "passed",
-              "duration": 1457970600
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -325,8 +326,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:71"
             },
             "result": {
-              "status": "passed",
-              "duration": 429972199
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -338,8 +339,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:75"
             },
             "result": {
-              "status": "passed",
-              "duration": 14518800
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -347,7 +348,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 30584900
+              "duration": 2950800
             }
           }
         ],

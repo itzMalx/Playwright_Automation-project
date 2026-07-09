@@ -5,16 +5,16 @@ import path from "path";
 
 export class PedagogyPage extends BasePage {
 
-   readonly addModuleIcon: Locator
-   readonly title: Locator
-   readonly addModuleBtn: Locator
-   readonly moduleList: Locator
-   readonly printBtn: Locator
-   readonly excelOption: Locator
-   readonly tableRow: Locator
-   readonly moreBtn : Locator
-   readonly hierarchyOpt: Locator
-   readonly errorMsg : Locator
+   private readonly addModuleIcon: Locator
+   private readonly title: Locator
+   private readonly addModuleBtn: Locator
+   private readonly moduleList: Locator
+   private readonly printBtn: Locator
+   private readonly excelOption: Locator
+   private readonly tableRow: Locator
+   private readonly moreBtn : Locator
+   private readonly hierarchyOpt: Locator
+   private readonly errorMsg : Locator
 
    constructor(page: Page) {
       super(page)
