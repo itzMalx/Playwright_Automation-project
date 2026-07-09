@@ -1,6 +1,5 @@
 import { Locator, Page } from "playwright";
 import { logger } from "../../utilities/logger";
-import { emitWarning } from "node:process";
 
 export class BasePage {
 
@@ -19,6 +18,14 @@ export class BasePage {
       throw error;
     }
   }
+
+
+  async clickCheckbox(locator: Locator) {
+    await locator.waitFor({ state: "visible" });
+    if (!(await locator.isChecked())) {
+        await locator.check();
+    }
+}
 
   async fill(locator: Locator, value: string) {
     try {
@@ -250,15 +257,4 @@ export class BasePage {
             logger.error("Failed to Check clickable")
         }
     }
-     async clickCheckbox(locator:Locator){
-        try{
-           await locator.check();
-
-        }
-        catch(error){
-            logger.error('Failed to click checkbox')
-        }
-   }
 }
-  
- 
