@@ -7,6 +7,8 @@ export class PedagogyPage extends BasePage {
    readonly title: Locator
    readonly addModuleBtn: Locator
    readonly moduleList: Locator
+   readonly printBtn : Locator
+   readonly excelOption : Locator
 
    constructor(page: Page) {
       super(page)
@@ -14,6 +16,8 @@ export class PedagogyPage extends BasePage {
       this.title = this.page.locator("textarea[id='title']")
       this.addModuleBtn = this.page.locator("button[type='submit']")
       this.moduleList = this.page.locator("//tr//td[1]//div")
+      this.printBtn = this.page.locator("//span[@class='hidden sm:inline'][text()='Print']")
+      this.excelOption = this.page.locator("//button[@data-slot='button']")
    }
 
    async module() {
@@ -36,6 +40,14 @@ export class PedagogyPage extends BasePage {
             return 1
       }
 
+   }
+
+   async clickPrint(){
+      await this.click(this.printBtn)
+   }
+
+   async clickExcel(){
+      await this.click(this.excelOption.last())
    }
 
 }
