@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-each-page-has-8-records-across-each-pages",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-the-maximum-number-of-courses-displayed-on-a-page",
         "keyword": "Scenario",
         "line": 41,
-        "name": "Verify each page has 8 records across each pages",
+        "name": "Verify the maximum number of courses displayed on a page",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 470197999
+              "duration": 425937200
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3339468700
+              "duration": 1924291000
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 30022108200,
+              "duration": 30014557299,
               "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div[title=\\'Course Management\\']')\u001b[22m\n\n    at DashboardPage.naviagateToCourse (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\dashboardPage.ts:24:38)\n    at async World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:16:5)"
             }
           },
@@ -61,9 +61,9 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 43,
-            "name": "each page except the last should display exactly \"8\" records",
+            "name": "the page should display up to 8 courses",
             "match": {
-              "location": "src\\test\\step\\pagination.step.ts:93"
+              "location": "src\\test\\step\\pagination.step.ts:97"
             },
             "result": {
               "status": "skipped",
@@ -75,7 +75,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 196731299
+              "duration": 209323900
             }
           }
         ],

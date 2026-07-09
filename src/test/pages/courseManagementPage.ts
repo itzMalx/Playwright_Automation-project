@@ -119,4 +119,8 @@ export class CourseManagementPage extends BasePage {
         }
         return (await this.tableData.count())<=8;
     }
+
+    async getDataCount(){
+        return (await this.getElements(this.tableData)).length
+    }
 }

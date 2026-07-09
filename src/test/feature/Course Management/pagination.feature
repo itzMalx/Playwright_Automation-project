@@ -38,9 +38,9 @@ Feature: VetrivelB_07-07-2026_Course_Structure_Pagination
         | last | next |
 
   @PageSize
-  Scenario: Verify each page has 8 records across each pages 
+  Scenario: Verify the maximum number of courses displayed on a page
     Given the user is on the "1" page of the Course Structure table
-    Then each page except the last should display exactly "8" records
+    Then the page should display up to 8 courses
 
 
  

@@ -1,7 +1,7 @@
-[2026-07-09T07:22:23.709Z] INFO-Browser Launched
-[2026-07-09T07:22:24.239Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-09T07:22:26.437Z] INFO-Logging in with valid credentials
-[2026-07-09T07:22:27.576Z] INFO-Login completed successfully
-[2026-07-09T07:22:27.577Z] INFO-Login successfull!
-[2026-07-09T07:22:57.691Z] ERROR-Scenario Failed: Verify each page has 8 records across each pages
-[2026-07-09T07:22:57.805Z] INFO-Browser Closed
+[2026-07-09T09:14:30.935Z] INFO-Browser Launched
+[2026-07-09T09:14:31.403Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T09:14:32.211Z] INFO-Logging in with valid credentials
+[2026-07-09T09:14:33.318Z] INFO-Login completed successfully
+[2026-07-09T09:14:33.323Z] INFO-Login successfull!
+[2026-07-09T09:15:03.442Z] ERROR-Scenario Failed: Verify the maximum number of courses displayed on a page
+[2026-07-09T09:15:03.561Z] INFO-Browser Closed

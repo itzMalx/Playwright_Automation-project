@@ -12,6 +12,9 @@ export class PedagogyPage extends BasePage {
    readonly printBtn: Locator
    readonly excelOption: Locator
    readonly tableRow: Locator
+   readonly moreBtn : Locator
+   readonly hierarchyOpt: Locator
+   readonly errorMsg : Locator
 
    constructor(page: Page) {
       super(page)
@@ -22,7 +25,13 @@ export class PedagogyPage extends BasePage {
       this.printBtn = this.page.locator("//span[@class='hidden sm:inline'][text()='Print']")
       this.excelOption = this.page.getByText("Excel")
       this.tableRow = this.page.locator("//tr[@data-slot='table-row']")
+      this.moreBtn = this.page.getByText("More")
+      this.hierarchyOpt = this.page.locator("(//div//child::label[contains(@class,'flex items-center justify-between cursor-pointer')])[1]")
+      this.errorMsg = this.page.getByText("Title is required for module")
+   
+   
    }
+   
 
    async module() {
       await this.click(this.addModuleIcon)
@@ -65,6 +74,22 @@ export class PedagogyPage extends BasePage {
       const filePath = path.join("downloads", download.suggestedFilename());
       await download.saveAs(filePath);
       return filePath;
+   }
+
+   async clickMoreBtn(){
+      await this.click(this.moreBtn)
+   }
+
+   async enableHierarchyOpt(){
+      await this.click(this.hierarchyOpt)
+   }
+
+   async errorMessage(){
+      return await this.getText(this.errorMsg)
+   }
+
+   async clickSave(){
+      await this.click(this.addModuleBtn)
    }
 
 }
