@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 425937200
+              "duration": 528492800
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1924291000
+              "duration": 2492774300
             }
           },
           {
@@ -39,9 +39,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:15"
             },
             "result": {
-              "status": "failed",
-              "duration": 30014557299,
-              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div[title=\\'Course Management\\']')\u001b[22m\n\n    at DashboardPage.naviagateToCourse (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\dashboardPage.ts:24:38)\n    at async World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:16:5)"
+              "status": "passed",
+              "duration": 23208045200
             }
           },
           {
@@ -53,8 +52,9 @@
               "location": "src\\test\\step\\pagination.step.ts:58"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "failed",
+              "duration": 30013383699,
+              "error_message": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//button[normalize-space()=\\'1\\']') to be visible\u001b[22m\n\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\pagination.step.ts:70:59)"
             }
           },
           {
@@ -75,7 +75,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 209323900
+              "duration": 369637200
             }
           }
         ],

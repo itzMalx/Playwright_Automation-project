@@ -1,7 +1,8 @@
-[2026-07-09T09:14:30.935Z] INFO-Browser Launched
-[2026-07-09T09:14:31.403Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-09T09:14:32.211Z] INFO-Logging in with valid credentials
-[2026-07-09T09:14:33.318Z] INFO-Login completed successfully
-[2026-07-09T09:14:33.323Z] INFO-Login successfull!
-[2026-07-09T09:15:03.442Z] ERROR-Scenario Failed: Verify the maximum number of courses displayed on a page
-[2026-07-09T09:15:03.561Z] INFO-Browser Closed
+[09-07-2026 16:55:19] INFO  | Browser Launched
+[09-07-2026 16:55:20] INFO  | Navigating to LMS SmartCliff Login Page
+[09-07-2026 16:55:22] INFO  | Logging in with valid credentials
+[09-07-2026 16:55:22] INFO  | Login completed successfully
+[09-07-2026 16:55:22] INFO  | Login successfull!
+[09-07-2026 16:55:46] INFO  | Navigate to Course Management page
+[09-07-2026 16:56:16] ERROR | Scenario Failed: Verify the maximum number of courses displayed on a page
+[09-07-2026 16:56:16] INFO  | Browser Closed
