@@ -6,11 +6,11 @@
     },
     "serviceType": {
       "index": 1,
-      "value": "Automation testing"
+      "value": "test 1"
     },
     "serviceModel": {
       "index": 2,
-      "value": "Automation"
+      "value": "Automation testing"
     },
     "courseCategory": {
       "index": 3,

@@ -3,7 +3,7 @@ Feature: Shobana_09-07-2026_Add course category
 
     Background:
         Given Admin on the Dashboard Page after Login
-        And the user clicks on the dynamic field Settings icon
+        And Admin is navigating to the dynamic field settings page
         And user selects course category
     Scenario Outline: Add Course Category
         When Admin clicks the Add Category button
