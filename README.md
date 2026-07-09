@@ -267,8 +267,8 @@ BROWSER=chromium
 
 | Member | Responsibility |
 |---------|----------------|
-| 👨‍💻 Muhindhar | Member |
 | 👩‍💻 Malavicka | Team Lead |
+| 👨‍💻 Muhindhar | Member |
 | 👨‍💻 Vetri | Member |
 | 👩‍💻 Mylambigai | Member |
 | 👩‍💻 Shobana | Member |
