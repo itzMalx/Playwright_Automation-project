@@ -12,9 +12,13 @@ Feature: Mylambigai_7/7/2026 In Course Management Add Course Structure
         And Admin clicks the Add Module button
         Then the newly added module should be displayed in the Module table
 
-        Examples: 
-        |course|
-        |Playwright|
+        Examples:
+            | course     |
+            | Playwright |
 
-
-
+    Scenario: Export the course structure as an Excel file
+        And Admin clicks the Add Course Structure button for the course
+        And verifies that a course structure is present in the table
+        When Admin clicks the Print button
+        And selects the Excel export option
+        Then the Excel file should be downloaded

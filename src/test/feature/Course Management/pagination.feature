@@ -1,3 +1,4 @@
+@Vetri
 Feature: VetrivelB_07-07-2026_Course_Structure_Pagination
 
     Background:
@@ -16,12 +17,17 @@ Feature: VetrivelB_07-07-2026_Course_Structure_Pagination
       | 2 | Previous | 1 |
 
   @PageNumberNavigation
-  Scenario: Verify user can navigate to a specific page using the page number
+  Scenario Outline: Verify user can navigate to a specific page using the page number
     Given the user is on the Course Structure table
     When the user clicks page number "<pageNumber>"
     Then the user should be navigated to the "<pageNumber>" page
 
     Examples:
       | pageNumber |
-      | 2 |
-      | 3 |
+      | 2          |
+      | 9          |
+
+  @NextButtonDisabled
+  Scenario: Verify Next button is disabled on the last page
+    Given the user is on the last page of the Course Structure table
+    Then the Next button should be disabled
