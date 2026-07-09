@@ -9,6 +9,9 @@ import {SeriveModelPage} from '../pages/serviceModelPage'
 import { AddCoursePage } from '../pages/addCoursePage';
 import { DynamicFieldPage } from '../pages/dynamicFieldPage';
 import {CourseCategoryPage} from '../pages/courseCategoryPage';
+import { AddModelPage } from '../pages/addModelServicePage';
+import { ModelSearchPage } from '../pages/modelsSearchpage';
+
 
 export class glitchworld extends World {
 
@@ -26,8 +29,11 @@ export class glitchworld extends World {
     searchPage!: SearchPage
     servicePage!:SeriveModelPage
     addCoursePage! : AddCoursePage
+    addmodel!:AddModelPage
+    modelSearchPage!:ModelSearchPage
     dynamicFieldPage!:DynamicFieldPage
     courseCategoryPage!:CourseCategoryPage
+    
 
 
 }

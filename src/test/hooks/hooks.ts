@@ -14,6 +14,8 @@ import { CourseCategoryPage } from '../pages/courseCategoryPage';
 
 setDefaultTimeout(90 * 1000)
 import { AddCoursePage } from '../pages/addCoursePage';
+import { AddModelPage } from '../pages/addModelServicePage';
+import { ModelSearchPage } from '../pages/modelsSearchpage';
 
 let browser: Browser;
 
@@ -24,7 +26,7 @@ BeforeAll(async () => {
     logger.info("Browser Launched");
 });
 Before(async function (this: glitchworld, scenario) {
-    const loginTags = ["@Validlogin", "@Invalidpassword", "@Invalidcredentials", "@Unregisteredemail"];
+    const loginTags = ["@Validlogin","@Invalidlogin"];
     this.tag = scenario.pickle.tags.find(tag => loginTags.includes(tag.name))?.name ?? "";
     this.browser = browser;
     this.context = await browser.newContext({acceptDownloads: true});
@@ -38,6 +40,8 @@ Before(async function (this: glitchworld, scenario) {
     this.servicePage = new SeriveModelPage(this.page)
     this.dynamicFieldPage=new DynamicFieldPage(this.page)
     this.courseCategoryPage=new CourseCategoryPage(this.page)
+    this.addmodel = new AddModelPage(this.page)
+    this.modelSearchPage = new ModelSearchPage(this.page)
 
 });
 After(async function (this: glitchworld, scenario) {
