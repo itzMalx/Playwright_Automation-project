@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [2026-07-08T18:11:12.849Z] INFO-Browser Launched
 [2026-07-08T18:11:13.208Z] INFO-Navigating to LMS SmartCliff Login Page
 [2026-07-08T18:11:14.077Z] INFO-Logging in with valid credentials
@@ -148,3 +149,936 @@ Call log:
 [2026-07-08T18:39:46.352Z] INFO-Navigate to Course Management page
 [2026-07-08T18:39:57.167Z] INFO-Scenario Passed:Verify Next button is disabled on the last page
 [2026-07-08T18:39:57.254Z] INFO-Browser Closed
+=======
+<<<<<<< HEAD
+[2026-07-08T08:24:15.693Z] INFO-Browser Launched
+[2026-07-08T08:24:15.922Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T08:24:18.786Z] INFO-Logging in with valid credentials
+[2026-07-08T08:24:19.842Z] INFO-Login completed successfully
+[2026-07-08T08:24:19.842Z] INFO-Login successfull!
+[2026-07-08T08:24:26.403Z] INFO-Navigate to Course Management page
+[2026-07-08T08:24:44.217Z] INFO-Scenario Passed:Add a new module to the course structure
+[2026-07-08T08:24:44.461Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T08:24:47.186Z] INFO-Logging in with valid credentials
+[2026-07-08T08:24:48.223Z] INFO-Login completed successfully
+[2026-07-08T08:24:48.223Z] INFO-Login successfull!
+[2026-07-08T08:24:54.419Z] INFO-Navigate to Course Management page
+[2026-07-08T08:24:54.432Z] INFO-Scenario Passed:Add course with valid details
+[2026-07-08T08:24:54.681Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T08:24:56.506Z] INFO-Logging in with valid credentials
+[2026-07-08T08:24:57.546Z] INFO-Login completed successfully
+[2026-07-08T08:24:57.546Z] INFO-Login successfull!
+[2026-07-08T08:25:04.670Z] INFO-Navigate to Course Management page
+[2026-07-08T08:25:10.756Z] INFO-Scenario Passed:Verify user can navigate to the next page using the Next button
+[2026-07-08T08:25:10.925Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T08:25:12.506Z] INFO-Logging in with valid credentials
+[2026-07-08T08:25:13.580Z] INFO-Login completed successfully
+[2026-07-08T08:25:13.580Z] INFO-Login successfull!
+[2026-07-08T08:25:21.503Z] INFO-Navigate to Course Management page
+[2026-07-08T08:25:28.203Z] INFO-Scenario Passed:Verify user can navigate to a specific page using the page number
+[2026-07-08T08:25:28.373Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T08:25:28.378Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T08:25:30.414Z] INFO-Entering password
+[2026-07-08T08:25:30.425Z] INFO-Clicking Sign In button
+[2026-07-08T08:25:37.579Z] INFO-Fetching current URL
+[2026-07-08T08:25:37.680Z] ERROR-Scenario Failed: Search with valid client
+[2026-07-08T08:25:37.680Z] ERROR-Screenshot Saved:reports/screenshots/Search with valid client1783499137583.png
+[2026-07-08T08:25:37.866Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T08:25:37.870Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T08:25:39.583Z] INFO-Entering password
+[2026-07-08T08:25:39.598Z] INFO-Clicking Sign In button
+[2026-07-08T08:25:45.857Z] INFO-Fetching current URL
+[2026-07-08T08:25:45.964Z] ERROR-Scenario Failed: Search with valid course name
+[2026-07-08T08:25:45.964Z] ERROR-Screenshot Saved:reports/screenshots/Search with valid course name1783499145863.png
+[2026-07-08T08:25:46.165Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T08:25:46.169Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T08:25:48.444Z] INFO-Entering password
+[2026-07-08T08:25:48.464Z] INFO-Clicking Sign In button
+[2026-07-08T08:25:55.289Z] INFO-Fetching current URL
+[2026-07-08T08:25:55.392Z] ERROR-Scenario Failed: Search with non existing client
+[2026-07-08T08:25:55.392Z] ERROR-Screenshot Saved:reports/screenshots/Search with non existing client1783499155294.png
+[2026-07-08T08:25:55.579Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T08:25:55.582Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T08:25:57.219Z] INFO-Entering password
+[2026-07-08T08:25:57.238Z] INFO-Clicking Sign In button
+[2026-07-08T08:26:03.797Z] INFO-Fetching current URL
+[2026-07-08T08:26:03.882Z] ERROR-Scenario Failed: Search with non existing course
+[2026-07-08T08:26:03.882Z] ERROR-Screenshot Saved:reports/screenshots/Search with non existing course1783499163800.png
+[2026-07-08T08:26:04.086Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T08:26:04.092Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T08:26:05.795Z] INFO-Entering password
+[2026-07-08T08:26:05.815Z] INFO-Clicking Sign In button
+[2026-07-08T08:26:12.335Z] INFO-Fetching current URL
+[2026-07-08T08:26:12.338Z] INFO-Scenario Passed:Login with valid credentials
+[2026-07-08T08:26:12.514Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T08:26:12.517Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T08:26:14.427Z] INFO-Entering password
+[2026-07-08T08:26:14.439Z] INFO-Clicking Sign In button
+[2026-07-08T08:26:15.397Z] INFO-Validating invalid password message
+[2026-07-08T08:26:24.422Z] INFO-Scenario Passed:Login with an incorrect password
+[2026-07-08T08:26:24.621Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T08:26:24.626Z] INFO-Entering email: testing123@gmail.com
+[2026-07-08T08:26:26.822Z] INFO-Entering password
+[2026-07-08T08:26:26.846Z] INFO-Clicking Sign In button
+[2026-07-08T08:26:27.828Z] INFO-Validating invalid credentials message
+[2026-07-08T08:26:31.222Z] INFO-Scenario Passed:Login with an invalid email and an invalid password
+[2026-07-08T08:26:31.425Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T08:26:31.429Z] INFO-Entering email: testing12@gmail.com
+[2026-07-08T08:26:33.229Z] INFO-Entering password
+[2026-07-08T08:26:33.262Z] INFO-Clicking Sign In button
+[2026-07-08T08:26:34.237Z] INFO-Validating invalid email message
+[2026-07-08T08:26:37.111Z] INFO-Scenario Passed:Login with an unregistered email
+[2026-07-08T08:26:37.176Z] INFO-Browser Closed
+[2026-07-08T14:15:56.913Z] INFO-Browser Launched
+[2026-07-08T14:15:57.118Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:15:57.686Z] INFO-Logging in with valid credentials
+[2026-07-08T14:15:58.759Z] INFO-Login completed successfully
+[2026-07-08T14:15:58.759Z] INFO-Login successfull!
+[2026-07-08T14:16:07.375Z] INFO-Navigate to Course Management page
+[2026-07-08T14:16:24.762Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-08T14:16:24.762Z] ERROR-Screenshot Saved:reports/screenshots/Add a new module to the course structure1783520184496.png
+[2026-07-08T14:16:24.915Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:16:25.641Z] INFO-Logging in with valid credentials
+[2026-07-08T14:16:26.720Z] INFO-Login completed successfully
+[2026-07-08T14:16:26.720Z] INFO-Login successfull!
+[2026-07-08T14:16:40.935Z] INFO-Navigate to Course Management page
+[2026-07-08T14:16:40.950Z] INFO-Scenario Passed:Add course with valid details
+[2026-07-08T14:16:41.162Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:16:41.716Z] INFO-Logging in with valid credentials
+[2026-07-08T14:16:42.728Z] INFO-Login completed successfully
+[2026-07-08T14:16:42.728Z] INFO-Login successfull!
+[2026-07-08T14:16:52.943Z] INFO-Navigate to Course Management page
+[2026-07-08T14:17:00.142Z] INFO-Scenario Passed:Verify user can navigate to the next page using the Next button
+[2026-07-08T14:17:00.286Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:17:00.784Z] INFO-Logging in with valid credentials
+[2026-07-08T14:17:01.797Z] INFO-Login completed successfully
+[2026-07-08T14:17:01.797Z] INFO-Login successfull!
+[2026-07-08T14:17:05.603Z] ERROR-Failed to click element: Error: locator.click: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('div[title=\'Course Management\']')[22m
+
+[2026-07-08T14:17:05.702Z] INFO-Browser Closed
+[2026-07-08T14:22:17.791Z] INFO-Browser Launched
+[2026-07-08T14:22:18.234Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T14:22:18.234Z] ERROR-Screenshot Saved:reports/screenshots/Add a valid service1783520538015.png
+[2026-07-08T14:22:18.503Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T14:22:18.503Z] ERROR-Screenshot Saved:reports/screenshots/Add a valid service1783520538436.png
+[2026-07-08T14:22:18.742Z] ERROR-Scenario Failed: Add a service without a description
+[2026-07-08T14:22:18.742Z] ERROR-Screenshot Saved:reports/screenshots/Add a service without a description1783520538691.png
+[2026-07-08T14:22:18.965Z] ERROR-Scenario Failed: Add a service with empty details
+[2026-07-08T14:22:18.965Z] ERROR-Screenshot Saved:reports/screenshots/Add a service with empty details1783520538921.png
+[2026-07-08T14:22:19.181Z] ERROR-Scenario Failed: Add a service without  service name
+[2026-07-08T14:22:19.181Z] ERROR-Screenshot Saved:reports/screenshots/Add a service without  service name1783520539129.png
+[2026-07-08T14:22:19.228Z] INFO-Browser Closed
+[2026-07-08T14:23:23.453Z] INFO-Browser Launched
+[2026-07-08T14:23:23.663Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:23:53.680Z] ERROR-Failed to navigate to login page: TimeoutError: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://lms-smartcliff.vercel.app/login", waiting until "load"[22m
+
+[2026-07-08T14:24:23.855Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:24:53.871Z] ERROR-Failed to navigate to login page: TimeoutError: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://lms-smartcliff.vercel.app/login", waiting until "load"[22m
+
+[2026-07-08T14:24:58.780Z] INFO-Browser Closed
+[2026-07-08T14:27:51.418Z] INFO-Browser Launched
+[2026-07-08T14:27:51.901Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T14:27:51.902Z] ERROR-Screenshot Saved:reports/screenshots/Add a valid service1783520871652.png
+[2026-07-08T14:27:52.214Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T14:27:52.214Z] ERROR-Screenshot Saved:reports/screenshots/Add a valid service1783520872144.png
+[2026-07-08T14:27:52.445Z] ERROR-Scenario Failed: Add a service without a description
+[2026-07-08T14:27:52.445Z] ERROR-Screenshot Saved:reports/screenshots/Add a service without a description1783520872386.png
+[2026-07-08T14:27:52.695Z] ERROR-Scenario Failed: Add a service with empty details
+[2026-07-08T14:27:52.695Z] ERROR-Screenshot Saved:reports/screenshots/Add a service with empty details1783520872624.png
+[2026-07-08T14:27:52.928Z] ERROR-Scenario Failed: Add a service without  service name
+[2026-07-08T14:27:52.928Z] ERROR-Screenshot Saved:reports/screenshots/Add a service without  service name1783520872865.png
+[2026-07-08T14:27:52.968Z] INFO-Browser Closed
+[2026-07-08T14:29:16.136Z] INFO-Browser Launched
+[2026-07-08T14:29:16.349Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:29:34.211Z] ERROR-Failed to fill element: Error: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:29:34.211Z] ERROR-Failed to enter email: Error: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:29:34.260Z] INFO-Browser Closed
+[2026-07-08T14:33:36.294Z] INFO-Browser Launched
+[2026-07-08T14:33:36.482Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:33:37.111Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:33:37.234Z] INFO-Entering password
+[2026-07-08T14:33:37.267Z] INFO-Clicking Sign In button
+[2026-07-08T14:33:46.430Z] INFO-Fetching current URL
+[2026-07-08T14:33:46.435Z] INFO-Scenario Passed:Login with valid credentials
+[2026-07-08T14:33:46.626Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:33:47.187Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:33:47.253Z] INFO-Entering password
+[2026-07-08T14:33:47.271Z] INFO-Clicking Sign In button
+[2026-07-08T14:33:48.208Z] INFO-Validating invalid password message
+[2026-07-08T14:34:01.343Z] INFO-Scenario Passed:Login with an incorrect password
+[2026-07-08T14:34:01.592Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:34:02.057Z] INFO-Entering email: testing123@gmail.com
+[2026-07-08T14:34:02.117Z] INFO-Entering password
+[2026-07-08T14:34:02.131Z] INFO-Clicking Sign In button
+[2026-07-08T14:34:03.086Z] INFO-Validating invalid credentials message
+[2026-07-08T14:34:08.012Z] INFO-Scenario Passed:Login with an invalid email and an invalid password
+[2026-07-08T14:34:08.214Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:34:08.719Z] INFO-Entering email: testing12@gmail.com
+[2026-07-08T14:34:08.843Z] INFO-Entering password
+[2026-07-08T14:34:08.860Z] INFO-Clicking Sign In button
+[2026-07-08T14:34:09.818Z] INFO-Validating invalid email message
+[2026-07-08T14:34:14.238Z] INFO-Scenario Passed:Login with an unregistered email
+[2026-07-08T14:34:14.279Z] INFO-Browser Closed
+[2026-07-08T14:34:32.536Z] INFO-Browser Launched
+[2026-07-08T14:34:32.746Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:34:54.879Z] ERROR-Failed to fill element: Error: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:34:54.879Z] ERROR-Failed to enter email: Error: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:34:54.936Z] INFO-Browser Closed
+[2026-07-08T14:36:47.222Z] INFO-Browser Launched
+[2026-07-08T14:36:47.429Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:36:51.372Z] ERROR-Failed to fill element: Error: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:36:51.372Z] ERROR-Failed to enter email: Error: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:36:51.385Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T14:36:51.561Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:36:53.595Z] ERROR-Failed to fill element: Error: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:36:53.595Z] ERROR-Failed to enter email: Error: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:36:53.601Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T14:36:53.748Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:36:54.713Z] ERROR-Failed to fill element: Error: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:36:54.713Z] ERROR-Failed to enter email: Error: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:36:54.717Z] ERROR-Scenario Failed: Add a service without a description
+[2026-07-08T14:36:54.860Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:36:55.699Z] ERROR-Failed to fill element: Error: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:36:55.699Z] ERROR-Failed to enter email: Error: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:36:55.703Z] ERROR-Scenario Failed: Add a service with empty details
+[2026-07-08T14:36:55.844Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:36:56.685Z] ERROR-Failed to fill element: Error: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:36:56.685Z] ERROR-Failed to enter email: Error: locator.fill: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:36:56.689Z] ERROR-Scenario Failed: Add a service without  service name
+[2026-07-08T14:36:56.707Z] INFO-Browser Closed
+[2026-07-08T14:37:52.220Z] INFO-Browser Launched
+[2026-07-08T14:37:52.456Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:38:22.470Z] ERROR-Failed to fill element: TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:38:22.471Z] ERROR-Failed to enter email: TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:38:22.564Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T14:38:22.734Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:38:52.742Z] ERROR-Failed to fill element: TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:38:52.742Z] ERROR-Failed to enter email: TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:38:52.807Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T14:38:52.984Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:39:22.995Z] ERROR-Failed to fill element: TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:39:22.995Z] ERROR-Failed to enter email: TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:39:23.072Z] ERROR-Scenario Failed: Add a service without a description
+[2026-07-08T14:39:23.271Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:39:53.278Z] ERROR-Failed to fill element: TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:39:53.278Z] ERROR-Failed to enter email: TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:39:53.350Z] ERROR-Scenario Failed: Add a service with empty details
+[2026-07-08T14:39:53.550Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:40:23.572Z] ERROR-Failed to fill element: TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:40:23.572Z] ERROR-Failed to enter email: TimeoutError: locator.fill: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//input[@id=\'email\']')[22m
+
+[2026-07-08T14:40:23.691Z] ERROR-Scenario Failed: Add a service without  service name
+[2026-07-08T14:40:23.794Z] INFO-Browser Closed
+[2026-07-08T14:42:18.573Z] INFO-Browser Launched
+[2026-07-08T14:42:19.468Z] INFO-Browser Closed
+[2026-07-08T14:43:07.300Z] INFO-Browser Launched
+[2026-07-08T14:43:07.497Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:43:08.011Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:43:08.059Z] INFO-Entering password
+[2026-07-08T14:43:08.076Z] INFO-Clicking Sign In button
+[2026-07-08T14:43:17.588Z] INFO-Fetching current URL
+[2026-07-08T14:43:22.715Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:43:23.245Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:43:23.309Z] INFO-Entering password
+[2026-07-08T14:43:23.325Z] INFO-Clicking Sign In button
+[2026-07-08T14:43:33.993Z] INFO-Fetching current URL
+[2026-07-08T14:43:39.307Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:43:39.804Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:43:39.864Z] INFO-Entering password
+[2026-07-08T14:43:39.879Z] INFO-Clicking Sign In button
+[2026-07-08T14:43:49.391Z] INFO-Fetching current URL
+[2026-07-08T14:43:52.743Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:43:53.241Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:43:53.296Z] INFO-Entering password
+[2026-07-08T14:43:53.314Z] INFO-Clicking Sign In button
+[2026-07-08T14:44:04.027Z] INFO-Fetching current URL
+[2026-07-08T14:44:34.370Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//button[text()=\'Add Service\']')[22m
+[2m    - locator resolved to <button disabled data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium cursor-pointer transition-all disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:bor…>…</button>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not stable[22m
+[2m  - retrying click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not enabled[22m
+[2m  - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not enabled[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    54 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is not enabled[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+
+[2026-07-08T14:44:34.489Z] ERROR-Scenario Failed: Add a service with empty details
+[2026-07-08T14:44:34.665Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:44:35.166Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:44:35.227Z] INFO-Entering password
+[2026-07-08T14:44:35.243Z] INFO-Clicking Sign In button
+[2026-07-08T14:44:44.566Z] INFO-Fetching current URL
+[2026-07-08T14:44:47.789Z] INFO-Browser Closed
+[2026-07-08T14:47:55.810Z] INFO-Browser Launched
+[2026-07-08T14:47:55.977Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:47:56.584Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:47:56.646Z] INFO-Entering password
+[2026-07-08T14:47:56.669Z] INFO-Clicking Sign In button
+[2026-07-08T14:48:05.362Z] INFO-Fetching current URL
+[2026-07-08T14:48:24.696Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:48:25.201Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:48:25.269Z] INFO-Entering password
+[2026-07-08T14:48:25.288Z] INFO-Clicking Sign In button
+[2026-07-08T14:48:35.140Z] INFO-Fetching current URL
+[2026-07-08T14:49:06.188Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T14:49:06.430Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:49:06.931Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:49:07.011Z] INFO-Entering password
+[2026-07-08T14:49:07.032Z] INFO-Clicking Sign In button
+[2026-07-08T14:49:17.498Z] INFO-Fetching current URL
+[2026-07-08T14:49:28.848Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:49:29.374Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:49:29.434Z] INFO-Entering password
+[2026-07-08T14:49:29.452Z] INFO-Clicking Sign In button
+[2026-07-08T14:49:40.902Z] INFO-Fetching current URL
+[2026-07-08T14:49:50.985Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:49:51.496Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:49:51.579Z] INFO-Entering password
+[2026-07-08T14:49:51.597Z] INFO-Clicking Sign In button
+[2026-07-08T14:50:04.520Z] INFO-Fetching current URL
+[2026-07-08T14:50:13.931Z] INFO-Browser Closed
+[2026-07-08T14:51:34.796Z] INFO-Browser Launched
+[2026-07-08T14:51:34.992Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:51:35.532Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:51:35.604Z] INFO-Entering password
+[2026-07-08T14:51:35.622Z] INFO-Clicking Sign In button
+[2026-07-08T14:51:43.284Z] INFO-Fetching current URL
+[2026-07-08T14:51:47.645Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:51:48.146Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:51:48.225Z] INFO-Entering password
+[2026-07-08T14:51:48.241Z] INFO-Clicking Sign In button
+[2026-07-08T14:51:57.936Z] INFO-Fetching current URL
+[2026-07-08T14:52:01.667Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:52:02.809Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:52:02.877Z] INFO-Entering password
+[2026-07-08T14:52:02.893Z] INFO-Clicking Sign In button
+[2026-07-08T14:52:12.091Z] INFO-Fetching current URL
+[2026-07-08T14:52:16.888Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:52:17.387Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:52:17.451Z] INFO-Entering password
+[2026-07-08T14:52:17.464Z] INFO-Clicking Sign In button
+[2026-07-08T14:52:26.960Z] INFO-Fetching current URL
+[2026-07-08T14:52:30.699Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:52:31.209Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:52:31.273Z] INFO-Entering password
+[2026-07-08T14:52:31.286Z] INFO-Clicking Sign In button
+[2026-07-08T14:52:41.933Z] INFO-Fetching current URL
+[2026-07-08T14:52:45.667Z] INFO-Browser Closed
+[2026-07-08T14:53:11.180Z] INFO-Browser Launched
+[2026-07-08T14:53:11.374Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:53:11.960Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:53:12.016Z] INFO-Entering password
+[2026-07-08T14:53:12.038Z] INFO-Clicking Sign In button
+[2026-07-08T14:53:21.288Z] INFO-Fetching current URL
+[2026-07-08T14:53:25.629Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:53:26.090Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:53:26.169Z] INFO-Entering password
+[2026-07-08T14:53:26.192Z] INFO-Clicking Sign In button
+[2026-07-08T14:53:35.457Z] INFO-Fetching current URL
+[2026-07-08T14:53:42.905Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T14:53:43.089Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:53:43.688Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:53:43.766Z] INFO-Entering password
+[2026-07-08T14:53:43.782Z] INFO-Clicking Sign In button
+[2026-07-08T14:54:14.927Z] ERROR-Scenario Failed: Add a service without a description
+[2026-07-08T14:54:15.144Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:54:15.621Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:54:15.691Z] INFO-Entering password
+[2026-07-08T14:54:15.704Z] INFO-Clicking Sign In button
+[2026-07-08T14:54:24.521Z] INFO-Fetching current URL
+[2026-07-08T14:54:28.344Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:54:28.835Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:54:28.896Z] INFO-Entering password
+[2026-07-08T14:54:28.916Z] INFO-Clicking Sign In button
+[2026-07-08T14:54:40.361Z] INFO-Fetching current URL
+[2026-07-08T14:54:44.098Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:54:44.665Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:54:44.728Z] INFO-Entering password
+[2026-07-08T14:54:44.747Z] INFO-Clicking Sign In button
+[2026-07-08T14:54:53.203Z] INFO-Fetching current URL
+[2026-07-08T14:54:53.397Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:54:53.911Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:54:53.973Z] INFO-Entering password
+[2026-07-08T14:54:53.989Z] INFO-Clicking Sign In button
+[2026-07-08T14:54:54.940Z] INFO-Validating invalid password message
+[2026-07-08T14:55:07.222Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:55:09.344Z] INFO-Entering email: testing123@gmail.com
+[2026-07-08T14:55:09.403Z] INFO-Entering password
+[2026-07-08T14:55:09.414Z] INFO-Clicking Sign In button
+[2026-07-08T14:55:10.369Z] INFO-Validating invalid credentials message
+[2026-07-08T14:55:13.959Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:55:14.443Z] INFO-Entering email: testing12@gmail.com
+[2026-07-08T14:55:14.515Z] INFO-Entering password
+[2026-07-08T14:55:14.526Z] INFO-Clicking Sign In button
+[2026-07-08T14:55:15.487Z] INFO-Validating invalid email message
+[2026-07-08T14:55:19.425Z] INFO-Browser Closed
+[2026-07-08T14:59:46.915Z] INFO-Browser Launched
+[2026-07-08T14:59:47.126Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T14:59:47.714Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T14:59:47.810Z] INFO-Entering password
+[2026-07-08T14:59:47.826Z] INFO-Clicking Sign In button
+[2026-07-08T14:59:55.404Z] INFO-Fetching current URL
+[2026-07-08T14:59:59.744Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:00:00.234Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:00:00.291Z] INFO-Entering password
+[2026-07-08T15:00:00.308Z] INFO-Clicking Sign In button
+[2026-07-08T15:00:31.493Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T15:00:31.668Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:00:32.172Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:00:32.237Z] INFO-Entering password
+[2026-07-08T15:00:32.251Z] INFO-Clicking Sign In button
+[2026-07-08T15:01:03.347Z] ERROR-Scenario Failed: Add a service without a description
+[2026-07-08T15:01:03.554Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:01:04.074Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:01:04.138Z] INFO-Entering password
+[2026-07-08T15:01:04.153Z] INFO-Clicking Sign In button
+[2026-07-08T15:01:35.299Z] ERROR-Scenario Failed: Add a service with empty details
+[2026-07-08T15:01:35.504Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:01:36.909Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:01:36.965Z] INFO-Entering password
+[2026-07-08T15:01:36.982Z] INFO-Clicking Sign In button
+[2026-07-08T15:02:08.122Z] ERROR-Scenario Failed: Add a service without  service name
+[2026-07-08T15:02:08.311Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:02:08.841Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:02:08.904Z] INFO-Entering password
+[2026-07-08T15:02:08.919Z] INFO-Clicking Sign In button
+[2026-07-08T15:02:18.294Z] INFO-Fetching current URL
+[2026-07-08T15:02:18.479Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:02:18.961Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:02:19.021Z] INFO-Entering password
+[2026-07-08T15:02:19.035Z] INFO-Clicking Sign In button
+[2026-07-08T15:02:20.000Z] INFO-Validating invalid password message
+[2026-07-08T15:02:50.016Z] ERROR-Failed to get text: TimeoutError: locator.textContent: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//div[@class=\'go3958317564\']')[22m
+
+[2026-07-08T15:02:50.016Z] ERROR-Failed to fetch invalid password message: TimeoutError: locator.textContent: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//div[@class=\'go3958317564\']')[22m
+
+[2026-07-08T15:02:50.182Z] ERROR-Scenario Failed: Login with an incorrect password
+[2026-07-08T15:02:50.371Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:02:53.147Z] INFO-Entering email: testing123@gmail.com
+[2026-07-08T15:02:53.223Z] INFO-Entering password
+[2026-07-08T15:02:53.237Z] INFO-Clicking Sign In button
+[2026-07-08T15:02:54.192Z] INFO-Validating invalid credentials message
+[2026-07-08T15:02:59.843Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:03:00.940Z] INFO-Entering email: testing12@gmail.com
+[2026-07-08T15:03:00.994Z] INFO-Entering password
+[2026-07-08T15:03:01.006Z] INFO-Clicking Sign In button
+[2026-07-08T15:03:01.943Z] INFO-Validating invalid email message
+[2026-07-08T15:03:31.955Z] ERROR-Failed to get text: TimeoutError: locator.textContent: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//div[@class=\'go3958317564\']')[22m
+
+[2026-07-08T15:03:31.956Z] ERROR-Failed to fetch invalid email message: TimeoutError: locator.textContent: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//div[@class=\'go3958317564\']')[22m
+
+[2026-07-08T15:03:32.123Z] ERROR-Scenario Failed: Login with an unregistered email
+[2026-07-08T15:03:32.154Z] INFO-Browser Closed
+[2026-07-08T15:06:05.621Z] INFO-Browser Launched
+[2026-07-08T15:06:05.820Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:06:06.478Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:06:06.563Z] INFO-Entering password
+[2026-07-08T15:06:06.582Z] INFO-Clicking Sign In button
+[2026-07-08T15:06:17.198Z] INFO-Fetching current URL
+[2026-07-08T15:06:21.210Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:06:21.800Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:06:21.907Z] INFO-Entering password
+[2026-07-08T15:06:21.928Z] INFO-Clicking Sign In button
+[2026-07-08T15:06:34.948Z] INFO-Fetching current URL
+[2026-07-08T15:06:42.469Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T15:06:42.646Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:06:43.170Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:06:43.246Z] INFO-Entering password
+[2026-07-08T15:06:43.278Z] INFO-Clicking Sign In button
+[2026-07-08T15:06:52.835Z] INFO-Fetching current URL
+[2026-07-08T15:06:59.241Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:06:59.913Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:06:59.973Z] INFO-Entering password
+[2026-07-08T15:06:59.987Z] INFO-Clicking Sign In button
+[2026-07-08T15:07:09.984Z] INFO-Fetching current URL
+[2026-07-08T15:07:16.239Z] ERROR-Scenario Failed: Add a service with empty details
+[2026-07-08T15:07:16.464Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:07:17.020Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:07:17.087Z] INFO-Entering password
+[2026-07-08T15:07:17.105Z] INFO-Clicking Sign In button
+[2026-07-08T15:07:48.265Z] ERROR-Scenario Failed: Add a service without  service name
+[2026-07-08T15:07:48.476Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:07:49.102Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:07:49.183Z] INFO-Entering password
+[2026-07-08T15:07:49.197Z] INFO-Clicking Sign In button
+[2026-07-08T15:07:56.952Z] INFO-Fetching current URL
+[2026-07-08T15:07:57.141Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:07:57.698Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:07:57.758Z] INFO-Entering password
+[2026-07-08T15:07:57.773Z] INFO-Clicking Sign In button
+[2026-07-08T15:07:58.754Z] INFO-Validating invalid password message
+[2026-07-08T15:08:28.758Z] ERROR-Failed to get text: TimeoutError: locator.textContent: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//div[@class=\'go3958317564\']')[22m
+
+[2026-07-08T15:08:28.758Z] ERROR-Failed to fetch invalid password message: TimeoutError: locator.textContent: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//div[@class=\'go3958317564\']')[22m
+
+[2026-07-08T15:08:28.907Z] ERROR-Scenario Failed: Login with an incorrect password
+[2026-07-08T15:08:29.111Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:08:29.655Z] INFO-Entering email: testing123@gmail.com
+[2026-07-08T15:08:29.716Z] INFO-Entering password
+[2026-07-08T15:08:29.733Z] INFO-Clicking Sign In button
+[2026-07-08T15:08:30.669Z] INFO-Validating invalid credentials message
+[2026-07-08T15:09:00.672Z] ERROR-Failed to get text: TimeoutError: locator.textContent: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//div[@class=\'go3958317564\']')[22m
+
+[2026-07-08T15:09:00.672Z] ERROR-Failed to fetch invalid credentials message: TimeoutError: locator.textContent: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//div[@class=\'go3958317564\']')[22m
+
+[2026-07-08T15:09:00.833Z] ERROR-Scenario Failed: Login with an invalid email and an invalid password
+[2026-07-08T15:09:01.039Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:09:01.592Z] INFO-Entering email: testing12@gmail.com
+[2026-07-08T15:09:01.652Z] INFO-Entering password
+[2026-07-08T15:09:01.668Z] INFO-Clicking Sign In button
+[2026-07-08T15:09:02.623Z] INFO-Validating invalid email message
+[2026-07-08T15:09:09.143Z] INFO-Browser Closed
+[2026-07-08T15:12:40.317Z] INFO-Browser Launched
+[2026-07-08T15:12:40.537Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:12:41.107Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:12:41.173Z] INFO-Entering password
+[2026-07-08T15:12:41.189Z] INFO-Clicking Sign In button
+[2026-07-08T15:12:49.709Z] INFO-Fetching current URL
+[2026-07-08T15:12:54.464Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T15:12:54.669Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:12:55.252Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:12:55.332Z] INFO-Entering password
+[2026-07-08T15:12:55.348Z] INFO-Clicking Sign In button
+[2026-07-08T15:13:05.601Z] INFO-Fetching current URL
+[2026-07-08T15:13:09.047Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T15:13:09.221Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:13:09.737Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:13:09.810Z] INFO-Entering password
+[2026-07-08T15:13:09.824Z] INFO-Clicking Sign In button
+[2026-07-08T15:13:17.245Z] INFO-Fetching current URL
+[2026-07-08T15:13:20.551Z] ERROR-Scenario Failed: Add a service without a description
+[2026-07-08T15:13:20.730Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:13:21.332Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:13:21.393Z] INFO-Entering password
+[2026-07-08T15:13:21.406Z] INFO-Clicking Sign In button
+[2026-07-08T15:13:29.755Z] INFO-Fetching current URL
+[2026-07-08T15:13:34.207Z] ERROR-Scenario Failed: Add a service with empty details
+[2026-07-08T15:13:34.384Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:13:34.929Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:13:34.987Z] INFO-Entering password
+[2026-07-08T15:13:35.002Z] INFO-Clicking Sign In button
+[2026-07-08T15:13:43.667Z] INFO-Fetching current URL
+[2026-07-08T15:13:46.533Z] ERROR-Scenario Failed: Add a service without  service name
+[2026-07-08T15:13:46.727Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:13:47.312Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:13:47.371Z] INFO-Entering password
+[2026-07-08T15:13:47.386Z] INFO-Clicking Sign In button
+[2026-07-08T15:13:54.437Z] INFO-Fetching current URL
+[2026-07-08T15:13:54.593Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:13:55.174Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T15:13:55.256Z] INFO-Entering password
+[2026-07-08T15:13:55.279Z] INFO-Clicking Sign In button
+[2026-07-08T15:13:56.263Z] INFO-Validating invalid password message
+[2026-07-08T15:14:11.139Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:14:11.706Z] INFO-Entering email: testing123@gmail.com
+[2026-07-08T15:14:11.766Z] INFO-Entering password
+[2026-07-08T15:14:11.780Z] INFO-Clicking Sign In button
+[2026-07-08T15:14:12.715Z] INFO-Validating invalid credentials message
+[2026-07-08T15:14:18.863Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T15:14:19.478Z] INFO-Entering email: testing12@gmail.com
+[2026-07-08T15:14:19.538Z] INFO-Entering password
+[2026-07-08T15:14:19.552Z] INFO-Clicking Sign In button
+[2026-07-08T15:14:20.506Z] INFO-Validating invalid email message
+[2026-07-08T15:14:26.040Z] INFO-Browser Closed
+[2026-07-08T16:34:08.963Z] INFO-Browser Launched
+[2026-07-08T16:34:09.219Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:34:11.096Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:34:11.165Z] INFO-Entering password
+[2026-07-08T16:34:11.188Z] INFO-Clicking Sign In button
+[2026-07-08T16:34:20.505Z] INFO-Fetching current URL
+[2026-07-08T16:34:58.246Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T16:34:58.406Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:35:00.137Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:35:00.212Z] INFO-Entering password
+[2026-07-08T16:35:00.228Z] INFO-Clicking Sign In button
+[2026-07-08T16:35:11.701Z] INFO-Fetching current URL
+[2026-07-08T16:35:50.428Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T16:35:50.676Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:35:51.280Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:35:51.521Z] INFO-Entering password
+[2026-07-08T16:35:51.595Z] INFO-Clicking Sign In button
+[2026-07-08T16:36:00.825Z] INFO-Fetching current URL
+[2026-07-08T16:36:34.511Z] ERROR-Scenario Failed: Add a service without a description
+[2026-07-08T16:36:34.761Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:36:35.583Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:36:35.718Z] INFO-Entering password
+[2026-07-08T16:36:35.740Z] INFO-Clicking Sign In button
+[2026-07-08T16:36:44.486Z] INFO-Fetching current URL
+[2026-07-08T16:37:06.600Z] ERROR-Scenario Failed: Add a service with empty details
+[2026-07-08T16:37:06.646Z] ERROR-Scenario Failed: Add a service without  service name
+[2026-07-08T16:37:06.654Z] ERROR-Scenario Failed: Login with valid credentials
+[2026-07-08T16:37:06.661Z] ERROR-Scenario Failed: Login with an incorrect password
+[2026-07-08T16:37:06.666Z] ERROR-Scenario Failed: Login with an invalid email and an invalid password
+[2026-07-08T16:37:06.673Z] ERROR-Scenario Failed: Login with an unregistered email
+[2026-07-08T16:37:06.675Z] INFO-Browser Closed
+[2026-07-08T16:37:12.158Z] INFO-Browser Launched
+[2026-07-08T16:37:12.380Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:37:15.316Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:37:15.375Z] INFO-Entering password
+[2026-07-08T16:37:15.401Z] INFO-Clicking Sign In button
+[2026-07-08T16:37:39.008Z] INFO-Fetching current URL
+[2026-07-08T16:38:19.484Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T16:38:19.740Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:38:22.432Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:38:22.576Z] INFO-Entering password
+[2026-07-08T16:38:22.643Z] INFO-Clicking Sign In button
+[2026-07-08T16:38:36.141Z] INFO-Fetching current URL
+[2026-07-08T16:38:55.248Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T16:38:55.292Z] ERROR-Scenario Failed: Add a service without a description
+[2026-07-08T16:38:55.300Z] ERROR-Scenario Failed: Add a service with empty details
+[2026-07-08T16:38:55.308Z] ERROR-Scenario Failed: Add a service without  service name
+[2026-07-08T16:38:55.313Z] ERROR-Scenario Failed: Login with valid credentials
+[2026-07-08T16:38:55.323Z] ERROR-Scenario Failed: Login with an incorrect password
+[2026-07-08T16:38:55.329Z] ERROR-Scenario Failed: Login with an invalid email and an invalid password
+[2026-07-08T16:38:55.337Z] ERROR-Scenario Failed: Login with an unregistered email
+[2026-07-08T16:38:55.339Z] INFO-Browser Closed
+[2026-07-08T16:39:03.791Z] INFO-Browser Launched
+[2026-07-08T16:39:04.016Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:39:04.529Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:39:04.590Z] INFO-Entering password
+[2026-07-08T16:39:04.611Z] INFO-Clicking Sign In button
+[2026-07-08T16:39:14.457Z] INFO-Fetching current URL
+[2026-07-08T16:39:19.964Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:39:21.110Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:39:21.171Z] INFO-Entering password
+[2026-07-08T16:39:21.190Z] INFO-Clicking Sign In button
+[2026-07-08T16:39:42.555Z] INFO-Fetching current URL
+[2026-07-08T16:39:52.573Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:40:02.818Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:40:02.875Z] INFO-Entering password
+[2026-07-08T16:40:02.892Z] INFO-Clicking Sign In button
+[2026-07-08T16:40:22.561Z] INFO-Fetching current URL
+[2026-07-08T16:40:29.735Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:40:32.077Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:40:32.151Z] INFO-Entering password
+[2026-07-08T16:40:32.174Z] INFO-Clicking Sign In button
+[2026-07-08T16:40:46.069Z] INFO-Fetching current URL
+[2026-07-08T16:40:52.804Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:41:03.949Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:41:04.015Z] INFO-Entering password
+[2026-07-08T16:41:04.041Z] INFO-Clicking Sign In button
+[2026-07-08T16:41:19.750Z] INFO-Fetching current URL
+[2026-07-08T16:41:24.908Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:41:27.700Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:41:27.776Z] INFO-Entering password
+[2026-07-08T16:41:27.798Z] INFO-Clicking Sign In button
+[2026-07-08T16:41:40.588Z] INFO-Fetching current URL
+[2026-07-08T16:41:40.823Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:41:42.010Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:41:42.097Z] INFO-Entering password
+[2026-07-08T16:41:42.113Z] INFO-Clicking Sign In button
+[2026-07-08T16:41:43.059Z] INFO-Validating invalid password message
+[2026-07-08T16:41:58.457Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:41:59.334Z] INFO-Entering email: testing123@gmail.com
+[2026-07-08T16:41:59.399Z] INFO-Entering password
+[2026-07-08T16:41:59.419Z] INFO-Clicking Sign In button
+[2026-07-08T16:42:00.389Z] INFO-Validating invalid credentials message
+[2026-07-08T16:42:10.140Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:42:11.478Z] INFO-Entering email: testing12@gmail.com
+[2026-07-08T16:42:11.542Z] INFO-Entering password
+[2026-07-08T16:42:11.561Z] INFO-Clicking Sign In button
+[2026-07-08T16:42:12.525Z] INFO-Validating invalid email message
+[2026-07-08T16:42:18.558Z] INFO-Browser Closed
+[2026-07-08T16:45:23.684Z] INFO-Browser Launched
+[2026-07-08T16:45:23.910Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:45:25.010Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:45:25.080Z] INFO-Entering password
+[2026-07-08T16:45:25.113Z] INFO-Clicking Sign In button
+[2026-07-08T16:45:37.452Z] INFO-Fetching current URL
+[2026-07-08T16:45:44.343Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:45:45.740Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:45:45.811Z] INFO-Entering password
+[2026-07-08T16:45:45.831Z] INFO-Clicking Sign In button
+[2026-07-08T16:46:05.319Z] INFO-Fetching current URL
+[2026-07-08T16:46:11.146Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:46:11.765Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:46:11.837Z] INFO-Entering password
+[2026-07-08T16:46:11.857Z] INFO-Clicking Sign In button
+[2026-07-08T16:46:30.641Z] INFO-Fetching current URL
+[2026-07-08T16:46:42.652Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:46:43.470Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:46:43.549Z] INFO-Entering password
+[2026-07-08T16:46:43.566Z] INFO-Clicking Sign In button
+[2026-07-08T16:46:53.340Z] INFO-Fetching current URL
+[2026-07-08T16:46:58.588Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:47:01.609Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:47:01.686Z] INFO-Entering password
+[2026-07-08T16:47:01.706Z] INFO-Clicking Sign In button
+[2026-07-08T16:47:22.539Z] INFO-Fetching current URL
+[2026-07-08T16:47:28.934Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:47:31.318Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:47:31.407Z] INFO-Entering password
+[2026-07-08T16:47:31.426Z] INFO-Clicking Sign In button
+[2026-07-08T16:47:41.983Z] INFO-Fetching current URL
+[2026-07-08T16:47:42.166Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:47:43.270Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:47:43.341Z] INFO-Entering password
+[2026-07-08T16:47:43.360Z] INFO-Clicking Sign In button
+[2026-07-08T16:47:44.316Z] INFO-Validating invalid password message
+[2026-07-08T16:47:57.681Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:47:58.583Z] INFO-Entering email: testing123@gmail.com
+[2026-07-08T16:47:58.676Z] INFO-Entering password
+[2026-07-08T16:47:58.697Z] INFO-Clicking Sign In button
+[2026-07-08T16:47:59.688Z] INFO-Validating invalid credentials message
+[2026-07-08T16:48:07.896Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:48:08.862Z] INFO-Entering email: testing12@gmail.com
+[2026-07-08T16:48:08.944Z] INFO-Entering password
+[2026-07-08T16:48:08.964Z] INFO-Clicking Sign In button
+[2026-07-08T16:48:09.912Z] INFO-Validating invalid email message
+[2026-07-08T16:48:16.941Z] INFO-Browser Closed
+=======
+>>>>>>> d67789676d4db2418c222d528ecdea3a7b4c99e8
+[2026-07-08T16:54:18.364Z] INFO-Browser Launched
+[2026-07-08T16:54:18.588Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:54:21.681Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:54:21.756Z] INFO-Entering password
+[2026-07-08T16:54:21.777Z] INFO-Clicking Sign In button
+[2026-07-08T16:54:41.079Z] INFO-Fetching current URL
+[2026-07-08T16:54:41.154Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T16:54:41.354Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:54:42.164Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:54:42.229Z] INFO-Entering password
+[2026-07-08T16:54:42.252Z] INFO-Clicking Sign In button
+[2026-07-08T16:54:57.146Z] INFO-Fetching current URL
+[2026-07-08T16:54:57.231Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-08T16:54:57.430Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:54:58.213Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:54:58.283Z] INFO-Entering password
+[2026-07-08T16:54:58.302Z] INFO-Clicking Sign In button
+[2026-07-08T16:55:07.200Z] INFO-Fetching current URL
+[2026-07-08T16:55:07.269Z] ERROR-Scenario Failed: Add a service without a description
+[2026-07-08T16:55:07.461Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:55:08.253Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:55:08.329Z] INFO-Entering password
+[2026-07-08T16:55:08.356Z] INFO-Clicking Sign In button
+[2026-07-08T16:55:20.877Z] INFO-Fetching current URL
+[2026-07-08T16:55:20.956Z] ERROR-Scenario Failed: Add a service with empty details
+[2026-07-08T16:55:21.144Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:55:22.209Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:55:22.298Z] INFO-Entering password
+[2026-07-08T16:55:22.318Z] INFO-Clicking Sign In button
+[2026-07-08T16:55:39.328Z] INFO-Fetching current URL
+[2026-07-08T16:55:39.426Z] ERROR-Scenario Failed: Add a service without  service name
+[2026-07-08T16:55:39.619Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:55:40.568Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:55:40.645Z] INFO-Entering password
+[2026-07-08T16:55:40.663Z] INFO-Clicking Sign In button
+[2026-07-08T16:56:04.171Z] INFO-Fetching current URL
+[2026-07-08T16:56:04.349Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:56:05.491Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T16:56:05.571Z] INFO-Entering password
+[2026-07-08T16:56:05.588Z] INFO-Clicking Sign In button
+[2026-07-08T16:56:06.560Z] INFO-Validating invalid password message
+[2026-07-08T16:56:35.814Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:56:36.557Z] INFO-Entering email: testing123@gmail.com
+[2026-07-08T16:56:36.653Z] INFO-Entering password
+[2026-07-08T16:56:36.674Z] INFO-Clicking Sign In button
+[2026-07-08T16:56:37.647Z] INFO-Validating invalid credentials message
+[2026-07-08T16:56:45.330Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T16:56:46.135Z] INFO-Entering email: testing12@gmail.com
+[2026-07-08T16:56:46.213Z] INFO-Entering password
+[2026-07-08T16:56:46.228Z] INFO-Clicking Sign In button
+[2026-07-08T16:56:47.193Z] INFO-Validating invalid email message
+[2026-07-08T16:56:54.214Z] INFO-Browser Closed
+[2026-07-08T17:01:27.297Z] INFO-Browser Launched
+[2026-07-08T17:01:27.521Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:01:28.489Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T17:01:28.558Z] INFO-Entering password
+[2026-07-08T17:01:28.578Z] INFO-Clicking Sign In button
+[2026-07-08T17:01:37.084Z] INFO-Fetching current URL
+[2026-07-08T17:01:43.104Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:01:44.102Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T17:01:44.171Z] INFO-Entering password
+[2026-07-08T17:01:44.189Z] INFO-Clicking Sign In button
+[2026-07-08T17:01:58.581Z] INFO-Fetching current URL
+[2026-07-08T17:02:10.087Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:02:11.158Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T17:02:11.244Z] INFO-Entering password
+[2026-07-08T17:02:11.258Z] INFO-Clicking Sign In button
+[2026-07-08T17:02:29.452Z] INFO-Fetching current URL
+[2026-07-08T17:02:34.512Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:02:35.270Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T17:02:35.331Z] INFO-Entering password
+[2026-07-08T17:02:35.351Z] INFO-Clicking Sign In button
+[2026-07-08T17:02:47.330Z] INFO-Fetching current URL
+[2026-07-08T17:02:52.683Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:02:53.592Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T17:02:53.691Z] INFO-Entering password
+[2026-07-08T17:02:53.709Z] INFO-Clicking Sign In button
+[2026-07-08T17:03:10.465Z] INFO-Fetching current URL
+[2026-07-08T17:03:20.878Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:03:21.942Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T17:03:22.006Z] INFO-Entering password
+[2026-07-08T17:03:22.023Z] INFO-Clicking Sign In button
+[2026-07-08T17:03:53.193Z] ERROR-Scenario Failed: Login with valid credentials
+[2026-07-08T17:03:53.391Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:03:54.703Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T17:03:54.787Z] INFO-Entering password
+[2026-07-08T17:03:54.802Z] INFO-Clicking Sign In button
+[2026-07-08T17:03:55.766Z] INFO-Validating invalid password message
+[2026-07-08T17:04:25.779Z] ERROR-Failed to get text: TimeoutError: locator.textContent: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//div[@class=\'go3958317564\']')[22m
+
+[2026-07-08T17:04:25.780Z] ERROR-Failed to fetch invalid password message: TimeoutError: locator.textContent: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//div[@class=\'go3958317564\']')[22m
+
+[2026-07-08T17:04:25.947Z] ERROR-Scenario Failed: Login with an incorrect password
+[2026-07-08T17:04:26.160Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:04:26.771Z] INFO-Entering email: testing123@gmail.com
+[2026-07-08T17:04:26.846Z] INFO-Entering password
+[2026-07-08T17:04:26.866Z] INFO-Clicking Sign In button
+[2026-07-08T17:04:27.817Z] INFO-Validating invalid credentials message
+[2026-07-08T17:04:39.596Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:04:40.592Z] INFO-Entering email: testing12@gmail.com
+[2026-07-08T17:04:40.669Z] INFO-Entering password
+[2026-07-08T17:04:40.690Z] INFO-Clicking Sign In button
+[2026-07-08T17:04:41.654Z] INFO-Validating invalid email message
+[2026-07-08T17:04:49.703Z] INFO-Browser Closed
+[2026-07-08T17:09:17.473Z] INFO-Browser Launched
+[2026-07-08T17:09:17.690Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:09:18.689Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T17:09:18.759Z] INFO-Entering password
+[2026-07-08T17:09:18.780Z] INFO-Clicking Sign In button
+[2026-07-08T17:09:36.650Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:09:42.117Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T17:09:42.203Z] INFO-Entering password
+[2026-07-08T17:09:42.219Z] INFO-Clicking Sign In button
+[2026-07-08T17:10:11.875Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:10:12.871Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T17:10:12.958Z] INFO-Entering password
+[2026-07-08T17:10:12.980Z] INFO-Clicking Sign In button
+[2026-07-08T17:10:30.476Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:10:31.766Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T17:10:31.826Z] INFO-Entering password
+[2026-07-08T17:10:31.837Z] INFO-Clicking Sign In button
+[2026-07-08T17:10:49.398Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:10:50.353Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T17:10:50.405Z] INFO-Entering password
+[2026-07-08T17:10:50.417Z] INFO-Clicking Sign In button
+[2026-07-08T17:11:28.623Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:11:30.558Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T17:11:30.635Z] INFO-Entering password
+[2026-07-08T17:11:30.655Z] INFO-Clicking Sign In button
+[2026-07-08T17:11:43.945Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:11:44.455Z] INFO-Entering email: testing1@gmail.com
+[2026-07-08T17:11:44.535Z] INFO-Entering password
+[2026-07-08T17:11:44.552Z] INFO-Clicking Sign In button
+[2026-07-08T17:11:45.508Z] INFO-Validating invalid password message
+[2026-07-08T17:12:08.008Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:12:08.851Z] INFO-Entering email: testing123@gmail.com
+[2026-07-08T17:12:08.924Z] INFO-Entering password
+[2026-07-08T17:12:08.942Z] INFO-Clicking Sign In button
+[2026-07-08T17:12:09.884Z] INFO-Validating invalid credentials message
+[2026-07-08T17:12:17.540Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-08T17:12:18.626Z] INFO-Entering email: testing12@gmail.com
+[2026-07-08T17:12:18.709Z] INFO-Entering password
+[2026-07-08T17:12:18.723Z] INFO-Clicking Sign In button
+[2026-07-08T17:12:19.687Z] INFO-Validating invalid email message
+[2026-07-08T17:12:24.665Z] INFO-Browser Closed
+>>>>>>> 2da865a30e679c1bf20ab011e8c32c5e1b84f3cb
