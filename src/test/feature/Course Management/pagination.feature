@@ -1,3 +1,4 @@
+@Vetri
 Feature: VetrivelB_07-07-2026_Course_Structure_Pagination
 
     Background:
@@ -16,7 +17,7 @@ Feature: VetrivelB_07-07-2026_Course_Structure_Pagination
       | 2 | Previous | 1 |
 
   @PageNumberNavigation
-  Scenario: Verify user can navigate to a specific page using the page number
+  Scenario Outline: Verify user can navigate to a specific page using the page number
     Given the user is on the Course Structure table
     When the user clicks page number "<pageNumber>"
     Then the user should be navigated to the "<pageNumber>" page
@@ -24,4 +25,17 @@ Feature: VetrivelB_07-07-2026_Course_Structure_Pagination
     Examples:
       | pageNumber |
       | 2 |
-      | 3 |
+      | 8 |
+
+  @ButtonDisablity
+  Scenario Outline: Verify appropriate button is disabled on the page
+    Given the user is on the "<page>" page of the Course Structure table
+    Then the "<direction>" button should be disabled
+
+    Examples:
+        | page | direction | 
+        | first | previous |
+        | last | next |
+
+
+ 

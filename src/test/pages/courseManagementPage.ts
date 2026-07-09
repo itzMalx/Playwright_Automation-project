@@ -10,6 +10,7 @@ export class CourseManagementPage extends BasePage {
     readonly next: Locator
     readonly activePageNumber: Locator
     readonly totalPage: Locator
+    readonly navigationButtons : Locator
 
     constructor(page: Page) {
         super(page)
@@ -20,6 +21,7 @@ export class CourseManagementPage extends BasePage {
         this.loading = this.page.locator(".animate-pulse")
         this.activePageNumber = page.locator("//button[contains(@class,'bg-blue-600')]")
         this.totalPage = page.locator("(//button[@data-slot='button'])[13]")
+        this.navigationButtons=page.locator("//div[@class='flex items-center gap-1']//button")
     }
 
     async selectActionList(courseName: string) {
@@ -64,7 +66,6 @@ export class CourseManagementPage extends BasePage {
     async navigateToCourseStructurePage() {
         await this.page.goto("https://lms-smartcliff.vercel.app/lms/pages/coursestructure")
     }
-    
 
     async getActivePageNumber() {
         return await this.getText(this.activePageNumber)
@@ -76,5 +77,33 @@ export class CourseManagementPage extends BasePage {
 
     pageNumberLocator(pageNo: string): Locator {
         return this.page.locator(`//button[normalize-space()='${pageNo}']`)
+    }
+
+    async clickLastPage() {
+        await this.page.waitForLoadState("networkidle");
+
+        //const count = await this.navigationButtons.count();
+
+        await this.navigationButtons.last().click();
+
+        await this.loading.first().waitFor({ state: "hidden" });
+    }
+
+    async clickFirstPage() {
+        await this.page.waitForLoadState("networkidle");
+
+        //const count = await this.navigationButtons.count();
+
+        await this.navigationButtons.first().click();
+
+        await this.loading.first().waitFor({ state: "hidden" });
+    }
+
+    async isNextDisabled(){
+        return await this.isDisabled(this.next)
+    }
+
+    async isPreviousDisabled(){
+        return await this.isDisabled(this.previous)
     }
 }
