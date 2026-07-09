@@ -3,10 +3,7 @@ import { glitchworld } from "../world/customworld";
 import { expect } from "@playwright/test";
 
 
-Given('Admin is on the Dashboard page after login', async function (this: glitchworld) {
-  // Write code here that turns the phrase above into concrete actions
-  await this.login.loginSite();
-});
+
 
 Given('Admin navigates to the Course Management page', async function (this: glitchworld) {
   // Write code here that turns the phrase above into concrete actions
