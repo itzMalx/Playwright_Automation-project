@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-appropriate-button-is-disabled-on-the-page",
-        "keyword": "Scenario Outline",
-        "line": 37,
-        "name": "Verify appropriate button is disabled on the page",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-each-page-has-8-records-across-each-pages",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Verify each page has 8 records across each pages",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 331185999
+              "duration": 470197999
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2120362000
+              "duration": 3339468700
             }
           },
           {
@@ -39,34 +39,35 @@
               "location": "src\\test\\step\\addCourseStructure.ts:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 14243477800
+              "status": "failed",
+              "duration": 30022108200,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div[title=\\'Course Management\\']')\u001b[22m\n\n    at DashboardPage.naviagateToCourse (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\dashboardPage.ts:24:38)\n    at async World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:16:5)"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 32,
-            "name": "the user is on the \"first\" page of the Course Structure table",
+            "line": 42,
+            "name": "the user is on the \"1\" page of the Course Structure table",
             "match": {
               "location": "src\\test\\step\\pagination.step.ts:58"
             },
             "result": {
-              "status": "passed",
-              "duration": 24057546600
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 33,
-            "name": "the \"previous\" button should be disabled",
+            "line": 43,
+            "name": "each page except the last should display exactly \"8\" records",
             "match": {
-              "location": "src\\test\\step\\pagination.step.ts:83"
+              "location": "src\\test\\step\\pagination.step.ts:93"
             },
             "result": {
-              "status": "passed",
-              "duration": 14033199
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -74,7 +75,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 56616900
+              "duration": 196731299
             }
           }
         ],
@@ -84,96 +85,8 @@
             "line": 1
           },
           {
-            "name": "@ButtonDisablity",
-            "line": 30
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-appropriate-button-is-disabled-on-the-page",
-        "keyword": "Scenario Outline",
-        "line": 38,
-        "name": "Verify appropriate button is disabled on the page",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 180546900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2824226499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "Admin navigate to Course Management Page",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 13266796800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 32,
-            "name": "the user is on the \"last\" page of the Course Structure table",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:58"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 12194721900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 33,
-            "name": "the \"next\" button should be disabled",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:83"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7867400
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 41928399
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Vetri",
-            "line": 1
-          },
-          {
-            "name": "@ButtonDisablity",
-            "line": 30
+            "name": "@PageSize",
+            "line": 40
           }
         ],
         "type": "scenario"

@@ -80,6 +80,7 @@ Given("the user is on the {string} page of the Course Structure table",async fun
     currentPage=Number(activePage);
   }
 );
+
 Then('the {string} button should be disabled', async function (this: glitchworld,direction : string) {
     if(direction.toLowerCase()==="next"){
       await expect(await this.courseManagementPage.isNextDisabled()).toBeTruthy()
@@ -87,4 +88,8 @@ Then('the {string} button should be disabled', async function (this: glitchworld
     else if(direction.toLowerCase()==="previous"){
       await expect(await this.courseManagementPage.isPreviousDisabled()).toBeTruthy()
     }
+});
+
+Then('each page except the last should display exactly {string} records', async function (this: glitchworld,noOfDatas : string) {
+    await expect(await this.courseManagementPage.isDataCountSatisfied()).toBeTruthy()
 });

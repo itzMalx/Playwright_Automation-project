@@ -37,5 +37,10 @@ Feature: VetrivelB_07-07-2026_Course_Structure_Pagination
         | first | previous |
         | last | next |
 
+  @PageSize
+  Scenario: Verify each page has 8 records across each pages 
+    Given the user is on the "1" page of the Course Structure table
+    Then each page except the last should display exactly "8" records
+
 
  

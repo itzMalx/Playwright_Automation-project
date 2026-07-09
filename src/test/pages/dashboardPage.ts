@@ -10,14 +10,17 @@ export class DashboardPage extends BasePage {
       this.courseManagementBtn = this.page.locator("div[title='Course Management']")
    }
 
-async naviagateToCourse() {
+   async naviagateToCourse() {
 
-    console.log(await this.page.url());
-    await this.courseManagementBtn.waitFor({
-        state: "visible",
-        timeout: 20000
-    });
-    await this.courseManagementBtn.click();
+      console.log("Current URL:", await this.page.url());
+
+      // await this.page.waitForLoadState("networkidle");
+
+      // await this.courseManagementBtn.waitFor({
+      //    state: "visible",
+      //    timeout: 30000
+      // });
+
+      await this.courseManagementBtn.click();
+   }
 }
-}
-   
