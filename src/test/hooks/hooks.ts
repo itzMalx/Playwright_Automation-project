@@ -8,6 +8,8 @@ import { CourseManagementPage } from '../pages/courseManagementPage';
 import { SearchPage } from '../pages/searchPage';
 import { PedagogyPage } from '../pages/pedagogyPage';
 import { SeriveModelPage } from '../pages/serviceModelPage';
+import { DynamicFieldPage } from '../pages/dynamicFieldPage';
+import { CourseCategoryPage } from '../pages/courseCategoryPage';
 
 
 setDefaultTimeout(90 * 1000)
@@ -36,6 +38,8 @@ Before(async function (this: glitchworld, scenario) {
     this.searchPage = new SearchPage(this.page)
     this.addCoursePage=new AddCoursePage(this.page)
     this.servicePage = new SeriveModelPage(this.page)
+    this.dynamicFieldPage=new DynamicFieldPage(this.page)
+    this.courseCategoryPage=new CourseCategoryPage(this.page)
     this.addmodel = new AddModelPage(this.page)
     this.modelSearchPage = new ModelSearchPage(this.page)
 

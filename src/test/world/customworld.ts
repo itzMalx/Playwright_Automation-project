@@ -7,6 +7,8 @@ import { PedagogyPage } from '../pages/pedagogyPage';
 import { SearchPage } from '../pages/searchPage';  
 import {SeriveModelPage} from '../pages/serviceModelPage'
 import { AddCoursePage } from '../pages/addCoursePage';
+import { DynamicFieldPage } from '../pages/dynamicFieldPage';
+import {CourseCategoryPage} from '../pages/courseCategoryPage';
 import { AddModelPage } from '../pages/addModelServicePage';
 import { ModelSearchPage } from '../pages/modelsSearchpage';
 
@@ -18,7 +20,8 @@ export class glitchworld extends World {
     page!: Page
     login!: LoginPage
     tag!: string;
-    
+    downloadPath!: string;
+    downloadName!: string;
 
     dashboardPage!: DashboardPage
     courseManagementPage!: CourseManagementPage
@@ -28,6 +31,9 @@ export class glitchworld extends World {
     addCoursePage! : AddCoursePage
     addmodel!:AddModelPage
     modelSearchPage!:ModelSearchPage
+    dynamicFieldPage!:DynamicFieldPage
+    courseCategoryPage!:CourseCategoryPage
+    
 
 
 }
