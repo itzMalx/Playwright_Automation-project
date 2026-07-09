@@ -89,7 +89,21 @@ export class CourseManagementPage extends BasePage {
         await this.loading.first().waitFor({ state: "hidden" });
     }
 
+    async clickFirstPage() {
+        await this.page.waitForLoadState("networkidle");
+
+        //const count = await this.navigationButtons.count();
+
+        await this.navigationButtons.first().click();
+
+        await this.loading.first().waitFor({ state: "hidden" });
+    }
+
     async isNextDisabled(){
         return await this.isDisabled(this.next)
+    }
+
+    async isPreviousDisabled(){
+        return await this.isDisabled(this.previous)
     }
 }
