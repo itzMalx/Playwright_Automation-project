@@ -5,6 +5,12 @@
       {
         "description": "",
 <<<<<<< HEAD
+        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-valid-details",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Add course with valid details",
+=======
+<<<<<<< HEAD
         "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;add-a-new-module-to-the-course-structure",
         "keyword": "Scenario Outline",
         "line": 17,
@@ -15,6 +21,7 @@
         "line": 19,
         "name": "Add a valid service",
 >>>>>>> 354d681338732b06321951e96388ca3857ab292b
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
         "steps": [
           {
             "keyword": "Before",
@@ -22,10 +29,14 @@
             "result": {
               "status": "passed",
 <<<<<<< HEAD
+              "duration": 276513700
+=======
+<<<<<<< HEAD
               "duration": 237763299
 =======
               "duration": 174983099
 >>>>>>> 354d681338732b06321951e96388ca3857ab292b
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
@@ -35,11 +46,19 @@
             "line": 5,
             "name": "Admin on the Dashboard Page after Login",
             "match": {
+<<<<<<< HEAD
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2298508200
+=======
               "location": "src\\test\\step\\addCourseStructure.ts:9"
             },
             "result": {
               "status": "passed",
               "duration": 1985196199
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
@@ -48,15 +67,34 @@
             "line": 6,
             "name": "Admin navigate to Course Management Page",
             "match": {
+<<<<<<< HEAD
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12483678299
+=======
               "location": "src\\test\\step\\addCourseStructure.ts:15"
             },
             "result": {
               "status": "passed",
               "duration": 7645557000
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
+<<<<<<< HEAD
+            "keyword": "When ",
+            "line": 10,
+            "name": "User selects valid course configuration details",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8350196299
+=======
             "keyword": "And ",
             "line": 9,
             "name": "Admin click add Course Structure for the \"Playwright\"",
@@ -79,40 +117,123 @@
             "result": {
               "status": "passed",
               "duration": 973865799
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 11,
-            "name": "Admin enters the required module details",
+            "name": "User clicks the Next button",
             "match": {
+<<<<<<< HEAD
+              "location": "src\\test\\step\\addCourseSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 228702799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User selects the details in course hirearchy and layout",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2306270300
+=======
               "location": "src\\test\\step\\addCourseStructure.ts:30"
             },
             "result": {
               "status": "passed",
               "duration": 39619599
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 12,
-            "name": "Admin clicks the Add Module button",
+            "line": 13,
+            "name": "User clicks Preview and Create",
             "match": {
+<<<<<<< HEAD
+              "location": "src\\test\\step\\addCourseSteps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171485100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User saves the course layout",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 399579700
+=======
               "location": "src\\test\\step\\addCourseStructure.ts:35"
             },
             "result": {
               "status": "passed",
               "duration": 3323601600
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 13,
-            "name": "the newly added module should be displayed in the Module table",
+            "line": 15,
+            "name": "The course should be created successfully",
             "match": {
+<<<<<<< HEAD
+              "location": "src\\test\\step\\addCourseSteps.ts:62"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5019635200,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('//button[text()=\"Later\"]')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//button[text()=\"Later\"]')\u001b[22m\n\n    at captureRawStack (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toBeVisible (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at AddCoursePage.verifyCourseCreatedSuccessfully (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\pages\\addCoursePage.ts:112:37)\n    at World.<anonymous> (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\step\\addCourseSteps.ts:64:30)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 183535100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Shobana",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-invalid-details-without-selecting-client",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Add course with invalid details without selecting client",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 295387099
+=======
               "location": "src\\test\\step\\addCourseStructure.ts:39"
             },
             "result": {
@@ -127,10 +248,22 @@
             "result": {
               "status": "passed",
               "duration": 973092999
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
+<<<<<<< HEAD
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2756577600
+=======
             "keyword": "When ",
             "line": 5,
             "name": "the user enters the login credentials",
@@ -140,12 +273,48 @@
             "result": {
               "status": "passed",
               "duration": 115832699
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
+<<<<<<< HEAD
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10717995999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User selects valid course configuration details without selecting client",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10684432300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User clicks the Next button",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74818599
+=======
             "name": "the user clicks the signin button",
             "match": {
               "location": "src\\test\\step\\loginstep.ts:31"
@@ -153,11 +322,22 @@
             "result": {
               "status": "passed",
               "duration": 988978600
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
+<<<<<<< HEAD
+            "line": 21,
+            "name": "User should get error message",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6244299
+=======
             "line": 7,
             "name": "the user should be logged in successfully",
             "match": {
@@ -244,6 +424,7 @@
             "result": {
               "status": "passed",
               "duration": 1872299
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
@@ -251,20 +432,38 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 37509700
+=======
               "duration": 91050999
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@Shobana",
+=======
             "name": "@Muhindhar",
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             "line": 1
+          },
+          {
+            "name": "@InvalidAdd",
+            "line": 17
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
+<<<<<<< HEAD
+        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-with-invalid-details-without-selecting-service-model",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Add course with with invalid details without selecting service model",
+=======
         "id": "adding-the-service-in-the-dynamic-field-management-page;add-a-valid-service",
         "keyword": "Scenario Outline",
         "line": 20,
@@ -431,18 +630,33 @@
         "keyword": "Scenario",
         "line": 24,
         "name": "Add a service without a description",
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 283623899
+=======
               "duration": 145932399
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
+<<<<<<< HEAD
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2817084000
+=======
             "line": 4,
             "name": "the user is on the login page of the LMS smartcliff website",
             "match": {
@@ -464,12 +678,36 @@
             "result": {
               "status": "passed",
               "duration": 112619200
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
+<<<<<<< HEAD
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 20014854400,
+              "error_message": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div[title=\\'Course Management\\']')\u001b[22m\n\n    at DashboardPage.naviagateToCourse (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\pages\\dashboardPage.ts:14:35)\n    at World.<anonymous> (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:14:30)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "User selects valid course configuration details without selecting service model",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:85"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+=======
             "name": "the user clicks the signin button",
             "match": {
               "location": "src\\test\\step\\loginstep.ts:31"
@@ -546,11 +784,22 @@
             "result": {
               "status": "passed",
               "duration": 44218800
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
+            "line": 25,
+            "name": "User clicks the Next button",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+=======
             "line": 30,
             "name": "the user clicks on the Create Service button",
             "match": {
@@ -559,11 +808,22 @@
             "result": {
               "status": "passed",
               "duration": 309819799
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
+<<<<<<< HEAD
+            "line": 26,
+            "name": "User should get error message select service model",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:95"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+=======
             "line": 31,
             "name": "the Description field should display the required field validation message",
             "match": {
@@ -572,6 +832,7 @@
             "result": {
               "status": "passed",
               "duration": 36995500
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           },
           {
@@ -579,12 +840,19 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
+              "duration": 87967799
+=======
               "duration": 25374499
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             }
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
+            "name": "@Shobana",
+=======
             "name": "@Muhindhar",
             "line": 1
           }
@@ -918,12 +1186,26 @@
         "tags": [
           {
             "name": "@Muhindhar",
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
             "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
+<<<<<<< HEAD
+    "id": "shobana_07-07-2026_add-course-functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Shobana_07-07-2026_Add course functionality",
+    "tags": [
+      {
+        "name": "@Shobana",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Course Management\\addcourse.feature"
+=======
     "id": "adding-the-service-in-the-dynamic-field-management-page",
     "line": 2,
     "keyword": "Feature",
@@ -1423,5 +1705,6 @@
     ],
     "uri": "src\\test\\feature\\login\\login.feature"
 >>>>>>> 354d681338732b06321951e96388ca3857ab292b
+>>>>>>> 8af62715a5c36396a81a1514664b3f1d510cf314
   }
 ]
