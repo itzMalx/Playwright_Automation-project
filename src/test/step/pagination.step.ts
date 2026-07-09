@@ -4,15 +4,12 @@ import { glitchworld } from "../world/customworld";
 
 let currentPage: number;
 
-Given(
-  "the user is on the Course Structure page",
-  async function (this: glitchworld) {
+Given("the user is on the Course Structure page",async function (this: glitchworld) {
     await this.courseManagementPage.navigateToCourseStructurePage();
   }
 );
 
-Given(
-  "the user is on the {string} page of the Course Structure table",
+Given("the user is on the {string} page of the Course Structure table",
   async function (this: glitchworld, pageNumber: string) {
 
     await this.courseManagementPage.pageNumberLocator(pageNumber).waitFor({
@@ -29,10 +26,7 @@ Given(
   }
 );
 
-Given(
-  "the user is on the Course Structure table",
-  async function (this: glitchworld) {
-
+Given("the user is on the Course Structure table",async function (this: glitchworld) {
     await this.courseManagementPage.pageNumberLocator("1").waitFor({
       state: "visible",
     });
@@ -43,15 +37,14 @@ Given(
   }
 );
 
-When(
-  "the user clicks the {string} button",
-  async function (this: glitchworld, buttonName: string) {
+When("the user clicks the {string} button",async function (this: glitchworld, buttonName: string) {
 
     console.log("Before :", await this.courseManagementPage.getActivePageNumber());
 
     if (buttonName === "Next") {
       await this.courseManagementPage.clickNext();
-    } else if (buttonName === "Previous") {
+    }
+    else if (buttonName === "Previous") {
       await this.courseManagementPage.clickPrevious();
     }
 
@@ -59,17 +52,12 @@ When(
   }
 );
 
-When(
-  "the user clicks page number {string}",
-  async function (this: glitchworld, pageNo: string) {
-
+When("the user clicks page number {string}",async function (this: glitchworld, pageNo: string) {
     await this.courseManagementPage.clickPageNumber(pageNo);
   }
 );
 
-Then(
-  "the user should be navigated to the {string} page",
-  async function (this: glitchworld, expectedPage: string) {
+Then("the user should be navigated to the {string} page",async function (this: glitchworld, expectedPage: string) {
 
     await this.courseManagementPage.pageNumberLocator(expectedPage).waitFor({
       state: "visible",

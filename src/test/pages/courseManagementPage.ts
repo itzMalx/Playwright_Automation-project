@@ -82,7 +82,7 @@ export class CourseManagementPage extends BasePage {
     async clickLastPage() {
         await this.page.waitForLoadState("networkidle");
 
-        const count = await this.navigationButtons.count();
+        //const count = await this.navigationButtons.count();
 
         await this.navigationButtons.last().click();
 
