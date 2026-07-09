@@ -1,19 +1,7 @@
-[2026-07-09T08:08:08.690Z] INFO-Browser Launched
-[2026-07-09T08:08:08.846Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-09T08:08:09.612Z] INFO-Logging in with valid credentials
-[2026-07-09T08:08:10.629Z] INFO-Login completed successfully
-[2026-07-09T08:08:10.630Z] INFO-Login successfull!
-[2026-07-09T08:08:19.261Z] INFO-Navigate to Course Management page
-[2026-07-09T08:08:19.262Z] INFO-Course:
-[2026-07-09T08:08:26.428Z] INFO-Added module:
-[2026-07-09T08:08:31.474Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-09T08:08:32.092Z] INFO-Logging in with valid credentials
-[2026-07-09T08:08:33.008Z] INFO-Login completed successfully
-[2026-07-09T08:08:33.008Z] INFO-Login successfull!
-[2026-07-09T08:08:43.677Z] INFO-Navigate to Course Management page
-[2026-07-09T08:08:57.584Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-09T08:08:58.198Z] INFO-Logging in with valid credentials
-[2026-07-09T08:08:59.151Z] INFO-Login completed successfully
-[2026-07-09T08:08:59.151Z] INFO-Login successfull!
-[2026-07-09T08:09:06.726Z] INFO-Navigate to Course Management page
-[2026-07-09T08:09:14.645Z] INFO-Browser Closed
+[2026-07-09T10:06:06.057Z] INFO-Browser Launched
+[2026-07-09T10:06:06.379Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T10:06:08.725Z] INFO-Logging in with valid credentials
+[2026-07-09T10:06:09.763Z] INFO-Login completed successfully
+[2026-07-09T10:06:09.763Z] INFO-Login successfull!
+[2026-07-09T10:06:30.064Z] ERROR-Scenario Failed: Add a new module to the course structure
+[2026-07-09T10:06:30.154Z] INFO-Browser Closed
