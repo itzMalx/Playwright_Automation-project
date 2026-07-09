@@ -9,23 +9,6 @@ Given("the user is on the Course Structure page",async function (this: glitchwor
   }
 );
 
-Given("the user is on the {string} page of the Course Structure table",
-  async function (this: glitchworld, pageNumber: string) {
-
-    await this.courseManagementPage.pageNumberLocator(pageNumber).waitFor({
-      state: "visible",
-    });
-
-    await this.courseManagementPage.clickPageNumber(pageNumber);
-
-    const activePage = await this.courseManagementPage.getActivePageNumber();
-
-    expect(activePage).toBe(pageNumber);
-
-    currentPage = Number(activePage);
-  }
-);
-
 Given("the user is on the Course Structure table",async function (this: glitchworld) {
     await this.courseManagementPage.pageNumberLocator("1").waitFor({
       state: "visible",
@@ -72,10 +55,36 @@ Then("the user should be navigated to the {string} page",async function (this: g
   }
 );
 
-Given('the user is on the last page of the Course Structure table', async function (this: glitchworld) {
-    await this.courseManagementPage.clickLastPage()
-});
+Given("the user is on the {string} page of the Course Structure table",async function (this: glitchworld, page: string) {
 
-Then('the Next button should be disabled', async function (this: glitchworld) {
-    await expect(await this.courseManagementPage.isNextDisabled()).toBeTruthy()
+    if(page.toLowerCase()==="first") {
+      await this.courseManagementPage.clickFirstPage();
+      return;
+    }
+
+    if(page.toLowerCase()==="last") {
+      await this.courseManagementPage.clickLastPage();
+      return;
+    }
+
+    await this.courseManagementPage.pageNumberLocator(page).waitFor({
+      state: "visible",
+    });
+
+    await this.courseManagementPage.clickPageNumber(page);
+
+    const activePage=await this.courseManagementPage.getActivePageNumber();
+
+    expect(activePage).toBe(page);
+
+    currentPage=Number(activePage);
+  }
+);
+Then('the {string} button should be disabled', async function (this: glitchworld,direction : string) {
+    if(direction.toLowerCase()==="next"){
+      await expect(await this.courseManagementPage.isNextDisabled()).toBeTruthy()
+    }
+    else if(direction.toLowerCase()==="previous"){
+      await expect(await this.courseManagementPage.isPreviousDisabled()).toBeTruthy()
+    }
 });

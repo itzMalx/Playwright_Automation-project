@@ -24,10 +24,18 @@ Feature: VetrivelB_07-07-2026_Course_Structure_Pagination
 
     Examples:
       | pageNumber |
-      | 2          |
-      | 9          |
+      | 2 |
+      | 8 |
 
-  @NextButtonDisabled
-  Scenario: Verify Next button is disabled on the last page
-    Given the user is on the last page of the Course Structure table
-    Then the Next button should be disabled
+  @ButtonDisablity
+  Scenario Outline: Verify appropriate button is disabled on the page
+    Given the user is on the "<page>" page of the Course Structure table
+    Then the "<direction>" button should be disabled
+
+    Examples:
+        | page | direction | 
+        | first | previous |
+        | last | next |
+
+
+ 

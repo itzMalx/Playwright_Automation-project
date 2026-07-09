@@ -64,3 +64,15 @@ Then('the Excel file should be downloaded', async function (this: glitchworld) {
     //expect(fs.existsSync(this.downloadPath)).toBeTruthy();
 });
 
+Given('Admin clicks Add Course Structure for the {string}', async function (this: glitchworld,courseId:string) {
+  await this.courseManagementPage.selectActionList(courseId)
+});
+
+When('Admin clicks the Add Module button without filling the mandatory field', async function (this: glitchworld) {
+  await this.pedagogyPage.clickSave()
+});
+
+Then('an error message should be displayed', async function (this: glitchworld) {
+  await expect(await this.pedagogyPage.errorMessage()).toContain("Title is required for module")
+});
+

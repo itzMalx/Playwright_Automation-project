@@ -25,6 +25,5 @@ screenshots/
 
 # Downloads
 downloads/
-
-# Cucumber Rerun
-rerun.txt
+allure-report/
+allure-results/
