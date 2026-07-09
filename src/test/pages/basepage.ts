@@ -257,4 +257,25 @@ export class BasePage {
             logger.error("Failed to Check clickable")
         }
     }
+<<<<<<< HEAD
+     async clickCheckbox(locator:Locator){
+        try{
+           await locator.check();
+
+        }
+        catch(error){
+            logger.error('Failed to click checkbox')
+        }
+   }
+
+   async getCount(locator: Locator){
+    try{
+      return await locator.count()
+    }
+    catch(error){
+      logger.error("Count shuold be used for iterable objects")
+    }
+   }
+=======
+>>>>>>> 354d681338732b06321951e96388ca3857ab292b
 }
