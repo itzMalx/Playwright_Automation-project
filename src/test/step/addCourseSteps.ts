@@ -49,10 +49,6 @@ When('User clicks the Next button', async function (this:glitchworld) {
 
 });
    
-
-
-
-
 When('User clicks Preview and Create', async function (this:glitchworld) {
 
     await this.addCoursePage.clickPreviewAndCreate();
@@ -84,4 +80,19 @@ When('User selects valid course configuration details without selecting client',
 Then('User should get error message', async function () {
     const actual = await this.addCoursePage.getClienterrmsg();
     expect(actual).toContain("Please select a client");
+});
+
+When('User selects valid course configuration details without selecting service model', async function () {
+  await this.addCoursePage.clickAddCourse();
+    const config = addcourse.courseConfiguration;
+
+    await this.addCoursePage.selectDropdown(config.client.index, config.client.value);
+    await this.addCoursePage.selectDropdown(config.serviceType.index, config.serviceType.value);
+    await this.addCoursePage.selectDropdown(config.courseCategory.index, config.courseCategory.value);
+    await this.addCoursePage.selectDropdown(config.courseName.index, config.courseName.value);
+});
+
+Then('User should get error message select service model', async function () {
+    const res = await this.addCoursePage.getModelerrMsg();
+    expect(res).toContain("Please select a service model");
 });

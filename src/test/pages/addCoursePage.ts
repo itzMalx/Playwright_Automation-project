@@ -17,6 +17,7 @@ export class AddCoursePage extends BasePage {
     readonly savebtn:Locator;
     readonly laterbtn:Locator;
     readonly clienterrmsg:Locator;
+    readonly modelerrmsg:Locator;
     constructor(page: Page) {
         super(page);
 
@@ -32,8 +33,9 @@ export class AddCoursePage extends BasePage {
         this.dbskill=this.page.locator('//label[text()="MySQL"]');
         this.preview=this.page.locator('//button[text()="Preview & Create"]');
         this.savebtn=this.page.locator('//button[text()=" Save Course Layout"]');
-        this.laterbtn=this.page.locator('//button[text()="Later"]')
-        this.clienterrmsg=this.page.locator('//span[text()="Please select a client"]')
+        this.laterbtn=this.page.locator('//button[text()="Later"]');
+        this.clienterrmsg=this.page.locator('//span[text()="Please select a client"]');
+        this.modelerrmsg=this.page.locator('//span[text()="Please select a service model"]');
     }
      async clickAddCourse() {
         await this.addCourseBtn.click();
@@ -70,12 +72,8 @@ export class AddCoursePage extends BasePage {
       .first();
 
     await label.click();
-    //await this.page.mouse.click(10, 10);
     
 }
-
-
-
     async clickNext() {
         await this.nextbtn.click();
     }
@@ -102,18 +100,15 @@ async selectSkills() {
     }
 
     async clickPreviewAndCreate() {
-        await this.page.waitForTimeout(5000);
         await this.preview.scrollIntoViewIfNeeded();
         await this.preview.click();
     }
 
     async clickSaveCourseLayout() {
-         await this.page.waitForTimeout(5000)
         await this.savebtn.click();
     }
 
     async verifyCourseCreatedSuccessfully() {
-         await this.page.waitForTimeout(5000)
         await expect(this.laterbtn).toBeVisible();
     }
 
@@ -121,5 +116,8 @@ async selectSkills() {
         await this.laterbtn.click();
     }
     
+    async getModelerrMsg(){
+        return this.getText(this.modelerrmsg);
+    }
 
     }

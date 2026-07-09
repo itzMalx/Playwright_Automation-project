@@ -4,148 +4,122 @@
     "elements": [
       {
         "description": "",
-        "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website;search-with-valid-client",
+        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-valid-details",
         "keyword": "Scenario",
         "line": 8,
-        "name": "Search with valid client",
+        "name": "Add course with valid details",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< HEAD:reports/cucumber-report.json
-              "duration": 2062571700
-=======
-              "duration": 181824000
->>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
+              "duration": 276513700
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "Admin logs in and reaches the Dashboard for Search",
+            "name": "Admin on the Dashboard Page after Login",
             "match": {
-              "location": "src\\test\\step\\searchStep.ts:5"
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
             },
             "result": {
-<<<<<<< HEAD:reports/cucumber-report.json
-              "status": "failed",
-              "duration": 32859673100,
-              "error_message": "page.waitForURL: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/lms/pages/admindashboard\" until \"load\"\n============================================================\n    at World.<anonymous> (D:\\Playwright_Automation-project\\src\\test\\step\\searchStep.ts:8:19)"
-=======
               "status": "passed",
-              "duration": 2566022599
->>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
+              "duration": 2298508200
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "Admin opens the Course Management module for Search",
+            "name": "Admin navigate to Course Management Page",
             "match": {
-              "location": "src\\test\\step\\searchStep.ts:12"
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
             },
             "result": {
-<<<<<<< HEAD:reports/cucumber-report.json
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "keyword",
-                      "result"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "mern",
-                      "Mern"
-                    ]
-                  }
-                ]
-              }
-            ],
-=======
               "status": "passed",
-              "duration": 16084465700
+              "duration": 12483678299
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "Admin click add Course Structure for the \"Playwright\"",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8139015599
-            }
-          },
-          {
-            "arguments": [],
->>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
             "keyword": "When ",
-            "line": 9,
-            "name": "User searches client with the following data",
+            "line": 10,
+            "name": "User selects valid course configuration details",
             "match": {
-<<<<<<< HEAD:reports/cucumber-report.json
-              "location": "src\\test\\step\\searchStep.ts:17"
-=======
-              "location": "src\\test\\step\\addCourseStructure.ts:24"
+              "location": "src\\test\\step\\addCourseSteps.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 925194899
+              "duration": 8350196299
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 11,
-            "name": "Admin enters the required module details",
+            "name": "User clicks the Next button",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:28"
+              "location": "src\\test\\step\\addCourseSteps.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 30775499
+              "duration": 228702799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User selects the details in course hirearchy and layout",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2306270300
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 12,
-            "name": "Admin clicks the Add Module button",
+            "line": 13,
+            "name": "User clicks Preview and Create",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:33"
+              "location": "src\\test\\step\\addCourseSteps.ts:52"
             },
             "result": {
               "status": "passed",
-              "duration": 10948989299
+              "duration": 171485100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User saves the course layout",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 399579700
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 13,
-            "name": "the newly added module should be displayed in the Module table",
+            "line": 15,
+            "name": "The course should be created successfully",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:37"
->>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
+              "location": "src\\test\\step\\addCourseSteps.ts:62"
             },
             "result": {
-              "status": "passed",
-              "duration": 38852899
+              "status": "failed",
+              "duration": 5019635200,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('//button[text()=\"Later\"]')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//button[text()=\"Later\"]')\u001b[22m\n\n    at captureRawStack (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toBeVisible (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at AddCoursePage.verifyCourseCreatedSuccessfully (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\pages\\addCoursePage.ts:112:37)\n    at World.<anonymous> (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\step\\addCourseSteps.ts:64:30)"
             }
           },
           {
@@ -153,17 +127,13 @@
             "hidden": true,
             "result": {
               "status": "passed",
-<<<<<<< HEAD:reports/cucumber-report.json
-              "duration": 1093236200
-=======
-              "duration": 50155199
->>>>>>> 5667b361b739c7f8e2fbc8291ab94d1cf4a52a1a:reports/cucumber/cucumber-report.json
+              "duration": 183535100
             }
           }
         ],
         "tags": [
           {
-            "name": "@Malavicka",
+            "name": "@Shobana",
             "line": 1
           }
         ],
@@ -171,174 +141,82 @@
       },
       {
         "description": "",
-        "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website;search-with-valid-course-name",
-        "keyword": "Scenario",
-        "line": 13,
-        "name": "Search with valid course name",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1022334000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "Admin logs in and reaches the Dashboard for Search",
-            "match": {
-              "location": "src\\test\\step\\searchStep.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 27133211199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "Admin opens the Course Management module for Search",
-            "match": {
-              "location": "src\\test\\step\\searchStep.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6108243499
-            }
-          },
-          {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "keyword",
-                      "result"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "frontend",
-                      "Frontend"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "When ",
-            "line": 14,
-            "name": "User searches course with the following data",
-            "match": {
-              "location": "src\\test\\step\\searchStep.ts:43"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9533080300
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 133576799
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Malavicka",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website;search-with-non-existing-client",
+        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-invalid-details-without-selecting-client",
         "keyword": "Scenario",
         "line": 18,
-        "name": "Search with non existing client",
+        "name": "Add course with invalid details without selecting client",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1817981199
+              "duration": 295387099
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "Admin logs in and reaches the Dashboard for Search",
+            "name": "Admin on the Dashboard Page after Login",
             "match": {
-              "location": "src\\test\\step\\searchStep.ts:5"
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 15471792799
+              "duration": 2756577600
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "Admin opens the Course Management module for Search",
+            "name": "Admin navigate to Course Management Page",
             "match": {
-              "location": "src\\test\\step\\searchStep.ts:12"
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1852527100
+              "duration": 10717995999
             }
           },
           {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "keyword",
-                      "result"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "xyzclientnone",
-                      "none"
-                    ]
-                  }
-                ]
-              }
-            ],
+            "arguments": [],
             "keyword": "When ",
             "line": 19,
-            "name": "User searches client with the following data",
+            "name": "User selects valid course configuration details without selecting client",
             "match": {
-              "location": "src\\test\\step\\searchStep.ts:17"
+              "location": "src\\test\\step\\addCourseSteps.ts:70"
             },
             "result": {
               "status": "passed",
-              "duration": 9688842799
+              "duration": 10684432300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User clicks the Next button",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74818599
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 22,
-            "name": "no matching results should be displayed",
+            "line": 21,
+            "name": "User should get error message",
             "match": {
-              "location": "src\\test\\step\\searchStep.ts:58"
+              "location": "src\\test\\step\\addCourseSteps.ts:80"
             },
             "result": {
               "status": "passed",
-              "duration": 13130100
+              "duration": 6244299
             }
           },
           {
@@ -346,100 +224,101 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 108893100
+              "duration": 37509700
             }
           }
         ],
         "tags": [
           {
-            "name": "@Malavicka",
+            "name": "@Shobana",
             "line": 1
+          },
+          {
+            "name": "@InvalidAdd",
+            "line": 17
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website;search-with-non-existing-course",
+        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-with-invalid-details-without-selecting-service-model",
         "keyword": "Scenario",
-        "line": 24,
-        "name": "Search with non existing course",
+        "line": 23,
+        "name": "Add course with with invalid details without selecting service model",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 850952600
+              "duration": 283623899
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "Admin logs in and reaches the Dashboard for Search",
+            "name": "Admin on the Dashboard Page after Login",
             "match": {
-              "location": "src\\test\\step\\searchStep.ts:5"
+              "location": "src\\test\\step\\addCourseStructure.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 17997177400
+              "duration": 2817084000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "Admin opens the Course Management module for Search",
+            "name": "Admin navigate to Course Management Page",
             "match": {
-              "location": "src\\test\\step\\searchStep.ts:12"
+              "location": "src\\test\\step\\addCourseStructure.ts:13"
             },
             "result": {
-              "status": "passed",
-              "duration": 2981888799
+              "status": "failed",
+              "duration": 20014854400,
+              "error_message": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div[title=\\'Course Management\\']')\u001b[22m\n\n    at DashboardPage.naviagateToCourse (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\pages\\dashboardPage.ts:14:35)\n    at World.<anonymous> (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:14:30)"
             }
           },
           {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "keyword",
-                      "result"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "nonexistentcourse",
-                      "none"
-                    ]
-                  }
-                ]
-              }
-            ],
+            "arguments": [],
             "keyword": "When ",
-            "line": 25,
-            "name": "User searches course with the following data",
+            "line": 24,
+            "name": "User selects valid course configuration details without selecting service model",
             "match": {
-              "location": "src\\test\\step\\searchStep.ts:43"
+              "location": "src\\test\\step\\addCourseSteps.ts:85"
             },
             "result": {
-              "status": "passed",
-              "duration": 12671985400
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "User clicks the Next button",
+            "match": {
+              "location": "src\\test\\step\\addCourseSteps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 28,
-            "name": "no matching results should be displayed",
+            "line": 26,
+            "name": "User should get error message select service model",
             "match": {
-              "location": "src\\test\\step\\searchStep.ts:58"
+              "location": "src\\test\\step\\addCourseSteps.ts:95"
             },
             "result": {
-              "status": "passed",
-              "duration": 28602399
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -447,29 +326,29 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 195275599
+              "duration": 87967799
             }
           }
         ],
         "tags": [
           {
-            "name": "@Malavicka",
+            "name": "@Shobana",
             "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website",
+    "id": "shobana_07-07-2026_add-course-functionality",
     "line": 2,
     "keyword": "Feature",
-    "name": "Malavicka_07-07-2026_Search functionality in LMS SmartCliff website",
+    "name": "Shobana_07-07-2026_Add course functionality",
     "tags": [
       {
-        "name": "@Malavicka",
+        "name": "@Shobana",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\Course Management\\search.feature"
+    "uri": "src\\test\\feature\\Course Management\\addcourse.feature"
   }
 ]

@@ -1,4 +1,1 @@
-<<<<<<< HEAD
-=======
-src\test\feature\Course Management\search.feature:8
->>>>>>> 23dba893418ef96c5834114fb22c956f22be5b1f
+src\test\feature\Course Management\addcourse.feature:8:23
