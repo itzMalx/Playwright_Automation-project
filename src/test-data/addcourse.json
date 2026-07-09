@@ -6,11 +6,11 @@
     },
     "serviceType": {
       "index": 1,
-      "value": "Business to institution"
+      "value": "Automation testing"
     },
     "serviceModel": {
       "index": 2,
-      "value": "HTD"
+      "value": "Automation"
     },
     "courseCategory": {
       "index": 3,
