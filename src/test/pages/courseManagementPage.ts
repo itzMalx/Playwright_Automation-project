@@ -33,7 +33,7 @@ export class CourseManagementPage extends BasePage {
             const count = await this.courseNameList.count();
             for (let i = 0; i < count; i++) {
                 const course = (await this.courseNameList.nth(i).innerText()).trim();
-                console.log(course);
+                //console.log(course);
                 if (course.includes(courseName)) {
                     await this.actionList.nth(i).click();
                     return;

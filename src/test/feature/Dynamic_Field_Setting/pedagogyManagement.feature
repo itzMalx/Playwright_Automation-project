@@ -1,16 +1,17 @@
+@Mylambigai
 Feature: Pedagogy Management
 
     Background:
         Given Admin is on the Dashboard page after login
-        And the user clicks on the dynamic field Settings icon
+         And user clicks the Dynamic Field Settings icon
         And user clicks the Pedagogy button
 
-    Scenario Outline: Add element for Pedagogy Activity
+    Scenario Outline: Add a new element to a pedagogy activity
         When user clicks the View button in the "<Pedagogy Activity>" row
         And user clicks the Add Element button
-        And user enters the "<Element name>"
+        And user enters "<Element name>" as the element name
         And user clicks the Create Element button
-        Then the new element should be displayed in the Activity list
+        Then "<Element name>" should be displayed in the activity list
 
         Examples:
             | Pedagogy Activity | Element name |
