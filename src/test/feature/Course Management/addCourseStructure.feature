@@ -14,7 +14,7 @@ Feature: Mylambigai_7/7/2026 In Course Management Add Course Structure
 
         Examples:
             | course     |
-            | Playwright |
+            | J-AT-A-002 |
 
     Scenario: Export the course structure as an Excel file
         And Admin clicks the Add Course Structure button for the course
