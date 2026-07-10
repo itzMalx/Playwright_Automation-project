@@ -1,0 +1,18 @@
+{
+  "validModel": {
+    "modelName": "Automation Testing",
+    "description": "Automation Testing Service Model"
+  },
+  "emptyModelName": {
+    "modelName": "",
+    "description": "Automation Testing Service Model"
+  },
+  "emptyDescription": {
+    "modelName": "Automation Testing",
+    "description": ""
+  },
+  "emptyFields": {
+    "modelName": "",
+    "description": ""
+  }
+}

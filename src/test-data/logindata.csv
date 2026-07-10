@@ -1,0 +1,5 @@
+email,password,type
+testing1@gmail.com,123,valid
+testing1@gmail.com,1234,psinvalid
+testing12@gmail.com,123,emailinvalid
+testing123@gmail.com,123456,bothinvalid
