@@ -35,6 +35,8 @@ export class glitchworld extends World {
     modelSearchPage!:ModelSearchPage
     filterpage!: FilterPage;
     pedagogyPage!:PedagogyPage
+    addClientPage!:AddClientPage
+    dynamicFieldPage!: DynamicFieldPage;
 
 
 
