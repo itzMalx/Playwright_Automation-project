@@ -46,6 +46,8 @@ Before(async function (this: glitchworld, scenario) {
     this.addCoursePage = new AddCoursePage(this.page)
     this.servicePage = new SeriveModelPage(this.page)
     this.filterpage= new FilterPage(this.page)
+    this.addClientPage = new AddClientPage(this.page)
+    this.dynamicFieldPage = new DynamicFieldPage(this.page)
 
 });
 After(async function (this: glitchworld, scenario) {
