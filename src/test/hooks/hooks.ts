@@ -26,7 +26,7 @@ let browser: Browser;
 
 BeforeAll(async () => {
 
-    browser = await chromium.launch({ headless: true });
+    browser = await chromium.launch({ headless: false });
     logger.info("Browser Launched");
 });
 Before(async function (this: glitchworld, scenario) {
@@ -52,8 +52,10 @@ Before(async function (this: glitchworld, scenario) {
     this.modelSearchPage = new ModelSearchPage(this.page)
     this.pedagogyPage = new PedagogyPage(this.page)
     this.filterpage= new FilterPage(this.page)
+    this.dynamicFieldPage=new DynamicFieldPage(this.page)
+    this.courseCategoryPage=new CourseCategoryPage(this.page)
+    
     this.addClientPage = new AddClientPage(this.page)
-    this.dynamicFieldPage = new DynamicFieldPage(this.page)
 
 });
 After(async function (this: glitchworld, scenario) {
