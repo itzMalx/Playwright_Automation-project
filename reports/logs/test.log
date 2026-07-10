@@ -17,92 +17,342 @@
 [2026-07-09T06:48:22.780Z] INFO-Login successfull!
 [2026-07-09T06:48:52.486Z] INFO-Navigate to Course Management page
 [2026-07-09T06:49:01.599Z] INFO-Browser Closed
-[2026-07-09T09:32:09.258Z] INFO-Browser Launched
-[2026-07-09T09:32:09.735Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-09T09:32:11.292Z] INFO-Logging in with valid credentials
-[2026-07-09T09:32:12.387Z] INFO-Login completed successfully
-[2026-07-09T09:32:12.387Z] INFO-Login successfull!
-[2026-07-09T09:32:42.413Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+[2026-07-09T10:52:10.365Z] INFO-Browser Launched
+[2026-07-09T10:52:14.018Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T10:52:16.549Z] INFO-Logging in with valid credentials
+[2026-07-09T10:52:19.944Z] INFO-Login completed successfully
+[2026-07-09T10:52:20.610Z] INFO-Login successful!
+[2026-07-09T10:52:50.967Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('text=Course Management')[22m
+[2m    - waiting for" https://lms-smartcliff.vercel.app/lms/pages/admindashboard" navigation to finish...[22m
+[2m    - navigated to "https://lms-smartcliff.vercel.app/lms/pages/admindashboard"[22m
+
+[2026-07-09T10:52:51.676Z] ERROR-Scenario Failed: Filter with valid category, level and sort by
+[2026-07-09T10:52:54.008Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T10:52:55.152Z] INFO-Logging in with valid credentials
+[2026-07-09T10:52:56.419Z] INFO-Login completed successfully
+[2026-07-09T10:52:56.424Z] INFO-Login successful!
+[2026-07-09T10:53:26.591Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('text=Course Management')[22m
+
+[2026-07-09T10:53:27.165Z] ERROR-Scenario Failed: Filter with invalid status and category
+[2026-07-09T10:53:29.338Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T10:53:30.848Z] INFO-Logging in with valid credentials
+[2026-07-09T10:53:32.080Z] INFO-Login completed successfully
+[2026-07-09T10:53:32.325Z] INFO-Login successful!
+[2026-07-09T10:54:02.535Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('text=Course Management')[22m
+
+[2026-07-09T10:54:03.628Z] ERROR-Scenario Failed: Clear All filters
+[2026-07-09T10:54:05.791Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T10:54:07.642Z] INFO-Logging in with valid credentials
+[2026-07-09T10:54:08.887Z] INFO-Login completed successfully
+[2026-07-09T10:54:39.984Z] ERROR-Scenario Failed: Search with valid client
+[2026-07-09T10:54:41.465Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T10:54:43.681Z] INFO-Logging in with valid credentials
+[2026-07-09T10:54:44.847Z] INFO-Login completed successfully
+[2026-07-09T10:55:06.191Z] INFO-Login successful!
+[2026-07-09T10:55:09.948Z] INFO-Navigated to Course Management page
+[2026-07-09T10:55:13.809Z] ERROR-Scenario Failed: Search with valid course name
+[2026-07-09T10:55:16.009Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T10:55:17.476Z] INFO-Logging in with valid credentials
+[2026-07-09T10:55:18.838Z] INFO-Login completed successfully
+[2026-07-09T10:55:49.585Z] ERROR-Scenario Failed: Search with non existing client
+[2026-07-09T10:55:50.736Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T10:55:52.902Z] INFO-Logging in with valid credentials
+[2026-07-09T10:55:54.851Z] INFO-Login completed successfully
+[2026-07-09T10:56:13.037Z] INFO-Login successful!
+[2026-07-09T10:56:22.449Z] INFO-Navigated to Course Management page
+[2026-07-09T10:56:27.179Z] INFO-Browser Closed
+[2026-07-09T11:02:56.766Z] INFO-Browser Launched
+[2026-07-09T11:02:58.214Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:03:00.790Z] INFO-Logging in with valid credentials
+[2026-07-09T11:03:02.388Z] INFO-Login completed successfully
+[2026-07-09T11:03:02.648Z] INFO-Login successful!
+[2026-07-09T11:03:32.934Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('text=Course Management')[22m
+
+[2026-07-09T11:03:33.211Z] ERROR-Scenario Failed: Filter with valid category, level and sort by
+[2026-07-09T11:03:35.047Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:03:37.298Z] INFO-Logging in with valid credentials
+[2026-07-09T11:03:38.530Z] INFO-Login completed successfully
+[2026-07-09T11:03:38.531Z] INFO-Login successful!
+[2026-07-09T11:04:08.783Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('text=Course Management')[22m
+
+[2026-07-09T11:04:09.323Z] ERROR-Scenario Failed: Filter with invalid status and category
+[2026-07-09T11:04:11.060Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:04:13.000Z] INFO-Logging in with valid credentials
+[2026-07-09T11:04:14.957Z] INFO-Login completed successfully
+[2026-07-09T11:04:15.019Z] INFO-Login successful!
+[2026-07-09T11:04:45.184Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('text=Course Management')[22m
+
+[2026-07-09T11:04:45.662Z] ERROR-Scenario Failed: Clear All filters
+[2026-07-09T11:04:47.847Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:04:48.993Z] INFO-Logging in with valid credentials
+[2026-07-09T11:04:50.115Z] INFO-Login completed successfully
+[2026-07-09T11:05:20.952Z] ERROR-Scenario Failed: Search with valid client
+[2026-07-09T11:05:22.458Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:05:25.514Z] INFO-Logging in with valid credentials
+[2026-07-09T11:05:26.689Z] INFO-Login completed successfully
+[2026-07-09T11:05:36.234Z] INFO-Login successful!
+[2026-07-09T11:05:38.440Z] INFO-Navigated to Course Management page
+[2026-07-09T11:05:42.172Z] ERROR-Scenario Failed: Search with valid course name
+[2026-07-09T11:05:43.803Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:05:45.172Z] INFO-Logging in with valid credentials
+[2026-07-09T11:05:47.016Z] INFO-Login completed successfully
+[2026-07-09T11:05:55.314Z] ERROR-Scenario Failed: Search with non existing client
+[2026-07-09T11:05:56.897Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:05:58.835Z] INFO-Logging in with valid credentials
+[2026-07-09T11:05:59.900Z] INFO-Login completed successfully
+[2026-07-09T11:06:27.775Z] INFO-Login successful!
+[2026-07-09T11:06:28.595Z] INFO-Navigated to Course Management page
+[2026-07-09T11:06:32.064Z] INFO-Browser Closed
+[2026-07-09T11:18:15.493Z] INFO-Browser Launched
+[2026-07-09T11:18:17.333Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:18:21.116Z] INFO-Logging in with valid credentials
+[2026-07-09T11:18:23.375Z] INFO-Login completed successfully
+[2026-07-09T11:18:23.376Z] INFO-Login successful!
+[2026-07-09T11:18:53.414Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('text=Course Management')[22m
+
+[2026-07-09T11:18:53.828Z] ERROR-Scenario Failed: Filter with valid category, level and sort by
+[2026-07-09T11:18:55.296Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:18:56.728Z] INFO-Logging in with valid credentials
+[2026-07-09T11:18:57.960Z] INFO-Login completed successfully
+[2026-07-09T11:18:57.960Z] INFO-Login successful!
+[2026-07-09T11:19:27.976Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('text=Course Management')[22m
+
+[2026-07-09T11:19:28.459Z] ERROR-Scenario Failed: Filter with invalid status and category
+[2026-07-09T11:19:31.804Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:19:33.111Z] INFO-Logging in with valid credentials
+[2026-07-09T11:19:35.092Z] INFO-Login completed successfully
+[2026-07-09T11:19:35.187Z] INFO-Login successful!
+[2026-07-09T11:20:05.367Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('text=Course Management')[22m
+
+[2026-07-09T11:20:05.998Z] ERROR-Scenario Failed: Clear All filters
+[2026-07-09T11:20:08.461Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:20:09.680Z] INFO-Logging in with valid credentials
+[2026-07-09T11:20:10.726Z] INFO-Login completed successfully
+[2026-07-09T11:20:41.442Z] ERROR-Scenario Failed: Search with valid client
+[2026-07-09T11:20:42.742Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:20:44.231Z] INFO-Logging in with valid credentials
+[2026-07-09T11:20:45.459Z] INFO-Login completed successfully
+[2026-07-09T11:21:03.720Z] INFO-Login successful!
+[2026-07-09T11:21:10.819Z] INFO-Navigated to Course Management page
+[2026-07-09T11:21:14.972Z] ERROR-Scenario Failed: Search with valid course name
+[2026-07-09T11:21:17.054Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:21:22.003Z] INFO-Logging in with valid credentials
+[2026-07-09T11:21:23.018Z] INFO-Login completed successfully
+[2026-07-09T11:21:46.796Z] INFO-Login successful!
+[2026-07-09T11:21:56.524Z] INFO-Navigated to Course Management page
+[2026-07-09T11:22:00.828Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:22:02.005Z] INFO-Logging in with valid credentials
+[2026-07-09T11:22:03.182Z] INFO-Login completed successfully
+[2026-07-09T11:22:33.754Z] ERROR-Scenario Failed: Search with non existing course
+[2026-07-09T11:22:34.062Z] INFO-Browser Closed
+[2026-07-09T11:41:02.124Z] INFO-Browser Launched
+[2026-07-09T11:41:05.327Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:41:07.207Z] INFO-Logging in with valid credentials
+[2026-07-09T11:41:09.888Z] INFO-Login completed successfully
+[2026-07-09T11:41:10.349Z] INFO-Login successful!
+[2026-07-09T11:41:29.504Z] ERROR-Scenario Failed: Filter with valid category, level and sort by
+[2026-07-09T11:41:32.401Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:41:33.722Z] INFO-Logging in with valid credentials
+[2026-07-09T11:41:34.989Z] INFO-Login completed successfully
+[2026-07-09T11:41:35.295Z] INFO-Login successful!
+[2026-07-09T11:41:53.879Z] ERROR-Scenario Failed: Filter with invalid status and category
+[2026-07-09T11:41:55.774Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:41:57.540Z] INFO-Logging in with valid credentials
+[2026-07-09T11:41:58.799Z] INFO-Login completed successfully
+[2026-07-09T11:41:58.913Z] INFO-Login successful!
+[2026-07-09T11:42:17.395Z] ERROR-Scenario Failed: Clear All filters
+[2026-07-09T11:42:19.135Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:42:20.625Z] INFO-Logging in with valid credentials
+[2026-07-09T11:42:21.754Z] INFO-Login completed successfully
+[2026-07-09T11:42:21.760Z] INFO-Login successful!
+[2026-07-09T11:42:51.800Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
 Call log:
 [2m  - waiting for locator('div[title=\'Course Management\']')[22m
 
-[2026-07-09T09:32:42.585Z] ERROR-Scenario Failed: Add a new module to the course structure
-[2026-07-09T09:32:43.037Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-09T09:32:44.796Z] INFO-Logging in with valid credentials
-[2026-07-09T09:32:45.895Z] INFO-Login completed successfully
-[2026-07-09T09:32:45.895Z] INFO-Login successfull!
-[2026-07-09T09:33:15.918Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+[2026-07-09T11:42:52.971Z] ERROR-Scenario Failed: Search with valid client
+[2026-07-09T11:42:54.993Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:42:56.995Z] INFO-Logging in with valid credentials
+[2026-07-09T11:42:58.180Z] INFO-Login completed successfully
+[2026-07-09T11:42:58.183Z] INFO-Login successful!
+[2026-07-09T11:43:28.552Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
 Call log:
 [2m  - waiting for locator('div[title=\'Course Management\']')[22m
 
-[2026-07-09T09:33:16.112Z] ERROR-Scenario Failed: Export the course structure as an Excel file
-[2026-07-09T09:33:16.400Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-09T09:33:17.868Z] INFO-Logging in with valid credentials
-[2026-07-09T09:33:18.959Z] INFO-Login completed successfully
-[2026-07-09T09:33:18.959Z] INFO-Login successfull!
-[2026-07-09T09:33:45.150Z] INFO-Navigate to Course Management page
-[2026-07-09T09:34:15.248Z] ERROR-Scenario Failed: Add module without mandatory field
-[2026-07-09T09:34:15.488Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-09T09:34:16.951Z] INFO-Logging in with valid credentials
-[2026-07-09T09:34:18.040Z] INFO-Login completed successfully
-[2026-07-09T09:34:18.040Z] INFO-Login successfull!
-[2026-07-09T09:34:48.049Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+[2026-07-09T11:43:28.930Z] ERROR-Scenario Failed: Search with valid course name
+[2026-07-09T11:43:30.123Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:43:32.106Z] INFO-Logging in with valid credentials
+[2026-07-09T11:43:33.322Z] INFO-Login completed successfully
+[2026-07-09T11:43:33.324Z] INFO-Login successful!
+[2026-07-09T11:44:03.335Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
 Call log:
 [2m  - waiting for locator('div[title=\'Course Management\']')[22m
 
-[2026-07-09T09:34:48.238Z] ERROR-Scenario Failed: Add course with valid details
-[2026-07-09T09:34:48.468Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-09T09:34:49.970Z] INFO-Logging in with valid credentials
-[2026-07-09T09:34:51.076Z] INFO-Login completed successfully
-[2026-07-09T09:34:51.077Z] INFO-Login successfull!
-[2026-07-09T09:35:02.444Z] ERROR-Failed to click element: Error: locator.click: Target page, context or browser has been closed
+[2026-07-09T11:44:04.471Z] ERROR-Scenario Failed: Search with non existing client
+[2026-07-09T11:44:07.598Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T11:44:09.101Z] INFO-Logging in with valid credentials
+[2026-07-09T11:44:10.291Z] INFO-Login completed successfully
+[2026-07-09T11:44:10.291Z] INFO-Login successful!
+[2026-07-09T11:44:40.326Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
 Call log:
 [2m  - waiting for locator('div[title=\'Course Management\']')[22m
 
-[2026-07-09T09:35:02.449Z] ERROR-Scenario Failed: Add course with valid details
-[2026-07-09T09:35:02.542Z] ERROR-Scenario Failed: Add course with invalid details without selecting client in course configuration
-[2026-07-09T09:35:02.562Z] ERROR-Scenario Failed: Add course with invalid details without selecting service model in course configuration
-[2026-07-09T09:35:02.577Z] ERROR-Scenario Failed: Add course with invalid details without selecting hirearchy and resource type in course hirearchy and layout
-[2026-07-09T09:35:02.591Z] ERROR-Scenario Failed: Filter with valid category and level
-[2026-07-09T09:35:02.602Z] ERROR-Scenario Failed: Filter with invalid status and category
-[2026-07-09T09:35:02.618Z] ERROR-Scenario Failed: Clear All filters
-[2026-07-09T09:35:02.625Z] ERROR-Scenario Failed: Verify user can navigate using pagination buttons
-[2026-07-09T09:35:02.637Z] ERROR-Scenario Failed: Verify user can navigate using pagination buttons
-[2026-07-09T09:35:02.644Z] ERROR-Scenario Failed: Verify user can navigate to a specific page using the page number
-[2026-07-09T09:35:02.652Z] ERROR-Scenario Failed: Verify user can navigate to a specific page using the page number
-[2026-07-09T09:35:02.656Z] ERROR-Scenario Failed: Verify appropriate button is disabled on the page
-[2026-07-09T09:35:02.664Z] ERROR-Scenario Failed: Verify appropriate button is disabled on the page
-[2026-07-09T09:35:02.673Z] ERROR-Scenario Failed: Search with valid client
-[2026-07-09T09:35:02.682Z] ERROR-Scenario Failed: Search with valid course name
-[2026-07-09T09:35:02.686Z] ERROR-Scenario Failed: Search with non existing client
-[2026-07-09T09:35:02.690Z] ERROR-Scenario Failed: Search with non existing course
-[2026-07-09T09:35:02.694Z] ERROR-Scenario Failed: Add a valid service
-[2026-07-09T09:35:02.701Z] ERROR-Scenario Failed: Add a valid service
-[2026-07-09T09:35:02.704Z] ERROR-Scenario Failed: Add a service without a description
-[2026-07-09T09:35:02.708Z] ERROR-Scenario Failed: Add a service with empty details
-[2026-07-09T09:35:02.712Z] ERROR-Scenario Failed: Add a service without  service name
-[2026-07-09T09:35:02.716Z] ERROR-Scenario Failed: Login with valid credentials
-[2026-07-09T09:35:02.719Z] ERROR-Scenario Failed: Login with an incorrect password
-[2026-07-09T09:35:02.725Z] ERROR-Scenario Failed: Login with an invalid email and an invalid password
-[2026-07-09T09:35:02.728Z] ERROR-Scenario Failed: Login with an unregistered email
-[2026-07-09T09:35:02.729Z] INFO-Browser Closed
-[2026-07-09T09:50:26.269Z] INFO-Browser Launched
-[2026-07-09T09:50:26.785Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-09T09:50:29.685Z] INFO-Logging in with valid credentials
-[2026-07-09T09:50:30.565Z] INFO-Login completed successfully
-[2026-07-09T09:50:30.566Z] INFO-Login successfull!
-[2026-07-09T09:50:43.201Z] INFO-Navigate to Course Management page
-[2026-07-09T09:51:02.115Z] ERROR-Scenario Failed: Add course with valid details
-[2026-07-09T09:51:02.206Z] INFO-Browser Closed
-[2026-07-09T10:17:07.308Z] INFO-Browser Launched
-[2026-07-09T10:17:07.875Z] INFO-Navigating to LMS SmartCliff Login Page
-[2026-07-09T10:17:09.499Z] INFO-Logging in with valid credentials
-[2026-07-09T10:17:10.431Z] INFO-Login completed successfully
-[2026-07-09T10:17:10.432Z] INFO-Login successfull!
-[2026-07-09T10:17:40.453Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+[2026-07-09T11:44:41.383Z] ERROR-Scenario Failed: Search with non existing course
+[2026-07-09T11:44:41.892Z] INFO-Browser Closed
+[2026-07-09T12:17:30.527Z] INFO-Browser Launched
+[2026-07-09T12:17:32.938Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:17:34.086Z] INFO-Logging in with valid credentials
+[2026-07-09T12:17:35.615Z] INFO-Login completed successfully
+[2026-07-09T12:17:35.774Z] INFO-Login successful!
+[2026-07-09T12:17:55.009Z] ERROR-Scenario Failed: Filter with valid category, level and sort by
+[2026-07-09T12:17:56.866Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:17:58.029Z] INFO-Logging in with valid credentials
+[2026-07-09T12:17:59.309Z] INFO-Login completed successfully
+[2026-07-09T12:17:59.355Z] INFO-Login successful!
+[2026-07-09T12:18:17.800Z] ERROR-Scenario Failed: Filter with invalid status and category
+[2026-07-09T12:18:19.382Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:18:20.825Z] INFO-Logging in with valid credentials
+[2026-07-09T12:18:22.198Z] INFO-Login completed successfully
+[2026-07-09T12:18:22.213Z] INFO-Login successful!
+[2026-07-09T12:18:40.747Z] ERROR-Scenario Failed: Clear All filters
+[2026-07-09T12:18:42.690Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:18:43.954Z] INFO-Logging in with valid credentials
+[2026-07-09T12:18:44.821Z] INFO-Login completed successfully
+[2026-07-09T12:18:44.822Z] INFO-Login successful!
+[2026-07-09T12:18:53.234Z] INFO-Navigated to Course Management page
+[2026-07-09T12:18:57.160Z] ERROR-Scenario Failed: Search with valid client
+[2026-07-09T12:18:58.326Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:18:59.118Z] INFO-Logging in with valid credentials
+[2026-07-09T12:19:00.256Z] INFO-Login completed successfully
+[2026-07-09T12:19:00.257Z] INFO-Login successful!
+[2026-07-09T12:19:11.031Z] INFO-Navigated to Course Management page
+[2026-07-09T12:19:14.380Z] ERROR-Scenario Failed: Search with valid course name
+[2026-07-09T12:19:15.599Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:19:16.499Z] INFO-Logging in with valid credentials
+[2026-07-09T12:19:17.462Z] INFO-Login completed successfully
+[2026-07-09T12:19:17.463Z] INFO-Login successful!
+[2026-07-09T12:19:25.194Z] INFO-Navigated to Course Management page
+[2026-07-09T12:19:29.450Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:19:30.902Z] INFO-Logging in with valid credentials
+[2026-07-09T12:19:31.952Z] INFO-Login completed successfully
+[2026-07-09T12:19:31.953Z] INFO-Login successful!
+[2026-07-09T12:19:42.055Z] INFO-Navigated to Course Management page
+[2026-07-09T12:19:45.950Z] INFO-Browser Closed
+[2026-07-09T12:28:01.585Z] INFO-Browser Launched
+[2026-07-09T12:28:03.896Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:28:05.709Z] INFO-Logging in with valid credentials
+[2026-07-09T12:28:07.237Z] INFO-Login completed successfully
+[2026-07-09T12:28:07.409Z] INFO-Login successful!
+[2026-07-09T12:28:17.339Z] INFO-Navigated to Course Management page
+[2026-07-09T12:28:23.190Z] ERROR-Scenario Failed: Search with valid client
+[2026-07-09T12:28:24.909Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:28:27.057Z] INFO-Logging in with valid credentials
+[2026-07-09T12:28:27.617Z] INFO-Login completed successfully
+[2026-07-09T12:28:27.774Z] INFO-Login successful!
+[2026-07-09T12:28:37.496Z] INFO-Navigated to Course Management page
+[2026-07-09T12:28:41.855Z] ERROR-Scenario Failed: Search with valid course name
+[2026-07-09T12:28:43.137Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:28:44.490Z] INFO-Logging in with valid credentials
+[2026-07-09T12:28:45.745Z] INFO-Login completed successfully
+[2026-07-09T12:28:45.818Z] INFO-Login successful!
+[2026-07-09T12:28:53.575Z] INFO-Navigated to Course Management page
+[2026-07-09T12:28:59.172Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:29:00.624Z] INFO-Logging in with valid credentials
+[2026-07-09T12:29:01.608Z] INFO-Login completed successfully
+[2026-07-09T12:29:01.650Z] INFO-Login successful!
+[2026-07-09T12:29:09.860Z] INFO-Navigated to Course Management page
+[2026-07-09T12:29:14.209Z] INFO-Browser Closed
+[2026-07-09T12:39:21.657Z] INFO-Browser Launched
+[2026-07-09T12:39:23.662Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:39:26.047Z] INFO-Logging in with valid credentials
+[2026-07-09T12:39:27.537Z] INFO-Login completed successfully
+[2026-07-09T12:39:27.754Z] INFO-Login successful!
+[2026-07-09T12:39:38.524Z] INFO-Navigated to Course Management page
+[2026-07-09T12:39:44.085Z] ERROR-Scenario Failed: Search with valid client
+[2026-07-09T12:39:46.096Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:39:48.280Z] INFO-Logging in with valid credentials
+[2026-07-09T12:39:49.478Z] INFO-Login completed successfully
+[2026-07-09T12:39:49.478Z] INFO-Login successful!
+[2026-07-09T12:39:59.056Z] INFO-Navigated to Course Management page
+[2026-07-09T12:40:05.175Z] ERROR-Scenario Failed: Search with valid course name
+[2026-07-09T12:40:07.277Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:40:08.869Z] INFO-Logging in with valid credentials
+[2026-07-09T12:40:09.818Z] INFO-Login completed successfully
+[2026-07-09T12:40:09.902Z] INFO-Login successful!
+[2026-07-09T12:40:17.771Z] INFO-Navigated to Course Management page
+[2026-07-09T12:40:26.952Z] ERROR-Scenario Failed: Search with non existing client
+[2026-07-09T12:40:28.506Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:40:30.101Z] INFO-Logging in with valid credentials
+[2026-07-09T12:40:31.167Z] INFO-Login completed successfully
+[2026-07-09T12:40:31.302Z] INFO-Login successful!
+[2026-07-09T12:40:39.402Z] INFO-Navigated to Course Management page
+[2026-07-09T12:40:47.739Z] INFO-Browser Closed
+[2026-07-09T12:45:37.902Z] INFO-Browser Launched
+[2026-07-09T12:45:40.777Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:45:42.388Z] INFO-Logging in with valid credentials
+[2026-07-09T12:45:43.654Z] INFO-Login completed successfully
+[2026-07-09T12:45:43.764Z] INFO-Login successful!
+[2026-07-09T12:45:53.932Z] INFO-Navigated to Course Management page
+[2026-07-09T12:46:04.072Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:46:05.599Z] INFO-Logging in with valid credentials
+[2026-07-09T12:46:06.561Z] INFO-Login completed successfully
+[2026-07-09T12:46:06.631Z] INFO-Login successful!
+[2026-07-09T12:46:16.909Z] INFO-Navigated to Course Management page
+[2026-07-09T12:46:26.143Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:46:27.315Z] INFO-Logging in with valid credentials
+[2026-07-09T12:46:28.487Z] INFO-Login completed successfully
+[2026-07-09T12:46:28.563Z] INFO-Login successful!
+[2026-07-09T12:46:38.364Z] INFO-Navigated to Course Management page
+[2026-07-09T12:46:50.713Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T12:46:51.955Z] INFO-Logging in with valid credentials
+[2026-07-09T12:46:53.076Z] INFO-Login completed successfully
+[2026-07-09T12:46:53.076Z] INFO-Login successful!
+[2026-07-09T12:47:02.600Z] INFO-Navigated to Course Management page
+[2026-07-09T12:47:13.251Z] INFO-Browser Closed
+[2026-07-09T14:12:19.031Z] INFO-Browser Launched
+[2026-07-09T14:12:21.901Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T14:12:23.604Z] INFO-Logging in with valid credentials
+[2026-07-09T14:12:25.308Z] INFO-Login completed successfully
+[2026-07-09T14:12:25.487Z] INFO-Login successful!
+[2026-07-09T14:12:58.577Z] ERROR-Scenario Failed: Filter with valid category, level and sort by
+[2026-07-09T14:13:00.887Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T14:13:03.388Z] INFO-Logging in with valid credentials
+[2026-07-09T14:13:06.063Z] INFO-Login completed successfully
+[2026-07-09T14:13:06.247Z] INFO-Login successful!
+[2026-07-09T14:13:30.293Z] ERROR-Scenario Failed: Filter with invalid status and category
+[2026-07-09T14:13:34.591Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T14:13:37.811Z] INFO-Logging in with valid credentials
+[2026-07-09T14:13:39.452Z] INFO-Login completed successfully
+[2026-07-09T14:13:39.452Z] INFO-Login successful!
+[2026-07-09T14:14:05.315Z] ERROR-Scenario Failed: Clear All filters
+[2026-07-09T14:14:05.537Z] INFO-Browser Closed
+[2026-07-09T14:21:16.770Z] INFO-Browser Launched
+[2026-07-09T14:21:22.052Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T14:21:25.259Z] INFO-Logging in with valid credentials
+[2026-07-09T14:21:27.931Z] INFO-Login completed successfully
+[2026-07-09T14:21:28.240Z] INFO-Login successful!
+[2026-07-09T14:21:58.487Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
 Call log:
 [2m  - waiting for locator('div[title=\'Course Management\']')[22m
 
+<<<<<<< HEAD
 [2026-07-09T10:17:40.658Z] ERROR-Scenario Failed: Add course with valid details
 [2026-07-09T10:17:40.764Z] INFO-Browser Closed
 [2026-07-09T10:18:20.104Z] INFO-Browser Launched
@@ -742,3 +992,34 @@ Call log:
 [2026-07-10T05:00:45.821Z] INFO-Entering password
 [2026-07-10T05:00:46.849Z] INFO-Login successfull!
 [2026-07-10T05:00:59.879Z] INFO-Browser Closed
+=======
+[2026-07-09T14:21:59.401Z] ERROR-Scenario Failed: Filter with valid category, level and sort by
+[2026-07-09T14:22:01.168Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T14:22:02.568Z] INFO-Logging in with valid credentials
+[2026-07-09T14:22:03.820Z] INFO-Login completed successfully
+[2026-07-09T14:22:03.821Z] INFO-Login successful!
+[2026-07-09T14:22:22.977Z] INFO-Navigated to Course Management page for Filter
+[2026-07-09T14:22:38.233Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T14:22:39.560Z] INFO-Logging in with valid credentials
+[2026-07-09T14:22:40.776Z] INFO-Login completed successfully
+[2026-07-09T14:22:40.779Z] INFO-Login successful!
+[2026-07-09T14:22:57.925Z] INFO-Navigated to Course Management page for Filter
+[2026-07-09T14:23:15.003Z] INFO-Browser Closed
+[2026-07-09T14:37:58.888Z] INFO-Browser Launched
+[2026-07-09T14:38:01.276Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T14:38:03.865Z] INFO-Logging in with valid credentials
+[2026-07-09T14:38:05.664Z] INFO-Login completed successfully
+[2026-07-09T14:38:05.910Z] INFO-Login successful!
+[2026-07-09T14:38:23.673Z] INFO-Navigated to Course Management page for Filter
+[2026-07-09T14:38:41.531Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T14:38:44.530Z] INFO-Logging in with valid credentials
+[2026-07-09T14:38:45.739Z] INFO-Login completed successfully
+[2026-07-09T14:38:45.740Z] INFO-Login successful!
+[2026-07-09T14:39:01.317Z] INFO-Navigated to Course Management page for Filter
+[2026-07-09T14:39:15.470Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T14:39:17.536Z] INFO-Logging in with valid credentials
+[2026-07-09T14:39:18.841Z] INFO-Login completed successfully
+[2026-07-09T14:39:18.895Z] INFO-Login successful!
+[2026-07-09T14:39:26.835Z] INFO-Navigated to Course Management page for Filter
+[2026-07-09T14:39:42.879Z] INFO-Browser Closed
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
