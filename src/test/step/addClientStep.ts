@@ -1,7 +1,7 @@
 import { Given, When, Then } from "@cucumber/cucumber";
 import { glitchworld } from "../world/customworld";
-import { readData } from "../utilities/";
-import { ClientData } from "../types/ClientData";
+import { readData } from "../../utilities/csvreader";
+import { ClientData } from "../type/ClientData";
 
 const clientData = readData<ClientData>("test-data/clientData.csv");
 
@@ -12,7 +12,7 @@ Given("the user opens the Add New Client dialog", async function (this: glitchwo
 
 When("the user enters client details", async function (this: glitchworld) {
 
-    const data = clientData[0];
+    const data = clientData[0]!;
 
     await this.addClientPage.enterClientDetails(
         data.ClientName,

@@ -2,12 +2,12 @@ import { BasePage } from "./basepage";
 
 export class AddModelPage extends BasePage {
 
-    readonly clicktoview = this.page.getByText('2 Click to view');
-    readonly addmodel = this.page.getByRole('button', { name: 'Add Model' });
-    readonly modelname = this.page.getByRole('textbox', { name: "e.g., 'Frontend Development'" });
-    readonly description = this.page.getByRole('textbox', { name: 'Describe the model...' });
-    readonly createmodel = this.page.getByRole('button', { name: 'Create Modal' });
-    readonly checkdata = this.page.getByText('Automation Testing').nth(1);
+    private readonly clicktoview = this.page.getByText('2 Click to view');
+    private readonly addmodel = this.page.getByRole('button', { name: 'Add Model' });
+    private readonly modelname = this.page.getByRole('textbox', { name: "e.g., 'Frontend Development'" });
+    private readonly description = this.page.getByRole('textbox', { name: 'Describe the model...' });
+    private readonly createmodel = this.page.getByRole('button', { name: 'Create Modal' });
+    private readonly checkdata = this.page.getByText('Automation Testing').nth(1);
 
     
 
