@@ -40,7 +40,7 @@ Then('the newly added module should be displayed in the Module table', async fun
 });
 
 Given('Admin clicks the Add Course Structure button for the course', async function (this: glitchworld) {
-    this.courseManagementPage.selectActionList("Playwright")
+    this.courseManagementPage.selectActionList(courseStructure.course)
 });
 
 Given('verifies that a course structure is present in the table', async function (this: glitchworld) {
@@ -48,6 +48,7 @@ Given('verifies that a course structure is present in the table', async function
     if (hasRow! > 0) {
         logger.info("Table has elements")
     }
+    
 });
 
 When('Admin clicks the Print button', async function (this: glitchworld) {
