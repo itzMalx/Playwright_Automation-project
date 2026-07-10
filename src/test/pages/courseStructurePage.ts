@@ -1,3 +1,4 @@
+import { expect } from '@playwright/test';
 import { Locator, Page } from 'playwright';
 import { BasePage } from './basepage';
 import path from "path";
@@ -47,6 +48,8 @@ export class CourseStructurePage extends BasePage {
    }
 
    async clickExcel() {
+      //console.log(await this.excelOption.isVisible());
+      console.log(await this.excelOption.isEnabled());
       await this.click(this.excelOption)
    }
 

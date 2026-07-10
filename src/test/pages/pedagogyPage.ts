@@ -17,6 +17,8 @@ export class PedagogyPage extends BasePage {
     private readonly nextBtn = this.page.locator("(//button[@data-slot='button'])[13]")
     private readonly loadingText = this.page.getByText("Loading pedagogy data...")
     private readonly CreatingText = this.page.getByText("Creating...")
+    private readonly searchField = this.page.locator("input[placeholder='Search activities...']")
+    private readonly next = this.page.locator("//div[@class='flex items-center gap-2']//button[text()='Next']")
 
     async selectActivity(activityName: string) {
         await this.loadingText.waitFor({ state: "hidden" });
@@ -68,5 +70,29 @@ export class PedagogyPage extends BasePage {
         throw new Error(`${elementName} not found in any page`);
     }
 
+    async enterSearch(activityName: string) {
+        await this.fill(this.searchField, activityName)
+    }
 
+    async searchActivity(activityName: string) {
+        await this.searchField.fill(activityName);
+        await this.page.waitForLoadState("networkidle");
+    }
+
+    async verifySearchResult(activityName: string): Promise<boolean> {
+        const rowCount = await this.pedagogyActivity.count();
+        if (rowCount === 0) {
+            throw new Error(`No activity found for "${activityName}"`);
+        }
+        for (let i = 0; i < rowCount; i++) {
+            const text = (await this.pedagogyActivity.nth(i).innerText()).trim();
+            if (!text.includes(activityName)) {
+                throw new Error(
+                    `Unexpected activity "${text}" found`
+                );
+            }
+        }
+        logger.info(`${activityName} verified`);
+        return true;
+    }
 }
