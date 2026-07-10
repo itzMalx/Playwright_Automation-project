@@ -21,18 +21,22 @@ export class glitchworld extends World {
     browser!: Browser
     context!: BrowserContext
     page!: Page
-    login!: LoginPage
     tag!: string;
     downloadPath!: string;
     downloadName!: string;
-
+    login!:LoginPage
     dashboardPage!: DashboardPage
     courseManagementPage!: CourseManagementPage
     courseStructurePage!: CourseStructurePage
     searchPage!: SearchPage
-    servicePage!:SeriveModelPage
+    servicePage!:SeriveModelPage//muhi
     addCoursePage! : AddCoursePage
+    addmodel!:AddModelPage//muhi
+    modelSearchPage!:ModelSearchPage
     filterpage!: FilterPage;
+    pedagogyPage!:PedagogyPage
+    addClientPage!:AddClientPage
+    dynamicFieldPage!: DynamicFieldPage;
 
 
 

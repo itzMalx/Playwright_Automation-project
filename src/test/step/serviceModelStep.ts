@@ -2,15 +2,12 @@ import { Given, When, Then } from "@cucumber/cucumber";
 import { glitchworld } from "../world/customworld";
 import { expect } from "@playwright/test";
 
-
-
-
 Given('Admin navigates to the Course Management page', async function (this: glitchworld) {
   // Write code here that turns the phrase above into concrete actions
   await this.servicePage.clickdynamic();
 });
 
-Given('the user clicks on the dynamic field Settings icon', async function (this: glitchworld) {
+Given('the user clicks on the Dynamic Field Settings icon', async function (this: glitchworld) {
   // Write code here that turns the phrase above into concrete actions
   await this.servicePage.clickdynamic();
 });
@@ -20,14 +17,14 @@ Given('the user clicks on the Add Service button', async function (this: glitchw
   await this.servicePage.clickaddservice();
 });
 
-When('the user enters service name {string}', async function (this: glitchworld, string) {
+When('the user enters service name {string}', async function (this: glitchworld, serviceName: string) {
   // Write code here that turns the phrase above into concrete actions
-  await this.servicePage.enterserivename(string);
+  await this.servicePage.enterserivename(serviceName);
 });
 
-When('the user enters description {string}', async function (this: glitchworld, string) {
+When('the user enters description {string}', async function (this: glitchworld, description: string) {
   // Write code here that turns the phrase above into concrete actions
-  await this.servicePage.enterdesc(string);
+  await this.servicePage.enterdesc(description);
 });
 
 When('the user clicks on the Create Service button', async function (this: glitchworld) {
@@ -40,26 +37,23 @@ Then('the service should be created successfully', async function (this: glitchw
   await expect(this.servicePage.checkservadded()).toBeTruthy();
 });
 
-Given('the user clicks on the Dynamic Field Settings icon', async function (this: glitchworld) {
+Then('{string} field should display the required field validation message',async function (this: glitchworld, field: string) {
   // Write code here that turns the phrase above into concrete actions
-  await this.servicePage.clickdynamic();
-});
+    let actual: string;
 
-When('the user enters the following service details', async function (this: glitchworld, dataTable) {
-  // Write code here that turns the phrase above into concrete actions
-  const data = dataTable.hashes()[0];
-  await this.servicePage.enterserivename(data["Service Name"]);
-  await this.servicePage.enterdesc(data["Description"]);
-});
+    switch (field) {
+      case "Service Name":
+        actual = await this.servicePage.getsernameerr();
+        break;
 
-Then('the Description field should display the required field validation message', async function (this: glitchworld) {
-  // Write code here that turns the phrase above into concrete actions
-  const actual = await this.servicePage.getDescriptionValidationMessage();
-  expect(actual).toBe("Please fill out this field.")
-});
+      case "Description":
+        actual = await this.servicePage.getdeserror();
+        break;
 
-Then('the Service Name field should display the required field validation message', async function (this: glitchworld) {
-  // Write code here that turns the phrase above into concrete actions
-  const actual = await this.servicePage.getServiceNameValidationMessage();
-  expect(actual).toBe("Please fill out this field.");
-});
+      default:
+        throw new Error(`Unknown field: ${field}`);
+    }
+
+    expect(actual).toBe("Please fill out this field.");
+  }
+);
