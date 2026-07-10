@@ -16,6 +16,7 @@ import { AddCoursePage } from '../pages/addCoursePage';
 import { AddModelPage } from '../pages/addModelServicePage';
 import { ModelSearchPage } from '../pages/modelsSearchpage';
 import { PedagogyPage } from '../pages/pedagogyPage';
+import { LoginNavigationPage } from '../pages/loginNavigationPage';
 
 setDefaultTimeout(90 * 1000)
 
@@ -49,7 +50,7 @@ Before(async function (this: glitchworld, scenario) {
     this.filterpage = new FilterPage(this.page)
     this.addClientPage = new AddClientPage(this.page)
     this.dynamicFieldPage = new DynamicFieldPage(this.page)
-
+    this.loginnav = new LoginNavigationPage(this.page)
 
 });
 After(async function (this: glitchworld, scenario) {

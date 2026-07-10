@@ -1,87 +1,73 @@
 [
   {
-    "description": "",
+    "description": "              As a user,\n              I want to verify the navigation links and social media icons.",
     "elements": [
       {
         "description": "",
-        "id": "muhindhar_09-07-2026_add-service-model-in-dynamic-field-settings;search-service-by-service-name",
+        "id": "muhindhar_10-07-2026_login-page-navigation;verify-sign-in-with-google-button-functionality",
         "keyword": "Scenario",
-        "line": 9,
-        "name": "Search Service by Service Name",
+        "line": 12,
+        "name": "Verify Sign in with Google button functionality",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 68932000
+              "duration": 96013600
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "the user is logged into the LMS SmartCliff website",
+            "line": 8,
+            "name": "the user launches the SmartCliff application",
             "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:11"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 11632909700
+              "duration": 3263532099
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
-            "name": "the user clicks on the Dynamic Field Settings icon",
+            "line": 9,
+            "name": "the user is on the Login page",
             "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:10"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 934123200
+              "duration": 41438599
             }
           },
           {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "serviceName"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Glitch_Guardians_Muhindhar"
-                    ]
-                  }
-                ]
-              }
-            ],
+            "arguments": [],
             "keyword": "When ",
-            "line": 11,
-            "name": "user searches the service",
+            "line": 13,
+            "name": "the user clicks the \"Sign in with Google\" button on the Login page",
             "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:55"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 4235939399
+              "duration": 924422700
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 14,
-            "name": "user should be able to see the searched service",
+            "name": "the user should be redirected to the Google authentication page",
             "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:67"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:26"
             },
             "result": {
-              "status": "passed",
-              "duration": 17614699
+              "status": "failed",
+              "duration": 5023379100,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/google\\.com/i\u001b[39m\nReceived string:  \u001b[31m\"https://lms-smartcliff.vercel.app/login\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.url\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × unexpected value \"https://lms-smartcliff.vercel.app/login\"\u001b[22m\n\n    at captureRawStack (D:\\Playwright_Project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveURL (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (D:\\Playwright_Project\\src\\test\\step\\loginNaviagtionStep.ts:28:34)"
             }
           },
           {
@@ -89,154 +75,88 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 37359099
+              "duration": 112834600
             }
           }
         ],
         "tags": [
           {
-            "name": "@Muhindhar",
+            "name": "@navigation",
             "line": 1
           },
           {
-            "name": "@searchservice",
-            "line": 8
+            "name": "@GoogleSignIn",
+            "line": 11
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "muhindhar_09-07-2026_add-service-model-in-dynamic-field-settings;add-service-model",
+        "id": "muhindhar_10-07-2026_login-page-navigation;verify-forgot-password-link-functionality",
         "keyword": "Scenario",
         "line": 17,
-        "name": "Add Service Model",
+        "name": "Verify Forgot Password link functionality",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1152761299
+              "duration": 45104600
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "the user is logged into the LMS SmartCliff website",
+            "line": 8,
+            "name": "the user launches the SmartCliff application",
             "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:11"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 13355443599
+              "duration": 334370399
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
-            "name": "the user clicks on the Dynamic Field Settings icon",
+            "line": 9,
+            "name": "the user is on the Login page",
             "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:10"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 897218399
+              "duration": 26407200
             }
           },
           {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "serviceName"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Glitch_Guardians_Muhindhar"
-                    ]
-                  }
-                ]
-              }
-            ],
+            "arguments": [],
             "keyword": "When ",
-            "line": 19,
-            "name": "user searches the service",
+            "line": 18,
+            "name": "the user clicks the \"Forgot Password?\" link",
             "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:55"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:32"
             },
             "result": {
               "status": "passed",
-              "duration": 5352058199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 23,
-            "name": "user clicks on the searched service",
-            "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:73"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 477731299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 24,
-            "name": "user clicks on the Add Model button",
-            "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:27"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 467358800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 25,
-            "name": "user enters \"validModel\" details",
-            "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:32"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 82648999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 26,
-            "name": "user clicks on the Create Model button",
-            "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:44"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 513054799
+              "duration": 1248221000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 27,
-            "name": "user should be able to see the created model in the page",
+            "line": 19,
+            "name": "the user should be redirected to the Forgot Password page",
             "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:49"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:40"
             },
             "result": {
-              "status": "passed",
-              "duration": 16667399
+              "status": "failed",
+              "duration": 5016393799,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/forgot-password/\u001b[39m\nReceived string:  \u001b[31m\"https://lms-smartcliff.vercel.app/login?redirect=https%3A%2F%2Flms-smartcliff.vercel.app%2Flogin%2FforgotPassword\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.url\" with timeout 5000ms\u001b[22m\n\u001b[2m    2 × unexpected value \"https://lms-smartcliff.vercel.app/login/forgotPassword\"\u001b[22m\n\u001b[2m    12 × unexpected value \"https://lms-smartcliff.vercel.app/login?redirect=https%3A%2F%2Flms-smartcliff.vercel.app%2Flogin%2FforgotPassword\"\u001b[22m\n\n    at captureRawStack (D:\\Playwright_Project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveURL (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (D:\\Playwright_Project\\src\\test\\step\\loginNaviagtionStep.ts:43:33)"
             }
           },
           {
@@ -244,142 +164,88 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 20358800
+              "duration": 105940800
             }
           }
         ],
         "tags": [
           {
-            "name": "@Muhindhar",
+            "name": "@navigation",
             "line": 1
           },
           {
-            "name": "@validmodel",
+            "name": "@ForgotPassword",
             "line": 16
           }
         ],
         "type": "scenario"
-      }
-    ],
-    "id": "muhindhar_09-07-2026_add-service-model-in-dynamic-field-settings",
-    "line": 2,
-    "keyword": "Feature",
-    "name": "Muhindhar_09-07-2026_Add Service Model in Dynamic Field Settings",
-    "tags": [
-      {
-        "name": "@Muhindhar",
-        "line": 1
-      }
-    ],
-    "uri": "src\\test\\feature\\Dynamic_Field_Setting\\addModel.feature"
-  },
-  {
-    "description": "Feature Description:\n              As an authenticated user,I want to manage services in the Dynamic Field Management page.",
-    "elements": [
+      },
       {
         "description": "",
-        "id": "muhindhar_08-07-2026_adding-the-service-in-the-dynamic-field-management-page;add-a-valid-service",
-        "keyword": "Scenario Outline",
-        "line": 20,
-        "name": "Add a valid service",
+        "id": "muhindhar_10-07-2026_login-page-navigation;verify-facebook-icon-navigation",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Verify Facebook icon navigation",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 105541299
+              "duration": 47112000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 8,
-            "name": "the user is logged into the LMS SmartCliff website",
+            "name": "the user launches the SmartCliff application",
             "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:11"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 13254165600
+              "duration": 574779300
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 9,
-            "name": "the user clicks on the Dynamic Field Settings icon",
+            "name": "the user is on the Login page",
             "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:10"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 5178461499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "the user clicks on the Add Service button",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5642950700
+              "duration": 38399299
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 13,
-            "name": "the user enters service name \"Electronics\"",
+            "line": 23,
+            "name": "the user clicks the Facebook icon",
             "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:20"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:48"
             },
             "result": {
               "status": "passed",
-              "duration": 57497499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "the user enters description \"Build the PCB board for the ESP32\"",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 84509999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 15,
-            "name": "the user clicks on the Create Service button",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 256371700
+              "duration": 930842100
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 16,
-            "name": "the service should be created successfully",
+            "line": 24,
+            "name": "the user should be redirected to the official Facebook page",
             "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:35"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:54"
             },
             "result": {
-              "status": "passed",
-              "duration": 3900999
+              "status": "failed",
+              "duration": 5018765900,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/facebook\\.com/i\u001b[39m\nReceived string:  \u001b[31m\"https://lms-smartcliff.vercel.app/login#\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.url\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × unexpected value \"https://lms-smartcliff.vercel.app/login#\"\u001b[22m\n\n    at captureRawStack (D:\\Playwright_Project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveURL (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (D:\\Playwright_Project\\src\\test\\step\\loginNaviagtionStep.ts:57:33)"
             }
           },
           {
@@ -387,122 +253,88 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 71099199
+              "duration": 104088399
             }
           }
         ],
         "tags": [
           {
-            "name": "@Muhindhar",
+            "name": "@navigation",
             "line": 1
+          },
+          {
+            "name": "@Facebook",
+            "line": 21
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "muhindhar_08-07-2026_adding-the-service-in-the-dynamic-field-management-page;add-a-valid-service",
-        "keyword": "Scenario Outline",
-        "line": 21,
-        "name": "Add a valid service",
+        "id": "muhindhar_10-07-2026_login-page-navigation;verify-youtube-icon-navigation",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Verify YouTube icon navigation",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 113297800
+              "duration": 50053100
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 8,
-            "name": "the user is logged into the LMS SmartCliff website",
+            "name": "the user launches the SmartCliff application",
             "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:11"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 14926298299
+              "duration": 629077799
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 9,
-            "name": "the user clicks on the Dynamic Field Settings icon",
+            "name": "the user is on the Login page",
             "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:10"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 2530228300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "the user clicks on the Add Service button",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3056007699
+              "duration": 42418800
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 13,
-            "name": "the user enters service name \"Software\"",
+            "line": 28,
+            "name": "the user clicks the YouTube icon",
             "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:20"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:61"
             },
             "result": {
               "status": "passed",
-              "duration": 38882200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "the user enters description \"Build an end-to-end food ordering application\"",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 35422200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 15,
-            "name": "the user clicks on the Create Service button",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 403782399
+              "duration": 921691599
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 16,
-            "name": "the service should be created successfully",
+            "line": 29,
+            "name": "the user should be redirected to the official YouTube page",
             "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:35"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:68"
             },
             "result": {
-              "status": "passed",
-              "duration": 2580799
+              "status": "failed",
+              "duration": 5010104800,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/youtube\\.com/i\u001b[39m\nReceived string:  \u001b[31m\"https://lms-smartcliff.vercel.app/login#\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.url\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × unexpected value \"https://lms-smartcliff.vercel.app/login#\"\u001b[22m\n\n    at captureRawStack (D:\\Playwright_Project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveURL (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (D:\\Playwright_Project\\src\\test\\step\\loginNaviagtionStep.ts:70:34)"
             }
           },
           {
@@ -510,122 +342,88 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 507430000
+              "duration": 103557400
             }
           }
         ],
         "tags": [
           {
-            "name": "@Muhindhar",
+            "name": "@navigation",
             "line": 1
+          },
+          {
+            "name": "@YouTube",
+            "line": 26
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "muhindhar_08-07-2026_adding-the-service-in-the-dynamic-field-management-page;validate-mandatory-fields-while-creating-a-service",
-        "keyword": "Scenario Outline",
+        "id": "muhindhar_10-07-2026_login-page-navigation;verify-tiktok-icon-navigation",
+        "keyword": "Scenario",
         "line": 32,
-        "name": "Validate mandatory fields while creating a service",
+        "name": "Verify TikTok icon navigation",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1641368600
+              "duration": 45255399
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 8,
-            "name": "the user is logged into the LMS SmartCliff website",
+            "name": "the user launches the SmartCliff application",
             "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:11"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 19320692199
+              "duration": 421023799
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 9,
-            "name": "the user clicks on the Dynamic Field Settings icon",
+            "name": "the user is on the Login page",
             "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:10"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 2173429100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 24,
-            "name": "the user clicks on the Add Service button",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8403366099
+              "duration": 43489399
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 25,
-            "name": "the user enters service name \"Electronics\"",
+            "line": 33,
+            "name": "the user clicks the TikTok icon",
             "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:20"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:74"
             },
             "result": {
               "status": "passed",
-              "duration": 77795500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 26,
-            "name": "the user enters description \"\"",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 61154699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 27,
-            "name": "the user clicks on the Create Service button",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 360140400
+              "duration": 935514000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 28,
-            "name": "\"Description\" field should display the required field validation message",
+            "line": 34,
+            "name": "the user should be redirected to the official TikTok page",
             "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:40"
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:80"
             },
             "result": {
-              "status": "passed",
-              "duration": 83590500
+              "status": "failed",
+              "duration": 5019453099,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/tiktok\\.com/i\u001b[39m\nReceived string:  \u001b[31m\"https://lms-smartcliff.vercel.app/login#\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.url\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × unexpected value \"https://lms-smartcliff.vercel.app/login#\"\u001b[22m\n\n    at captureRawStack (D:\\Playwright_Project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveURL (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (D:\\Playwright_Project\\src\\test\\step\\loginNaviagtionStep.ts:82:34)"
             }
           },
           {
@@ -633,627 +431,33 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 23499899
+              "duration": 101352200
             }
           }
         ],
         "tags": [
           {
-            "name": "@Muhindhar",
+            "name": "@navigation",
             "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "muhindhar_08-07-2026_adding-the-service-in-the-dynamic-field-management-page;validate-mandatory-fields-while-creating-a-service",
-        "keyword": "Scenario Outline",
-        "line": 33,
-        "name": "Validate mandatory fields while creating a service",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 111880499
-            }
           },
           {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 8,
-            "name": "the user is logged into the LMS SmartCliff website",
-            "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 15982338499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "the user clicks on the Dynamic Field Settings icon",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 899857199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 24,
-            "name": "the user clicks on the Add Service button",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4127062100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 25,
-            "name": "the user enters service name \"\"",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 27350900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 26,
-            "name": "the user enters description \"\"",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 30645099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 27,
-            "name": "the user clicks on the Create Service button",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 366767500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 28,
-            "name": "\"Service Name\" field should display the required field validation message",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:40"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 173195099
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 342861299
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Muhindhar",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "muhindhar_08-07-2026_adding-the-service-in-the-dynamic-field-management-page;validate-mandatory-fields-while-creating-a-service",
-        "keyword": "Scenario Outline",
-        "line": 34,
-        "name": "Validate mandatory fields while creating a service",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 489896699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 8,
-            "name": "the user is logged into the LMS SmartCliff website",
-            "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7816266300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "the user clicks on the Dynamic Field Settings icon",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 918561199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 24,
-            "name": "the user clicks on the Add Service button",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2742776599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 25,
-            "name": "the user enters service name \"\"",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 45125399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 26,
-            "name": "the user enters description \"Sample\"",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 38311400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 27,
-            "name": "the user clicks on the Create Service button",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 419447899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 28,
-            "name": "\"Service Name\" field should display the required field validation message",
-            "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:40"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 65082400
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 46063800
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Muhindhar",
-            "line": 1
+            "name": "@TikTok",
+            "line": 31
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "muhindhar_08-07-2026_adding-the-service-in-the-dynamic-field-management-page",
+    "id": "muhindhar_10-07-2026_login-page-navigation",
     "line": 2,
     "keyword": "Feature",
-    "name": "Muhindhar_08-07-2026_Adding the service in the dynamic field management page",
+    "name": "Muhindhar_10-07-2026_Login Page Navigation",
     "tags": [
       {
-        "name": "@Muhindhar",
+        "name": "@navigation",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\Dynamic_Field_Setting\\service_Model.feature"
-  },
-  {
-    "description": "Feature Description:\n              As a user,I want to validate the login functionality using valid and invalid credentials.",
-    "elements": [
-      {
-        "description": "",
-        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website-with-credentials;login",
-        "keyword": "Scenario Outline",
-        "line": 16,
-        "name": "Login",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1509955099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the user is on the login page of the LMS smartcliff website",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 845149099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 10,
-            "name": "the user enters the login credentials \"valid\"",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 207172399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "the user clicks the signin button",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:24"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2087570199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "the login result should be verified \"valid\"",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 13065357900
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 136094700
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Muhindhar",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website-with-credentials;login",
-        "keyword": "Scenario Outline",
-        "line": 17,
-        "name": "Login",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1593099199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the user is on the login page of the LMS smartcliff website",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 712090400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 10,
-            "name": "the user enters the login credentials \"psinvalid\"",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 367993900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "the user clicks the signin button",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:24"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1410544999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "the login result should be verified \"psinvalid\"",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9007199
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 177280999
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Muhindhar",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website-with-credentials;login",
-        "keyword": "Scenario Outline",
-        "line": 18,
-        "name": "Login",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 527466700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the user is on the login page of the LMS smartcliff website",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 508722799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 10,
-            "name": "the user enters the login credentials \"emailinvalid\"",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 142850100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "the user clicks the signin button",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:24"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2056717099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "the login result should be verified \"emailinvalid\"",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9012099
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 196246299
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Muhindhar",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website-with-credentials;login",
-        "keyword": "Scenario Outline",
-        "line": 19,
-        "name": "Login",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 493132199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "the user is on the login page of the LMS smartcliff website",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 451434500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 10,
-            "name": "the user enters the login credentials \"bothinvalid\"",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 159790899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "the user clicks the signin button",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:24"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1553385399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "the login result should be verified \"bothinvalid\"",
-            "match": {
-              "location": "src\\test\\step\\loginstep.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8055400
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 51556300
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Muhindhar",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website-with-credentials",
-    "line": 2,
-    "keyword": "Feature",
-    "name": "Muhindhar_07-07-2026_Login to the LMS smartcliff website with credentials",
-    "tags": [
-      {
-        "name": "@Muhindhar",
-        "line": 1
-      }
-    ],
-    "uri": "src\\test\\feature\\login\\login.feature"
+    "uri": "src\\test\\feature\\login\\loginNavigation.feature"
   }
 ]

@@ -14,6 +14,7 @@ import { AddModelPage } from '../pages/addModelServicePage';
 import { ModelSearchPage } from '../pages/modelsSearchpage';
 import { AddClientPage } from '../pages/addClientModalPage';
 import { PedagogyPage } from '../pages/pedagogyPage';
+import { LoginNavigationPage } from '../pages/loginNavigationPage';
 
 
 export class glitchworld extends World {
@@ -32,15 +33,14 @@ export class glitchworld extends World {
     servicePage!:SeriveModelPage//muhi
     addCoursePage! : AddCoursePage
     addmodel!:AddModelPage//muhi
-    modelSearchPage!:ModelSearchPage
+    modelSearchPage!:ModelSearchPage//muhi
     filterpage!: FilterPage;
     pedagogyPage!:PedagogyPage
     addClientPage!:AddClientPage
     dynamicFieldPage!: DynamicFieldPage;
     courseCategoryPage!: CourseCategoryPage;
+    loginnav!:LoginNavigationPage//muhi
     
-
-
 }
 
 setWorldConstructor(glitchworld)
