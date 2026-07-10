@@ -3,11 +3,12 @@ import { EnvReader } from "../../utilities/envreader";
 import { readExcelData } from "../../utilities/excelreader";
 import { LoginData } from "../type/LoginData";
 import { logger } from "../../utilities/logger";
-import {Page } from '@playwright/test'
+import { expect, Page } from "@playwright/test";
+import { readData } from "../../utilities/csvreader";
 
 export class LoginPage extends BasePage {
 
-    constructor(page:Page){
+    constructor(page: Page) {
         super(page);
     }
 
@@ -15,122 +16,88 @@ export class LoginPage extends BasePage {
     private password = this.page.locator("//input[@id='password']");
     private signinbtn = this.page.locator("//button[@type='submit']");
     private checklogin = this.page.locator("//div[@class='flex items-center gap-1 mt-1']");
-    private bothinvalid = this.page.locator("//div[@class='go3958317564']");
-    private psinvalid = this.page.locator("//div[@class='go3958317564']");
-    private unregemail = this.page.locator("//div[@class='go3958317564']");
+    private bothinvalid = this.page.locator('[role="status"]');
+    private psinvalid = this.page.getByText("Password is incorrect");
+    private unregemail = this.page.locator("[role='status']");
 
-
-    async navigate(){
-        try{
-            logger.info("Navigating to LMS SmartCliff Login Page");
-            await this.page.goto(EnvReader.getBaseUrl());
-        } 
-        catch(error){
-            logger.error(`Failed to navigate to login page: ${error}`);
-            throw error;
-        }
+    async navigate() {
+        logger.info("Navigating to LMS SmartCliff Login Page");
+        await this.page.goto(EnvReader.getBaseUrl());
     }
 
     async enteremail(email: string) {
-        try {
-            logger.info(`Entering email: ${email}`);
-            await this.fill(this.email, email);
-        } catch (error) {
-            logger.error(`Failed to enter email: ${error}`);
-            throw error;
-        }
+        logger.info(`Entering email: ${email}`);
+        await this.fill(this.email, email);
     }
 
     async enterpassword(pass: string) {
-        try {
-            logger.info("Entering password");
-            await this.fill(this.password, pass);
-        } catch (error) {
-            logger.error(`Failed to enter password: ${error}`);
-            throw error;
-        }
+        logger.info("Entering password");
+        await this.fill(this.password, pass);
     }
 
+    // async clcksignin() {
+    //     logger.info("Clicking Sign In button");
+    //     await this.signinbtn.click();
+    //     await this.page.waitForURL(/admindashboard|login/,{ timeout: 30000 });
+    //     await this.page.waitForLoadState("domcontentloaded");
+    // }
     async clcksignin() {
-        try {
-            logger.info("Clicking Sign In button");
-            await this.click(this.signinbtn);
-        } catch (error) {
-            logger.error(`Failed to click Sign In button: ${error}`);
-            throw error;
-        }
+        logger.info("Clicking Sign In button");
+        await this.signinbtn.click();
+
+        await this.page.waitForTimeout(1000);
+
+        console.log(await this.page.locator("body").textContent());
     }
 
     async getCurrentUrl() {
-        try {
-            logger.info("Fetching current URL");
-            return this.page.url();
-        } catch (error) {
-            logger.error(`Failed to fetch current URL: ${error}`);
-            throw error;
-        }
+        logger.info("Fetching current URL");
+        return this.page.url();
     }
 
+    // async chckinvpass() {
+    //     logger.info("Validating invalid password message");
+    //     return await this.getText(this.psinvalid);
+    // }
     async chckinvpass() {
-        try {
-            logger.info("Validating invalid password message");
-            return await this.getText(this.psinvalid);
-        } catch (error) {
-            logger.error(`Failed to fetch invalid password message: ${error}`);
-            throw error;
-        }
+        await expect(this.psinvalid).toBeVisible({ timeout: 10000 });
+        return await this.getText(this.psinvalid);
     }
 
     async chckinvemail() {
-        try {
-            logger.info("Validating invalid email message");
-            return await this.getText(this.unregemail);
-        } catch (error) {
-            logger.error(`Failed to fetch invalid email message: ${error}`);
-            throw error;
-        }
+        logger.info("Validating invalid email message");
+        return await this.getText(this.unregemail);
     }
 
     async checkloggedin() {
-        try {
-            logger.info("Verifying successful login");
-            return await this.isVisible(this.checklogin);
-            // or use profilebtn if that's the correct locator
-        } catch (error) {
-            logger.error(`Failed to verify login: ${error}`);
-            throw error;
-        }
+        logger.info("Verifying successful login");
+        return await this.isVisible(this.checklogin);
     }
 
-    async checkbothinv() {
-        try {
-            logger.info("Validating invalid credentials message");
-            return await this.getText(this.bothinvalid);
-        } catch (error) {
-            logger.error(`Failed to fetch invalid credentials message: ${error}`);
-            throw error;
-        }
+ async checkbothinv() {
+    logger.info("Validating invalid credentials message");
+    return await this.getText(this.bothinvalid);
+}
+
+async loginSite() {
+
+    const data = readData<LoginData>(
+        "src/test-data/logindata.csv"
+    );
+
+    const validUser = data.find(row => row.type === "valid");
+
+    if (!validUser) {
+        throw new Error("No valid user found");
     }
 
-    async loginSite() {
-        try {
-            logger.info("Logging in with valid credentials");
+    await this.enteremail(validUser.email);
+    await this.enterpassword(String(validUser.password));
+    await this.click(this.signinbtn);
+}
 
-            const data = readExcelData<LoginData>(
-                "src/test-data/logindata.xlsx",
-                "Sheet1"
-            );
-
-            const validUser = data.find(row => row.type === "valid")!;
-
-            await this.fill(this.email, validUser.email);
-            await this.fill(this.password, String(validUser.password));
-            await this.click(this.signinbtn);
-
-            logger.info("Login completed successfully");
-        } catch (error) {
-            logger.error(`Login failed: ${error}`);
-            throw error;
-        }
-    }
+async passwordinvalid() {
+    logger.info("Validating invalid password message");
+    return await this.getText(this.psinvalid);
+}
 }

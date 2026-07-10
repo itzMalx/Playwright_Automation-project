@@ -31,7 +31,7 @@ export class CourseManagementPage extends BasePage {
         await this.loading.first().waitFor({ state: "hidden" });
         const totalPages = Number((await this.totalPage.textContent()));
         for (let page = 1; page <= totalPages; page++) {
-            await this.loading.first().waitFor({ state: "hidden" });
+            //await this.loading.first().waitFor({ state: "hidden" });
             const count = await this.courseNameList.count();
             for (let i = 0; i < count; i++) {
                 const course = (await this.courseNameList.nth(i).innerText()).trim();
