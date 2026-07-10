@@ -3,14 +3,14 @@ import { BasePage } from './basepage';
 
 export class CourseManagementPage extends BasePage {
 
-    readonly courseNameList: Locator
-    readonly actionList: Locator
-    readonly loading: Locator
-    readonly previous: Locator
-    readonly next: Locator
-    readonly activePageNumber: Locator
-    readonly totalPage: Locator
-    readonly navigationButtons : Locator
+    private readonly courseNameList: Locator
+    private readonly actionList: Locator
+    private readonly loading: Locator
+    private readonly previous: Locator
+    private readonly next: Locator
+    private readonly activePageNumber: Locator
+    private readonly totalPage: Locator
+    private readonly navigationButtons : Locator
 
     constructor(page: Page) {
         super(page)
@@ -33,7 +33,7 @@ export class CourseManagementPage extends BasePage {
             const count = await this.courseNameList.count();
             for (let i = 0; i < count; i++) {
                 const course = (await this.courseNameList.nth(i).innerText()).trim();
-                console.log(course);
+                //console.log(course);
                 if (course.includes(courseName)) {
                     await this.actionList.nth(i).click();
                     return;

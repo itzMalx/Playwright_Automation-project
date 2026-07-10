@@ -1,95 +1,72 @@
-import { Locator, Page } from 'playwright';
-import { BasePage } from '../pages/basepage';
-import path from "path";
-
+import { Page, Locator } from "@playwright/test";
+import { BasePage } from "./basepage";
+import { logger } from "../../utilities/logger";
 
 export class PedagogyPage extends BasePage {
 
-   readonly addModuleIcon: Locator
-   readonly title: Locator
-   readonly addModuleBtn: Locator
-   readonly moduleList: Locator
-   readonly printBtn: Locator
-   readonly excelOption: Locator
-   readonly tableRow: Locator
-   readonly moreBtn : Locator
-   readonly hierarchyOpt: Locator
-   readonly errorMsg : Locator
+    constructor(page: Page) {
+        super(page)
+    }
 
-   constructor(page: Page) {
-      super(page)
-      this.addModuleIcon = this.page.locator("//button[@title='Add module']//*[name()='svg']")
-      this.title = this.page.locator("textarea[id='title']")
-      this.addModuleBtn = this.page.locator("button[type='submit']")
-      this.moduleList = this.page.locator("//tr//td[1]//div")
-      this.printBtn = this.page.locator("//span[@class='hidden sm:inline'][text()='Print']")
-      this.excelOption = this.page.getByText("Excel")
-      this.tableRow = this.page.locator("//tr[@data-slot='table-row']")
-      this.moreBtn = this.page.getByText("More")
-      this.hierarchyOpt = this.page.locator("(//div//child::label[contains(@class,'flex items-center justify-between cursor-pointer')])[1]")
-      this.errorMsg = this.page.getByText("Title is required for module")
-   
-   
-   }
-   
+    private readonly pedagogyActivity = this.page.locator("//tr/td[1]//div[contains(@class,'font-medium')]")
+    private readonly pedagogyElement = this.page.locator("//tr//td[2]//div")
+    private readonly addElement = this.page.getByText("Add Element")
+    private readonly elementNameInput = this.page.locator("input[placeholder=\"e.g., 'Think-Pair-Share'\"]")
+    private readonly createElement = this.page.locator("//button[text()='Create Element']")
+    private readonly elementNameTable = this.page.locator("//tr//td[@class='px-3 py-2 text-xs']")
+    private readonly nextBtn = this.page.locator("(//button[@data-slot='button'])[13]")
+    private readonly loadingText = this.page.getByText("Loading pedagogy data...")
+    private readonly CreatingText = this.page.getByText("Creating...")
 
-   async module() {
-      await this.click(this.addModuleIcon)
-   }
+    async selectActivity(activityName: string) {
+        await this.loadingText.waitFor({ state: "hidden" });
+        const count = await this.pedagogyActivity.count();
 
-   async fillTitle(title: string) {
-      await this.fill(this.title, title)
-   }
+        for (let i = 0; i < count; i++) {
+            const activity = (await this.pedagogyActivity.nth(i).innerText()).trim();
+            logger.info(`Activity ${i}: ${activity}`);
 
-   async clickAddModule() {
-      await this.click(this.addModuleBtn)
-      await this.addModuleBtn.waitFor({ state: "hidden" })
-   }
+            if (activity.includes(activityName)) {
+                logger.info(`Activity ${i} = ${activity}`);
+                await this.pedagogyElement.nth(i).click();
+                return;
+            }
+        }
+        throw new Error(`${activityName} not found`);
+    }
 
-   async verifyModuleAdded(title: string) {
-      const titleList = await this.moduleList.allInnerTexts()
-      for (var tit of titleList) {
-         if (tit == title)
-            return 1
-      }
+    async clickAddElement() {
+        await this.click(this.addElement)
+    }
 
-   }
+    async enterElementName(ElementName: string) {
+        await this.fill(this.elementNameInput, ElementName)
+    }
 
-   async clickPrint() {
-      await this.click(this.printBtn)
-   }
+    async clickCreateElement() {
+        await this.click(this.createElement)
+        await this.CreatingText.waitFor({ state: "hidden" })
+    }
 
-   async clickExcel() {
-      await this.click(this.excelOption)
-   }
+    async verifyElementPresent(elementName: string) {
 
-   async tableRowCount() {
-      return await this.getCount(this.tableRow)
-   }
+        while (true) {
+            const rowCount = await this.elementNameTable.count();
+            for (let i = 0; i < rowCount; i++) {
+                const text = (await this.elementNameTable.nth(i).innerText()).trim();
+                if (text === elementName) {
+                    logger.info(`${elementName} found`);
+                    return true;
+                }
+            }
+            if (await this.nextBtn.isDisabled()) {
+                break;
+            }
+            await this.nextBtn.click();
+            await this.page.waitForLoadState('networkidle');
+        }
+        throw new Error(`${elementName} not found in any page`);
+    }
 
-   async downloadExcel(page: Page): Promise<string> {
-      const downloadPromise = page.waitForEvent("download");
-      await this.clickExcel();
-      const download = await downloadPromise;
-      const filePath = path.join("downloads", download.suggestedFilename());
-      await download.saveAs(filePath);
-      return filePath;
-   }
-
-   async clickMoreBtn(){
-      await this.click(this.moreBtn)
-   }
-
-   async enableHierarchyOpt(){
-      await this.click(this.hierarchyOpt)
-   }
-
-   async errorMessage(){
-      return await this.getText(this.errorMsg)
-   }
-
-   async clickSave(){
-      await this.click(this.addModuleBtn)
-   }
 
 }
