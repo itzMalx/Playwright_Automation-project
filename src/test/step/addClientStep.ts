@@ -18,12 +18,10 @@ When("the user enters client details", async function (this: glitchworld) {
     const data=clientData[0];
 
     if(!data){
-        throw new Error("No valid client row found in ClientData.csv");
+        throw new Error("Data is undefined ");
     }
-
     await this.addClientPage.enterClientDetails(data.clientName,data.companyName,
-        data.email,data.phoneNumber,data.description,data.companyAddress
-    );
+        data.email,data.phoneNumber,data.description,data.companyAddress);
 });
 
 When("clicks the {string} button", async function (this: glitchworld, buttonName: string) {
