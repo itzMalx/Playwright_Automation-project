@@ -7,19 +7,8 @@ export class ModelSearchPage extends BasePage {
     readonly checkservice = this.page.getByText('Glitch_Guardians_Muhindhar', { exact: true });
     async enterservice(service: string) {
         console.log("URL:", this.page.url());
-
-        console.log(
-            "Disabled:",
-            await this.searchbar.isDisabled()
-        );
-
-        console.log(
-            "Add Service Enabled:",
-            await this.page
-                .getByRole("button", { name: "Add Service" })
-                .isEnabled()
-        );
-
+        console.log("Disabled:",await this.searchbar.isDisabled());
+        console.log("Add Service Enabled:",await this.page.getByRole("button", { name: "Add Service" }).isEnabled());
         await this.searchbar.fill(service);
     }
 
