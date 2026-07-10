@@ -4,6 +4,7 @@ import addcourse from "../../test-data/addcourse.json";
 import { expect } from "@playwright/test";
 
 When('User selects valid course configuration details', async function (this: glitchworld) {
+    // Write code here that turns the phrase above into concrete actions
     await this.addCoursePage.clickAddCourse();
     const config = addcourse.courseConfiguration;
 
@@ -15,11 +16,12 @@ When('User selects valid course configuration details', async function (this: gl
 });
 
 When('User clicks the Next button', async function (this: glitchworld) {
+    // Write code here that turns the phrase above into concrete actions
     await this.addCoursePage.clickNext();
 });
 
 When('User selects the details in course hirearchy and layout', async function (this: glitchworld) {
-
+    // Write code here that turns the phrase above into concrete actions
     const config = addcourse.courseConfiguration;
 
     await this.addCoursePage.selectDropdown(
@@ -50,24 +52,24 @@ When('User selects the details in course hirearchy and layout', async function (
 });
 
 When('User clicks Preview and Create', async function (this: glitchworld) {
-
+    // Write code here that turns the phrase above into concrete actions
     await this.addCoursePage.clickPreviewAndCreate();
 });
 
 When('User saves the course layout', async function (this: glitchworld) {
-
+    // Write code here that turns the phrase above into concrete actions
     await this.addCoursePage.clickSaveCourseLayout();
 });
 
 Then('The course should be created successfully', async function (this: glitchworld) {
-
+    // Write code here that turns the phrase above into concrete actions
     await this.addCoursePage.verifyCourseCreatedSuccessfully();
-
     await this.addCoursePage.clickLater();
 });
 
 
 When('User selects valid course configuration details without selecting client', async function (this: glitchworld) {
+    // Write code here that turns the phrase above into concrete actions
     await this.addCoursePage.clickAddCourse();
     const config = addcourse.courseConfiguration;
 
