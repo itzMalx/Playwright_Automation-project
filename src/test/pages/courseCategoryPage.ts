@@ -51,9 +51,7 @@ export class CourseCategoryPage extends BasePage {
     }
 
     async getSearchResult(searchValue: string) {
-        return this.page.locator(
-            `//td//div[normalize-space()="${searchValue}"]`
-        ).first();
+        return this.page.locator(`//td//div[normalize-space()="${searchValue}"]`).first();
     }
 
 }
