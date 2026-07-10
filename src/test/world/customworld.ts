@@ -11,6 +11,7 @@ import { DynamicFieldPage } from '../pages/dynamicFieldPage';
 import {CourseCategoryPage} from '../pages/courseCategoryPage';
 import { AddModelPage } from '../pages/addModelServicePage';
 import { ModelSearchPage } from '../pages/modelsSearchpage';
+import { AddClientPage } from '../pages/addClientModalPage';
 import { PedagogyPage } from '../pages/pedagogyPage';
 
 
@@ -34,9 +35,8 @@ export class glitchworld extends World {
     modelSearchPage!:ModelSearchPage
     dynamicFieldPage!:DynamicFieldPage
     courseCategoryPage!:CourseCategoryPage
+    addClientPage!: AddClientPage
     pedagogyPage!:PedagogyPage
-
-
 }
 
 setWorldConstructor(glitchworld)

@@ -10,6 +10,7 @@ import { CourseStructurePage } from '../pages/courseStructurePage';
 import { SeriveModelPage } from '../pages/serviceModelPage';
 import { DynamicFieldPage } from '../pages/dynamicFieldPage';
 import { CourseCategoryPage } from '../pages/courseCategoryPage';
+import { AddClientPage } from '../pages/addClientModalPage';
 import { AddCoursePage } from '../pages/addCoursePage';
 import { AddModelPage } from '../pages/addModelServicePage';
 import { ModelSearchPage } from '../pages/modelsSearchpage';
@@ -38,8 +39,9 @@ Before(async function (this: glitchworld, scenario) {
     this.searchPage = new SearchPage(this.page)
     this.addCoursePage = new AddCoursePage(this.page)
     this.servicePage = new SeriveModelPage(this.page)
-    this.dynamicFieldPage = new DynamicFieldPage(this.page)
-    this.courseCategoryPage = new CourseCategoryPage(this.page)
+    this.dynamicFieldPage=new DynamicFieldPage(this.page)
+    this.addClientPage = new AddClientPage(this.page);
+    this.courseCategoryPage=new CourseCategoryPage(this.page)
     this.addmodel = new AddModelPage(this.page)
     this.modelSearchPage = new ModelSearchPage(this.page)
     this.pedagogyPage = new PedagogyPage(this.page)

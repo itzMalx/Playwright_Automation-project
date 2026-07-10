@@ -3,6 +3,17 @@ import { BasePage } from './basepage';
 
 export class CourseManagementPage extends BasePage {
 
+<<<<<<< HEAD
+    readonly courseNameList: Locator
+    readonly actionList: Locator
+    readonly loading: Locator
+    readonly previous: Locator
+    readonly next: Locator
+    readonly activePageNumber: Locator
+    readonly totalPage: Locator
+    readonly navigationButtons : Locator
+    readonly tableData : Locator
+=======
     private readonly courseNameList: Locator
     private readonly actionList: Locator
     private readonly loading: Locator
@@ -11,6 +22,7 @@ export class CourseManagementPage extends BasePage {
     private readonly activePageNumber: Locator
     private readonly totalPage: Locator
     private readonly navigationButtons : Locator
+>>>>>>> 676c7c74417eb93ae3b23a962faf5145ca682f55
 
     constructor(page: Page) {
         super(page)
@@ -22,6 +34,7 @@ export class CourseManagementPage extends BasePage {
         this.activePageNumber = page.locator("//button[contains(@class,'bg-blue-600')]")
         this.totalPage = page.locator("(//button[@data-slot='button'])[13]")
         this.navigationButtons=page.locator("//div[@class='flex items-center gap-1']//button")
+        this.tableData=page.locator("//tbody/tr")
     }
 
     async selectActionList(courseName: string) {
@@ -105,5 +118,20 @@ export class CourseManagementPage extends BasePage {
 
     async isPreviousDisabled(){
         return await this.isDisabled(this.previous)
+    }
+
+    async isDataCountSatisfied() {
+        while(!(await this.isNextDisabled())) {
+            if(await this.tableData.count()!==8){
+                return false;
+        }
+        await this.clickNext();
+        await this.loading.first().waitFor({ state: "hidden" });
+        }
+        return (await this.tableData.count())<=8;
+    }
+
+    async getDataCount(){
+        return (await this.getElements(this.tableData)).length
     }
 }
