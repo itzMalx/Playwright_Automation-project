@@ -1,0 +1,963 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-user-can-navigate-using-pagination-buttons",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Verify user can navigate using pagination buttons",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 343642599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2670807199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6667344100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "the user is on the \"1\" page of the Course Structure table",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7513103399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user clicks the \"Next\" button",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79524699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user should be navigated to the \"2\" page",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16615800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 69846700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vetri",
+            "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-user-can-navigate-using-pagination-buttons",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Verify user can navigate using pagination buttons",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 405670599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2588091599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12203702400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "the user is on the \"2\" page of the Course Structure table",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7056682699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user clicks the \"Previous\" button",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85893700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user should be navigated to the \"1\" page",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11431900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 38009599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vetri",
+            "line": 1
+          },
+          {
+            "name": "@Navigation",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-user-can-navigate-to-a-specific-page-using-the-page-number",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Verify user can navigate to a specific page using the page number",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 228114199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3389974999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8118818500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "the user is on the Course Structure table",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7523256600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "the user clicks page number \"2\"",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63993699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the user should be navigated to the \"2\" page",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18195800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 45888299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vetri",
+            "line": 1
+          },
+          {
+            "name": "@PageNumberNavigation",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-user-can-navigate-to-a-specific-page-using-the-page-number",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Verify user can navigate to a specific page using the page number",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 247670299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3211857100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21468621399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "the user is on the Course Structure table",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10081837500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "the user clicks page number \"8\"",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:38"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30018836600,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//button[normalize-space()=\\'8\\']')\u001b[22m\n\n    at CourseManagementPage.click (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\basepage.ts:14:21)\n    at CourseManagementPage.clickPageNumber (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\courseManagementPage.ts:77:20)\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\pagination.step.ts:39:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the user should be navigated to the \"8\" page",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 263726699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vetri",
+            "line": 1
+          },
+          {
+            "name": "@PageNumberNavigation",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-appropriate-button-is-disabled-on-the-page",
+        "keyword": "Scenario Outline",
+        "line": 37,
+        "name": "Verify appropriate button is disabled on the page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 272323300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3031208700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11257179999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "the user is on the \"first\" page of the Course Structure table",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10796535600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "the \"previous\" button should be disabled",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8376199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 49622100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vetri",
+            "line": 1
+          },
+          {
+            "name": "@ButtonDisablity",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-appropriate-button-is-disabled-on-the-page",
+        "keyword": "Scenario Outline",
+        "line": 38,
+        "name": "Verify appropriate button is disabled on the page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 236919500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2760413599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6778912400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "the user is on the \"last\" page of the Course Structure table",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13876045599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "the \"next\" button should be disabled",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9201999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 50960399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vetri",
+            "line": 1
+          },
+          {
+            "name": "@ButtonDisablity",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-the-maximum-number-of-courses-displayed-on-a-page",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Verify the maximum number of courses displayed on a page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 214378499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3315780300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin navigate to Course Management Page",
+            "match": {
+              "location": "src\\test\\step\\addCourseStructure.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10800083099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 42,
+            "name": "the user is on the \"1\" page of the Course Structure table",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6031156500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "the page should display up to 8 courses",
+            "match": {
+              "location": "src\\test\\step\\pagination.step.ts:97"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 61298399,
+              "error_message": "locator.innerHTML: Error: strict mode violation: locator('//tbody/tr') resolved to 8 elements:\n    1) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 jamocha Frontend J-TM-T-009 Software Development m • Intermediate View' })\n    2) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 jamocha Frontend J-TM-T-008 Software Development m • Intermediate View' })\n    3) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 jamocha Frontend J-TM-T-007 Software Development m • Beginner View' })\n    4) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: '09 Jul 2026 jamocha ML J-TM-T' })\n    5) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 jamocha Defect_Avengers_Excel J-TM-T-005 Software Development m •' })\n    6) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 jamocha Frontend J-TM-T-004 Software Development m • Intermediate View' })\n    7) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 jamocha Frontend J-TM-T-003 Software Development m • Intermediate View' })\n    8) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 jamocha Frontend J-TM-T-002 Software Development m • Beginner View' })\n\nCall log:\n\u001b[2m  - waiting for locator('//tbody/tr')\u001b[22m\n\n    at CourseManagementPage.getElements (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\basepage.ts:260:20)\n    at CourseManagementPage.getDataCount (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\courseManagementPage.ts:124:28)\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\pagination.step.ts:98:57)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 151092900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vetri",
+            "line": 1
+          },
+          {
+            "name": "@PageSize",
+            "line": 40
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "vetrivelb_07-07-2026_course_structure_pagination",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "VetrivelB_07-07-2026_Course_Structure_Pagination",
+    "tags": [
+      {
+        "name": "@Vetri",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Course Management\\pagination.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "vetrivelb_09-07-2026_add_client_feature;verify-a-client-can-be-added-with-all-mandatory-field",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify a client can be added with all mandatory field",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 211850099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is logged into the LMS SmartCliff website",
+            "match": {
+              "location": "src\\test\\step\\addModelServiceStep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8291195600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on the Dynamic Field Settings icon",
+            "match": {
+              "location": "src\\test\\step\\serviceModelStep.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 879800499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigated to the Client Modal",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 311327400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user opens the Add New Client dialog",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2019175500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters client details",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158943399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "clicks the \"Add Client\" button",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 288100500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the client should be added successfully",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:35"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5013361899,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Client added successfully')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Client added successfully')\u001b[22m\n\n    at captureRawStack (D:\\PAP\\Playwright_Automation-project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\PAP\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toBeVisible (D:\\PAP\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at AddClientPage.verifyClientAddedSuccessfully (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\addClientModalPage.ts:46:72)\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\addClientStep.ts:36:30)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 150312800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vetri",
+            "line": 1
+          },
+          {
+            "name": "@WithMandatoryField",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "vetrivelb_09-07-2026_add_client_feature;verify-a-client-cannot-be-added-without-filling-all-mandatory-fields",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify a client cannot be added without filling all mandatory fields",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 215303500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is logged into the LMS SmartCliff website",
+            "match": {
+              "location": "src\\test\\step\\addModelServiceStep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9113800599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on the Dynamic Field Settings icon",
+            "match": {
+              "location": "src\\test\\step\\serviceModelStep.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 910698999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigated to the Client Modal",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390735099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "the user opens the Add New Client dialog",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2608759699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "the user leaves one or more mandatory fields empty",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "clicks the \"Add Client\" button",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:29"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the client should not be added",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "appropriate validation messages should be displayed",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 50229200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vetri",
+            "line": 1
+          },
+          {
+            "name": "@WithoutMandatoryField",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "vetrivelb_09-07-2026_add_client_feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "VetrivelB_09-07-2026_Add_Client_Feature",
+    "tags": [
+      {
+        "name": "@Vetri",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Dynamic_Field_Setting\\addClientModal.feature"
+  }
+]

@@ -36,3 +36,15 @@ Then("the client should be added successfully", async function (this: glitchworl
     await this.addClientPage.verifyClientAddedSuccessfully();
 });
 
+When('the user leaves one or more mandatory fields empty', async function () {
+
+});
+
+Then('the client should not be added', async function () {
+
+});
+
+Then('appropriate validation messages should be displayed', async function () {
+
+});
+
