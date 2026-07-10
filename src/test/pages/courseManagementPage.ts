@@ -3,17 +3,6 @@ import { BasePage } from './basepage';
 
 export class CourseManagementPage extends BasePage {
 
-<<<<<<< HEAD
-    readonly courseNameList: Locator
-    readonly actionList: Locator
-    readonly loading: Locator
-    readonly previous: Locator
-    readonly next: Locator
-    readonly activePageNumber: Locator
-    readonly totalPage: Locator
-    readonly navigationButtons : Locator
-    readonly tableData : Locator
-=======
     private readonly courseNameList: Locator
     private readonly actionList: Locator
     private readonly loading: Locator
@@ -22,7 +11,7 @@ export class CourseManagementPage extends BasePage {
     private readonly activePageNumber: Locator
     private readonly totalPage: Locator
     private readonly navigationButtons : Locator
->>>>>>> 676c7c74417eb93ae3b23a962faf5145ca682f55
+    private readonly tableData : Locator
 
     constructor(page: Page) {
         super(page)

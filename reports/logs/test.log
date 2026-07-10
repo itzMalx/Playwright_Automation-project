@@ -1,0 +1,6 @@
+[10-07-2026 10:26:46] INFO  | Browser Launched
+[10-07-2026 10:26:46] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:26:47] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:26:47] INFO  | Entering password
+[10-07-2026 10:27:26] ERROR | Scenario Failed: Verify a client can be added with all mandatory field
+[10-07-2026 10:27:26] INFO  | Browser Closed

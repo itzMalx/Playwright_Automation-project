@@ -3,6 +3,7 @@ import { BasePage } from "./basepage";
 
 export class AddClientPage extends BasePage {
 
+    private readonly addClientModel : Locator
     private readonly clientName: Locator;
     private readonly companyName: Locator;
     private readonly email: Locator;
@@ -12,15 +13,17 @@ export class AddClientPage extends BasePage {
     private readonly addClient: Locator;
 
     constructor(page: Page) {
+
         super(page);
 
-        this.clientName = page.locator("#contactPerson");
-        this.companyName = page.locator("#clientCompany");
-        this.email = page.locator("#email");
-        this.phoneNumber = page.locator("#phoneNumber");
-        this.description = page.locator("#description");
-        this.companyAddress = page.locator("#clientAddress");
-        this.addClient = page.locator("//button[@type='submit']");
+        this.clientName=page.locator("#contactPerson");
+        this.companyName=page.locator("#clientCompany");
+        this.email=page.locator("#email");
+        this.phoneNumber=page.locator("#phoneNumber");
+        this.description=page.locator("#description");
+        this.companyAddress=page.locator("#clientAddress");
+        this.addClient=page.locator("//button[@type='submit']");
+        this.addClientModel=page.locator("//button[@class='py-3 px-1 border-b-2 font-medium text-xs flex items-center gap-2 border-blue-500 text-blue-600']")
     }
 
     async enterClientDetails(clientName: string,companyName: string,
@@ -41,5 +44,9 @@ export class AddClientPage extends BasePage {
 
     async verifyClientAddedSuccessfully() {
         await expect(this.page.getByText("Client added successfully")).toBeVisible();
+    }
+
+    async navigateToClientModel(){
+        await this.click(this.addClientModel)
     }
 }
