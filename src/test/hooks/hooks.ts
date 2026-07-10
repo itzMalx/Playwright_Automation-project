@@ -50,6 +50,7 @@ Before(async function (this: glitchworld, scenario) {
     this.courseCategoryPage=new CourseCategoryPage(this.page)
     
      
+    this.addClientPage = new AddClientPage(this.page)
 
 });
 After(async function (this: glitchworld, scenario) {
