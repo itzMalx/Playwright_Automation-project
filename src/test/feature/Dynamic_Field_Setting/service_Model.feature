@@ -1,4 +1,4 @@
-@servicemodel
+@Muhindhar
 Feature: Muhindhar_08-07-2026_Adding the service in the dynamic field management page
 
 Feature Description:

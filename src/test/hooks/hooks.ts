@@ -37,17 +37,19 @@ Before(async function (this: glitchworld, scenario) {
     this.login = new LoginPage(this.page);
     this.dashboardPage = new DashboardPage(this.page)
     this.courseManagementPage = new CourseManagementPage(this.page)
-
-    const loginTags = ["@Validlogin","@Invalidlogin"];
+    this.addmodel = new AddModelPage(this.page);
+    this.modelSearchPage = new ModelSearchPage(this.page);
+    const loginTags = ["@Validlogin", "@Invalidlogin"];
     this.tag = scenario.pickle.tags.find(tag => loginTags.includes(tag.name))?.name ?? "";
     this.pedagogyPage = new PedagogyPage(this.page)
     this.courseStructurePage = new CourseStructurePage(this.page)
     this.searchPage = new SearchPage(this.page)
     this.addCoursePage = new AddCoursePage(this.page)
     this.servicePage = new SeriveModelPage(this.page)
-    this.filterpage= new FilterPage(this.page)
+    this.filterpage = new FilterPage(this.page)
     this.addClientPage = new AddClientPage(this.page)
     this.dynamicFieldPage = new DynamicFieldPage(this.page)
+
 
 });
 After(async function (this: glitchworld, scenario) {

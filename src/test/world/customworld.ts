@@ -37,7 +37,8 @@ export class glitchworld extends World {
     pedagogyPage!:PedagogyPage
     addClientPage!:AddClientPage
     dynamicFieldPage!: DynamicFieldPage;
-
+    courseCategoryPage!: CourseCategoryPage;
+    
 
 
 }
