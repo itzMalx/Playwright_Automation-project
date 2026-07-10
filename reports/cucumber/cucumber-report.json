@@ -1,0 +1,726 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;filter-with-valid-category-level-and-sort-by",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Filter with valid category level and sort by",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1944729899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Admin logs in and reaches the Dashboard for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33235491599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Admin opens the Course Management module for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5884917099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin clicks on the Filter button",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1700168800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Admin filters courses by category level and sort by",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:27"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30089880199,
+              "error_message": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('select').nth(1)\u001b[22m\n\u001b[2m    - locator resolved to <select class=\"w-full h-9 text-sm border border-gray-300 dark:border-gray-700 rounded-lg px-3 focus:border-indigo-500 dark:focus:border-indigo-400 focus:ring-1 focus:ring-indigo-500 dark:focus:ring-indigo-400 font-sans bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100\">…</select>\u001b[22m\n\u001b[2m  - attempting select option action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m      - did not find some options\u001b[22m\n\u001b[2m    - retrying select option action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    57 × waiting for element to be visible and enabled\u001b[22m\n\u001b[2m       - did not find some options\u001b[22m\n\u001b[2m     - retrying select option action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at FilterPage.selectCategoryLevelAndSort (D:\\Playwright_Automation-project\\src\\test\\pages\\Filterpage.ts:20:46)\n    at World.<anonymous> (D:\\Playwright_Automation-project\\src\\test\\step\\Filterstep.ts:31:25)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "only courses matching the selected category and level should be displayed",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:38"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 780560599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;filter-with-invalid-status-and-category",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Filter with invalid status and category",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 939922100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Admin logs in and reaches the Dashboard for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15576377500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Admin opens the Course Management module for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:18"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 20041038799,
+              "error_message": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div[title=\\'Course Management\\']')\u001b[22m\n\n    at DashboardPage.naviagateToCourse (D:\\Playwright_Automation-project\\src\\test\\pages\\dashboardPage.ts:14:35)\n    at World.<anonymous> (D:\\Playwright_Automation-project\\src\\test\\step\\Filterstep.ts:19:28)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin clicks on the Filter button",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Admin filters courses by status and category",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:42"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "no matching results should be displayed",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 816260200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;clear-all-filters",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Clear All filters",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1263280599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Admin logs in and reaches the Dashboard for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:11"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 32355593599,
+              "error_message": "page.waitForURL: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/lms/pages/admindashboard\" until \"load\"\n============================================================\n    at World.<anonymous> (D:\\Playwright_Automation-project\\src\\test\\step\\Filterstep.ts:14:19)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Admin opens the Course Management module for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin clicks on the Filter button",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Admin has applied a category, level, and sort filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:53"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "Admin clicks on the Clear All button",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:64"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Status, Category, and Level should reset to All",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:68"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "all 61 courses should be displayed",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:72"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1325616999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Malavicka_08-07-2026_Filter functionality in LMS SmartCliff website",
+    "tags": [
+      {
+        "name": "@Malavicka",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Course Management\\filter.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website;search-with-valid-client",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Search with valid client",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1159420100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin logs in and reaches the Dashboard for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:5"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 32252823800,
+              "error_message": "page.waitForURL: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/lms/pages/admindashboard\" until \"load\"\n  navigated to \"https://lms-smartcliff.vercel.app/lms/pages/admindashboard\"\n  \"domcontentloaded\" event fired\n============================================================\n    at World.<anonymous> (D:\\Playwright_Automation-project\\src\\test\\step\\searchStep.ts:8:19)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin opens the Course Management module for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "keyword",
+                      "result"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "mern",
+                      "Mern"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User searches client with the following data",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1030894100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website;search-with-valid-course-name",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Search with valid course name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1072915100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin logs in and reaches the Dashboard for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17158035100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin opens the Course Management module for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3658864700
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "keyword",
+                      "result"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "frontend",
+                      "Frontend"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User searches course with the following data",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18978378300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 342625200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website;search-with-non-existing-client",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Search with non existing client",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1879437999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin logs in and reaches the Dashboard for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:5"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 32014199900,
+              "error_message": "page.waitForURL: Timeout 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"**/lms/pages/admindashboard\" until \"load\"\n  navigated to \"https://lms-smartcliff.vercel.app/lms/pages/admindashboard\"\n============================================================\n    at World.<anonymous> (D:\\Playwright_Automation-project\\src\\test\\step\\searchStep.ts:8:19)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin opens the Course Management module for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:12"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "keyword",
+                      "result"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "xyzclientnone",
+                      "none"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User searches client with the following data",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "no matching results should be displayed",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 968019200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website;search-with-non-existing-course",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Search with non existing course",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 939514900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin logs in and reaches the Dashboard for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25547990800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin opens the Course Management module for Search",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2282887000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "keyword",
+                      "result"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "nonexistentcourse",
+                      "none"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 25,
+            "name": "User searches course with the following data",
+            "match": {
+              "location": "src\\test\\step\\searchStep.ts:43"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 31147945300,
+              "error_message": "page.waitForLoadState: Timeout 30000ms exceeded.\n    at SearchPage.enterSearchKeyword (D:\\Playwright_Automation-project\\src\\test\\pages\\searchPage.ts:19:21)\n    at async World.<anonymous> (D:\\Playwright_Automation-project\\src\\test\\step\\searchStep.ts:49:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "no matching results should be displayed",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 634043599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "malavicka_07-07-2026_search-functionality-in-lms-smartcliff-website",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Malavicka_07-07-2026_Search functionality in LMS SmartCliff website",
+    "tags": [
+      {
+        "name": "@Malavicka",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Course Management\\search.feature"
+  }
+]

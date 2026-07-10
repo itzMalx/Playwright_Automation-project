@@ -1,0 +1,351 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;filter-with-valid-category,-level-and-sort-by",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Filter with valid category, level and sort by",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2026831500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin logs in and reaches the Dashboard for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4700559099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin opens the Course Management module for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18113197100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Admin clicks on the Filter button",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2904872000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Admin filters courses using valid filter data",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9286584299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "only courses matching the selected category and level should be displayed",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2082563800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 394835700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          },
+          {
+            "name": "@filter",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;filter-with-invalid-status-and-category",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Filter with invalid status and category",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2126248899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin logs in and reaches the Dashboard for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4209779700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin opens the Course Management module for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15579293299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Admin clicks on the Filter button",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2877031000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Admin filters courses using invalid filter data",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6862422099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "no filter results should be displayed",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2024241500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 109358200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          },
+          {
+            "name": "@filter",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;clear-all-filters",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Clear All filters",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1967276700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin logs in and reaches the Dashboard for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3426422800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "Admin opens the Course Management module for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8095650099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Admin clicks on the Filter button",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2452576500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "Admin has applied a category, level, and sort filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8767628100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "Admin clicks on the Clear All button",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2125514599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Status, Category, and Level should reset to All",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32207999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "all courses should be displayed",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2033280700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 341523900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          },
+          {
+            "name": "@filter",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Malavicka_08-07-2026_Filter functionality in LMS SmartCliff website",
+    "tags": [
+      {
+        "name": "@Malavicka",
+        "line": 1
+      },
+      {
+        "name": "@filter",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Course Management\\filter.feature"
+  }
+]
