@@ -23,9 +23,9 @@ export class AddClientPage extends BasePage {
         this.description=page.locator("#description");
         this.companyAddress=page.locator("#clientAddress");
         this.addClient=page.locator("//button[@type='submit']");
-        this.addClientModel=page.locator("//button[@class='py-3 px-1 border-b-2 font-medium text-xs flex items-center gap-2 border-blue-500 text-blue-600']")
+        this.addClientModel=page.locator("//button[contains(., 'New Client')]");
+        
     }
-
     async enterClientDetails(clientName: string,companyName: string,
         email: string,phoneNumber: string,
         description: string,companyAddress: string) {
