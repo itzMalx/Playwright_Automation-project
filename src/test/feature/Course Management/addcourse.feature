@@ -13,7 +13,7 @@ Feature: Shobana_07-07-2026_Add course functionality
           And User clicks Preview and Create
           And User saves the course layout
           Then The course should be created successfully
-     @Addimg
+     
      Scenario: Add course with valid details 
 
           When User selects valid course configuration details
@@ -25,17 +25,17 @@ Feature: Shobana_07-07-2026_Add course functionality
 
      
 
-     @InvalidAdd
+   
      Scenario: Add course with invalid details without selecting client in course configuration
           When User selects valid course configuration details without selecting client
           And User clicks the Next button
           Then User should get error message
-     @InvalidAdd
+    
      Scenario: Add course with invalid details without selecting service model in course configuration
           When User selects valid course configuration details without selecting service model
           And User clicks the Next button
           Then User should get error message select service model
-     @InvalidAdd
+    
      Scenario: Add course with invalid details without selecting hirearchy and resource type in course hirearchy and layout
           When User selects valid course configuration details
           And User clicks the Next button

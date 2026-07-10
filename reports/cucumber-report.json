@@ -1,33 +1,33 @@
 [
   {
-    "description": "              As a user,\n              I want to verify the navigation links and social media icons.",
+    "description": "",
     "elements": [
       {
         "description": "",
-        "id": "muhindhar_10-07-2026_login-page-navigation;verify-sign-in-with-google-button-functionality",
-        "keyword": "Scenario",
-        "line": 12,
-        "name": "Verify Sign in with Google button functionality",
+        "id": "shobana_09-07-2026_add-course-category;add-course-category",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Add Course Category",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 96013600
+              "duration": 532403299
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 8,
-            "name": "the user launches the SmartCliff application",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
             "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:6"
+              "location": "src\\test\\step\\addCourseStructure.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 3263532099
+              "duration": 2741544500
             }
           },
           {
@@ -41,6 +41,27 @@
             "result": {
               "status": "passed",
               "duration": 41438599
+            "line": 6,
+            "name": "Admin is navigating to the dynamic field settings page",
+            "match": {
+              "location": "src\\test\\step\\courseCategorySteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14779370799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user selects course category",
+            "match": {
+              "location": "src\\test\\step\\courseCategorySteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 788788399
             }
           },
           {
@@ -117,46 +138,53 @@
             "result": {
               "status": "passed",
               "duration": 334370399
+            "line": 11,
+            "name": "Admin clicks the Add Category button",
+            "match": {
+              "location": "src\\test\\step\\courseCategorySteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 757887499
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 9,
-            "name": "the user is on the Login page",
+            "line": 12,
+            "name": "Admin enters \"Tester\" \"Selenium\" \"Testing\"",
             "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:12"
+              "location": "src\\test\\step\\courseCategorySteps.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 26407200
+              "duration": 119575499
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "line": 18,
-            "name": "the user clicks the \"Forgot Password?\" link",
+            "keyword": "And ",
+            "line": 13,
+            "name": "Admin clicks the Create Category button",
             "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:32"
+              "location": "src\\test\\step\\courseCategorySteps.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 1248221000
+              "duration": 399674200
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 19,
-            "name": "the user should be redirected to the Forgot Password page",
+            "line": 14,
+            "name": "Admin should see \"Category Created Successfully\"",
             "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:40"
+              "location": "src\\test\\step\\courseCategorySteps.ts:40"
             },
             "result": {
-              "status": "failed",
-              "duration": 5016393799,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/forgot-password/\u001b[39m\nReceived string:  \u001b[31m\"https://lms-smartcliff.vercel.app/login?redirect=https%3A%2F%2Flms-smartcliff.vercel.app%2Flogin%2FforgotPassword\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.url\" with timeout 5000ms\u001b[22m\n\u001b[2m    2 × unexpected value \"https://lms-smartcliff.vercel.app/login/forgotPassword\"\u001b[22m\n\u001b[2m    12 × unexpected value \"https://lms-smartcliff.vercel.app/login?redirect=https%3A%2F%2Flms-smartcliff.vercel.app%2Flogin%2FforgotPassword\"\u001b[22m\n\n    at captureRawStack (D:\\Playwright_Project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveURL (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (D:\\Playwright_Project\\src\\test\\step\\loginNaviagtionStep.ts:43:33)"
+              "status": "passed",
+              "duration": 6033826000
             }
           },
           {
@@ -164,88 +192,122 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 105940800
+              "duration": 93540999
             }
           }
         ],
         "tags": [
           {
-            "name": "@navigation",
+            "name": "@ShobanaV",
             "line": 1
-          },
-          {
-            "name": "@ForgotPassword",
-            "line": 16
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "muhindhar_10-07-2026_login-page-navigation;verify-facebook-icon-navigation",
-        "keyword": "Scenario",
-        "line": 22,
-        "name": "Verify Facebook icon navigation",
+        "id": "shobana_09-07-2026_add-course-category;add-course-category",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Add Course Category",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 47112000
+              "duration": 400836100
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 8,
-            "name": "the user launches the SmartCliff application",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
             "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:6"
+              "location": "src\\test\\step\\addCourseStructure.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 574779300
+              "duration": 3209911400
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 9,
-            "name": "the user is on the Login page",
+            "line": 6,
+            "name": "Admin is navigating to the dynamic field settings page",
             "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:12"
+              "location": "src\\test\\step\\courseCategorySteps.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 38399299
+              "duration": 9306003300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user selects course category",
+            "match": {
+              "location": "src\\test\\step\\courseCategorySteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 510154699
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 23,
-            "name": "the user clicks the Facebook icon",
+            "line": 11,
+            "name": "Admin clicks the Add Category button",
             "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:48"
+              "location": "src\\test\\step\\courseCategorySteps.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 930842100
+              "duration": 1142177499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Admin enters \"\" \"Selenium\" \"Testing\"",
+            "match": {
+              "location": "src\\test\\step\\courseCategorySteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 799652199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Admin clicks the Create Category button",
+            "match": {
+              "location": "src\\test\\step\\courseCategorySteps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200292199
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 24,
-            "name": "the user should be redirected to the official Facebook page",
+            "line": 14,
+            "name": "Admin should see \"Please fill out this field.\"",
             "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:54"
+              "location": "src\\test\\step\\courseCategorySteps.ts:40"
             },
             "result": {
-              "status": "failed",
-              "duration": 5018765900,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/facebook\\.com/i\u001b[39m\nReceived string:  \u001b[31m\"https://lms-smartcliff.vercel.app/login#\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.url\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × unexpected value \"https://lms-smartcliff.vercel.app/login#\"\u001b[22m\n\n    at captureRawStack (D:\\Playwright_Project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveURL (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (D:\\Playwright_Project\\src\\test\\step\\loginNaviagtionStep.ts:57:33)"
+              "status": "passed",
+              "duration": 84877799
             }
           },
           {
@@ -253,13 +315,13 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 104088399
+              "duration": 116617899
             }
           }
         ],
         "tags": [
           {
-            "name": "@navigation",
+            "name": "@ShobanaV",
             "line": 1
           },
           {
@@ -271,70 +333,82 @@
       },
       {
         "description": "",
-        "id": "muhindhar_10-07-2026_login-page-navigation;verify-youtube-icon-navigation",
+        "id": "shobana_09-07-2026_add-course-category;search-course-category",
         "keyword": "Scenario",
-        "line": 27,
-        "name": "Verify YouTube icon navigation",
+        "line": 22,
+        "name": "Search Course Category",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 50053100
+              "duration": 389341500
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 8,
-            "name": "the user launches the SmartCliff application",
+            "line": 5,
+            "name": "Admin on the Dashboard Page after Login",
             "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:6"
+              "location": "src\\test\\step\\addCourseStructure.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 629077799
+              "duration": 2887603100
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 9,
-            "name": "the user is on the Login page",
+            "line": 6,
+            "name": "Admin is navigating to the dynamic field settings page",
             "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:12"
+              "location": "src\\test\\step\\courseCategorySteps.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 42418800
+              "duration": 14048668599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user selects course category",
+            "match": {
+              "location": "src\\test\\step\\courseCategorySteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 487548500
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 28,
-            "name": "the user clicks the YouTube icon",
+            "line": 23,
+            "name": "Admin searches the course category using csv data",
             "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:61"
+              "location": "src\\test\\step\\courseCategorySteps.ts:52"
             },
             "result": {
               "status": "passed",
-              "duration": 921691599
+              "duration": 41394699
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 29,
-            "name": "the user should be redirected to the official YouTube page",
+            "line": 24,
+            "name": "Matching course category should be displayed",
             "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:68"
+              "location": "src\\test\\step\\courseCategorySteps.ts:65"
             },
             "result": {
-              "status": "failed",
-              "duration": 5010104800,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/youtube\\.com/i\u001b[39m\nReceived string:  \u001b[31m\"https://lms-smartcliff.vercel.app/login#\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.url\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × unexpected value \"https://lms-smartcliff.vercel.app/login#\"\u001b[22m\n\n    at captureRawStack (D:\\Playwright_Project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveURL (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (D:\\Playwright_Project\\src\\test\\step\\loginNaviagtionStep.ts:70:34)"
+              "status": "passed",
+              "duration": 3604191399
             }
           },
           {
@@ -342,122 +416,29 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 103557400
+              "duration": 92466099
             }
           }
         ],
         "tags": [
           {
-            "name": "@navigation",
+            "name": "@ShobanaV",
             "line": 1
-          },
-          {
-            "name": "@YouTube",
-            "line": 26
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "muhindhar_10-07-2026_login-page-navigation;verify-tiktok-icon-navigation",
-        "keyword": "Scenario",
-        "line": 32,
-        "name": "Verify TikTok icon navigation",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 45255399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 8,
-            "name": "the user launches the SmartCliff application",
-            "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 421023799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "the user is on the Login page",
-            "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 43489399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 33,
-            "name": "the user clicks the TikTok icon",
-            "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:74"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 935514000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 34,
-            "name": "the user should be redirected to the official TikTok page",
-            "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:80"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 5019453099,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/tiktok\\.com/i\u001b[39m\nReceived string:  \u001b[31m\"https://lms-smartcliff.vercel.app/login#\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.url\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × unexpected value \"https://lms-smartcliff.vercel.app/login#\"\u001b[22m\n\n    at captureRawStack (D:\\Playwright_Project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveURL (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (D:\\Playwright_Project\\src\\test\\step\\loginNaviagtionStep.ts:82:34)"
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 101352200
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@navigation",
-            "line": 1
-          },
-          {
-            "name": "@TikTok",
-            "line": 31
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "muhindhar_10-07-2026_login-page-navigation",
+    "id": "shobana_09-07-2026_add-course-category",
     "line": 2,
     "keyword": "Feature",
-    "name": "Muhindhar_10-07-2026_Login Page Navigation",
+    "name": "Shobana_09-07-2026_Add course category",
     "tags": [
       {
-        "name": "@navigation",
+        "name": "@ShobanaV",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\login\\loginNavigation.feature"
+    "uri": "src\\test\\feature\\Dynamic_Field_Setting\\courseCategory.feature"
   }
 ]
