@@ -1,3 +1,4 @@
+import { FilterPage } from './../pages/Filterpage';
 import { Before, After, BeforeAll, AfterAll, Status, setDefaultTimeout } from '@cucumber/cucumber';
 import { Browser, chromium } from "@playwright/test";
 import { glitchworld } from '../world/customworld';
@@ -34,6 +35,7 @@ Before(async function (this: glitchworld, scenario) {
     this.searchPage = new SearchPage(this.page)
     this.addCoursePage=new AddCoursePage(this.page)
     this.servicePage = new SeriveModelPage(this.page)
+    this.filterpage= new FilterPage(this.page)
 
 });
 After(async function (this: glitchworld, scenario) {

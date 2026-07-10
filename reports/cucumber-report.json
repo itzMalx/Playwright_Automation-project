@@ -4,108 +4,82 @@
     "elements": [
       {
         "description": "",
-        "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;add-a-new-module-to-the-course-structure",
-        "keyword": "Scenario Outline",
-        "line": 17,
-        "name": "Add a new module to the course structure",
+        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;filter-with-valid-category,-level-and-sort-by",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Filter with valid category, level and sort by",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 177268000
+              "duration": 2026831500
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
+            "name": "Admin logs in and reaches the Dashboard for Filter",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:9"
+              "location": "src\\test\\step\\Filterstep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 2536712000
+              "duration": 4700559099
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "Admin navigate to Course Management Page",
+            "name": "Admin opens the Course Management module for Filter",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:15"
+              "location": "src\\test\\step\\Filterstep.ts:19"
             },
             "result": {
               "status": "passed",
-              "duration": 9668822700
+              "duration": 18113197100
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 9,
-            "name": "Admin click add Course Structure for the \"J-AT-A-002\"",
+            "line": 7,
+            "name": "Admin clicks on the Filter button",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:21"
+              "location": "src\\test\\step\\Filterstep.ts:33"
             },
             "result": {
               "status": "passed",
-              "duration": 20206957199
+              "duration": 2904872000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 10,
-            "name": "Admin clicks the Add Module icon",
+            "name": "Admin filters courses using valid filter data",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:26"
+              "location": "src\\test\\step\\Filterstep.ts:37"
             },
             "result": {
               "status": "passed",
-              "duration": 931036200
+              "duration": 9286584299
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 11,
-            "name": "Admin enters the required module details",
+            "name": "only courses matching the selected category and level should be displayed",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:30"
+              "location": "src\\test\\step\\Filterstep.ts:53"
             },
             "result": {
               "status": "passed",
-              "duration": 35956500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "Admin clicks the Add Module button",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:35"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 17181915500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 13,
-            "name": "the newly added module should be displayed in the Module table",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:39"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 32807000
+              "duration": 2082563800
             }
           },
           {
@@ -113,13 +87,17 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 27644899
+              "duration": 394835700
             }
           }
         ],
         "tags": [
           {
-            "name": "@Mylambigai",
+            "name": "@Malavicka",
+            "line": 1
+          },
+          {
+            "name": "@filter",
             "line": 1
           }
         ],
@@ -127,108 +105,82 @@
       },
       {
         "description": "",
-        "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;export-the-course-structure-as-an-excel-file",
+        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;filter-with-invalid-status-and-category",
         "keyword": "Scenario",
-        "line": 19,
-        "name": "Export the course structure as an Excel file",
+        "line": 13,
+        "name": "Filter with invalid status and category",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 202284299
+              "duration": 2126248899
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
+            "name": "Admin logs in and reaches the Dashboard for Filter",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:9"
+              "location": "src\\test\\step\\Filterstep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 2476125200
+              "duration": 4209779700
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "Admin navigate to Course Management Page",
+            "name": "Admin opens the Course Management module for Filter",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:15"
+              "location": "src\\test\\step\\Filterstep.ts:19"
             },
             "result": {
               "status": "passed",
-              "duration": 22629575500
+              "duration": 15579293299
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 20,
-            "name": "Admin clicks the Add Course Structure button for the course",
+            "line": 7,
+            "name": "Admin clicks on the Filter button",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:44"
+              "location": "src\\test\\step\\Filterstep.ts:33"
             },
             "result": {
               "status": "passed",
-              "duration": 830600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 21,
-            "name": "verifies that a course structure is present in the table",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:48"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3407199
+              "duration": 2877031000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 22,
-            "name": "Admin clicks the Print button",
+            "line": 15,
+            "name": "Admin filters courses using invalid filter data",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:55"
+              "location": "src\\test\\step\\Filterstep.ts:60"
             },
             "result": {
               "status": "passed",
-              "duration": 1601299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 23,
-            "name": "selects the Excel export option",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:59"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 27684065399
+              "duration": 6862422099
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 24,
-            "name": "the Excel file should be downloaded",
+            "line": 16,
+            "name": "no filter results should be displayed",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:63"
+              "location": "src\\test\\step\\Filterstep.ts:75"
             },
             "result": {
               "status": "passed",
-              "duration": 3457899
+              "duration": 2024241500
             }
           },
           {
@@ -236,13 +188,17 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 91173999
+              "duration": 109358200
             }
           }
         ],
         "tags": [
           {
-            "name": "@Mylambigai",
+            "name": "@Malavicka",
+            "line": 1
+          },
+          {
+            "name": "@filter",
             "line": 1
           }
         ],
@@ -250,95 +206,108 @@
       },
       {
         "description": "",
-        "id": "mylambigai_7/7/2026-in-course-management-add-course-structure;add-module-without-mandatory-field",
-        "keyword": "Scenario Outline",
-        "line": 34,
-        "name": "Add module without mandatory field",
+        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;clear-all-filters",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Clear All filters",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 179547500
+              "duration": 1967276700
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
+            "name": "Admin logs in and reaches the Dashboard for Filter",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:9"
+              "location": "src\\test\\step\\Filterstep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 2908360100
+              "duration": 3426422800
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "Admin navigate to Course Management Page",
+            "name": "Admin opens the Course Management module for Filter",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:15"
+              "location": "src\\test\\step\\Filterstep.ts:19"
             },
             "result": {
               "status": "passed",
-              "duration": 29705054900
+              "duration": 8095650099
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 27,
-            "name": "Admin clicks Add Course Structure for the \"J-AT-A-002\"",
+            "line": 7,
+            "name": "Admin clicks on the Filter button",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:67"
+              "location": "src\\test\\step\\Filterstep.ts:33"
             },
             "result": {
               "status": "passed",
-              "duration": 7769120300
+              "duration": 2452576500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "Admin has applied a category, level, and sort filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8767628100
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 28,
-            "name": "Admin clicks the Add Module icon",
+            "line": 20,
+            "name": "Admin clicks on the Clear All button",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:26"
+              "location": "src\\test\\step\\Filterstep.ts:95"
             },
             "result": {
               "status": "passed",
-              "duration": 918712300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 29,
-            "name": "Admin clicks the Add Module button without filling the mandatory field",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:71"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 370262600
+              "duration": 2125514599
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 30,
-            "name": "an error message should be displayed",
+            "line": 21,
+            "name": "Status, Category, and Level should reset to All",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:75"
+              "location": "src\\test\\step\\Filterstep.ts:99"
             },
             "result": {
               "status": "passed",
-              "duration": 5432400
+              "duration": 32207999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "all courses should be displayed",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2033280700
             }
           },
           {
@@ -346,29 +315,37 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 45899399
+              "duration": 341523900
             }
           }
         ],
         "tags": [
           {
-            "name": "@Mylambigai",
+            "name": "@Malavicka",
+            "line": 1
+          },
+          {
+            "name": "@filter",
             "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "mylambigai_7/7/2026-in-course-management-add-course-structure",
+    "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website",
     "line": 2,
     "keyword": "Feature",
-    "name": "Mylambigai_7/7/2026 In Course Management Add Course Structure",
+    "name": "Malavicka_08-07-2026_Filter functionality in LMS SmartCliff website",
     "tags": [
       {
-        "name": "@Mylambigai",
+        "name": "@Malavicka",
+        "line": 1
+      },
+      {
+        "name": "@filter",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\Course Management\\addCourseStructure.feature"
+    "uri": "src\\test\\feature\\Course Management\\filter.feature"
   }
 ]
