@@ -11,7 +11,7 @@ export class CourseStructurePage extends BasePage {
    private readonly addModuleBtn = this.page.locator("button[type='submit']")
    private readonly moduleList = this.page.locator("//tr//td[1]//div")
    private readonly printBtn = this.page.locator("//span[@class='hidden sm:inline'][text()='Print']")
-   private readonly excelOption = this.page.getByText("Excel")
+   private readonly excelOption = this.page.locator("(//button[@data-slot='button'])[11]")
    private readonly tableRow = this.page.locator("//tr[@data-slot='table-row']")
    private readonly moreBtn = this.page.getByText("More")
    private readonly hierarchyOpt = this.page.locator("(//div//child::label[contains(@class,'flex items-center justify-between cursor-pointer')])[1]")
@@ -51,6 +51,7 @@ export class CourseStructurePage extends BasePage {
       //console.log(await this.excelOption.isVisible());
       console.log(await this.excelOption.isEnabled());
       await this.click(this.excelOption)
+      await this.excelOption.click()
    }
 
    async tableRowCount() {
