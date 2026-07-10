@@ -29,6 +29,7 @@ export class CourseManagementPage extends BasePage {
     async selectActionList(courseName: string) {
 
         await this.loading.first().waitFor({ state: "hidden" });
+        await this.page.locator("button[data-slot='dialog-close']").first().click()
         const totalPages = Number((await this.totalPage.textContent()));
         for (let page = 1; page <= totalPages; page++) {
             //await this.loading.first().waitFor({ state: "hidden" });

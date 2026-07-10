@@ -1,3 +1,4 @@
+import { FilterPage } from './../pages/Filterpage';
 import { Browser, BrowserContext, Page } from '@playwright/test';
 import { setWorldConstructor, World } from '@cucumber/cucumber';
 import { LoginPage } from '../pages/loginpage';
@@ -31,12 +32,10 @@ export class glitchworld extends World {
     searchPage!: SearchPage
     servicePage!:SeriveModelPage
     addCoursePage! : AddCoursePage
-    addmodel!:AddModelPage
-    modelSearchPage!:ModelSearchPage
-    dynamicFieldPage!:DynamicFieldPage
-    courseCategoryPage!:CourseCategoryPage
-    addClientPage!: AddClientPage
-    pedagogyPage!:PedagogyPage
+    filterpage!: FilterPage;
+
+
+
 }
 
 setWorldConstructor(glitchworld)
