@@ -8,30 +8,29 @@ import { CourseManagementPage } from '../pages/courseManagementPage';
 import { SearchPage } from '../pages/searchPage';
 import { PedagogyPage } from '../pages/pedagogyPage';
 import { SeriveModelPage } from '../pages/serviceModelPage';
-
-
-setDefaultTimeout(90 * 1000)
 import { AddCoursePage } from '../pages/addCoursePage';
 import { AddModelPage } from '../pages/addModelServicePage';
 import { ModelSearchPage } from '../pages/modelsSearchpage';
 
-let browser: Browser;
 
+setDefaultTimeout(90 * 1000)
+
+let browser: Browser;
 
 BeforeAll(async () => {
 
-    browser = await chromium.launch({ headless: false });
+    browser = await chromium.launch({ headless: true });
     logger.info("Browser Launched");
 });
 Before(async function (this: glitchworld, scenario) {
-    const loginTags = ["@Validlogin","@Invalidlogin"];
-    this.tag = scenario.pickle.tags.find(tag => loginTags.includes(tag.name))?.name ?? "";
     this.browser = browser;
     this.context = await browser.newContext({acceptDownloads: true});
     this.page = await this.context.newPage();
     this.login = new LoginPage(this.page);
     this.dashboardPage = new DashboardPage(this.page)
     this.courseManagementPage = new CourseManagementPage(this.page)
+    const loginTags = ["@Validlogin","@Invalidlogin"];
+    this.tag = scenario.pickle.tags.find(tag => loginTags.includes(tag.name))?.name ?? "";
     this.pedagogyPage = new PedagogyPage(this.page)
     this.searchPage = new SearchPage(this.page)
     this.addCoursePage=new AddCoursePage(this.page)

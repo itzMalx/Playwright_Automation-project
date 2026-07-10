@@ -16,17 +16,17 @@ export class glitchworld extends World {
     browser!: Browser
     context!: BrowserContext
     page!: Page
-    login!: LoginPage
     tag!: string;
     
-
+    
+    login!: LoginPage//muhi
     dashboardPage!: DashboardPage
     courseManagementPage!: CourseManagementPage
     pedagogyPage!: PedagogyPage
     searchPage!: SearchPage
-    servicePage!:SeriveModelPage
+    servicePage!:SeriveModelPage//muhi
     addCoursePage! : AddCoursePage
-    addmodel!:AddModelPage
+    addmodel!:AddModelPage//muhi
     modelSearchPage!:ModelSearchPage
 
 

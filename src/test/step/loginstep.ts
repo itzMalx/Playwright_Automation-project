@@ -6,10 +6,12 @@ import { expect } from "@playwright/test";
 
 
 Given('the user is on the login page of the LMS smartcliff website', async function (this: glitchworld) {
+    // Write code here that turns the phrase above into concrete actions
     await this.login.navigate();
 });
 
 When('the user enters the login credentials {string}', async function (this: glitchworld,type: string) {
+    // Write code here that turns the phrase above into concrete actions
     const data = readData<LoginData>("src/test-data/logindata.csv");
     const loginData = data.find(row => row.type === type);
     if (!loginData) {
@@ -20,14 +22,17 @@ When('the user enters the login credentials {string}', async function (this: gli
 });
 
 When('the user clicks the signin button', async function (this: glitchworld) {
+    // Write code here that turns the phrase above into concrete actions
     await this.login.clcksignin();
 });
 
 Then('the user should be logged in successfully', async function (this: glitchworld) {
+    // Write code here that turns the phrase above into concrete actions
     await expect(this.page).toHaveURL(/admindashboard/, {timeout: 60000});
 });
 
 Then('the login result should be verified {string}', async function (this: glitchworld,type: string) {
+    // Write code here that turns the phrase above into concrete actions
     if (type==="valid") {
         await expect(this.page).toHaveURL(/admindashboard/, { timeout: 30000 });
     } else {
@@ -36,6 +41,7 @@ Then('the login result should be verified {string}', async function (this: glitc
 });
 
 When('the user logs in with valid LMS credentials', async function (this: glitchworld) {
+    // Write code here that turns the phrase above into concrete actions
     const data = readData<LoginData>("src/test-data/logindata.csv");
     const validUser = data.find(row => row.type === "valid");
     if (!validUser) {

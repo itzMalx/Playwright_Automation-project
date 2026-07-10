@@ -45,12 +45,12 @@ export class SeriveModelPage extends BasePage {
             return true;
         return false;
     }
-    async getServiceNameValidationMessage() {
+    async getsernameerr() {
         return await this.servicenameerr.evaluate(
             (element: HTMLInputElement) => element.validationMessage
         );
     }
-    async getDescriptionValidationMessage() {
+    async getdeserror() {
         return await this.descerr.evaluate(
             (element: HTMLTextAreaElement) => element.validationMessage
         );
