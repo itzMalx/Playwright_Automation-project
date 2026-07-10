@@ -1,4 +1,0 @@
-<<<<<<< HEAD
-src\test\feature\Dynamic_Field_Setting\courseCategory.feature:18:19
-=======
->>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b

@@ -23,7 +23,10 @@ When('Admin enters {string} {string} {string}', async function (this: glitchworl
     if(categoryName===""){
         await this.courseCategoryPage.enterCategoryName(categoryName);
     }
-    await this.courseCategoryPage.enterCategoryName(categoryName+Date.now());
+    else{
+        await this.courseCategoryPage.enterCategoryName(categoryName+Date.now());
+    }
+    
     await this.courseCategoryPage.enterCourseName(courseName+Date.now());
     await this.courseCategoryPage.enterCategoryDescription(description+Date.now());
     

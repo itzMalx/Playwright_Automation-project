@@ -1,3 +1,4 @@
+
 [2026-07-09T06:46:35.746Z] INFO-Browser Launched
 [2026-07-09T06:46:35.966Z] INFO-Navigating to LMS SmartCliff Login Page
 [2026-07-09T06:46:37.449Z] INFO-Logging in with valid credentials
@@ -353,6 +354,9 @@ Call log:
 [2m  - waiting for locator('div[title=\'Course Management\']')[22m
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f1ecc1d7cd4880cb7fd5e24de57012c2942b2f5b
 [2026-07-09T10:17:40.658Z] ERROR-Scenario Failed: Add course with valid details
 [2026-07-09T10:17:40.764Z] INFO-Browser Closed
 [2026-07-09T10:18:20.104Z] INFO-Browser Launched
@@ -446,6 +450,7 @@ Call log:
 
 [2026-07-09T10:18:47.424Z] ERROR-Scenario Failed: Add Course Category
 [2026-07-09T10:18:47.481Z] INFO-Browser Closed
+<<<<<<< HEAD
 [2026-07-09T10:51:10.058Z] INFO-Browser Launched
 [2026-07-09T10:51:10.642Z] INFO-Navigating to LMS SmartCliff Login Page
 [2026-07-09T10:51:12.452Z] INFO-Logging in with valid credentials
@@ -993,6 +998,81 @@ Call log:
 [2026-07-10T05:00:46.849Z] INFO-Login successfull!
 [2026-07-10T05:00:59.879Z] INFO-Browser Closed
 =======
+=======
+[2026-07-09T15:09:46.655Z] INFO-Browser Launched
+[2026-07-09T15:09:46.871Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T15:09:47.818Z] INFO-Entering email: testing1@gmail.com
+[2026-07-09T15:09:47.890Z] INFO-Entering password
+[2026-07-09T15:09:55.840Z] ERROR-Scenario Failed: Search Service by Service Name
+[2026-07-09T15:09:55.866Z] ERROR-Scenario Failed: Add Service Model
+[2026-07-09T15:09:55.870Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-09T15:09:55.875Z] ERROR-Scenario Failed: Add a valid service
+[2026-07-09T15:09:55.879Z] ERROR-Scenario Failed: Add a service without a description
+[2026-07-09T15:09:55.882Z] ERROR-Scenario Failed: Add a service with empty details
+[2026-07-09T15:09:55.885Z] ERROR-Scenario Failed: Add a service without service name
+[2026-07-09T15:09:55.888Z] ERROR-Scenario Failed: Login
+[2026-07-09T15:09:55.893Z] ERROR-Scenario Failed: Login
+[2026-07-09T15:09:55.897Z] ERROR-Scenario Failed: Login
+[2026-07-09T15:09:55.902Z] ERROR-Scenario Failed: Login
+[2026-07-09T15:09:55.903Z] INFO-Browser Closed
+[2026-07-09T15:10:11.662Z] INFO-Browser Launched
+[2026-07-09T15:10:12.120Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T15:10:16.446Z] INFO-Entering email: testing1@gmail.com
+[2026-07-09T15:10:16.603Z] INFO-Entering password
+[2026-07-09T15:10:28.476Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T15:10:29.446Z] INFO-Entering email: testing1@gmail.com
+[2026-07-09T15:10:29.566Z] INFO-Entering password
+[2026-07-09T15:10:43.025Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T15:10:43.868Z] INFO-Entering email: testing1@gmail.com
+[2026-07-09T15:10:43.945Z] INFO-Entering password
+[2026-07-09T15:10:56.808Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T15:10:57.465Z] INFO-Entering email: testing1@gmail.com
+[2026-07-09T15:10:57.557Z] INFO-Entering password
+[2026-07-09T15:11:10.485Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T15:11:11.010Z] INFO-Entering email: testing1@gmail.com
+[2026-07-09T15:11:11.081Z] INFO-Entering password
+[2026-07-09T15:11:25.103Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T15:11:25.960Z] INFO-Entering email: testing1@gmail.com
+[2026-07-09T15:11:26.027Z] INFO-Entering password
+[2026-07-09T15:11:40.640Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T15:11:41.221Z] INFO-Entering email: testing1@gmail.com
+[2026-07-09T15:11:41.297Z] INFO-Entering password
+[2026-07-09T15:11:51.779Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T15:11:52.383Z] INFO-Entering email: testing1@gmail.com
+[2026-07-09T15:11:52.483Z] INFO-Entering password
+[2026-07-09T15:11:52.495Z] INFO-Clicking Sign In button
+[2026-07-09T15:11:58.464Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T15:11:59.130Z] INFO-Entering email: testing1@gmail.com
+[2026-07-09T15:11:59.199Z] INFO-Entering password
+[2026-07-09T15:11:59.211Z] INFO-Clicking Sign In button
+[2026-07-09T15:12:01.267Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T15:12:01.786Z] INFO-Entering email: testing12@gmail.com
+[2026-07-09T15:12:01.858Z] INFO-Entering password
+[2026-07-09T15:12:01.871Z] INFO-Clicking Sign In button
+[2026-07-09T15:12:03.903Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T15:12:04.651Z] INFO-Entering email: testing123@gmail.com
+[2026-07-09T15:12:04.718Z] INFO-Entering password
+[2026-07-09T15:12:04.732Z] INFO-Clicking Sign In button
+[2026-07-09T15:12:06.684Z] INFO-Browser Closed
+[2026-07-10T05:03:19.252Z] INFO-Browser Launched
+[2026-07-10T05:03:19.571Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T05:03:22.961Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T05:03:23.054Z] INFO-Entering password
+[2026-07-10T05:03:36.446Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T05:03:37.030Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T05:03:37.112Z] INFO-Entering password
+[2026-07-10T05:03:47.364Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T05:03:47.879Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T05:03:47.943Z] INFO-Entering password
+[2026-07-10T05:04:02.330Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T05:04:02.687Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T05:04:02.734Z] INFO-Entering password
+[2026-07-10T05:04:23.665Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T05:04:24.048Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T05:04:24.111Z] INFO-Entering password
+[2026-07-10T05:04:33.742Z] INFO-Browser Closed
+
+>>>>>>> f1ecc1d7cd4880cb7fd5e24de57012c2942b2f5b
 [2026-07-09T14:21:59.401Z] ERROR-Scenario Failed: Filter with valid category, level and sort by
 [2026-07-09T14:22:01.168Z] INFO-Navigating to LMS SmartCliff Login Page
 [2026-07-09T14:22:02.568Z] INFO-Logging in with valid credentials
@@ -1022,4 +1102,113 @@ Call log:
 [2026-07-09T14:39:18.895Z] INFO-Login successful!
 [2026-07-09T14:39:26.835Z] INFO-Navigated to Course Management page for Filter
 [2026-07-09T14:39:42.879Z] INFO-Browser Closed
+<<<<<<< HEAD
 >>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
+=======
+
+>>>>>>> f1ecc1d7cd4880cb7fd5e24de57012c2942b2f5b
+[10-07-2026 10:49:08] INFO  | Browser Launched
+[10-07-2026 10:49:08] INFO  | Browser Closed
+[10-07-2026 10:49:45] INFO  | Browser Launched
+[10-07-2026 10:49:45] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:49:49] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:49:49] INFO  | Entering password
+[10-07-2026 10:49:50] INFO  | Login successfull!
+[10-07-2026 10:50:04] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:50:05] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:50:05] INFO  | Entering password
+[10-07-2026 10:50:06] INFO  | Login successfull!
+[10-07-2026 10:50:15] ERROR | Scenario Failed: Add Course Category
+[10-07-2026 10:50:16] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:50:16] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:50:16] INFO  | Entering password
+[10-07-2026 10:50:17] INFO  | Login successfull!
+[10-07-2026 10:50:29] INFO  | Browser Closed
+[10-07-2026 10:51:21] INFO  | Browser Launched
+[10-07-2026 10:51:21] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:51:23] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:51:23] INFO  | Entering password
+[10-07-2026 10:51:24] INFO  | Login successfull!
+[10-07-2026 10:51:40] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:51:41] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:51:41] INFO  | Entering password
+[10-07-2026 10:51:43] INFO  | Login successfull!
+[10-07-2026 10:51:58] ERROR | Scenario Failed: Add Course Category
+[10-07-2026 10:51:59] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:52:01] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:52:01] INFO  | Entering password
+[10-07-2026 10:52:02] INFO  | Login successfull!
+[10-07-2026 10:52:13] INFO  | Browser Closed
+[10-07-2026 10:52:39] INFO  | Browser Launched
+[10-07-2026 10:52:40] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:52:41] ERROR | Scenario Failed: Add Course Category
+[10-07-2026 10:52:41] ERROR | Scenario Failed: Search Course Category
+[10-07-2026 10:52:41] INFO  | Browser Closed
+[10-07-2026 10:53:53] INFO  | Browser Launched
+[10-07-2026 10:53:53] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:53:55] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:53:55] INFO  | Entering password
+[10-07-2026 10:53:56] INFO  | Login successfull!
+[10-07-2026 10:54:20] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:54:22] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:54:22] INFO  | Entering password
+[10-07-2026 10:54:23] INFO  | Login successfull!
+[10-07-2026 10:54:34] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:54:36] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:54:36] INFO  | Entering password
+[10-07-2026 10:54:37] INFO  | Login successfull!
+[10-07-2026 10:54:49] ERROR | Scenario Failed: Search Course Category
+[10-07-2026 10:54:49] INFO  | Browser Closed
+[10-07-2026 10:55:30] INFO  | Browser Launched
+[10-07-2026 10:55:31] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:55:32] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:55:33] INFO  | Entering password
+[10-07-2026 10:55:33] INFO  | Login successfull!
+[10-07-2026 10:55:50] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:55:52] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:55:52] INFO  | Entering password
+[10-07-2026 10:55:53] INFO  | Login successfull!
+[10-07-2026 10:56:08] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:56:10] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:56:10] INFO  | Entering password
+[10-07-2026 10:56:10] INFO  | Login successfull!
+[10-07-2026 10:56:27] ERROR | Scenario Failed: Search Course Category
+[10-07-2026 10:56:27] INFO  | Browser Closed
+[10-07-2026 10:56:51] INFO  | Browser Launched
+[10-07-2026 10:56:52] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:56:53] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:56:54] INFO  | Entering password
+[10-07-2026 10:56:54] INFO  | Login successfull!
+[10-07-2026 10:57:23] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:57:25] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:57:25] INFO  | Entering password
+[10-07-2026 10:57:26] INFO  | Login successfull!
+[10-07-2026 10:57:56] ERROR | Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//div[@title=\'Dynamic Field Settings\']')[22m
+
+[10-07-2026 10:57:57] ERROR | Scenario Failed: Add Course Category
+[10-07-2026 10:57:57] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:57:59] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:58:00] INFO  | Entering password
+[10-07-2026 10:58:01] INFO  | Login successfull!
+[10-07-2026 10:58:31] ERROR | Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//div[@title=\'Dynamic Field Settings\']')[22m
+
+[10-07-2026 10:58:31] ERROR | Scenario Failed: Search Course Category
+[10-07-2026 10:58:31] INFO  | Browser Closed
+[10-07-2026 10:59:53] INFO  | Browser Launched
+[10-07-2026 10:59:54] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 10:59:56] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 10:59:56] INFO  | Entering password
+[10-07-2026 10:59:57] INFO  | Login successfull!
+[10-07-2026 11:00:20] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 11:00:22] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 11:00:22] INFO  | Entering password
+[10-07-2026 11:00:23] INFO  | Login successfull!
+[10-07-2026 11:00:36] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 11:00:37] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 11:00:38] INFO  | Entering password
+[10-07-2026 11:00:39] INFO  | Login successfull!
+[10-07-2026 11:00:57] INFO  | Browser Closed

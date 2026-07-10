@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 445763699
+              "duration": 532403299
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 5,
             "name": "Admin on the Dashboard Page after Login",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:9"
+              "location": "src\\test\\step\\addCourseStructure.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2400000299
+              "duration": 2741544500
             }
           },
           {
@@ -39,9 +39,8 @@
               "location": "src\\test\\step\\courseCategorySteps.ts:6"
             },
             "result": {
-              "status": "failed",
-              "duration": 30031380699,
-              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//div[@title=\\'Dynamic Field Settings\\']')\u001b[22m\n\n    at DynamicFieldPage.click (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\pages\\basepage.ts:14:21)\n    at DynamicFieldPage.clickDynamicfield (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\pages\\dynamicFieldPage.ts:19:20)\n    at World.<anonymous> (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\step\\courseCategorySteps.ts:8:33)"
+              "status": "passed",
+              "duration": 14779370799
             }
           },
           {
@@ -53,8 +52,8 @@
               "location": "src\\test\\step\\courseCategorySteps.ts:11"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 788788399
             }
           },
           {
@@ -66,8 +65,8 @@
               "location": "src\\test\\step\\courseCategorySteps.ts:16"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 757887499
             }
           },
           {
@@ -79,8 +78,8 @@
               "location": "src\\test\\step\\courseCategorySteps.ts:21"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 119575499
             }
           },
           {
@@ -89,11 +88,11 @@
             "line": 13,
             "name": "Admin clicks the Create Category button",
             "match": {
-              "location": "src\\test\\step\\courseCategorySteps.ts:29"
+              "location": "src\\test\\step\\courseCategorySteps.ts:35"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 399674200
             }
           },
           {
@@ -102,11 +101,11 @@
             "line": 14,
             "name": "Admin should see \"Category Created Successfully\"",
             "match": {
-              "location": "src\\test\\step\\courseCategorySteps.ts:34"
+              "location": "src\\test\\step\\courseCategorySteps.ts:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 6033826000
             }
           },
           {
@@ -114,7 +113,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 201923900
+              "duration": 93540999
             }
           }
         ],
@@ -138,7 +137,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 351337500
+              "duration": 400836100
             }
           },
           {
@@ -147,11 +146,11 @@
             "line": 5,
             "name": "Admin on the Dashboard Page after Login",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:9"
+              "location": "src\\test\\step\\addCourseStructure.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2906296699
+              "duration": 3209911400
             }
           },
           {
@@ -164,7 +163,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9897426299
+              "duration": 9306003300
             }
           },
           {
@@ -177,7 +176,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 546346200
+              "duration": 510154699
             }
           },
           {
@@ -190,7 +189,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 572795900
+              "duration": 1142177499
             }
           },
           {
@@ -203,7 +202,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 114764100
+              "duration": 799652199
             }
           },
           {
@@ -212,11 +211,11 @@
             "line": 13,
             "name": "Admin clicks the Create Category button",
             "match": {
-              "location": "src\\test\\step\\courseCategorySteps.ts:29"
+              "location": "src\\test\\step\\courseCategorySteps.ts:35"
             },
             "result": {
               "status": "passed",
-              "duration": 341883199
+              "duration": 200292199
             }
           },
           {
@@ -225,12 +224,11 @@
             "line": 14,
             "name": "Admin should see \"Please fill out this field.\"",
             "match": {
-              "location": "src\\test\\step\\courseCategorySteps.ts:34"
+              "location": "src\\test\\step\\courseCategorySteps.ts:40"
             },
             "result": {
-              "status": "failed",
-              "duration": 497056099,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Please fill out this field.\"\u001b[39m\nReceived string:    \u001b[31m\"\"\u001b[39m\n    at captureRawStack (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toContain (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\step\\courseCategorySteps.ts:44:20)"
+              "status": "passed",
+              "duration": 84877799
             }
           },
           {
@@ -238,7 +236,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 232731500
+              "duration": 116617899
             }
           }
         ],
@@ -254,82 +252,80 @@
         "description": "",
         "id": "shobana_09-07-2026_add-course-category;search-course-category",
         "keyword": "Scenario",
-        "line": 9,
-        "name": "Filter with valid category, level and sort by",
+        "line": 22,
+        "name": "Search Course Category",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 363253799
-
+              "duration": 389341500
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "Admin logs in and reaches the Dashboard for Filter",
+            "name": "Admin on the Dashboard Page after Login",
             "match": {
-              "location": "src\\test\\step\\Filterstep.ts:12"
+              "location": "src\\test\\step\\addCourseStructure.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2951641999
+              "duration": 2887603100
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "Admin opens the Course Management module for Filter",
+            "name": "Admin is navigating to the dynamic field settings page",
             "match": {
-              "location": "src\\test\\step\\Filterstep.ts:19"
+              "location": "src\\test\\step\\courseCategorySteps.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 8244032500
+              "duration": 14048668599
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "Admin clicks on the Filter button",
+            "name": "user selects course category",
             "match": {
-              "location": "src\\test\\step\\Filterstep.ts:33"
+              "location": "src\\test\\step\\courseCategorySteps.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 438597199
-              
+              "duration": 487548500
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 10,
-            "name": "Admin filters courses using valid filter data",
+            "line": 23,
+            "name": "Admin searches the course category using csv data",
             "match": {
-              "location": "src\\test\\step\\Filterstep.ts:37"
+              "location": "src\\test\\step\\courseCategorySteps.ts:52"
             },
             "result": {
-              "status": "passed"
-
+              "status": "passed",
+              "duration": 41394699
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
-            "name": "only courses matching the selected category and level should be displayed",
+            "line": 24,
+            "name": "Matching course category should be displayed",
             "match": {
-              "location": "src\\test\\step\\Filterstep.ts:53"
+              "location": "src\\test\\step\\courseCategorySteps.ts:65"
             },
             "result": {
-              "status": "passed"
- 
+              "status": "passed",
+              "duration": 3604191399
             }
           },
           {
@@ -337,265 +333,29 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 394835700
+              "duration": 92466099
             }
           }
         ],
         "tags": [
           {
-            "name": "@Malavicka",
-            "line": 1
-          },
-          {
-            "name": "@filter",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;filter-with-invalid-status-and-category",
-        "keyword": "Scenario",
-        "line": 13,
-        "name": "Filter with invalid status and category",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 2126248899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "Admin logs in and reaches the Dashboard for Filter",
-            "match": {
-              "location": "src\\test\\step\\Filterstep.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4209779700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "Admin opens the Course Management module for Filter",
-            "match": {
-              "location": "src\\test\\step\\Filterstep.ts:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 15579293299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "Admin clicks on the Filter button",
-            "match": {
-              "location": "src\\test\\step\\Filterstep.ts:33"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2877031000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 15,
-            "name": "Admin filters courses using invalid filter data",
-            "match": {
-              "location": "src\\test\\step\\Filterstep.ts:60"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6862422099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 16,
-            "name": "no filter results should be displayed",
-            "match": {
-              "location": "src\\test\\step\\Filterstep.ts:75"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2024241500
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 109358200
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Malavicka",
-            "line": 1
-          },
-          {
-            "name": "@filter",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;clear-all-filters",
-        "keyword": "Scenario",
-        "line": 18,
-        "name": "Clear All filters",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1967276700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "Admin logs in and reaches the Dashboard for Filter",
-            "match": {
-              "location": "src\\test\\step\\Filterstep.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3426422800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "Admin opens the Course Management module for Filter",
-            "match": {
-              "location": "src\\test\\step\\Filterstep.ts:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8095650099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "Admin clicks on the Filter button",
-            "match": {
-              "location": "src\\test\\step\\Filterstep.ts:33"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2452576500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 19,
-            "name": "Admin has applied a category, level, and sort filter",
-            "match": {
-              "location": "src\\test\\step\\Filterstep.ts:79"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8767628100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 20,
-            "name": "Admin clicks on the Clear All button",
-            "match": {
-              "location": "src\\test\\step\\Filterstep.ts:95"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2125514599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 21,
-            "name": "Status, Category, and Level should reset to All",
-            "match": {
-              "location": "src\\test\\step\\Filterstep.ts:99"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 32207999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 22,
-            "name": "all courses should be displayed",
-            "match": {
-              "location": "src\\test\\step\\Filterstep.ts:103"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2033280700
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 341523900
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Malavicka",
-            "line": 1
-          },
-          {
-            "name": "@filter",
+            "name": "@ShobanaV",
             "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website",
+    "id": "shobana_09-07-2026_add-course-category",
     "line": 2,
     "keyword": "Feature",
-    "name": "Malavicka_08-07-2026_Filter functionality in LMS SmartCliff website",
+    "name": "Shobana_09-07-2026_Add course category",
     "tags": [
       {
-        "name": "@Malavicka",
-        "line": 1
-      },
-      {
-        "name": "@filter",
+        "name": "@ShobanaV",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\Course Management\\filter.feature"
+    "uri": "src\\test\\feature\\Dynamic_Field_Setting\\courseCategory.feature"
   }
 ]

@@ -1,4 +1,4 @@
-@Shobana
+@ShobanaV
 Feature: Shobana_09-07-2026_Add course category
 
     Background:

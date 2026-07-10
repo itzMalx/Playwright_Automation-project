@@ -19,8 +19,10 @@ import { PedagogyPage } from '../pages/pedagogyPage';
 
 setDefaultTimeout(90 * 1000)
 
-let browser: Browser;
 
+setDefaultTimeout(90 * 1000)
+
+let browser: Browser;
 
 BeforeAll(async () => {
 
@@ -28,14 +30,17 @@ BeforeAll(async () => {
     logger.info("Browser Launched");
 });
 Before(async function (this: glitchworld, scenario) {
-    const loginTags = ["@Validlogin", "@Invalidlogin"];
-    this.tag = scenario.pickle.tags.find(tag => loginTags.includes(tag.name))?.name ?? "";
+
     this.browser = browser;
     this.context = await browser.newContext({ acceptDownloads: true });
     this.page = await this.context.newPage();
     this.login = new LoginPage(this.page);
     this.dashboardPage = new DashboardPage(this.page)
     this.courseManagementPage = new CourseManagementPage(this.page)
+
+    const loginTags = ["@Validlogin","@Invalidlogin"];
+    this.tag = scenario.pickle.tags.find(tag => loginTags.includes(tag.name))?.name ?? "";
+    this.pedagogyPage = new PedagogyPage(this.page)
     this.courseStructurePage = new CourseStructurePage(this.page)
     this.searchPage = new SearchPage(this.page)
     this.addCoursePage = new AddCoursePage(this.page)
