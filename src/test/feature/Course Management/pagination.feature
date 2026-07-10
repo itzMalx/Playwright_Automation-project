@@ -37,5 +37,10 @@ Feature: VetrivelB_07-07-2026_Course_Structure_Pagination
         | first | previous |
         | last | next |
 
+  @PageSize
+  Scenario: Verify the maximum number of courses displayed on a page
+    Given the user is on the "1" page of the Course Structure table
+    Then the page should display up to 8 courses
+
 
  

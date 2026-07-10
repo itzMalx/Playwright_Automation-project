@@ -4,22 +4,34 @@
     "elements": [
       {
         "description": "",
+<<<<<<< HEAD
         "id": "muhindhar_08-07-2026_adding-the-service-in-the-dynamic-field-management-page;add-a-valid-service",
         "keyword": "Scenario Outline",
         "line": 20,
         "name": "Add a valid service",
+=======
+        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;filter-with-valid-category,-level-and-sort-by",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Filter with valid category, level and sort by",
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 294338099
+=======
+              "duration": 2026831500
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
+<<<<<<< HEAD
             "line": 8,
             "name": "the user is logged into the LMS SmartCliff website",
             "match": {
@@ -28,11 +40,22 @@
             "result": {
               "status": "passed",
               "duration": 9458204499
+=======
+            "line": 5,
+            "name": "Admin logs in and reaches the Dashboard for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4700559099
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "line": 9,
             "name": "the user clicks on the Dynamic Field Settings icon",
             "match": {
@@ -41,11 +64,22 @@
             "result": {
               "status": "passed",
               "duration": 1975211699
+=======
+            "line": 6,
+            "name": "Admin opens the Course Management module for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18113197100
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "line": 12,
             "name": "the user clicks on the Add Service button",
             "match": {
@@ -54,11 +88,22 @@
             "result": {
               "status": "passed",
               "duration": 5005338199
+=======
+            "line": 7,
+            "name": "Admin clicks on the Filter button",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2904872000
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
+<<<<<<< HEAD
             "line": 13,
             "name": "the user enters service name \"Electronics\"",
             "match": {
@@ -80,10 +125,21 @@
             "result": {
               "status": "passed",
               "duration": 19411599
+=======
+            "line": 10,
+            "name": "Admin filters courses using valid filter data",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9286584299
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
             }
           },
           {
             "arguments": [],
+<<<<<<< HEAD
             "keyword": "And ",
             "line": 15,
             "name": "the user clicks on the Create Service button",
@@ -106,6 +162,17 @@
             "result": {
               "status": "passed",
               "duration": 1316399
+=======
+            "keyword": "Then ",
+            "line": 11,
+            "name": "only courses matching the selected category and level should be displayed",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2082563800
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
             }
           },
           {
@@ -113,13 +180,25 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 14777900
+=======
+              "duration": 394835700
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
             }
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@servicemodel",
+=======
+            "name": "@Malavicka",
+            "line": 1
+          },
+          {
+            "name": "@filter",
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
             "line": 1
           }
         ],
@@ -127,22 +206,34 @@
       },
       {
         "description": "",
+<<<<<<< HEAD
         "id": "muhindhar_08-07-2026_adding-the-service-in-the-dynamic-field-management-page;add-a-valid-service",
         "keyword": "Scenario Outline",
         "line": 21,
         "name": "Add a valid service",
+=======
+        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;filter-with-invalid-status-and-category",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Filter with invalid status and category",
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 44859000
+=======
+              "duration": 2126248899
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
+<<<<<<< HEAD
             "line": 8,
             "name": "the user is logged into the LMS SmartCliff website",
             "match": {
@@ -151,11 +242,22 @@
             "result": {
               "status": "passed",
               "duration": 7132044100
+=======
+            "line": 5,
+            "name": "Admin logs in and reaches the Dashboard for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4209779700
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "line": 9,
             "name": "the user clicks on the Dynamic Field Settings icon",
             "match": {
@@ -190,11 +292,22 @@
             "result": {
               "status": "passed",
               "duration": 8199599
+=======
+            "line": 6,
+            "name": "Admin opens the Course Management module for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15579293299
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+<<<<<<< HEAD
             "line": 14,
             "name": "the user enters description \"Build an end-to-end food ordering application\"",
             "match": {
@@ -203,11 +316,162 @@
             "result": {
               "status": "passed",
               "duration": 15244699
+=======
+            "line": 7,
+            "name": "Admin clicks on the Filter button",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2877031000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "Admin filters courses using invalid filter data",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6862422099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "no filter results should be displayed",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2024241500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 109358200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Malavicka",
+            "line": 1
+          },
+          {
+            "name": "@filter",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website;clear-all-filters",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Clear All filters",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1967276700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Admin logs in and reaches the Dashboard for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3426422800
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+            "line": 6,
+            "name": "Admin opens the Course Management module for Filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8095650099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Admin clicks on the Filter button",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2452576500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "Admin has applied a category, level, and sort filter",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8767628100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "Admin clicks on the Clear All button",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2125514599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Status, Category, and Level should reset to All",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32207999
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+<<<<<<< HEAD
             "line": 15,
             "name": "the user clicks on the Create Service button",
             "match": {
@@ -475,6 +739,16 @@
             "result": {
               "status": "passed",
               "duration": 18658699
+=======
+            "line": 22,
+            "name": "all courses should be displayed",
+            "match": {
+              "location": "src\\test\\step\\Filterstep.ts:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2033280700
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
             }
           },
           {
@@ -482,12 +756,17 @@
             "hidden": true,
             "result": {
               "status": "passed",
+<<<<<<< HEAD
               "duration": 6708700
+=======
+              "duration": 341523900
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
             }
           }
         ],
         "tags": [
           {
+<<<<<<< HEAD
             "name": "@servicemodel",
             "line": 1
           }
@@ -612,12 +891,20 @@
         "tags": [
           {
             "name": "@servicemodel",
+=======
+            "name": "@Malavicka",
+            "line": 1
+          },
+          {
+            "name": "@filter",
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
             "line": 1
           }
         ],
         "type": "scenario"
       }
     ],
+<<<<<<< HEAD
     "id": "muhindhar_08-07-2026_adding-the-service-in-the-dynamic-field-management-page",
     "line": 2,
     "keyword": "Feature",
@@ -629,5 +916,22 @@
       }
     ],
     "uri": "src\\test\\feature\\Dynamic_Field_Setting\\service_Model.feature"
+=======
+    "id": "malavicka_08-07-2026_filter-functionality-in-lms-smartcliff-website",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Malavicka_08-07-2026_Filter functionality in LMS SmartCliff website",
+    "tags": [
+      {
+        "name": "@Malavicka",
+        "line": 1
+      },
+      {
+        "name": "@filter",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\Course Management\\filter.feature"
+>>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
   }
 ]

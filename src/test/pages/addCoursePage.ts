@@ -3,24 +3,24 @@ import { BasePage } from '../pages/basepage';
 
 export class AddCoursePage extends BasePage {
 
-    readonly addCourseBtn: Locator;
-    readonly nextbtn: Locator;
-    readonly module: Locator;
-    readonly submodule: Locator;
-    readonly topic: Locator;
-    readonly subtopic: Locator;
-    readonly javaskill: Locator;
-    readonly pythonskill: Locator;
-    readonly javascriptskill: Locator;
-    readonly dbskill: Locator;
-    readonly preview: Locator;
-    readonly savebtn: Locator;
-    readonly laterbtn: Locator;
-    readonly clienterrmsg: Locator;
-    readonly modelerrmsg: Locator;
-    readonly hirearchyerrmsg: Locator;
-    readonly resourceerrmsg: Locator;
-    readonly imageadd: Locator;
+    private readonly addCourseBtn: Locator;
+    private readonly nextbtn: Locator;
+    private readonly module: Locator;
+    private readonly submodule: Locator;
+    private readonly topic: Locator;
+    private readonly subtopic: Locator;
+    private readonly javaskill: Locator;
+    private readonly pythonskill: Locator;
+    private readonly javascriptskill: Locator;
+    private readonly dbskill: Locator;
+    private readonly preview: Locator;
+    private readonly savebtn: Locator;
+    private readonly laterbtn: Locator;
+    private readonly clienterrmsg: Locator;
+    private readonly modelerrmsg: Locator;
+    private readonly hirearchyerrmsg: Locator;
+    private readonly resourceerrmsg: Locator;
+    private readonly imageadd: Locator;
     constructor(page: Page) {
         super(page);
 
@@ -94,6 +94,8 @@ export class AddCoursePage extends BasePage {
     async selectSkills() {
         await this.clickCheckbox(this.javaskill);
         await this.clickCheckbox(this.pythonskill);
+        await this.clickCheckbox(this.javascriptskill);
+        await this.clickCheckbox(this.dbskill);
     }
 
     async enableResource(index: number) {

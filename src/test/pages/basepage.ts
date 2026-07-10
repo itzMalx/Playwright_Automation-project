@@ -19,7 +19,6 @@ export class BasePage {
     }
   }
 
-
   async clickCheckbox(locator: Locator) {
     await locator.waitFor({ state: "visible" });
     if (!(await locator.isChecked())) {
@@ -267,6 +266,17 @@ export class BasePage {
     }
     catch(error){
       logger.error("Count shuold be used for iterable objects")
+    }
+}
+   async getValidationMessage(locator: Locator) {
+    try {
+        return await locator.evaluate(
+            (el: HTMLInputElement) => el.validationMessage
+        );
+    }
+    catch (error) {
+        logger.error(`Failed to get validation message: ${error}`);
+        throw error;
     }
 }
 }
