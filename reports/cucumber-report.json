@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 492805000
+              "duration": 445763699
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1544582599
+              "duration": 2400000299
             }
           },
           {
@@ -39,8 +39,9 @@
               "location": "src\\test\\step\\courseCategorySteps.ts:6"
             },
             "result": {
-              "status": "passed",
-              "duration": 9472079099
+              "status": "failed",
+              "duration": 30031380699,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//div[@title=\\'Dynamic Field Settings\\']')\u001b[22m\n\n    at DynamicFieldPage.click (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\pages\\basepage.ts:14:21)\n    at DynamicFieldPage.clickDynamicfield (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\pages\\dynamicFieldPage.ts:19:20)\n    at World.<anonymous> (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\step\\courseCategorySteps.ts:8:33)"
             }
           },
           {
@@ -52,8 +53,8 @@
               "location": "src\\test\\step\\courseCategorySteps.ts:11"
             },
             "result": {
-              "status": "passed",
-              "duration": 746816300
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -65,21 +66,21 @@
               "location": "src\\test\\step\\courseCategorySteps.ts:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 708332099
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "Admin enters \"Developer\" \"Java\" \"Backend Development\"",
+            "name": "Admin enters \"Tester\" \"Selenium\" \"Testing\"",
             "match": {
               "location": "src\\test\\step\\courseCategorySteps.ts:21"
             },
             "result": {
-              "status": "passed",
-              "duration": 117591499
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -91,8 +92,8 @@
               "location": "src\\test\\step\\courseCategorySteps.ts:29"
             },
             "result": {
-              "status": "passed",
-              "duration": 379456799
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -104,9 +105,8 @@
               "location": "src\\test\\step\\courseCategorySteps.ts:34"
             },
             "result": {
-              "status": "failed",
-              "duration": 17655236000,
-              "error_message": "locator.textContent: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for getByText('Category Created Successfully')\u001b[22m\n\n    at CourseCategoryPage.getMessage (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\pages\\courseCategoryPage.ts:44:51)\n    at World.<anonymous> (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\step\\courseCategorySteps.ts:41:48)"
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -114,7 +114,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 88078000
+              "duration": 201923900
             }
           }
         ],
@@ -122,10 +122,6 @@
           {
             "name": "@ShobanaV",
             "line": 1
-          },
-          {
-            "name": "@Addcategory",
-            "line": 9
           }
         ],
         "type": "scenario"
@@ -142,7 +138,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 433833600
+              "duration": 351337500
             }
           },
           {
@@ -155,7 +151,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1486810400
+              "duration": 2906296699
             }
           },
           {
@@ -168,7 +164,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7248582900
+              "duration": 9897426299
             }
           },
           {
@@ -181,7 +177,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 411453399
+              "duration": 546346200
             }
           },
           {
@@ -194,20 +190,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1051186200
+              "duration": 572795900
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "Admin enters \"\" \"SQL\" \"Backend Development\"",
+            "name": "Admin enters \"\" \"Selenium\" \"Testing\"",
             "match": {
               "location": "src\\test\\step\\courseCategorySteps.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 291872699
+              "duration": 114764100
             }
           },
           {
@@ -220,7 +216,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 274035400
+              "duration": 341883199
             }
           },
           {
@@ -232,8 +228,9 @@
               "location": "src\\test\\step\\courseCategorySteps.ts:34"
             },
             "result": {
-              "status": "passed",
-              "duration": 126107199
+              "status": "failed",
+              "duration": 497056099,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Please fill out this field.\"\u001b[39m\nReceived string:    \u001b[31m\"\"\u001b[39m\n    at captureRawStack (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toContain (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\step\\courseCategorySteps.ts:44:20)"
             }
           },
           {
@@ -241,7 +238,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 213592900
+              "duration": 232731500
             }
           }
         ],
@@ -249,10 +246,6 @@
           {
             "name": "@ShobanaV",
             "line": 1
-          },
-          {
-            "name": "@Addcategory",
-            "line": 9
           }
         ],
         "type": "scenario"
@@ -269,7 +262,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 782713700
+              "duration": 363253799
             }
           },
           {
@@ -282,7 +275,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1975534699
+              "duration": 2951641999
             }
           },
           {
@@ -295,7 +288,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10070128200
+              "duration": 8244032500
             }
           },
           {
@@ -308,7 +301,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2565030599
+              "duration": 438597199
             }
           },
           {
@@ -321,7 +314,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 34994699
+              "duration": 36225300
             }
           },
           {
@@ -333,9 +326,8 @@
               "location": "src\\test\\step\\courseCategorySteps.ts:59"
             },
             "result": {
-              "status": "failed",
-              "duration": 5021723400,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('//td//div[normalize-space()=\"Developer\"]').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//td//div[normalize-space()=\"Developer\"]').first()\u001b[22m\n\n    at captureRawStack (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toBeVisible (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\step\\courseCategorySteps.ts:71:26)"
+              "status": "passed",
+              "duration": 4200945900
             }
           },
           {
@@ -343,7 +335,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 240252599
+              "duration": 99502999
             }
           }
         ],
@@ -351,10 +343,6 @@
           {
             "name": "@ShobanaV",
             "line": 1
-          },
-          {
-            "name": "@SearchCategory",
-            "line": 21
           }
         ],
         "type": "scenario"

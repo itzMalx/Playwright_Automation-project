@@ -577,3 +577,168 @@ Call log:
 [2026-07-09T18:39:50.950Z] INFO-Login successfull!
 [2026-07-09T18:40:08.833Z] ERROR-Scenario Failed: Search Course Category
 [2026-07-09T18:40:08.890Z] INFO-Browser Closed
+[2026-07-09T18:44:43.428Z] INFO-Browser Launched
+[2026-07-09T18:44:44.102Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T18:44:45.487Z] INFO-Entering email: testing1@gmail.com
+[2026-07-09T18:44:45.738Z] INFO-Entering password
+[2026-07-09T18:44:46.425Z] INFO-Login successfull!
+[2026-07-09T18:45:07.691Z] ERROR-Scenario Failed: Add Course Category
+[2026-07-09T18:45:08.182Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T18:45:08.941Z] INFO-Entering email: testing1@gmail.com
+[2026-07-09T18:45:09.200Z] INFO-Entering password
+[2026-07-09T18:45:10.235Z] INFO-Login successfull!
+[2026-07-09T18:45:10.343Z] ERROR-Failed to click element: Error: locator.click: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//div[@title=\'Dynamic Field Settings\']')[22m
+
+[2026-07-09T18:45:10.349Z] ERROR-Scenario Failed: Add Course Category
+[2026-07-09T18:45:10.784Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-09T18:45:11.425Z] ERROR-Scenario Failed: Search Course Category
+[2026-07-09T18:45:11.503Z] INFO-Browser Closed
+[2026-07-10T04:38:03.354Z] INFO-Browser Launched
+[2026-07-10T04:38:03.945Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:38:05.571Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:38:05.791Z] INFO-Entering password
+[2026-07-10T04:38:06.359Z] INFO-Login successfull!
+[2026-07-10T04:38:26.530Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-10T04:38:26.955Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:38:28.897Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:38:29.085Z] INFO-Entering password
+[2026-07-10T04:38:30.177Z] INFO-Login successfull!
+[2026-07-10T04:38:46.326Z] INFO-Navigate to Course Management page
+[2026-07-10T04:39:03.710Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-10T04:39:04.117Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:39:05.912Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:39:06.132Z] INFO-Entering password
+[2026-07-10T04:39:07.203Z] INFO-Login successfull!
+[2026-07-10T04:39:20.164Z] INFO-Navigate to Course Management page
+[2026-07-10T04:39:25.717Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:39:27.402Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:39:27.649Z] INFO-Entering password
+[2026-07-10T04:39:28.278Z] INFO-Login successfull!
+[2026-07-10T04:39:34.971Z] INFO-Navigate to Course Management page
+[2026-07-10T04:39:43.451Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:39:45.056Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:39:45.281Z] INFO-Entering password
+[2026-07-10T04:39:46.309Z] INFO-Login successfull!
+[2026-07-10T04:39:57.161Z] INFO-Navigate to Course Management page
+[2026-07-10T04:40:05.523Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:40:07.120Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:40:07.332Z] INFO-Entering password
+[2026-07-10T04:40:07.927Z] INFO-Login successfull!
+[2026-07-10T04:40:54.554Z] ERROR-Scenario Failed: Add Course Category
+[2026-07-10T04:40:54.971Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:40:56.600Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:40:56.880Z] INFO-Entering password
+[2026-07-10T04:40:57.449Z] INFO-Login successfull!
+[2026-07-10T04:41:11.566Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:41:13.596Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:41:13.992Z] INFO-Entering password
+[2026-07-10T04:41:14.544Z] INFO-Login successfull!
+[2026-07-10T04:41:31.059Z] INFO-Browser Closed
+[2026-07-10T04:45:19.941Z] INFO-Browser Launched
+[2026-07-10T04:45:20.825Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:45:22.861Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:45:23.078Z] INFO-Entering password
+[2026-07-10T04:45:23.658Z] INFO-Login successfull!
+[2026-07-10T04:45:31.365Z] INFO-Navigate to Course Management page
+[2026-07-10T04:45:49.084Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-10T04:45:49.529Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:45:51.208Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:45:51.440Z] INFO-Entering password
+[2026-07-10T04:45:52.518Z] INFO-Login successfull!
+[2026-07-10T04:46:03.467Z] INFO-Navigate to Course Management page
+[2026-07-10T04:46:20.457Z] ERROR-Scenario Failed: Add course with valid details
+[2026-07-10T04:46:20.903Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:46:22.640Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:46:22.904Z] INFO-Entering password
+[2026-07-10T04:46:23.953Z] INFO-Login successfull!
+[2026-07-10T04:46:38.490Z] INFO-Navigate to Course Management page
+[2026-07-10T04:46:44.339Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:46:46.001Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:46:46.240Z] INFO-Entering password
+[2026-07-10T04:46:47.281Z] INFO-Login successfull!
+[2026-07-10T04:46:56.782Z] INFO-Navigate to Course Management page
+[2026-07-10T04:47:04.515Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:47:06.233Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:47:06.456Z] INFO-Entering password
+[2026-07-10T04:47:07.565Z] INFO-Login successfull!
+[2026-07-10T04:47:27.940Z] ERROR-Scenario Failed: Add course with invalid details without selecting hirearchy and resource type in course hirearchy and layout
+[2026-07-10T04:47:28.314Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:47:30.171Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:47:30.415Z] INFO-Entering password
+[2026-07-10T04:47:31.447Z] INFO-Login successfull!
+[2026-07-10T04:47:55.990Z] ERROR-Scenario Failed: Add Course Category
+[2026-07-10T04:47:56.452Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:47:58.148Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:47:58.776Z] INFO-Browser Closed
+[2026-07-10T04:48:54.298Z] INFO-Browser Launched
+[2026-07-10T04:48:55.031Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:48:56.854Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:48:57.050Z] INFO-Entering password
+[2026-07-10T04:48:57.615Z] INFO-Login successfull!
+[2026-07-10T04:49:37.974Z] ERROR-Scenario Failed: Add Course Category
+[2026-07-10T04:49:38.364Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:49:40.057Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:49:40.318Z] INFO-Entering password
+[2026-07-10T04:49:41.348Z] INFO-Login successfull!
+[2026-07-10T04:49:50.484Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:49:53.420Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:49:53.711Z] INFO-Entering password
+[2026-07-10T04:49:54.340Z] INFO-Login successfull!
+[2026-07-10T04:50:07.425Z] ERROR-Scenario Failed: Search Course Category
+[2026-07-10T04:50:07.494Z] INFO-Browser Closed
+[2026-07-10T04:52:55.812Z] INFO-Browser Launched
+[2026-07-10T04:52:56.329Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:52:57.910Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:52:58.121Z] INFO-Entering password
+[2026-07-10T04:52:58.757Z] INFO-Login successfull!
+[2026-07-10T04:53:21.680Z] ERROR-Scenario Failed: Add Course Category
+[2026-07-10T04:53:22.254Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:53:23.808Z] ERROR-Scenario Failed: Add Course Category
+[2026-07-10T04:53:24.269Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:53:25.935Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:53:26.150Z] INFO-Entering password
+[2026-07-10T04:53:26.344Z] ERROR-Failed to click element: Error: locator.click: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('//button[@type=\'submit\']')[22m
+[2m    - locator resolved to <button type="submit" class="jsx-8624b7a94e5e552c sc-submit">Sign In</button>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not stable[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+
+[2026-07-10T04:53:26.348Z] ERROR-Scenario Failed: Search Course Category
+[2026-07-10T04:53:26.438Z] INFO-Browser Closed
+[2026-07-10T04:59:13.136Z] INFO-Browser Launched
+[2026-07-10T04:59:13.663Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:59:15.238Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:59:15.477Z] INFO-Entering password
+[2026-07-10T04:59:16.091Z] INFO-Login successfull!
+[2026-07-10T04:59:24.405Z] ERROR-Failed to click element: Error: locator.click: Target page, context or browser has been closed
+[2026-07-10T04:59:24.414Z] ERROR-Scenario Failed: Add Course Category
+[2026-07-10T04:59:24.502Z] ERROR-Scenario Failed: Add Course Category
+[2026-07-10T04:59:24.551Z] ERROR-Scenario Failed: Search Course Category
+[2026-07-10T04:59:24.556Z] INFO-Browser Closed
+[2026-07-10T04:59:54.803Z] INFO-Browser Launched
+[2026-07-10T04:59:55.408Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T04:59:56.994Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T04:59:57.209Z] INFO-Entering password
+[2026-07-10T04:59:57.806Z] INFO-Login successfull!
+[2026-07-10T05:00:27.838Z] ERROR-Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//div[@title=\'Dynamic Field Settings\']')[22m
+
+[2026-07-10T05:00:27.960Z] ERROR-Scenario Failed: Add Course Category
+[2026-07-10T05:00:28.411Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T05:00:30.057Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T05:00:30.283Z] INFO-Entering password
+[2026-07-10T05:00:31.317Z] INFO-Login successfull!
+[2026-07-10T05:00:43.439Z] ERROR-Scenario Failed: Add Course Category
+[2026-07-10T05:00:43.898Z] INFO-Navigating to LMS SmartCliff Login Page
+[2026-07-10T05:00:45.605Z] INFO-Entering email: testing1@gmail.com
+[2026-07-10T05:00:45.821Z] INFO-Entering password
+[2026-07-10T05:00:46.849Z] INFO-Login successfull!
+[2026-07-10T05:00:59.879Z] INFO-Browser Closed

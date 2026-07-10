@@ -20,9 +20,9 @@ When('Admin clicks the Add Category button', async function (this: glitchworld) 
 
 When('Admin enters {string} {string} {string}', async function (this: glitchworld,categoryName: string,courseName: string,description: string) {
 
-    await this.courseCategoryPage.enterCategoryName(categoryName);
-    await this.courseCategoryPage.enterCourseName(courseName);
-    await this.courseCategoryPage.enterCategoryDescription(description);
+    await this.courseCategoryPage.enterCategoryName(categoryName+Date.now());
+    await this.courseCategoryPage.enterCourseName(courseName+Date.now());
+    await this.courseCategoryPage.enterCategoryDescription(description+Date.now());
     
 });
 
