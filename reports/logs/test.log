@@ -1,3 +1,4 @@
+
 [2026-07-09T06:46:35.746Z] INFO-Browser Launched
 [2026-07-09T06:46:35.966Z] INFO-Navigating to LMS SmartCliff Login Page
 [2026-07-09T06:46:37.449Z] INFO-Logging in with valid credentials
@@ -352,7 +353,6 @@ Call log:
 Call log:
 [2m  - waiting for locator('div[title=\'Course Management\']')[22m
 
-<<<<<<< HEAD
 [2026-07-09T10:17:40.658Z] ERROR-Scenario Failed: Add course with valid details
 [2026-07-09T10:17:40.764Z] INFO-Browser Closed
 [2026-07-09T10:18:20.104Z] INFO-Browser Launched
@@ -518,7 +518,7 @@ Call log:
 [2026-07-10T05:04:24.048Z] INFO-Entering email: testing1@gmail.com
 [2026-07-10T05:04:24.111Z] INFO-Entering password
 [2026-07-10T05:04:33.742Z] INFO-Browser Closed
-=======
+
 [2026-07-09T14:21:59.401Z] ERROR-Scenario Failed: Filter with valid category, level and sort by
 [2026-07-09T14:22:01.168Z] INFO-Navigating to LMS SmartCliff Login Page
 [2026-07-09T14:22:02.568Z] INFO-Logging in with valid credentials
@@ -548,4 +548,4 @@ Call log:
 [2026-07-09T14:39:18.895Z] INFO-Login successful!
 [2026-07-09T14:39:26.835Z] INFO-Navigated to Course Management page for Filter
 [2026-07-09T14:39:42.879Z] INFO-Browser Closed
->>>>>>> d3aa7784c2e9b975d94db785183dda27fa724e3b
+
