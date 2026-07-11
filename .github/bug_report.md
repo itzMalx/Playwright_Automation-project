@@ -1,37 +1,65 @@
 ---
-name: 🐞 Bug Report
-about: Report a bug or unexpected behavior
+name: "🐞 Bug Report"
+about: Report a defect or unexpected behavior in the application
 title: "[BUG] "
-labels: bug
-assignees: ''
+labels: ["bug"]
+assignees: []
 ---
 
 # 🐞 Bug Report
 
-## 📌 Summary
-Provide a short description of the issue.
+## Summary
+
+Provide a brief description of the issue.
+
+> Example: Unable to delete a pedagogy element after clicking the Delete button.
 
 ---
 
-## 🌐 Environment
+## Environment
 
 | Field | Value |
 |-------|-------|
-| Environment | Dev / QA / UAT / Production |
+| Environment | QA / UAT / PROD |
 | Browser | Chrome / Edge / Firefox |
 | Browser Version | |
 | OS | Windows / macOS / Linux |
-| Build Version | |
-| URL | |
+| Build / Version | |
+| Module | |
 
 ---
 
-## 📂 Module
-Example: Login / Dashboard / Course Management
+## Severity
+
+- [ ] Critical (System/Application crash)
+- [ ] High (Major functionality broken)
+- [ ] Medium (Feature partially affected)
+- [ ] Low (Minor UI/Cosmetic issue)
 
 ---
 
-## 🔄 Steps to Reproduce
+## Priority
+
+- [ ] P0 - Immediate
+- [ ] P1 - High
+- [ ] P2 - Medium
+- [ ] P3 - Low
+
+---
+
+## Preconditions
+
+Describe any prerequisites before reproducing the issue.
+
+Example:
+
+- User is logged into the application.
+- User has access to Dynamic Field Management.
+- Pedagogy elements already exist.
+
+---
+
+## Steps to Reproduce
 
 1.
 2.
@@ -40,66 +68,83 @@ Example: Login / Dashboard / Course Management
 
 ---
 
-## ✅ Expected Result
+## Expected Result
 
-
-
----
-
-## ❌ Actual Result
-
-
+Describe the expected system behavior.
 
 ---
 
-## 📷 Screenshots / Screen Recording
+## Actual Result
 
-
-
----
-
-## 📜 Error Message / Logs
-
-```text
-Paste any console errors, API responses, or logs here.
-```
+Describe what actually happened.
 
 ---
 
-## ⚠️ Severity
-
-- [ ] Critical
-- [ ] High
-- [ ] Medium
-- [ ] Low
-
----
-
-## 🚦 Priority
-
-- [ ] P1
-- [ ] P2
-- [ ] P3
-- [ ] P4
-
----
-
-## 🔁 Reproducibility
+## Frequency
 
 - [ ] Always
-- [ ] Sometimes
-- [ ] Rarely
+- [ ] Intermittent
+- [ ] Rare
 - [ ] Unable to Reproduce
 
 ---
 
-## 💡 Additional Information
+## Impact
 
-Include any additional details that may help developers reproduce or fix the issue.
+Describe how this issue affects users or business functionality.
 
 ---
 
-## 👤 Reported By
+## Error Messages / Logs
 
-- **Name:**
-- **Date:**
+```text
+Paste any console logs, stack traces, API responses, or error messages here.
+```
+
+---
+
+## Screenshots / Screen Recording
+
+Attach screenshots or recordings if available.
+
+---
+
+## Attachments
+
+- [ ] Playwright HTML Report
+- [ ] Cucumber HTML Report
+- [ ] Allure Report
+- [ ] Execution Logs
+- [ ] Screenshot(s)
+- [ ] Screen Recording
+
+---
+
+## Additional Information
+
+Provide any additional context that may help reproduce or investigate the issue.
+
+---
+
+## Reporter Details
+
+| Field | Value |
+|-------|-------|
+| Reported By | |
+| Assigned To | |
+| Date Reported | |
+| Sprint | |
+| Related Story / Task | |
+| Related Pull Request | |
+| Status | Open / In Progress / Fixed / Closed |
+
+---
+
+## Checklist
+
+- [ ] Bug reproduced successfully
+- [ ] Expected and actual results verified
+- [ ] Supporting evidence attached
+- [ ] Environment details provided
+- [ ] Steps to reproduce are complete
+- [ ] Labels assigned appropriately
