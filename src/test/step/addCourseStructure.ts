@@ -5,6 +5,9 @@ import { logger } from '../../utilities/logger';
 import courseStructure from '../../test-data/addCourseStructure.json'
 import fs from "fs";
 
+let downloadPath = ""
+let downloadName = ""
+
 Given('Admin on the Dashboard Page after Login', async function (this: glitchworld) {
     await this.login.navigate()
     await this.login.loginSite()
@@ -56,11 +59,11 @@ When('Admin clicks the Print button', async function (this: glitchworld) {
 });
 
 When('selects the Excel export option', async function (this: glitchworld) {
-    this.downloadPath = await this.courseStructurePage.downloadExcel(this.page);
+    downloadPath = await this.courseStructurePage.downloadExcel(this.page);
 })
 
 Then('the Excel file should be downloaded', async function (this: glitchworld) {
-    expect(fs.existsSync(this.downloadPath)).toBeTruthy();
+    expect(fs.existsSync(downloadPath)).toBeTruthy();
 });
 
 Given('Admin clicks Add Course Structure for the {string}', async function (this: glitchworld, courseId: string) {
