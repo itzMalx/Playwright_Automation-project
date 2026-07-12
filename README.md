@@ -251,14 +251,14 @@ Pipeline Includes:
 Environment variables are stored inside
 
 ```
-env/url.env
+env/***.env
 ```
 
 Example
 
 ```env
-BASE_URL=https://lms-smartcliff.vercel.app/login
-BROWSER=chromium
+BASE_URL=**************
+BROWSER=**********
 ```
 
 ---
