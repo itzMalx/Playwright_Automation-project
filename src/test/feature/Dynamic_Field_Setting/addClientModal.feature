@@ -22,5 +22,12 @@ Feature: VetrivelB_09-07-2026_Add_Client_Feature
         And clicks the "Add Client" button
         Then the client should not be added
         And appropriate validation messages should be displayed
-        
-    
+
+    @CancelButton
+    Scenario: Verify clicking the Cancel button closes the Add New Client dialog
+
+        Given the user opens the Add New Client dialog
+        When the user enters client details
+        And clicks the "Cancel" button
+        Then the Add New Client dialog should be closed
+        And the client should not be added

@@ -11,6 +11,9 @@ export class AddClientPage extends BasePage {
     private readonly description: Locator;
     private readonly companyAddress: Locator;
     private readonly addClient: Locator;
+    private readonly form : Locator;
+    private readonly cancel : Locator;
+    private readonly clientCount : Locator;
 
     constructor(page: Page) {
 
@@ -24,6 +27,9 @@ export class AddClientPage extends BasePage {
         this.companyAddress=page.locator("#clientAddress");
         this.addClient=page.locator("//button[@type='submit']");
         this.addClientModel=page.locator("//button[contains(., 'New Client')]");
+        this.cancel=page.locator("//button[normalize-space()='Cancel']")
+        this.form=page.locator("//form[@class='px-6 py-4']")
+        this.clientCount=page.locator("//span[3]")
         
     }
     async enterClientDetails(clientName: string,companyName: string,
@@ -48,5 +54,17 @@ export class AddClientPage extends BasePage {
 
     async navigateToClientModel(){
         await this.click(this.addClientModel)
+    }
+
+    async clickCancel(){
+        await this.click(this.cancel)
+    }
+
+    async isFormVisible(){
+        return await this.isVisible(this.form)
+    }
+
+    async getClientCount(){
+        return await this.getText(this.clientCount)
     }
 }

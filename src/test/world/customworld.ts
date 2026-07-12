@@ -34,9 +34,11 @@ export class glitchworld extends World {
     addmodel!:AddModelPage//muhi
     modelSearchPage!:ModelSearchPage
     filterpage!: FilterPage;
+    dynamicFieldPage!:DynamicFieldPage
+    courseCategoryPage!:CourseCategoryPage
     pedagogyPage!:PedagogyPage
     addClientPage!:AddClientPage
-    dynamicFieldPage!: DynamicFieldPage;
+
 
 
 
