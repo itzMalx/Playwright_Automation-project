@@ -1,5 +1,5 @@
 @Muhindhar
-Feature: Login to the LMS smartcliff website with credentials
+Feature: Muhindhar_07-07-2026_Login to the LMS smartcliff website with credentials
 
 Feature Description:
               As a user,I want to validate the login functionality using valid and invalid credentials.
@@ -17,3 +17,6 @@ Feature Description:
                   | psinvalid    |
                   | emailinvalid |
                   | bothinvalid  |
+
+
+        

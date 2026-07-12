@@ -11,6 +11,7 @@ export class CourseManagementPage extends BasePage {
     private readonly activePageNumber: Locator
     private readonly totalPage: Locator
     private readonly navigationButtons : Locator
+    private readonly tableData : Locator
 
     constructor(page: Page) {
         super(page)
@@ -22,6 +23,7 @@ export class CourseManagementPage extends BasePage {
         this.activePageNumber = page.locator("//button[contains(@class,'bg-blue-600')]")
         this.totalPage = page.locator("(//button[@data-slot='button'])[13]")
         this.navigationButtons=page.locator("//div[@class='flex items-center gap-1']//button")
+        this.tableData=page.locator("//tbody/tr")
     }
 
     async selectActionList(courseName: string) {
@@ -100,5 +102,20 @@ export class CourseManagementPage extends BasePage {
 
     async isPreviousDisabled(){
         return await this.isDisabled(this.previous)
+    }
+
+    async isDataCountSatisfied() {
+        while(!(await this.isNextDisabled())) {
+            if(await this.tableData.count()!==8){
+                return false;
+        }
+        await this.clickNext();
+        await this.loading.first().waitFor({ state: "hidden" });
+        }
+        return (await this.tableData.count())<=8;
+    }
+
+    async getDataCount(){
+        return (await this.getElements(this.tableData)).length
     }
 }

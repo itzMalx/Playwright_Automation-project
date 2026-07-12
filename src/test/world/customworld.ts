@@ -1,3 +1,4 @@
+import { FilterPage } from './../pages/Filterpage';
 import { Browser, BrowserContext, Page } from '@playwright/test';
 import { setWorldConstructor, World } from '@cucumber/cucumber';
 import { LoginPage } from '../pages/loginpage';
@@ -11,7 +12,9 @@ import { DynamicFieldPage } from '../pages/dynamicFieldPage';
 import {CourseCategoryPage} from '../pages/courseCategoryPage';
 import { AddModelPage } from '../pages/addModelServicePage';
 import { ModelSearchPage } from '../pages/modelsSearchpage';
+import { AddClientPage } from '../pages/addClientModalPage';
 import { PedagogyPage } from '../pages/pedagogyPage';
+import { LoginNavigationPage } from '../pages/loginNavigationPage';
 
 
 export class glitchworld extends World {
@@ -19,24 +22,25 @@ export class glitchworld extends World {
     browser!: Browser
     context!: BrowserContext
     page!: Page
-    login!: LoginPage
     tag!: string;
     // downloadPath!: string;
     // downloadName!: string;
-
+    login!:LoginPage
     dashboardPage!: DashboardPage
     courseManagementPage!: CourseManagementPage
     courseStructurePage!: CourseStructurePage
     searchPage!: SearchPage
-    servicePage!:SeriveModelPage
+    servicePage!:SeriveModelPage//muhi
     addCoursePage! : AddCoursePage
-    addmodel!:AddModelPage
-    modelSearchPage!:ModelSearchPage
-    dynamicFieldPage!:DynamicFieldPage
-    courseCategoryPage!:CourseCategoryPage
+    addmodel!:AddModelPage//muhi
+    modelSearchPage!:ModelSearchPage//muhi
+    filterpage!: FilterPage;
     pedagogyPage!:PedagogyPage
-
-
+    addClientPage!:AddClientPage
+    dynamicFieldPage!: DynamicFieldPage;
+    courseCategoryPage!: CourseCategoryPage;
+    loginnav!:LoginNavigationPage//muhi
+    
 }
 
 setWorldConstructor(glitchworld)

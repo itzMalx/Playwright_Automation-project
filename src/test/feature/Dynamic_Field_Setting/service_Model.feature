@@ -1,5 +1,5 @@
 @Muhindhar
-Feature: Adding the service in the dynamic field management page
+Feature: Muhindhar_08-07-2026_Adding the service in the dynamic field management page
 
 Feature Description:
               As an authenticated user,I want to manage services in the Dynamic Field Management page.
@@ -20,26 +20,15 @@ Feature Description:
                   | Electronics | Build the PCB board for the ESP32             |
                   | Software    | Build an end-to-end food ordering application |
 
-        Scenario: Add a service without a description
+        Scenario Outline: Validate mandatory fields while creating a service
               And the user clicks on the Add Service button
-             When the user enters the following service details
-                  | Service Name | Description |
-                  | Electronics  |             |
+             When the user enters service name "<ServiceName>"
+              And the user enters description "<Description>"
               And the user clicks on the Create Service button
-             Then the Description field should display the required field validation message
+             Then "<ValidationField>" field should display the required field validation message
 
-        Scenario: Add a service with empty details
-              And the user clicks on the Add Service button
-             When the user enters the following service details
-                  | Service Name | Description |
-                  |              |             |
-              And the user clicks on the Create Service button
-             Then the Service Name field should display the required field validation message
-
-        Scenario: Add a service without service name
-              And the user clicks on the Add Service button
-             When the user enters the following service details
-                  | Service Name | Description |
-                  |              | Sample      |
-              And the user clicks on the Create Service button
-             Then the Service Name field should display the required field validation message
+        Examples:
+                  | ServiceName | Description | ValidationField |
+                  | Electronics |             | Description     |
+                  |             |             | Service Name    |
+                  |             | Sample      | Service Name    |
