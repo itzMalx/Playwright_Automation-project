@@ -33,6 +33,14 @@
           {
             "arguments": [],
             "keyword": "And ",
+            "line": 9,
+            "name": "the user is on the Login page",
+            "match": {
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41438599
             "line": 6,
             "name": "Admin navigate to Course Management Page",
             "match": {
@@ -60,6 +68,77 @@
           {
             "arguments": [],
             "keyword": "When ",
+            "line": 13,
+            "name": "the user clicks the \"Sign in with Google\" button on the Login page",
+            "match": {
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 924422700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user should be redirected to the Google authentication page",
+            "match": {
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:26"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5023379100,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/google\\.com/i\u001b[39m\nReceived string:  \u001b[31m\"https://lms-smartcliff.vercel.app/login\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.url\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × unexpected value \"https://lms-smartcliff.vercel.app/login\"\u001b[22m\n\n    at captureRawStack (D:\\Playwright_Project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveURL (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (D:\\Playwright_Project\\src\\test\\step\\loginNaviagtionStep.ts:28:34)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 112834600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@navigation",
+            "line": 1
+          },
+          {
+            "name": "@GoogleSignIn",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "muhindhar_10-07-2026_login-page-navigation;verify-forgot-password-link-functionality",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify Forgot Password link functionality",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 45104600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user launches the SmartCliff application",
+            "match": {
+              "location": "src\\test\\step\\loginNaviagtionStep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 334370399
             "line": 11,
             "name": "the user clicks the \"Next\" button",
             "match": {
@@ -200,8 +279,8 @@
             "line": 1
           },
           {
-            "name": "@Navigation",
-            "line": 8
+            "name": "@Facebook",
+            "line": 21
           }
         ],
         "type": "scenario"
