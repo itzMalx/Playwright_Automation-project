@@ -262,7 +262,7 @@ export class BasePage {
 
    async getCount(locator: Locator){
     try{
-      return await locator.count()
+      return (await locator.all()).length;
     }
     catch(error){
       logger.error("Count shuold be used for iterable objects")

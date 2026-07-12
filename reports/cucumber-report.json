@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 498139299
+              "duration": 5020751200
             }
           },
           {
@@ -27,29 +27,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2324328800
+              "duration": 4192563000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 9,
-            "name": "the user is on the Login page",
-            "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 41438599
             "line": 6,
             "name": "Admin navigate to Course Management Page",
             "match": {
               "location": "src\\test\\step\\addCourseStructure.ts:14"
             },
             "result": {
-              "status": "failed",
-              "duration": 30006505499,
-              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//div[@title = \\'Course Management\\']')\u001b[22m\n\n    at DashboardPage.naviagateToCourse (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\dashboardPage.ts:24:38)\n    at async World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:15:5)"
+              "status": "passed",
+              "duration": 10777207099
             }
           },
           {
@@ -61,92 +52,21 @@
               "location": "src\\test\\step\\pagination.step.ts:54"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 6091571500
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 13,
-            "name": "the user clicks the \"Sign in with Google\" button on the Login page",
-            "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 924422700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 14,
-            "name": "the user should be redirected to the Google authentication page",
-            "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:26"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 5023379100,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/google\\.com/i\u001b[39m\nReceived string:  \u001b[31m\"https://lms-smartcliff.vercel.app/login\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.url\" with timeout 5000ms\u001b[22m\n\u001b[2m    14 × unexpected value \"https://lms-smartcliff.vercel.app/login\"\u001b[22m\n\n    at captureRawStack (D:\\Playwright_Project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toHaveURL (D:\\Playwright_Project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (D:\\Playwright_Project\\src\\test\\step\\loginNaviagtionStep.ts:28:34)"
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 112834600
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@navigation",
-            "line": 1
-          },
-          {
-            "name": "@GoogleSignIn",
-            "line": 11
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "muhindhar_10-07-2026_login-page-navigation;verify-forgot-password-link-functionality",
-        "keyword": "Scenario",
-        "line": 17,
-        "name": "Verify Forgot Password link functionality",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 45104600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 8,
-            "name": "the user launches the SmartCliff application",
-            "match": {
-              "location": "src\\test\\step\\loginNaviagtionStep.ts:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 334370399
             "line": 11,
             "name": "the user clicks the \"Next\" button",
             "match": {
               "location": "src\\test\\step\\pagination.step.ts:19"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 109110199
             }
           },
           {
@@ -158,8 +78,8 @@
               "location": "src\\test\\step\\pagination.step.ts:39"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 21456200
             }
           },
           {
@@ -167,7 +87,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 477514199
+              "duration": 28356800
             }
           }
         ],
@@ -195,7 +115,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 352430000
+              "duration": 1765324099
             }
           },
           {
@@ -208,7 +128,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2701858700
+              "duration": 1939865899
             }
           },
           {
@@ -221,7 +141,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 18629467300
+              "duration": 7683465499
             }
           },
           {
@@ -233,9 +153,8 @@
               "location": "src\\test\\step\\pagination.step.ts:54"
             },
             "result": {
-              "status": "failed",
-              "duration": 30019861700,
-              "error_message": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//button[normalize-space()=\\'2\\']') to be visible\u001b[22m\n\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\pagination.step.ts:66:59)"
+              "status": "passed",
+              "duration": 7117299200
             }
           },
           {
@@ -247,8 +166,8 @@
               "location": "src\\test\\step\\pagination.step.ts:19"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 101039700
             }
           },
           {
@@ -260,8 +179,8 @@
               "location": "src\\test\\step\\pagination.step.ts:39"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 18183400
             }
           },
           {
@@ -269,7 +188,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 312837599
+              "duration": 16267599
             }
           }
         ],
@@ -279,8 +198,8 @@
             "line": 1
           },
           {
-            "name": "@Facebook",
-            "line": 21
+            "name": "@Navigation",
+            "line": 8
           }
         ],
         "type": "scenario"
@@ -297,7 +216,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 326088999
+              "duration": 1714081500
             }
           },
           {
@@ -310,7 +229,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3127323199
+              "duration": 1719300799
             }
           },
           {
@@ -322,9 +241,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:14"
             },
             "result": {
-              "status": "failed",
-              "duration": 30017074399,
-              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//div[@title = \\'Course Management\\']')\u001b[22m\n\n    at DashboardPage.naviagateToCourse (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\dashboardPage.ts:24:38)\n    at async World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:15:5)"
+              "status": "passed",
+              "duration": 7669605499
             }
           },
           {
@@ -336,8 +254,8 @@
               "location": "src\\test\\step\\pagination.step.ts:12"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5578140400
             }
           },
           {
@@ -349,8 +267,8 @@
               "location": "src\\test\\step\\pagination.step.ts:34"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 80790399
             }
           },
           {
@@ -362,8 +280,8 @@
               "location": "src\\test\\step\\pagination.step.ts:39"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 19671900
             }
           },
           {
@@ -371,7 +289,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 340196299
+              "duration": 19097699
             }
           }
         ],
@@ -399,7 +317,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 424995499
+              "duration": 1932426700
             }
           },
           {
@@ -412,7 +330,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2843398400
+              "duration": 1763508900
             }
           },
           {
@@ -425,7 +343,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23304092099
+              "duration": 7868104300
             }
           },
           {
@@ -437,35 +355,34 @@
               "location": "src\\test\\step\\pagination.step.ts:12"
             },
             "result": {
-              "status": "failed",
-              "duration": 30022033199,
-              "error_message": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//button[normalize-space()=\\'1\\']') to be visible\u001b[22m\n\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\pagination.step.ts:13:58)"
+              "status": "passed",
+              "duration": 6667538899
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 22,
-            "name": "the user clicks page number \"8\"",
+            "name": "the user clicks page number \"10\"",
             "match": {
               "location": "src\\test\\step\\pagination.step.ts:34"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 74260800
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 23,
-            "name": "the user should be navigated to the \"8\" page",
+            "name": "the user should be navigated to the \"10\" page",
             "match": {
               "location": "src\\test\\step\\pagination.step.ts:39"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 16809299
             }
           },
           {
@@ -473,7 +390,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 357664599
+              "duration": 13110999
             }
           }
         ],
@@ -501,7 +418,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 393262099
+              "duration": 1856940500
             }
           },
           {
@@ -514,7 +431,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3035772100
+              "duration": 1879563399
             }
           },
           {
@@ -526,9 +443,8 @@
               "location": "src\\test\\step\\addCourseStructure.ts:14"
             },
             "result": {
-              "status": "failed",
-              "duration": 30004881699,
-              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//div[@title = \\'Course Management\\']')\u001b[22m\n\n    at DashboardPage.naviagateToCourse (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\dashboardPage.ts:24:38)\n    at async World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\addCourseStructure.ts:15:5)"
+              "status": "passed",
+              "duration": 8385792799
             }
           },
           {
@@ -540,8 +456,8 @@
               "location": "src\\test\\step\\pagination.step.ts:54"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 10514465100
             }
           },
           {
@@ -553,8 +469,8 @@
               "location": "src\\test\\step\\pagination.step.ts:80"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 10140999
             }
           },
           {
@@ -562,7 +478,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 336487300
+              "duration": 17757800
             }
           }
         ],
@@ -590,7 +506,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 387000500
+              "duration": 1691787200
             }
           },
           {
@@ -603,7 +519,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2914847200
+              "duration": 2090397100
             }
           },
           {
@@ -616,7 +532,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22238600900
+              "duration": 7748242800
             }
           },
           {
@@ -628,9 +544,8 @@
               "location": "src\\test\\step\\pagination.step.ts:54"
             },
             "result": {
-              "status": "failed",
-              "duration": 30014034100,
-              "error_message": "page.waitForLoadState: Timeout 30000ms exceeded.\n    at CourseManagementPage.clickLastPage (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\courseManagementPage.ts:86:25)\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\pagination.step.ts:62:37)"
+              "status": "passed",
+              "duration": 11480781000
             }
           },
           {
@@ -642,8 +557,8 @@
               "location": "src\\test\\step\\pagination.step.ts:80"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 9927900
             }
           },
           {
@@ -651,7 +566,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 305709099
+              "duration": 23681899
             }
           }
         ],
@@ -679,7 +594,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 414055699
+              "duration": 1726214000
             }
           },
           {
@@ -692,7 +607,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3106871099
+              "duration": 1843111000
             }
           },
           {
@@ -705,7 +620,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20093803000
+              "duration": 9319166300
             }
           },
           {
@@ -718,7 +633,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8587132199
+              "duration": 5503850300
             }
           },
           {
@@ -731,8 +646,8 @@
             },
             "result": {
               "status": "failed",
-              "duration": 126781500,
-              "error_message": "locator.innerHTML: Error: strict mode violation: locator('//tbody/tr') resolved to 8 elements:\n    1) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: '10 Jul 2026 jamocha Mean' })\n    2) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: '10 Jul 2026 jamocha Bug-' })\n    3) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 ABC Pvt Ltd abc skilling APL-TM-T-002 software development m •' })\n    4) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 ABC Pvt Ltd abc APL-TM-T-001 Software Development m • Intermediate' })\n    5) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: '10 Jul 2026 jamocha Mern J-TM' })\n    6) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 jamocha Frontend J-TM-T-009 Software Development m • Intermediate View' })\n    7) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 jamocha Frontend J-TM-T-008 Software Development m • Intermediate View' })\n    8) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: '09 Jul 2026 jamocha Frontend' })\n\nCall log:\n\u001b[2m  - waiting for locator('//tbody/tr')\u001b[22m\n\n    at CourseManagementPage.getElements (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\basepage.ts:260:20)\n    at CourseManagementPage.getDataCount (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\courseManagementPage.ts:125:28)\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\pagination.step.ts:94:57)"
+              "duration": 107368199,
+              "error_message": "locator.innerHTML: Error: strict mode violation: locator('//tbody/tr') resolved to 8 elements:\n    1) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: '12 Jul 2026 ABC Pvt Ltd .nett' })\n    2) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: '12 Jul 2026 jamocha Bug-' })\n    3) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 jamocha defect_avengers J-BTI-S-001 Software Development m • Beginner' })\n    4) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: '12 Jul 2026 jamocha Mean' })\n    5) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: '11 Jul 2026 jamocha Mean' })\n    6) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 ABC Pvt Ltd abc APL-TM-T-001 Software Development m • Intermediate' })\n    7) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 ABC Pvt Ltd abc skilling APL-TM-T-002 software development m •' })\n    8) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: '10 Jul 2026 jamocha Mean' })\n\nCall log:\n\u001b[2m  - waiting for locator('//tbody/tr')\u001b[22m\n\n    at CourseManagementPage.getElements (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\basepage.ts:260:20)\n    at CourseManagementPage.getDataCount (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\courseManagementPage.ts:125:28)\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\pagination.step.ts:94:57)"
             }
           },
           {
@@ -740,7 +655,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 290246099
+              "duration": 135620499
             }
           }
         ],
@@ -784,7 +699,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 410707800
+              "duration": 1831390899
             }
           },
           {
@@ -793,11 +708,11 @@
             "line": 5,
             "name": "the user is logged into the LMS SmartCliff website",
             "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:11"
+              "location": "src\\test\\step\\addModelServiceStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 36736797699
+              "duration": 9511863799
             }
           },
           {
@@ -806,11 +721,11 @@
             "line": 6,
             "name": "the user clicks on the Dynamic Field Settings icon",
             "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:10"
+              "location": "src\\test\\step\\serviceModelStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 7607595499
+              "duration": 2547205300
             }
           },
           {
@@ -819,11 +734,11 @@
             "line": 7,
             "name": "the user navigated to the Client Modal",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:9"
+              "location": "src\\test\\step\\addClientStep.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 507918100
+              "duration": 2277519100
             }
           },
           {
@@ -832,11 +747,11 @@
             "line": 12,
             "name": "the user opens the Add New Client dialog",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:13"
+              "location": "src\\test\\step\\addClientStep.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 4235833099
+              "duration": 356495200
             }
           },
           {
@@ -845,11 +760,11 @@
             "line": 13,
             "name": "the user enters client details",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:17"
+              "location": "src\\test\\step\\addClientStep.ts:24"
             },
             "result": {
               "status": "passed",
-              "duration": 628669600
+              "duration": 171803699
             }
           },
           {
@@ -858,11 +773,11 @@
             "line": 14,
             "name": "clicks the \"Add Client\" button",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:27"
+              "location": "src\\test\\step\\addClientStep.ts:56"
             },
             "result": {
               "status": "passed",
-              "duration": 81153899
+              "duration": 57604900
             }
           },
           {
@@ -871,12 +786,12 @@
             "line": 15,
             "name": "the client should be added successfully",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:33"
+              "location": "src\\test\\step\\addClientStep.ts:64"
             },
             "result": {
               "status": "failed",
-              "duration": 5015577899,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Client added successfully')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Client added successfully')\u001b[22m\n\n    at captureRawStack (D:\\PAP\\Playwright_Automation-project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\PAP\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toBeVisible (D:\\PAP\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at AddClientPage.verifyClientAddedSuccessfully (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\addClientModalPage.ts:46:72)\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\addClientStep.ts:34:30)"
+              "duration": 5014813800,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Client added successfully')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Client added successfully')\u001b[22m\n\n    at captureRawStack (D:\\PAP\\Playwright_Automation-project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\PAP\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toBeVisible (D:\\PAP\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at AddClientPage.verifyClientAddedSuccessfully (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\addClientModalPage.ts:52:72)\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\addClientStep.ts:65:30)"
             }
           },
           {
@@ -884,7 +799,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 307660299
+              "duration": 100580600
             }
           }
         ],
@@ -912,7 +827,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 443711399
+              "duration": 1703512300
             }
           },
           {
@@ -921,11 +836,11 @@
             "line": 5,
             "name": "the user is logged into the LMS SmartCliff website",
             "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:11"
+              "location": "src\\test\\step\\addModelServiceStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 17888148400
+              "duration": 9295800499
             }
           },
           {
@@ -934,11 +849,11 @@
             "line": 6,
             "name": "the user clicks on the Dynamic Field Settings icon",
             "match": {
-              "location": "src\\test\\step\\serviceModelStep.ts:10"
+              "location": "src\\test\\step\\serviceModelStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 4519983699
+              "duration": 2432746899
             }
           },
           {
@@ -947,11 +862,11 @@
             "line": 7,
             "name": "the user navigated to the Client Modal",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:9"
+              "location": "src\\test\\step\\addClientStep.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 497690800
+              "duration": 2258225500
             }
           },
           {
@@ -960,11 +875,11 @@
             "line": 20,
             "name": "the user opens the Add New Client dialog",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:13"
+              "location": "src\\test\\step\\addClientStep.ts:20"
             },
             "result": {
               "status": "passed",
-              "duration": 6962206100
+              "duration": 89347399
             }
           },
           {
@@ -973,11 +888,11 @@
             "line": 21,
             "name": "the user leaves one or more mandatory fields empty",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:37"
+              "location": "src\\test\\step\\addClientStep.ts:46"
             },
             "result": {
               "status": "passed",
-              "duration": 571700
+              "duration": 147351000
             }
           },
           {
@@ -986,11 +901,11 @@
             "line": 22,
             "name": "clicks the \"Add Client\" button",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:27"
+              "location": "src\\test\\step\\addClientStep.ts:56"
             },
             "result": {
               "status": "passed",
-              "duration": 362980500
+              "duration": 167180499
             }
           },
           {
@@ -999,11 +914,11 @@
             "line": 23,
             "name": "the client should not be added",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:41"
+              "location": "src\\test\\step\\addClientStep.ts:68"
             },
             "result": {
               "status": "passed",
-              "duration": 975999
+              "duration": 6599200
             }
           },
           {
@@ -1012,11 +927,11 @@
             "line": 24,
             "name": "appropriate validation messages should be displayed",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:45"
+              "location": "src\\test\\step\\addClientStep.ts:73"
             },
             "result": {
               "status": "passed",
-              "duration": 997800
+              "duration": 5013612600
             }
           },
           {
@@ -1024,7 +939,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 97852299
+              "duration": 12461500
             }
           }
         ],
@@ -1036,6 +951,286 @@
           {
             "name": "@WithoutMandatoryField",
             "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "vetrivelb_09-07-2026_add_client_feature;verify-clicking-the-cancel-button-closes-the-add-new-client-dialog",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Verify clicking the Cancel button closes the Add New Client dialog",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1661374099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is logged into the LMS SmartCliff website",
+            "match": {
+              "location": "src\\test\\step\\addModelServiceStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8971974400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on the Dynamic Field Settings icon",
+            "match": {
+              "location": "src\\test\\step\\serviceModelStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 913397400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigated to the Client Modal",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2779858299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "the user opens the Add New Client dialog",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87981800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "the user enters client details",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 641398600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "clicks the \"Cancel\" button",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62989499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the Add New Client dialog should be closed",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218373399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the client should not be added",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7518099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12551399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vetri",
+            "line": 1
+          },
+          {
+            "name": "@CancelButton",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "vetrivelb_09-07-2026_add_client_feature;verify-a-client-cannot-be-added-with-an-existing-email-address",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Verify a client cannot be added with an existing email address",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1604006099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is logged into the LMS SmartCliff website",
+            "match": {
+              "location": "src\\test\\step\\addModelServiceStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13351819699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user clicks on the Dynamic Field Settings icon",
+            "match": {
+              "location": "src\\test\\step\\serviceModelStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1433679300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user navigated to the Client Modal",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3256212800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "the user opens the Add New Client dialog",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183033600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "the user enters client details with an existing email address",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185446499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "clicks the \"Add Client\" button",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51867999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "the client should not be added",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5111700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "an appropriate duplicate email validation message should be displayed",
+            "match": {
+              "location": "src\\test\\step\\addClientStep.ts:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5022128299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11033900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vetri",
+            "line": 1
+          },
+          {
+            "name": "@DuplicateClient",
+            "line": 35
           }
         ],
         "type": "scenario"

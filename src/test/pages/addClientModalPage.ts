@@ -60,9 +60,15 @@ export class AddClientPage extends BasePage {
         await this.click(this.cancel)
     }
 
-    async isFormVisible(){
-        return await this.isVisible(this.form)
+    async isFormVisible() {
+    try {
+        await this.form.waitFor({ state: "hidden", timeout: 5000 });
+        return false;
     }
+    catch {
+        return await this.isVisible(this.form);
+    }
+}
 
     async getClientCount(){
         return await this.getText(this.clientCount)
