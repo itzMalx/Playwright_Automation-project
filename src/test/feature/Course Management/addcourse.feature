@@ -25,7 +25,6 @@ Feature: Shobana_07-07-2026_Add course functionality
 
      
 
-   
      Scenario: Add course with invalid details without selecting client in course configuration
           When User selects valid course configuration details without selecting client
           And User clicks the Next button
