@@ -1,2 +1,0 @@
-src\test\feature\Course Management\addcourse.feature:8:17
-src\test\feature\Dynamic_Field_Setting\courseCategory.feature:22

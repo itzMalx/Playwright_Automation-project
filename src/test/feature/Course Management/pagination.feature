@@ -25,7 +25,7 @@ Feature: VetrivelB_07-07-2026_Course_Structure_Pagination
     Examples:
       | pageNumber |
       | 2 |
-      | 8 |
+      | 10 |
 
   @ButtonDisablity
   Scenario Outline: Verify appropriate button is disabled on the page
