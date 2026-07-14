@@ -1,4 +1,4 @@
-@Muhindhar
+@Bug
 Feature: Muhindhar_10-07-2026_Login Page Navigation
 
               As a user,
