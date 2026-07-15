@@ -10,12 +10,8 @@ Given("the user is on the Course Structure page", async function (this: glitchwo
 );
 
 Given("the user is on the Course Structure table", async function (this: glitchworld) {
-  await this.courseManagementPage.pageNumberLocator("1").waitFor({
-    state: "visible",
-  });
-
+  await this.courseManagementPage.pageNumberLocator("1").waitFor({state: "visible",});
   const activePage = await this.courseManagementPage.getActivePageNumber();
-
   expect(activePage).not.toBe("");
 }
 );

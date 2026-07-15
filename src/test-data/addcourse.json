@@ -6,11 +6,11 @@
     },
     "serviceType": {
       "index": 1,
-      "value": "test 1"
+      "value": "business to business"
     },
     "serviceModel": {
       "index": 2,
-      "value": "Automation testing"
+      "value": "HTD"
     },
     "courseCategory": {
       "index": 3,
@@ -18,7 +18,7 @@
     },
     "courseName": {
       "index": 4,
-      "value": "Frontend"
+      "value": "Mean Development"
     },
     "courseLevel": {
       "index": 0,

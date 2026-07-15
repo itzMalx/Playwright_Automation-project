@@ -7,7 +7,7 @@ export class DashboardPage extends BasePage {
 
    constructor(page: Page) {
       super(page)
-      this.courseManagementBtn = this.page.locator("div[title='Course Management']")
+      this.courseManagementBtn = page.locator("//div[@title = 'Course Management']")
    }
 
    async naviagateToCourse() {
