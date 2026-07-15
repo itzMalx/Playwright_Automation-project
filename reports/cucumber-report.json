@@ -4,122 +4,85 @@
     "elements": [
       {
         "description": "",
-        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-valid-details",
+        "id": "muhindhar_09-07-2026_add-service-model-in-dynamic-field-settings;search-service-by-service-name",
         "keyword": "Scenario",
-        "line": 8,
-        "name": "Add course with valid details",
+        "line": 9,
+        "name": "Search Service by Service Name",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 586733400
+              "duration": 79594700
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
+            "name": "the user is logged into the LMS SmartCliff website",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:8"
+              "location": "src\\test\\step\\addModelServiceStep.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 2092772600
+              "duration": 8084181600
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "Admin navigate to Course Management Page",
+            "name": "the user clicks on the Dynamic Field Settings icon",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:14"
+              "location": "src\\test\\step\\serviceModelStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 10935957599
+              "duration": 924376099
             }
           },
           {
-            "arguments": [],
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceName"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Glitch_Guardians_Muhindhar"
+                    ]
+                  }
+                ]
+              }
+            ],
             "keyword": "When ",
-            "line": 10,
-            "name": "User selects valid course configuration details",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7995647499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
             "line": 11,
-            "name": "User clicks the Next button",
+            "name": "user searches the service",
             "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:18"
+              "location": "src\\test\\step\\addModelServiceStep.ts:60"
             },
             "result": {
               "status": "passed",
-              "duration": 558511099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 12,
-            "name": "User selects the details in course hirearchy and layout",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:23"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4112009500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
-            "name": "User clicks Preview and Create",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:54"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 300352800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "User saves the course layout",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:59"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 455297899
+              "duration": 2283783499
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
-            "name": "The course should be created successfully",
+            "line": 14,
+            "name": "user should be able to see the searched service",
             "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:64"
+              "location": "src\\test\\step\\addModelServiceStep.ts:72"
             },
             "result": {
               "status": "failed",
-              "duration": 5058546099,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('//button[text()=\"Later\"]')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//button[text()=\"Later\"]')\u001b[22m\n\n    at captureRawStack (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toBeVisible (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at AddCoursePage.verifyCourseCreatedSuccessfully (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\pages\\addCoursePage.ts:120:37)\n    at World.<anonymous> (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\step\\addCourseSteps.ts:66:30)"
+              "duration": 30010257800,
+              "error_message": "locator.textContent: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Glitch_Guardians_Muhindhar', { exact: true })\u001b[22m\n\n    at ModelSearchPage.getText (D:\\Playwright_Project\\src\\test\\pages\\basepage.ts:51:28)\n    at ModelSearchPage.check (D:\\Playwright_Project\\src\\test\\pages\\modelsSearchpage.ts:23:27)\n    at World.<anonymous> (D:\\Playwright_Project\\src\\test\\step\\addModelServiceStep.ts:75:46)"
             }
           },
           {
@@ -127,233 +90,155 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 278865200
+              "duration": 204656999
             }
           }
         ],
         "tags": [
           {
-            "name": "@Shobana",
+            "name": "@Muhindhar",
             "line": 1
+          },
+          {
+            "name": "@searchservice",
+            "line": 8
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-valid-details",
+        "id": "muhindhar_09-07-2026_add-service-model-in-dynamic-field-settings;add-service-model",
         "keyword": "Scenario",
         "line": 17,
-        "name": "Add course with valid details",
+        "name": "Add Service Model",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 417701199
+              "duration": 162841800
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
+            "name": "the user is logged into the LMS SmartCliff website",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:8"
+              "location": "src\\test\\step\\addModelServiceStep.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 3160488499
+              "duration": 7428357499
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "Admin navigate to Course Management Page",
+            "name": "the user clicks on the Dynamic Field Settings icon",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:14"
+              "location": "src\\test\\step\\serviceModelStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 9924835800
+              "duration": 1288470300
             }
           },
           {
-            "arguments": [],
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "serviceName"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Glitch_Guardians_Muhindhar"
+                    ]
+                  }
+                ]
+              }
+            ],
             "keyword": "When ",
             "line": 19,
-            "name": "User selects valid course configuration details",
+            "name": "user searches the service",
             "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:6"
+              "location": "src\\test\\step\\addModelServiceStep.ts:60"
             },
             "result": {
               "status": "passed",
-              "duration": 7702385700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 20,
-            "name": "User clicks the Next button",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 416483300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 21,
-            "name": "User selects the details in course hirearchy and layout with uploading image",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:120"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3667294099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 22,
-            "name": "User clicks Preview and Create",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:54"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 330757799
+              "duration": 2737470100
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 23,
-            "name": "User saves the course layout",
+            "name": "user clicks on the searched service",
             "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:59"
+              "location": "src\\test\\step\\addModelServiceStep.ts:79"
             },
             "result": {
-              "status": "passed",
-              "duration": 352044599
+              "status": "failed",
+              "duration": 30053485299,
+              "error_message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Click to view').first()\u001b[22m\n\n    at ModelSearchPage.clickthelink (D:\\Playwright_Project\\src\\test\\pages\\modelsSearchpage.ts:19:38)\n    at async World.<anonymous> (D:\\Playwright_Project\\src\\test\\step\\addModelServiceStep.ts:82:3)"
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "And ",
             "line": 24,
-            "name": "The course should be created successfully",
+            "name": "user clicks on the Add Model button",
             "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:64"
+              "location": "src\\test\\step\\addModelServiceStep.ts:28"
             },
             "result": {
-              "status": "failed",
-              "duration": 5024478099,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('//button[text()=\"Later\"]')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//button[text()=\"Later\"]')\u001b[22m\n\n    at captureRawStack (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toBeVisible (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at AddCoursePage.verifyCourseCreatedSuccessfully (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\pages\\addCoursePage.ts:120:37)\n    at World.<anonymous> (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\step\\addCourseSteps.ts:66:30)"
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 208705400
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Shobana",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-invalid-details-without-selecting-client-in-course-configuration",
-        "keyword": "Scenario",
-        "line": 28,
-        "name": "Add course with invalid details without selecting client in course configuration",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 430622999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2830237899
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
-            "name": "Admin navigate to Course Management Page",
+            "line": 25,
+            "name": "user enters \"validModel\" details",
             "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:14"
+              "location": "src\\test\\step\\addModelServiceStep.ts:34"
             },
             "result": {
-              "status": "passed",
-              "duration": 8621721799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 29,
-            "name": "User selects valid course configuration details without selecting client",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:71"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7909523900
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 30,
-            "name": "User clicks the Next button",
+            "line": 26,
+            "name": "user clicks on the Create Model button",
             "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:18"
+              "location": "src\\test\\step\\addModelServiceStep.ts:47"
             },
             "result": {
-              "status": "passed",
-              "duration": 119174100
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 31,
-            "name": "User should get error message",
+            "line": 27,
+            "name": "user should be able to see the created model in the page",
             "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:82"
+              "location": "src\\test\\step\\addModelServiceStep.ts:53"
             },
             "result": {
-              "status": "passed",
-              "duration": 12823699
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -361,1044 +246,142 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 59899399
+              "duration": 157369100
             }
           }
         ],
         "tags": [
           {
-            "name": "@Shobana",
+            "name": "@Muhindhar",
             "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-invalid-details-without-selecting-service-model-in-course-configuration",
-        "keyword": "Scenario",
-        "line": 33,
-        "name": "Add course with invalid details without selecting service model in course configuration",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 444276300
-            }
           },
           {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3798766099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "Admin navigate to Course Management Page",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10144922700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 34,
-            "name": "User selects valid course configuration details without selecting service model",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:87"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6412573100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 35,
-            "name": "User clicks the Next button",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 161343099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 36,
-            "name": "User should get error message select service model",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:97"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 15519000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 81240599
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Shobana",
-            "line": 1
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "shobana_07-07-2026_add-course-functionality;add-course-with-invalid-details-without-selecting-hirearchy-and-resource-type-in-course-hirearchy-and-layout",
-        "keyword": "Scenario",
-        "line": 38,
-        "name": "Add course with invalid details without selecting hirearchy and resource type in course hirearchy and layout",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 401604099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2889845799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "Admin navigate to Course Management Page",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10489003099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 39,
-            "name": "User selects valid course configuration details",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7381250599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 40,
-            "name": "User clicks the Next button",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 468856399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 41,
-            "name": "User selects the details in course hirearchy and layout without selecting hirearchy and resource type",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:102"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 673393100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 42,
-            "name": "User clicks Preview and Create",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:54"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 218280599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 43,
-            "name": "User should get error message select hirearchy and resource type",
-            "match": {
-              "location": "src\\test\\step\\addCourseSteps.ts:111"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 16131900
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 57671299
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Shobana",
-            "line": 1
+            "name": "@validmodel",
+            "line": 16
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "shobana_07-07-2026_add-course-functionality",
+    "id": "muhindhar_09-07-2026_add-service-model-in-dynamic-field-settings",
     "line": 2,
     "keyword": "Feature",
-    "name": "Shobana_07-07-2026_Add course functionality",
+    "name": "Muhindhar_09-07-2026_Add Service Model in Dynamic Field Settings",
     "tags": [
       {
-        "name": "@Shobana",
+        "name": "@Muhindhar",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\Course Management\\addcourse.feature"
+    "uri": "src\\test\\feature\\Dynamic_Field_Setting\\addModel.feature"
   },
   {
-    "description": "",
+    "description": "Feature Description:\n              As an authenticated user,I want to manage services in the Dynamic Field Management page.",
     "elements": [
       {
         "description": "",
-        "id": "shobana_09-07-2026_add-course-category;add-course-category",
+        "id": "muhindhar_08-07-2026_adding-the-service-in-the-dynamic-field-management-page;add-a-valid-service",
         "keyword": "Scenario Outline",
-        "line": 16,
-        "name": "Verify user can navigate using pagination buttons",
+        "line": 20,
+        "name": "Add a valid service",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 5020751200
+              "duration": 154325499
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4192563000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "Admin navigate to Course Management Page",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10777207099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 10,
-            "name": "the user is on the \"1\" page of the Course Structure table",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:54"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6091571500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "the user clicks the \"Next\" button",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 109110199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "the user should be navigated to the \"2\" page",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:39"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 21456200
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 28356800
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Vetri",
-            "line": 1
-          },
-          {
-            "name": "@Navigation",
-            "line": 8
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-user-can-navigate-using-pagination-buttons",
-        "keyword": "Scenario Outline",
-        "line": 17,
-        "name": "Verify user can navigate using pagination buttons",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1765324099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1939865899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "Admin navigate to Course Management Page",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7683465499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 10,
-            "name": "the user is on the \"2\" page of the Course Structure table",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:54"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7117299200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "the user clicks the \"Previous\" button",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 101039700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "the user should be navigated to the \"1\" page",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:39"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 18183400
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 16267599
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Vetri",
-            "line": 1
-          },
-          {
-            "name": "@Navigation",
-            "line": 8
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-user-can-navigate-to-a-specific-page-using-the-page-number",
-        "keyword": "Scenario Outline",
-        "line": 27,
-        "name": "Verify user can navigate to a specific page using the page number",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1714081500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1719300799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "Admin navigate to Course Management Page",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7669605499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 21,
-            "name": "the user is on the Course Structure table",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5578140400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 22,
-            "name": "the user clicks page number \"2\"",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 80790399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
-            "name": "the user should be navigated to the \"2\" page",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:39"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 19671900
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 19097699
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Vetri",
-            "line": 1
-          },
-          {
-            "name": "@PageNumberNavigation",
-            "line": 19
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-user-can-navigate-to-a-specific-page-using-the-page-number",
-        "keyword": "Scenario Outline",
-        "line": 28,
-        "name": "Verify user can navigate to a specific page using the page number",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1932426700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1763508900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "Admin navigate to Course Management Page",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7868104300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 21,
-            "name": "the user is on the Course Structure table",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6667538899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 22,
-            "name": "the user clicks page number \"10\"",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:34"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 74260800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
-            "name": "the user should be navigated to the \"10\" page",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:39"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 16809299
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 13110999
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Vetri",
-            "line": 1
-          },
-          {
-            "name": "@PageNumberNavigation",
-            "line": 19
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-appropriate-button-is-disabled-on-the-page",
-        "keyword": "Scenario Outline",
-        "line": 37,
-        "name": "Verify appropriate button is disabled on the page",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1856940500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1879563399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "Admin navigate to Course Management Page",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 8385792799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 32,
-            "name": "the user is on the \"first\" page of the Course Structure table",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:54"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10514465100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 33,
-            "name": "the \"previous\" button should be disabled",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:80"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10140999
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 17757800
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Vetri",
-            "line": 1
-          },
-          {
-            "name": "@ButtonDisablity",
-            "line": 30
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-appropriate-button-is-disabled-on-the-page",
-        "keyword": "Scenario Outline",
-        "line": 38,
-        "name": "Verify appropriate button is disabled on the page",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1691787200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2090397100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "Admin navigate to Course Management Page",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 7748242800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 32,
-            "name": "the user is on the \"last\" page of the Course Structure table",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:54"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 11480781000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 33,
-            "name": "the \"next\" button should be disabled",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:80"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9927900
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 23681899
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Vetri",
-            "line": 1
-          },
-          {
-            "name": "@ButtonDisablity",
-            "line": 30
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "vetrivelb_07-07-2026_course_structure_pagination;verify-the-maximum-number-of-courses-displayed-on-a-page",
-        "keyword": "Scenario",
-        "line": 41,
-        "name": "Verify the maximum number of courses displayed on a page",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 392808099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "Admin on the Dashboard Page after Login",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2841134900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "Admin navigate to Course Management Page",
-            "match": {
-              "location": "src\\test\\step\\addCourseStructure.ts:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9319166300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 42,
-            "name": "the user is on the \"1\" page of the Course Structure table",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:54"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5503850300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 43,
-            "name": "the page should display up to 8 courses",
-            "match": {
-              "location": "src\\test\\step\\pagination.step.ts:93"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 107368199,
-              "error_message": "locator.innerHTML: Error: strict mode violation: locator('//tbody/tr') resolved to 8 elements:\n    1) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: '12 Jul 2026 ABC Pvt Ltd .nett' })\n    2) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: '12 Jul 2026 jamocha Bug-' })\n    3) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 jamocha defect_avengers J-BTI-S-001 Software Development m • Beginner' })\n    4) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: '12 Jul 2026 jamocha Mean' })\n    5) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: '11 Jul 2026 jamocha Mean' })\n    6) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 ABC Pvt Ltd abc APL-TM-T-001 Software Development m • Intermediate' })\n    7) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: 'Jul 2026 ABC Pvt Ltd abc skilling APL-TM-T-002 software development m •' })\n    8) <tr data-slot=\"table-row\" class=\"data-[state=selected]:bg-muted border-b border-gray-100 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors last:border-b-0\">…</tr> aka getByRole('row', { name: '10 Jul 2026 jamocha Mean' })\n\nCall log:\n\u001b[2m  - waiting for locator('//tbody/tr')\u001b[22m\n\n    at CourseManagementPage.getElements (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\basepage.ts:260:20)\n    at CourseManagementPage.getDataCount (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\courseManagementPage.ts:125:28)\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\pagination.step.ts:94:57)"
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 135620499
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Vetri",
-            "line": 1
-          },
-          {
-            "name": "@PageSize",
-            "line": 40
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "vetrivelb_07-07-2026_course_structure_pagination",
-    "line": 2,
-    "keyword": "Feature",
-    "name": "VetrivelB_07-07-2026_Course_Structure_Pagination",
-    "tags": [
-      {
-        "name": "@Vetri",
-        "line": 1
-      }
-    ],
-    "uri": "src\\test\\feature\\Course Management\\pagination.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
-        "id": "vetrivelb_09-07-2026_add_client_feature;verify-a-client-can-be-added-with-all-mandatory-field",
-        "keyword": "Scenario",
-        "line": 10,
-        "name": "Verify a client can be added with all mandatory field",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1831390899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
+            "line": 8,
             "name": "the user is logged into the LMS SmartCliff website",
             "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:12"
+              "location": "src\\test\\step\\addModelServiceStep.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 9511863799
+              "duration": 9894506500
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
+            "line": 9,
             "name": "the user clicks on the Dynamic Field Settings icon",
             "match": {
               "location": "src\\test\\step\\serviceModelStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 10707705799
+              "duration": 2376209500
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
-            "name": "the user navigated to the Client Modal",
-            "match": {
-              "location": "src\\test\\step\\addClientStep.ts:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2277519100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
             "line": 12,
-            "name": "the user opens the Add New Client dialog",
+            "name": "the user clicks on the Add Service button",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:20"
+              "location": "src\\test\\step\\serviceModelStep.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 1124032500
+              "duration": 5376807700
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 13,
-            "name": "the user enters client details",
+            "name": "the user enters service name \"Electronics\"",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:24"
+              "location": "src\\test\\step\\serviceModelStep.ts:24"
             },
             "result": {
               "status": "passed",
-              "duration": 171803699
+              "duration": 73409499
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 14,
-            "name": "clicks the \"Add Client\" button",
+            "name": "the user enters description \"Build the PCB board for the ESP32\"",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:56"
+              "location": "src\\test\\step\\serviceModelStep.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 57604900
+              "duration": 62798299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks on the Create Service button",
+            "match": {
+              "location": "src\\test\\step\\serviceModelStep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 415381300
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
-            "name": "the client should be added successfully",
+            "line": 16,
+            "name": "the service should be created successfully",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:64"
+              "location": "src\\test\\step\\serviceModelStep.ts:42"
             },
             "result": {
-              "status": "failed",
-              "duration": 5014813800,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('Client added successfully')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('Client added successfully')\u001b[22m\n\n    at captureRawStack (D:\\PAP\\Playwright_Automation-project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (D:\\PAP\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toBeVisible (D:\\PAP\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at AddClientPage.verifyClientAddedSuccessfully (D:\\PAP\\Playwright_Automation-project\\src\\test\\pages\\addClientModalPage.ts:52:72)\n    at World.<anonymous> (D:\\PAP\\Playwright_Automation-project\\src\\test\\step\\addClientStep.ts:65:30)"
+              "status": "passed",
+              "duration": 6822599
             }
           },
           {
@@ -1406,139 +389,245 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 100580600
+              "duration": 69433300
             }
           }
         ],
         "tags": [
           {
-            "name": "@Vetri",
+            "name": "@Muhindhar",
             "line": 1
-          },
-          {
-            "name": "@WithMandatoryField",
-            "line": 9
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "vetrivelb_09-07-2026_add_client_feature;verify-a-client-cannot-be-added-without-filling-all-mandatory-fields",
-        "keyword": "Scenario",
-        "line": 18,
-        "name": "Verify a client cannot be added without filling all mandatory fields",
+        "id": "muhindhar_08-07-2026_adding-the-service-in-the-dynamic-field-management-page;add-a-valid-service",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Add a valid service",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1703512300
+              "duration": 151487499
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 8,
             "name": "the user is logged into the LMS SmartCliff website",
             "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:12"
+              "location": "src\\test\\step\\addModelServiceStep.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 9295800499
+              "duration": 9425358399
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
+            "line": 9,
             "name": "the user clicks on the Dynamic Field Settings icon",
             "match": {
               "location": "src\\test\\step\\serviceModelStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 1076539199
+              "duration": 2176929799
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
-            "name": "the user navigated to the Client Modal",
+            "line": 12,
+            "name": "the user clicks on the Add Service button",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:15"
+              "location": "src\\test\\step\\serviceModelStep.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 2258225500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 20,
-            "name": "the user opens the Add New Client dialog",
-            "match": {
-              "location": "src\\test\\step\\addClientStep.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 89347399
+              "duration": 4289369299
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 21,
-            "name": "the user leaves one or more mandatory fields empty",
+            "line": 13,
+            "name": "the user enters service name \"Software\"",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:46"
+              "location": "src\\test\\step\\serviceModelStep.ts:24"
             },
             "result": {
               "status": "passed",
-              "duration": 142145799
+              "duration": 88421600
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 22,
-            "name": "clicks the \"Add Client\" button",
+            "line": 14,
+            "name": "the user enters description \"Build an end-to-end food ordering application\"",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:56"
+              "location": "src\\test\\step\\serviceModelStep.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 366747000
+              "duration": 88919400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks on the Create Service button",
+            "match": {
+              "location": "src\\test\\step\\serviceModelStep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 261298000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 23,
-            "name": "the client should not be added",
+            "line": 16,
+            "name": "the service should be created successfully",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:68"
+              "location": "src\\test\\step\\serviceModelStep.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 6599200
+              "duration": 6195400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 45570600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Muhindhar",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "muhindhar_08-07-2026_adding-the-service-in-the-dynamic-field-management-page;validate-mandatory-fields-while-creating-a-service",
+        "keyword": "Scenario Outline",
+        "line": 32,
+        "name": "Validate mandatory fields while creating a service",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 153995699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is logged into the LMS SmartCliff website",
+            "match": {
+              "location": "src\\test\\step\\addModelServiceStep.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10053559500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user clicks on the Dynamic Field Settings icon",
+            "match": {
+              "location": "src\\test\\step\\serviceModelStep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1681543499
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 24,
-            "name": "appropriate validation messages should be displayed",
+            "name": "the user clicks on the Add Service button",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:73"
+              "location": "src\\test\\step\\serviceModelStep.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 2388014100
+              "duration": 3227663199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "the user enters service name \"Electronics\"",
+            "match": {
+              "location": "src\\test\\step\\serviceModelStep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70419900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the user enters description \"\"",
+            "match": {
+              "location": "src\\test\\step\\serviceModelStep.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49026400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user clicks on the Create Service button",
+            "match": {
+              "location": "src\\test\\step\\serviceModelStep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 415643599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "\"Description\" field should display the required field validation message",
+            "match": {
+              "location": "src\\test\\step\\serviceModelStep.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110840599
             }
           },
           {
@@ -1546,139 +635,122 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 101720999
+              "duration": 29977100
             }
           }
         ],
         "tags": [
           {
-            "name": "@Shobana",
+            "name": "@Muhindhar",
             "line": 1
-          },
-          {
-            "name": "@WithoutMandatoryField",
-            "line": 17
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "vetrivelb_09-07-2026_add_client_feature;verify-clicking-the-cancel-button-closes-the-add-new-client-dialog",
-        "keyword": "Scenario",
-        "line": 27,
-        "name": "Verify clicking the Cancel button closes the Add New Client dialog",
+        "id": "muhindhar_08-07-2026_adding-the-service-in-the-dynamic-field-management-page;validate-mandatory-fields-while-creating-a-service",
+        "keyword": "Scenario Outline",
+        "line": 33,
+        "name": "Validate mandatory fields while creating a service",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 353048299
+              "duration": 161706600
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 8,
             "name": "the user is logged into the LMS SmartCliff website",
             "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:12"
+              "location": "src\\test\\step\\addModelServiceStep.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 2616563200
+              "duration": 11411218599
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
+            "line": 9,
             "name": "the user clicks on the Dynamic Field Settings icon",
             "match": {
               "location": "src\\test\\step\\serviceModelStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 9495055900
+              "duration": 1316603499
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
-            "name": "the user navigated to the Client Modal",
+            "line": 24,
+            "name": "the user clicks on the Add Service button",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:15"
+              "location": "src\\test\\step\\serviceModelStep.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 989511800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 29,
-            "name": "the user opens the Add New Client dialog",
-            "match": {
-              "location": "src\\test\\step\\addClientStep.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1085570399
+              "duration": 4442862900
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 30,
-            "name": "the user enters client details",
+            "line": 25,
+            "name": "the user enters service name \"\"",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:24"
+              "location": "src\\test\\step\\serviceModelStep.ts:24"
             },
             "result": {
               "status": "passed",
-              "duration": 193872700
+              "duration": 55004599
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 31,
-            "name": "clicks the \"Cancel\" button",
+            "line": 26,
+            "name": "the user enters description \"\"",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:56"
+              "location": "src\\test\\step\\serviceModelStep.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 238744299
+              "duration": 39491899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user clicks on the Create Service button",
+            "match": {
+              "location": "src\\test\\step\\serviceModelStep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 558433399
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 32,
-            "name": "the Add New Client dialog should be closed",
+            "line": 28,
+            "name": "\"Service Name\" field should display the required field validation message",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:81"
+              "location": "src\\test\\step\\serviceModelStep.ts:48"
             },
             "result": {
               "status": "passed",
-              "duration": 218373399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 33,
-            "name": "the client should not be added",
-            "match": {
-              "location": "src\\test\\step\\addClientStep.ts:68"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 89701200
+              "duration": 104899900
             }
           },
           {
@@ -1686,140 +758,122 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 59866800
+              "duration": 83329800
             }
           }
         ],
         "tags": [
           {
-            "name": "@Shobana",
+            "name": "@Muhindhar",
             "line": 1
-          },
-          {
-            "name": "@CancelButton",
-            "line": 26
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "vetrivelb_09-07-2026_add_client_feature;verify-a-client-cannot-be-added-with-an-existing-email-address",
-        "keyword": "Scenario",
-        "line": 36,
-        "name": "Verify a client cannot be added with an existing email address",
+        "id": "muhindhar_08-07-2026_adding-the-service-in-the-dynamic-field-management-page;validate-mandatory-fields-while-creating-a-service",
+        "keyword": "Scenario Outline",
+        "line": 34,
+        "name": "Validate mandatory fields while creating a service",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 409032999
+              "duration": 194054999
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 8,
             "name": "the user is logged into the LMS SmartCliff website",
             "match": {
-              "location": "src\\test\\step\\addModelServiceStep.ts:12"
+              "location": "src\\test\\step\\addModelServiceStep.ts:10"
             },
             "result": {
               "status": "passed",
-              "duration": 3014846500
+              "duration": 10827887900
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
+            "line": 9,
             "name": "the user clicks on the Dynamic Field Settings icon",
             "match": {
               "location": "src\\test\\step\\serviceModelStep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 10612030100
+              "duration": 1498815999
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
-            "name": "the user navigated to the Client Modal",
+            "line": 24,
+            "name": "the user clicks on the Add Service button",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:15"
+              "location": "src\\test\\step\\serviceModelStep.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 3256212800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 38,
-            "name": "the user opens the Add New Client dialog",
-            "match": {
-              "location": "src\\test\\step\\addClientStep.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1081076399
+              "duration": 2745268500
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 39,
-            "name": "the user enters client details with an existing email address",
+            "line": 25,
+            "name": "the user enters service name \"\"",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:35"
+              "location": "src\\test\\step\\serviceModelStep.ts:24"
             },
             "result": {
               "status": "passed",
-              "duration": 185446499
+              "duration": 80956899
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 40,
-            "name": "clicks the \"Add Client\" button",
+            "line": 26,
+            "name": "the user enters description \"Sample\"",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:56"
+              "location": "src\\test\\step\\serviceModelStep.ts:30"
             },
             "result": {
               "status": "passed",
-              "duration": 56325700
+              "duration": 68619999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user clicks on the Create Service button",
+            "match": {
+              "location": "src\\test\\step\\serviceModelStep.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 282721599
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 41,
-            "name": "the client should not be added",
+            "line": 28,
+            "name": "\"Service Name\" field should display the required field validation message",
             "match": {
-              "location": "src\\test\\step\\addClientStep.ts:68"
+              "location": "src\\test\\step\\serviceModelStep.ts:48"
             },
             "result": {
               "status": "passed",
-              "duration": 5111700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 42,
-            "name": "an appropriate duplicate email validation message should be displayed",
-            "match": {
-              "location": "src\\test\\step\\addClientStep.ts:77"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 5017247699,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('//td//div[normalize-space()=\"Tester\"]').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"to.be.visible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//td//div[normalize-space()=\"Tester\"]').first()\u001b[22m\n\n    at captureRawStack (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright-core\\lib\\coreBundle.js:3172:17)\n    at callMatcherAsStep (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12877:57)\n    at Object.toBeVisible (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\node_modules\\playwright\\lib\\matchers\\expect.js:12867:23)\n    at World.<anonymous> (C:\\Users\\Hp\\OneDrive\\Desktop\\Playwright_Project\\Playwright_Automation-project\\src\\test\\step\\courseCategorySteps.ts:77:26)"
+              "duration": 102470600
             }
           },
           {
@@ -1827,33 +881,381 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 208903599
+              "duration": 40273000
             }
           }
         ],
         "tags": [
           {
-            "name": "@Shobana",
+            "name": "@Muhindhar",
             "line": 1
-          },
-          {
-            "name": "@DuplicateClient",
-            "line": 35
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "vetrivelb_09-07-2026_add_client_feature",
+    "id": "muhindhar_08-07-2026_adding-the-service-in-the-dynamic-field-management-page",
     "line": 2,
     "keyword": "Feature",
-    "name": "VetrivelB_09-07-2026_Add_Client_Feature",
+    "name": "Muhindhar_08-07-2026_Adding the service in the dynamic field management page",
     "tags": [
       {
-        "name": "@Shobana",
+        "name": "@Muhindhar",
         "line": 1
       }
     ],
-    "uri": "src\\test\\feature\\Dynamic_Field_Setting\\addClientModal.feature"
+    "uri": "src\\test\\feature\\Dynamic_Field_Setting\\service_Model.feature"
+  },
+  {
+    "description": "Feature Description:\n              As a user,I want to validate the login functionality using valid and invalid credentials.",
+    "elements": [
+      {
+        "description": "",
+        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website-with-credentials;login",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 146633200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the login page of the LMS smartcliff website",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1208725599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user enters the login credentials \"valid\"",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159185999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user clicks the signin button",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1585677400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the login result should be verified \"valid\"",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7689521100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19560299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Muhindhar",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website-with-credentials;login",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 147719199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the login page of the LMS smartcliff website",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1191225300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user enters the login credentials \"psinvalid\"",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238127500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user clicks the signin button",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1520052399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the login result should be verified \"psinvalid\"",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13021600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 42051500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Muhindhar",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website-with-credentials;login",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 142075600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the login page of the LMS smartcliff website",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1354189100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user enters the login credentials \"emailinvalid\"",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 172224099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user clicks the signin button",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1678359199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the login result should be verified \"emailinvalid\"",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12522000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32620800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Muhindhar",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website-with-credentials;login",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 148924799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the login page of the LMS smartcliff website",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1117494099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user enters the login credentials \"bothinvalid\"",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141364999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user clicks the signin button",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1683816200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the login result should be verified \"bothinvalid\"",
+            "match": {
+              "location": "src\\test\\step\\loginstep.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11230499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 36894800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Muhindhar",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "muhindhar_07-07-2026_login-to-the-lms-smartcliff-website-with-credentials",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Muhindhar_07-07-2026_Login to the LMS smartcliff website with credentials",
+    "tags": [
+      {
+        "name": "@Muhindhar",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\login\\login.feature"
   }
 ]

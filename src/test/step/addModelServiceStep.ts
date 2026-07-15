@@ -6,9 +6,7 @@ import { expect } from "@playwright/test";
 import { logger } from "../../utilities/logger";
 
 const servdata =readJsonData<Record<string, ModelData>>("serviceModel.json");
-interface ServiceData {
-    serviceName: string;
-}
+
 Given('the user is logged into the LMS SmartCliff website', async function (this: glitchworld) {
   await this.login.navigate();
   await this.login.loginSite();

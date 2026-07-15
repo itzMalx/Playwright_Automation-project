@@ -44,7 +44,6 @@ Then('the user should be logged in successfully', async function (this: glitchwo
 
 Then('the login result should be verified {string}', async function (this: glitchworld,type: string) {
     // Write code here that turns the phrase above into concrete actions
-    
     if (type==="valid") {
         await expect(this.page).toHaveURL(/admindashboard/, { timeout: 30000 });
     } else {
