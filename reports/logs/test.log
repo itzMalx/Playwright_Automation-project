@@ -1,37 +1,330 @@
-[10-07-2026 12:33:21] INFO  | Browser Launched
-[10-07-2026 12:33:21] INFO  | Launching the SmartCliff application
-[10-07-2026 12:33:21] INFO  | Navigating to LMS SmartCliff Login Page
-[10-07-2026 12:33:25] INFO  | Verifying that the user is on the Login page
-[10-07-2026 12:33:25] INFO  | Clicking the "Sign in with Google" button
-[10-07-2026 12:33:25] INFO  | Clicking the Sign in with Google button
-[10-07-2026 12:33:26] INFO  | Verifying redirection to the Google authentication page
-[10-07-2026 12:33:31] ERROR | Scenario Failed: Verify Sign in with Google button functionality
-[10-07-2026 12:33:31] INFO  | Launching the SmartCliff application
-[10-07-2026 12:33:31] INFO  | Navigating to LMS SmartCliff Login Page
-[10-07-2026 12:33:31] INFO  | Verifying that the user is on the Login page
-[10-07-2026 12:33:31] INFO  | Clicking the "Forgot Password?" link
-[10-07-2026 12:33:31] INFO  | Clicking the Forgot Password link
-[10-07-2026 12:33:32] INFO  | Verifying redirection to the Forgot Password page
-[10-07-2026 12:33:38] ERROR | Scenario Failed: Verify Forgot Password link functionality
-[10-07-2026 12:33:38] INFO  | Launching the SmartCliff application
-[10-07-2026 12:33:38] INFO  | Navigating to LMS SmartCliff Login Page
-[10-07-2026 12:33:38] INFO  | Verifying that the user is on the Login page
-[10-07-2026 12:33:38] INFO  | Clicking the Facebook icon
-[10-07-2026 12:33:38] INFO  | Clicking the Facebook icon
-[10-07-2026 12:33:39] INFO  | Verifying redirection to the official Facebook page
-[10-07-2026 12:33:44] ERROR | Scenario Failed: Verify Facebook icon navigation
-[10-07-2026 12:33:44] INFO  | Launching the SmartCliff application
-[10-07-2026 12:33:44] INFO  | Navigating to LMS SmartCliff Login Page
-[10-07-2026 12:33:45] INFO  | Verifying that the user is on the Login page
-[10-07-2026 12:33:45] INFO  | Clicking the YouTube icon
-[10-07-2026 12:33:45] INFO  | Clicking the YouTube icon
-[10-07-2026 12:33:46] INFO  | Verifying redirection to the official YouTube page
-[10-07-2026 12:33:51] ERROR | Scenario Failed: Verify YouTube icon navigation
-[10-07-2026 12:33:51] INFO  | Launching the SmartCliff application
-[10-07-2026 12:33:51] INFO  | Navigating to LMS SmartCliff Login Page
-[10-07-2026 12:33:51] INFO  | Verifying that the user is on the Login page
-[10-07-2026 12:33:52] INFO  | Clicking the TikTok icon
-[10-07-2026 12:33:52] INFO  | Clicking the TikTok icon
-[10-07-2026 12:33:52] INFO  | Verifying redirection to the official TikTok page
-[10-07-2026 12:33:58] ERROR | Scenario Failed: Verify TikTok icon navigation
-[10-07-2026 12:33:58] INFO  | Browser Closed
+[10-07-2026 13:32:27] INFO  | Browser Launched
+[10-07-2026 13:32:28] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:32:31] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:32:31] INFO  | Entering password
+[10-07-2026 13:32:32] INFO  | Login successfull!
+[10-07-2026 13:32:45] INFO  | Navigate to Course Management page
+[10-07-2026 13:32:45] INFO  | Course:
+[10-07-2026 13:33:15] ERROR | Scenario Failed: Add a new module to the course structure
+[10-07-2026 13:33:16] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:33:16] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:33:16] INFO  | Entering password
+[10-07-2026 13:33:17] INFO  | Login successfull!
+[10-07-2026 13:33:40] INFO  | Navigate to Course Management page
+[10-07-2026 13:34:10] ERROR | Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//span[@class=\'hidden sm:inline\'][text()=\'Print\']')[22m
+
+[10-07-2026 13:34:10] ERROR | Scenario Failed: Export the course structure as an Excel file
+[10-07-2026 13:34:10] ERROR | Scenario Failed: Add module without mandatory field
+[10-07-2026 13:34:10] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:34:11] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:34:11] INFO  | Entering password
+[10-07-2026 13:34:12] INFO  | Login successfull!
+[10-07-2026 13:34:42] INFO  | Navigate to Course Management page
+[10-07-2026 13:35:23] ERROR | Scenario Failed: Add course with valid details
+[10-07-2026 13:35:23] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:35:23] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:35:23] INFO  | Entering password
+[10-07-2026 13:35:24] INFO  | Login successfull!
+[10-07-2026 13:35:51] INFO  | Navigate to Course Management page
+[10-07-2026 13:36:32] ERROR | Scenario Failed: Add course with valid details
+[10-07-2026 13:36:33] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:36:33] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:36:33] INFO  | Entering password
+[10-07-2026 13:36:34] INFO  | Login successfull!
+[10-07-2026 13:36:42] INFO  | Navigate to Course Management page
+[10-07-2026 13:37:14] ERROR | Scenario Failed: Add course with invalid details without selecting client in course configuration
+[10-07-2026 13:37:14] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:37:14] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:37:14] INFO  | Entering password
+[10-07-2026 13:37:15] INFO  | Login successfull!
+[10-07-2026 13:37:24] INFO  | Navigate to Course Management page
+[10-07-2026 13:38:01] ERROR | Scenario Failed: Add course with invalid details without selecting service model in course configuration
+[10-07-2026 13:38:01] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:38:01] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:38:02] INFO  | Entering password
+[10-07-2026 13:38:03] INFO  | Login successfull!
+[10-07-2026 13:38:22] INFO  | Navigate to Course Management page
+[10-07-2026 13:38:57] ERROR | Scenario Failed: Add course with invalid details without selecting hirearchy and resource type in course hirearchy and layout
+[10-07-2026 13:38:57] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:38:58] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:38:58] INFO  | Entering password
+[10-07-2026 13:38:59] INFO  | Login successful!
+[10-07-2026 13:39:08] INFO  | Navigated to Course Management page for Filter
+[10-07-2026 13:39:21] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:39:22] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:39:22] INFO  | Entering password
+[10-07-2026 13:39:22] INFO  | Login successful!
+[10-07-2026 13:39:32] INFO  | Navigated to Course Management page for Filter
+[10-07-2026 13:40:34] ERROR | Scenario Failed: Filter with invalid status and category
+[10-07-2026 13:40:34] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:40:35] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:40:35] INFO  | Entering password
+[10-07-2026 13:40:36] INFO  | Login successful!
+[10-07-2026 13:40:52] INFO  | Navigated to Course Management page for Filter
+[10-07-2026 13:41:08] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:41:08] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:41:09] INFO  | Entering password
+[10-07-2026 13:41:10] INFO  | Login successfull!
+[10-07-2026 13:41:20] INFO  | Navigate to Course Management page
+[10-07-2026 13:41:29] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:41:30] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:41:30] INFO  | Entering password
+[10-07-2026 13:41:31] INFO  | Login successfull!
+[10-07-2026 13:41:40] INFO  | Navigate to Course Management page
+[10-07-2026 13:41:59] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:41:59] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:42:00] INFO  | Entering password
+[10-07-2026 13:42:01] INFO  | Login successfull!
+[10-07-2026 13:42:12] INFO  | Navigate to Course Management page
+[10-07-2026 13:42:42] ERROR | Scenario Failed: Verify user can navigate to a specific page using the page number
+[10-07-2026 13:42:42] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:42:43] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:42:43] INFO  | Entering password
+[10-07-2026 13:42:44] INFO  | Login successfull!
+[10-07-2026 13:42:58] INFO  | Navigate to Course Management page
+[10-07-2026 13:43:38] ERROR | Failed to click element: TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('//button[normalize-space()=\'8\']')[22m
+
+[10-07-2026 13:43:38] ERROR | Scenario Failed: Verify user can navigate to a specific page using the page number
+[10-07-2026 13:43:38] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:43:38] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:43:38] INFO  | Entering password
+[10-07-2026 13:43:39] INFO  | Login successfull!
+[10-07-2026 13:43:56] INFO  | Navigate to Course Management page
+[10-07-2026 13:44:26] ERROR | Scenario Failed: Verify appropriate button is disabled on the page
+[10-07-2026 13:44:26] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:44:26] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:44:27] INFO  | Entering password
+[10-07-2026 13:44:27] INFO  | Login successfull!
+[10-07-2026 13:44:43] INFO  | Navigate to Course Management page
+[10-07-2026 13:45:07] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:45:08] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:45:08] INFO  | Entering password
+[10-07-2026 13:45:09] INFO  | Login successfull!
+[10-07-2026 13:45:18] INFO  | Navigate to Course Management page
+[10-07-2026 13:45:27] ERROR | Scenario Failed: Verify the maximum number of courses displayed on a page
+[10-07-2026 13:45:27] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:45:27] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:45:27] INFO  | Entering password
+[10-07-2026 13:45:28] INFO  | Login successful!
+[10-07-2026 13:45:36] INFO  | Navigated to Course Management page
+[10-07-2026 13:45:44] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:45:45] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:45:45] INFO  | Entering password
+[10-07-2026 13:45:46] INFO  | Login successful!
+[10-07-2026 13:45:54] INFO  | Navigated to Course Management page
+[10-07-2026 13:46:01] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:46:02] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:46:02] INFO  | Entering password
+[10-07-2026 13:46:03] INFO  | Login successful!
+[10-07-2026 13:46:13] INFO  | Navigated to Course Management page
+[10-07-2026 13:46:22] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:46:22] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:46:23] INFO  | Entering password
+[10-07-2026 13:46:23] INFO  | Login successful!
+[10-07-2026 13:46:30] INFO  | Navigated to Course Management page
+[10-07-2026 13:46:39] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:46:40] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:46:40] INFO  | Entering password
+[10-07-2026 13:46:49] INFO  | clicking dynamic settings
+[10-07-2026 13:46:58] ERROR | Scenario Failed: Verify a client can be added with all mandatory field
+[10-07-2026 13:46:58] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:46:59] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:46:59] INFO  | Entering password
+[10-07-2026 13:47:05] INFO  | clicking dynamic settings
+[10-07-2026 13:47:09] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:47:10] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:47:10] INFO  | Entering password
+[10-07-2026 13:47:17] INFO  | clicking dynamic settings
+[10-07-2026 13:47:19] INFO  | searching service by service name 
+[10-07-2026 13:47:22] INFO  | service name found
+[10-07-2026 13:47:22] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:47:23] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:47:23] INFO  | Entering password
+[10-07-2026 13:47:30] INFO  | clicking dynamic settings
+[10-07-2026 13:47:31] INFO  | searching service by service name 
+[10-07-2026 13:47:34] INFO  | clicking the searched service
+[10-07-2026 13:47:34] INFO  | clicking on the add model
+[10-07-2026 13:47:35] INFO  | service name is passing
+[10-07-2026 13:47:35] INFO  | clicking the create model button
+[10-07-2026 13:47:35] INFO  | model created
+[10-07-2026 13:47:35] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:47:35] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:47:36] INFO  | Entering password
+[10-07-2026 13:47:37] INFO  | Login successfull!
+[10-07-2026 13:47:44] ERROR | Scenario Failed: Add Course Category
+[10-07-2026 13:47:44] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:47:44] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:47:44] INFO  | Entering password
+[10-07-2026 13:47:45] INFO  | Login successfull!
+[10-07-2026 13:47:54] ERROR | Scenario Failed: Add Course Category
+[10-07-2026 13:47:54] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:47:54] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:47:54] INFO  | Entering password
+[10-07-2026 13:47:55] INFO  | Login successfull!
+[10-07-2026 13:48:02] ERROR | Scenario Failed: Search Course Category
+[10-07-2026 13:48:02] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:48:02] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:48:03] INFO  | Entering password
+[10-07-2026 13:48:03] INFO  | Login successfull!
+[10-07-2026 13:48:13] INFO  | Navigated to Dynamic Field Setting page
+[10-07-2026 13:48:13] INFO  | Click Pedagogy
+[10-07-2026 13:48:15] INFO  | Activity 0: I Do (Teacher Demonstration)
+[10-07-2026 13:48:15] INFO  | Activity 0 = I Do (Teacher Demonstration)
+[10-07-2026 13:48:16] INFO  | Click to view to button for I Do
+[10-07-2026 13:48:16] INFO  | Click Add Element button
+[10-07-2026 13:48:16] INFO  | Entered Element name is Lecture
+[10-07-2026 13:48:18] INFO  | Clicked create element button
+[10-07-2026 13:48:22] INFO  | Lecture found
+[10-07-2026 13:48:22] INFO  | The Lecture is displayed in the table
+[10-07-2026 13:48:22] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:48:23] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:48:23] INFO  | Entering password
+[10-07-2026 13:48:24] INFO  | Login successfull!
+[10-07-2026 13:48:31] INFO  | Navigated to Dynamic Field Setting page
+[10-07-2026 13:48:31] INFO  | Click Pedagogy
+[10-07-2026 13:48:33] INFO  | Activity 0: I Do (Teacher Demonstration)
+[10-07-2026 13:48:33] INFO  | Activity 1: We Do (Guided Practice)
+[10-07-2026 13:48:33] INFO  | Activity 1 = We Do (Guided Practice)
+[10-07-2026 13:48:34] INFO  | Click to view to button for We Do
+[10-07-2026 13:48:34] INFO  | Click Add Element button
+[10-07-2026 13:48:34] INFO  | Entered Element name is Discussion
+[10-07-2026 13:48:36] INFO  | Clicked create element button
+[10-07-2026 13:48:41] INFO  | Discussion found
+[10-07-2026 13:48:41] INFO  | The Discussion is displayed in the table
+[10-07-2026 13:48:41] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:48:41] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:48:42] INFO  | Entering password
+[10-07-2026 13:48:43] INFO  | Login successfull!
+[10-07-2026 13:48:52] INFO  | Navigated to Dynamic Field Setting page
+[10-07-2026 13:48:52] INFO  | Click Pedagogy
+[10-07-2026 13:48:54] INFO  | Activity 0: I Do (Teacher Demonstration)
+[10-07-2026 13:48:54] INFO  | Activity 1: We Do (Guided Practice)
+[10-07-2026 13:48:54] INFO  | Activity 2: You Do (Independent Practice)
+[10-07-2026 13:48:54] INFO  | Activity 2 = You Do (Independent Practice)
+[10-07-2026 13:48:55] INFO  | Click to view to button for You Do
+[10-07-2026 13:48:55] INFO  | Click Add Element button
+[10-07-2026 13:48:55] INFO  | Entered Element name is Assignment
+[10-07-2026 13:48:59] INFO  | Clicked create element button
+[10-07-2026 13:48:59] INFO  | Assignment found
+[10-07-2026 13:48:59] INFO  | The Assignment is displayed in the table
+[10-07-2026 13:48:59] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:48:59] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:48:59] INFO  | Entering password
+[10-07-2026 13:49:00] INFO  | Login successfull!
+[10-07-2026 13:49:06] INFO  | Navigated to Dynamic Field Setting page
+[10-07-2026 13:49:06] INFO  | Click Pedagogy
+[10-07-2026 13:49:06] INFO  | Searching: I Do
+[10-07-2026 13:49:15] INFO  | I Do verified
+[10-07-2026 13:49:15] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:49:16] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:49:16] INFO  | Entering password
+[10-07-2026 13:49:25] INFO  | clicking dynamic settings
+[10-07-2026 13:49:26] INFO  | clicking add service button
+[10-07-2026 13:49:29] INFO  | entering the service name
+[10-07-2026 13:49:29] INFO  | entering the service description
+[10-07-2026 13:49:29] INFO  | clicking the create service button
+[10-07-2026 13:49:29] INFO  | service created
+[10-07-2026 13:49:29] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:49:30] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:49:30] INFO  | Entering password
+[10-07-2026 13:49:36] INFO  | clicking dynamic settings
+[10-07-2026 13:49:37] INFO  | clicking add service button
+[10-07-2026 13:49:39] INFO  | entering the service name
+[10-07-2026 13:49:39] INFO  | entering the service description
+[10-07-2026 13:49:39] INFO  | clicking the create service button
+[10-07-2026 13:49:39] INFO  | service created
+[10-07-2026 13:49:40] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:49:40] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:49:40] INFO  | Entering password
+[10-07-2026 13:49:50] INFO  | clicking dynamic settings
+[10-07-2026 13:49:51] INFO  | clicking add service button
+[10-07-2026 13:49:53] INFO  | entering the service name
+[10-07-2026 13:49:53] INFO  | entering the service description
+[10-07-2026 13:49:53] INFO  | clicking the create service button
+[10-07-2026 13:49:54] INFO  | service data added message is displaying
+[10-07-2026 13:49:54] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:49:54] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:49:54] INFO  | Entering password
+[10-07-2026 13:50:04] INFO  | clicking dynamic settings
+[10-07-2026 13:50:08] INFO  | clicking add service button
+[10-07-2026 13:50:11] INFO  | entering the service name
+[10-07-2026 13:50:11] INFO  | entering the service description
+[10-07-2026 13:50:11] INFO  | clicking the create service button
+[10-07-2026 13:50:11] INFO  | service data added message is displaying
+[10-07-2026 13:50:11] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:50:12] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:50:12] INFO  | Entering password
+[10-07-2026 13:50:21] INFO  | clicking dynamic settings
+[10-07-2026 13:50:22] INFO  | clicking add service button
+[10-07-2026 13:50:24] INFO  | entering the service name
+[10-07-2026 13:50:24] INFO  | entering the service description
+[10-07-2026 13:50:24] INFO  | clicking the create service button
+[10-07-2026 13:50:25] INFO  | service data added message is displaying
+[10-07-2026 13:50:25] INFO  | going to lms site 
+[10-07-2026 13:50:25] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:50:25] INFO  | entering username and password
+[10-07-2026 13:50:25] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:50:25] INFO  | Entering password
+[10-07-2026 13:50:25] INFO  | user clicks on the signin button
+[10-07-2026 13:50:25] INFO  | Clicking Sign In button
+[10-07-2026 13:50:32] INFO  | going to lms site 
+[10-07-2026 13:50:32] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:50:33] INFO  | entering username and password
+[10-07-2026 13:50:33] INFO  | Entering email: testing1@gmail.com
+[10-07-2026 13:50:33] INFO  | Entering password
+[10-07-2026 13:50:33] INFO  | user clicks on the signin button
+[10-07-2026 13:50:33] INFO  | Clicking Sign In button
+[10-07-2026 13:50:35] INFO  | going to lms site 
+[10-07-2026 13:50:35] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:50:35] INFO  | entering username and password
+[10-07-2026 13:50:35] INFO  | Entering email: testing12@gmail.com
+[10-07-2026 13:50:36] INFO  | Entering password
+[10-07-2026 13:50:36] INFO  | user clicks on the signin button
+[10-07-2026 13:50:36] INFO  | Clicking Sign In button
+[10-07-2026 13:50:38] INFO  | going to lms site 
+[10-07-2026 13:50:38] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:50:38] INFO  | entering username and password
+[10-07-2026 13:50:38] INFO  | Entering email: testing123@gmail.com
+[10-07-2026 13:50:38] INFO  | Entering password
+[10-07-2026 13:50:38] INFO  | user clicks on the signin button
+[10-07-2026 13:50:38] INFO  | Clicking Sign In button
+[10-07-2026 13:50:40] INFO  | Launching the SmartCliff application
+[10-07-2026 13:50:40] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:50:41] INFO  | Verifying that the user is on the Login page
+[10-07-2026 13:50:41] INFO  | Clicking the "Sign in with Google" button
+[10-07-2026 13:50:41] INFO  | Clicking the Sign in with Google button
+[10-07-2026 13:50:42] INFO  | Verifying redirection to the Google authentication page
+[10-07-2026 13:50:47] ERROR | Scenario Failed: Verify Sign in with Google button functionality
+[10-07-2026 13:50:47] INFO  | Launching the SmartCliff application
+[10-07-2026 13:50:47] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:50:48] INFO  | Verifying that the user is on the Login page
+[10-07-2026 13:50:48] INFO  | Clicking the "Forgot Password?" link
+[10-07-2026 13:50:48] INFO  | Clicking the Forgot Password link
+[10-07-2026 13:50:49] INFO  | Verifying redirection to the Forgot Password page
+[10-07-2026 13:50:54] ERROR | Scenario Failed: Verify Forgot Password link functionality
+[10-07-2026 13:50:54] INFO  | Launching the SmartCliff application
+[10-07-2026 13:50:54] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:50:54] INFO  | Verifying that the user is on the Login page
+[10-07-2026 13:50:54] INFO  | Clicking the Facebook icon
+[10-07-2026 13:50:54] INFO  | Clicking the Facebook icon
+[10-07-2026 13:50:55] INFO  | Verifying redirection to the official Facebook page
+[10-07-2026 13:51:00] ERROR | Scenario Failed: Verify Facebook icon navigation
+[10-07-2026 13:51:01] INFO  | Launching the SmartCliff application
+[10-07-2026 13:51:01] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:51:01] INFO  | Verifying that the user is on the Login page
+[10-07-2026 13:51:01] INFO  | Clicking the YouTube icon
+[10-07-2026 13:51:01] INFO  | Clicking the YouTube icon
+[10-07-2026 13:51:02] INFO  | Verifying redirection to the official YouTube page
+[10-07-2026 13:51:07] ERROR | Scenario Failed: Verify YouTube icon navigation
+[10-07-2026 13:51:07] INFO  | Launching the SmartCliff application
+[10-07-2026 13:51:07] INFO  | Navigating to LMS SmartCliff Login Page
+[10-07-2026 13:51:08] INFO  | Verifying that the user is on the Login page
+[10-07-2026 13:51:08] INFO  | Clicking the TikTok icon
+[10-07-2026 13:51:08] INFO  | Clicking the TikTok icon
+[10-07-2026 13:51:09] INFO  | Verifying redirection to the official TikTok page
+[10-07-2026 13:51:14] ERROR | Scenario Failed: Verify TikTok icon navigation
+[10-07-2026 13:51:14] INFO  | Browser Closed

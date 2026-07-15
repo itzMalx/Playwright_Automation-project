@@ -21,8 +21,6 @@ import { LoginNavigationPage } from '../pages/loginNavigationPage';
 setDefaultTimeout(90 * 1000)
 
 
-setDefaultTimeout(90 * 1000)
-
 let browser: Browser;
 
 BeforeAll(async () => {
