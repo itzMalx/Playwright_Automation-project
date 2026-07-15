@@ -328,3 +328,96 @@ Call log:
 [10-07-2026 13:51:09] INFO  | Verifying redirection to the official TikTok page
 [10-07-2026 13:51:14] ERROR | Scenario Failed: Verify TikTok icon navigation
 [10-07-2026 13:51:14] INFO  | Browser Closed
+[15-07-2026 10:20:37] INFO  | Browser Launched
+[15-07-2026 10:20:38] INFO  | Navigating to LMS SmartCliff Login Page
+[15-07-2026 10:20:39] INFO  | Entering email: testing1@gmail.com
+[15-07-2026 10:20:39] INFO  | Entering password
+[15-07-2026 10:20:46] INFO  | clicking dynamic settings
+[15-07-2026 10:20:47] INFO  | searching service by service name 
+[15-07-2026 10:20:49] INFO  | service name found
+[15-07-2026 10:21:19] ERROR | Failed to get text: TimeoutError: locator.textContent: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Glitch_Guardians_Muhindhar', { exact: true })[22m
+
+[15-07-2026 10:21:19] ERROR | Scenario Failed: Search Service by Service Name
+[15-07-2026 10:21:19] INFO  | Navigating to LMS SmartCliff Login Page
+[15-07-2026 10:21:21] INFO  | Entering email: testing1@gmail.com
+[15-07-2026 10:21:21] INFO  | Entering password
+[15-07-2026 10:21:27] INFO  | clicking dynamic settings
+[15-07-2026 10:21:28] INFO  | searching service by service name 
+[15-07-2026 10:21:31] INFO  | clicking the searched service
+[15-07-2026 10:22:01] ERROR | Scenario Failed: Add Service Model
+[15-07-2026 10:22:01] INFO  | Navigating to LMS SmartCliff Login Page
+[15-07-2026 10:22:03] INFO  | Entering email: testing1@gmail.com
+[15-07-2026 10:22:03] INFO  | Entering password
+[15-07-2026 10:22:11] INFO  | clicking dynamic settings
+[15-07-2026 10:22:13] INFO  | clicking add service button
+[15-07-2026 10:22:19] INFO  | entering the service name
+[15-07-2026 10:22:19] INFO  | entering the service description
+[15-07-2026 10:22:19] INFO  | clicking the create service button
+[15-07-2026 10:22:19] INFO  | service created
+[15-07-2026 10:22:20] INFO  | Navigating to LMS SmartCliff Login Page
+[15-07-2026 10:22:21] INFO  | Entering email: testing1@gmail.com
+[15-07-2026 10:22:21] INFO  | Entering password
+[15-07-2026 10:22:29] INFO  | clicking dynamic settings
+[15-07-2026 10:22:31] INFO  | clicking add service button
+[15-07-2026 10:22:35] INFO  | entering the service name
+[15-07-2026 10:22:36] INFO  | entering the service description
+[15-07-2026 10:22:36] INFO  | clicking the create service button
+[15-07-2026 10:22:36] INFO  | service created
+[15-07-2026 10:22:36] INFO  | Navigating to LMS SmartCliff Login Page
+[15-07-2026 10:22:38] INFO  | Entering email: testing1@gmail.com
+[15-07-2026 10:22:38] INFO  | Entering password
+[15-07-2026 10:22:46] INFO  | clicking dynamic settings
+[15-07-2026 10:22:48] INFO  | clicking add service button
+[15-07-2026 10:22:51] INFO  | entering the service name
+[15-07-2026 10:22:51] INFO  | entering the service description
+[15-07-2026 10:22:51] INFO  | clicking the create service button
+[15-07-2026 10:22:52] INFO  | service data added message is displaying
+[15-07-2026 10:22:52] INFO  | Navigating to LMS SmartCliff Login Page
+[15-07-2026 10:22:54] INFO  | Entering email: testing1@gmail.com
+[15-07-2026 10:22:54] INFO  | Entering password
+[15-07-2026 10:23:03] INFO  | clicking dynamic settings
+[15-07-2026 10:23:05] INFO  | clicking add service button
+[15-07-2026 10:23:09] INFO  | entering the service name
+[15-07-2026 10:23:09] INFO  | entering the service description
+[15-07-2026 10:23:09] INFO  | clicking the create service button
+[15-07-2026 10:23:10] INFO  | service data added message is displaying
+[15-07-2026 10:23:10] INFO  | Navigating to LMS SmartCliff Login Page
+[15-07-2026 10:23:11] INFO  | Entering email: testing1@gmail.com
+[15-07-2026 10:23:12] INFO  | Entering password
+[15-07-2026 10:23:21] INFO  | clicking dynamic settings
+[15-07-2026 10:23:22] INFO  | clicking add service button
+[15-07-2026 10:23:25] INFO  | entering the service name
+[15-07-2026 10:23:25] INFO  | entering the service description
+[15-07-2026 10:23:25] INFO  | clicking the create service button
+[15-07-2026 10:23:26] INFO  | service data added message is displaying
+[15-07-2026 10:23:26] INFO  | going to lms site 
+[15-07-2026 10:23:26] INFO  | Navigating to LMS SmartCliff Login Page
+[15-07-2026 10:23:27] INFO  | entering username and password
+[15-07-2026 10:23:27] INFO  | Entering email: testing1@gmail.com
+[15-07-2026 10:23:27] INFO  | Entering password
+[15-07-2026 10:23:27] INFO  | user clicks on the signin button
+[15-07-2026 10:23:27] INFO  | Clicking Sign In button
+[15-07-2026 10:23:37] INFO  | going to lms site 
+[15-07-2026 10:23:37] INFO  | Navigating to LMS SmartCliff Login Page
+[15-07-2026 10:23:38] INFO  | entering username and password
+[15-07-2026 10:23:38] INFO  | Entering email: testing1@gmail.com
+[15-07-2026 10:23:38] INFO  | Entering password
+[15-07-2026 10:23:38] INFO  | user clicks on the signin button
+[15-07-2026 10:23:38] INFO  | Clicking Sign In button
+[15-07-2026 10:23:40] INFO  | going to lms site 
+[15-07-2026 10:23:40] INFO  | Navigating to LMS SmartCliff Login Page
+[15-07-2026 10:23:41] INFO  | entering username and password
+[15-07-2026 10:23:41] INFO  | Entering email: testing12@gmail.com
+[15-07-2026 10:23:41] INFO  | Entering password
+[15-07-2026 10:23:41] INFO  | user clicks on the signin button
+[15-07-2026 10:23:41] INFO  | Clicking Sign In button
+[15-07-2026 10:23:43] INFO  | going to lms site 
+[15-07-2026 10:23:43] INFO  | Navigating to LMS SmartCliff Login Page
+[15-07-2026 10:23:44] INFO  | entering username and password
+[15-07-2026 10:23:44] INFO  | Entering email: testing123@gmail.com
+[15-07-2026 10:23:45] INFO  | Entering password
+[15-07-2026 10:23:45] INFO  | user clicks on the signin button
+[15-07-2026 10:23:45] INFO  | Clicking Sign In button
+[15-07-2026 10:23:46] INFO  | Browser Closed

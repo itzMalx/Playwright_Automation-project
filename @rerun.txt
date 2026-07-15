@@ -1,7 +1,0 @@
-src\test\feature\Course Management\addCourseStructure.feature:17:20:35
-src\test\feature\Course Management\addcourse.feature:8:17:29:34:39
-src\test\feature\Course Management\filter.feature:13
-src\test\feature\Course Management\pagination.feature:27:28:37:41
-src\test\feature\Dynamic_Field_Setting\addClientModal.feature:10
-src\test\feature\Dynamic_Field_Setting\courseCategory.feature:18:19:22
-src\test\feature\login\loginNavigation.feature:12:17:22:27:32
