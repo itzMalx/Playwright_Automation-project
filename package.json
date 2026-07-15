@@ -1,7 +1,7 @@
 {
   "name": "playwright_project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playwright BDD Automation Testing Framework using Cucumber and TypeScript",
   "main": "index.js",
   "scripts": {
     "pretest": "if exist reports rmdir /s /q reports",
@@ -17,9 +17,19 @@
 
     "rerun": "cucumber-js @rerun.txt --format json:reports/cucumber-report.json --format allure-cucumberjs/reporter",
 
-    "report": "tsx src/utilities/report.ts"
+    "report": "tsx src/utilities/report.ts",
+
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
   },
-  "keywords": [],
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "bdd",
+    "automation-testing",
+    "typescript",
+    "allure"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
