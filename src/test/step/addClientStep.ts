@@ -4,17 +4,12 @@ import { glitchworld } from "../world/customworld";
 import { readData } from "../../utilities/csvreader";
 import { ClientData } from "../type/ClientData";
 
-const clientData = readData<ClientData>("src/test-data/ClientData.csv");
+const clientData=readData<ClientData>("src/test-data/ClientData.csv");
 let alreadyExistingClientCount: string;
-
-function uniqueEmail(baseEmail: string): string {
-    const [localPart, domain]=baseEmail.split("@");
-    return `${localPart}+${Date.now()}@${domain}`;
-}
 
 Given("the user navigated to the Client Modal", async function (this: glitchworld) {
     await this.dynamicFieldPage.clickClientmodel();
-    alreadyExistingClientCount = (await this.addClientPage.getClientCount()) ?? "";
+    alreadyExistingClientCount=(await this.addClientPage.getClientCount()) ?? "";
 });
 
 Given("the user opens the Add New Client dialog", async function (this: glitchworld) {
@@ -27,37 +22,40 @@ When("the user enters client details", async function (this: glitchworld) {
 
     await this.addClientPage.enterClientDetails(
         data.clientName, data.companyName,
-        uniqueEmail(data.email),
-        data.phoneNumber, data.description, data.companyAddress
+        data.email,data.phoneNumber, data.description, data.companyAddress
     );
 });
 
 When("the user enters client details with an existing email address", async function (this: glitchworld) {
-    const data = clientData[0];
-    if (!data) throw new Error("Valid client row (index 0) not found in ClientData.csv");
+    const data=clientData[0];
+    if (!data) {
+        throw new Error("Valid client row (index 0) not found in ClientData.csv");
+    }
 
     await this.addClientPage.enterClientDetails(
         data.clientName, data.companyName,
-        data.email,
-        data.phoneNumber, data.description, data.companyAddress
+        data.email,data.phoneNumber, data.description, data.companyAddress
     );
 });
 
 When("the user leaves one or more mandatory fields empty", async function (this: glitchworld) {
-    const data = clientData[1];
-    if (!data) throw new Error("Empty client row (index 1) not found in ClientData.csv");
-
+    const data=clientData[1];
+    if (!data) {
+        throw new Error("No data found");
+    }
     await this.addClientPage.enterClientDetails(
-        data.clientName, data.companyName,
-        data.email, data.phoneNumber, data.description, data.companyAddress
+        data.clientName, data.companyName,data.email, data.phoneNumber, data.description, data.companyAddress
     );
 });
 
 When("clicks the {string} button", async function (this: glitchworld, buttonName: string) {
-    if (buttonName === "Add Client") {
+    if (buttonName==="Add Client") {
         await this.addClientPage.clickAddClient();
-    } else if (buttonName === "Cancel") {
+    } else if (buttonName==="Cancel") {
         await this.addClientPage.clickCancel();
+    }
+    else{
+        throw new Error("Invalid button");
     }
 });
 
@@ -66,7 +64,7 @@ Then("the client should be added successfully", async function (this: glitchworl
 });
 
 Then("the client should not be added", async function (this: glitchworld) {
-    const currentCount = (await this.addClientPage.getClientCount()) ?? "";
+    const currentCount=(await this.addClientPage.getClientCount()) ?? "";
     expect(currentCount).toEqual(alreadyExistingClientCount);
 });
 

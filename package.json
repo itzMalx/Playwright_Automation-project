@@ -4,19 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pretest": "if exist reports rmdir /s /q reports",
-    "test": "cucumber-js --format json:reports/cucumber-report.json",
-    "posttest": "tsx src/utilities/report.ts",
+  "pretest": "if exist reports rmdir /s /q reports",
+  "test": "cucumber-js --format json:reports/cucumber-report.json",
+  "posttest": "tsx src/utilities/report.ts",
 
-    "muhindhar": "cucumber-js --tags @Muhindhar --format json:reports/cucumber-report.json && tsx src/utilities/report.ts",
-    "malavicka": "cucumber-js --tags @Malavicka --format json:reports/cucumber-report.json && tsx src/utilities/report.ts",
-    "vetri": "cucumber-js --tags @Vetri --format json:reports/cucumber-report.json && tsx src/utilities/report.ts",
-    "mylambigai": "cucumber-js --tags @Mylambigai --format json:reports/cucumber-report.json && tsx src/utilities/report.ts",
-    "shobana": "cucumber-js --tags @Shobana --format json:reports/cucumber-report.json && tsx src/utilities/report.ts",
+  "muhindhar": "cucumber-js --tags @Muhindhar --format json:reports/cucumber-report.json && tsx src/utilities/report.ts",
+  "malavicka": "cucumber-js --tags @Malavicka --format json:reports/cucumber-report.json && tsx src/utilities/report.ts",
+  "vetri": "cucumber-js --tags @Vetri --format json:reports/cucumber-report.json && tsx src/utilities/report.ts",
+  "mylambigai": "cucumber-js --tags @Mylambigai --format json:reports/cucumber-report.json && tsx src/utilities/report.ts",
+  "shobana": "cucumber-js --tags @Shobana --format json:reports/cucumber-report.json && tsx src/utilities/report.ts",
 
-    "rerun": "cucumber-js @rerun.txt --format json:reports/cucumber-report.json",
-    "report": "tsx src/utilities/report.ts"
-  },
+  "rerun": "cucumber-js @rerun.txt --format json:reports/cucumber-report.json",
+  "report": "tsx src/utilities/report.ts",
+
+  "allure:generate": "allure generate allure-results --clean -o allure-report",
+  "allure:open": "allure open allure-report",
+  "allure:report": "npm run allure:generate && npm run allure:open"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
