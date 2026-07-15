@@ -19,6 +19,7 @@ Feature: Pedagogy Management
             | We Do             | Discussion   |
             | You Do            | Assignment   |
 
+    
     Scenario: Search pedagogy activity
         When user enters activity in the activity search field
         Then only the matching activity should be displayed in the table

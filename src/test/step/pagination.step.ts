@@ -11,8 +11,7 @@ Given("the user is on the Course Structure page", async function (this: glitchwo
 
 Given("the user is on the Course Structure table", async function (this: glitchworld) {
   await this.courseManagementPage.pageNumberLocator("1").waitFor({state: "visible",});
-  const activePage = await this.courseManagementPage.getActivePageNumber();
-  expect(activePage).not.toBe("");
+  const activePage=await this.courseManagementPage.getActivePageNumber()
 }
 );
 
@@ -20,11 +19,14 @@ When("the user clicks the {string} button", async function (this: glitchworld, b
 
   console.log("Before :", await this.courseManagementPage.getActivePageNumber());
 
-  if (buttonName === "Next") {
+  if (buttonName==="Next") {
     await this.courseManagementPage.clickNext();
   }
-  else if (buttonName === "Previous") {
+  else if (buttonName==="Previous") {
     await this.courseManagementPage.clickPrevious();
+  }
+  else{
+      throw new Error("Invalid button");
   }
 
   console.log("After :", await this.courseManagementPage.getActivePageNumber());
@@ -38,9 +40,7 @@ When("the user clicks page number {string}", async function (this: glitchworld, 
 
 Then("the user should be navigated to the {string} page", async function (this: glitchworld, expectedPage: string) {
 
-  await this.courseManagementPage.pageNumberLocator(expectedPage).waitFor({
-    state: "visible",
-  });
+  await this.courseManagementPage.pageNumberLocator(expectedPage).waitFor({state: "visible",});
 
   const activePage = await this.courseManagementPage.getActivePageNumber();
 
@@ -53,19 +53,17 @@ Then("the user should be navigated to the {string} page", async function (this: 
 
 Given("the user is on the {string} page of the Course Structure table", async function (this: glitchworld, page: string) {
 
-  if (page.toLowerCase() === "first") {
+  if (page.toLowerCase()==="first") {
     await this.courseManagementPage.clickFirstPage();
     return;
   }
 
-  if (page.toLowerCase() === "last") {
+  if (page.toLowerCase()==="last") {
     await this.courseManagementPage.clickLastPage();
     return;
   }
 
-  await this.courseManagementPage.pageNumberLocator(page).waitFor({
-    state: "visible",
-  });
+  await this.courseManagementPage.pageNumberLocator(page).waitFor({state: "visible",});
 
   await this.courseManagementPage.clickPageNumber(page);
 

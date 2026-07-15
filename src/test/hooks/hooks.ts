@@ -10,7 +10,6 @@ import { SearchPage } from '../pages/searchPage';
 import { CourseStructurePage } from '../pages/courseStructurePage';
 import { SeriveModelPage } from '../pages/serviceModelPage';
 import { DynamicFieldPage } from '../pages/dynamicFieldPage';
-import { CourseCategoryPage } from '../pages/courseCategoryPage';
 import { AddClientPage } from '../pages/addClientModalPage';
 import { AddCoursePage } from '../pages/addCoursePage';
 import { AddModelPage } from '../pages/addModelServicePage';
