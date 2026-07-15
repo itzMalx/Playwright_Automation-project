@@ -23,8 +23,8 @@ export class glitchworld extends World {
     context!: BrowserContext
     page!: Page
     tag!: string;
-    downloadPath!: string;
-    downloadName!: string;
+    // downloadPath!: string;
+    // downloadName!: string;
     login!:LoginPage
     dashboardPage!: DashboardPage
     courseManagementPage!: CourseManagementPage

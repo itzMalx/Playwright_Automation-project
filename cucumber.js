@@ -24,7 +24,6 @@ module.exports = {
       "rerun:@rerun.txt",
       "progress-bar",
       "allure-cucumberjs/reporter",
-      "progress"
     ],
   },
 

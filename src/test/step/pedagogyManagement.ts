@@ -1,19 +1,12 @@
-import { PedagogyPage } from './../pages/pedagogyPage';
-import { DynamicFieldPage } from './../pages/dynamicFieldPage';
 import { Given, When, Then } from '@cucumber/cucumber'
 import { glitchworld } from '../world/customworld'
 import { expect } from '@playwright/test'
 import { logger } from '../../utilities/logger';
 import { readExcelData } from "../../utilities/excelreader";
 import path from "path";
+import { PedagogyData } from '../type/PedagogyData';
 
 const filePath = path.join(process.cwd(), "src/test-data/pedagogy.xlsx");
-interface PedagogyData {
-  ActivityName: string;
-}
-
-let activities: PedagogyData[] = [];
-
 
 Given('Admin is on the Dashboard page after login', async function () {
   await this.login.navigate()
@@ -56,8 +49,9 @@ Then('{string} should be displayed in the activity list', async function (Elemen
   logger.info(`The ${ElementName} is displayed in the table`)
 });
 
+const activities = readExcelData<PedagogyData>(filePath, "Pedagogy");
+
 When('user enters activity in the activity search field', async function () {
-  activities = readExcelData<PedagogyData>(filePath, "Pedagogy");
   const activity = activities[0]!.ActivityName;
   logger.info(`Searching: ${activity}`);
   await this.pedagogyPage.searchActivity(activity);

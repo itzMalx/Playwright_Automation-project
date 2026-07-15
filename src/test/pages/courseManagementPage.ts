@@ -29,6 +29,7 @@ export class CourseManagementPage extends BasePage {
     async selectActionList(courseName: string) {
 
         await this.loading.first().waitFor({ state: "hidden" });
+        if(await this.page.locator("button[data-slot='dialog-close']").isVisible())
         await this.page.locator("button[data-slot='dialog-close']").first().click()
         const totalPages = Number((await this.totalPage.textContent()));
         for (let page = 1; page <= totalPages; page++) {
@@ -42,7 +43,6 @@ export class CourseManagementPage extends BasePage {
                     return;
                 }
             }
-            // Go to next
             if (page < totalPages) {
                 await this.next.click();
                 await this.loading.first().waitFor({ state: "hidden" });
@@ -84,21 +84,15 @@ export class CourseManagementPage extends BasePage {
 
     async clickLastPage() {
         await this.page.waitForLoadState("networkidle");
-
         //const count = await this.navigationButtons.count();
-
         await this.navigationButtons.last().click();
-
         await this.loading.first().waitFor({ state: "hidden" });
     }
 
     async clickFirstPage() {
         await this.page.waitForLoadState("networkidle");
-
         //const count = await this.navigationButtons.count();
-
         await this.navigationButtons.first().click();
-
         await this.loading.first().waitFor({ state: "hidden" });
     }
 
